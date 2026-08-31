@@ -34,7 +34,7 @@
 				{
 					"translate": "desc.kleispack.melee_blocking",
 					"with": [
-						"70%"
+						"70"
 					],
 					"color": "dark_gray",
 					"italic": false
@@ -42,7 +42,7 @@
 				{
 					"translate": "desc.kleispack.projectile_blocking",
 					"with": [
-						"60%"
+						"60"
 					],
 					"color": "dark_gray",
 					"italic": false

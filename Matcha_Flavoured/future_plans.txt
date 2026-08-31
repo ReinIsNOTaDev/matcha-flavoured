@@ -14,3 +14,6 @@ That way I think it feels much more fair to fight the wither and the reward feel
 Plus is means breaking spawners is still a good move.
 I also plan for the wither to only be summonable in one specific structure. That way people won't fight him underground
 OR make it so he is only summonable if exposed to the sky, and above a certain y level. I haven't decided yet which would be better
+
+
+The Nether will be locked behind a structure, maybe the revamped abbey, and once found all portals anwyhere will become usable. I want to try and slow down progression. I think the nether is too short? Players don't spend a lot of time there, just hit up a fortress and leave. Maybe we could do something with it to make it worth sticking around longer. who knows. But since Adamant is so end-game, it feels weird for it to be accessible so early. But I don't think im interested in adding an end-based armour set (isn't that already the elytra?). 

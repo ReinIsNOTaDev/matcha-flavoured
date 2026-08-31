@@ -4,7 +4,7 @@
     "icon": {
       "id": "dirt",
 			"components": {
-				"minecraft:item_model": "minecraft:cool_freshwater"
+				"minecraft:item_model": "matcha:freshwater_cool"
       }
     },
     "title": {

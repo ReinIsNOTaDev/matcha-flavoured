@@ -12,5 +12,8 @@ execute unless items entity @s container.* *[minecraft:item_model="minecraft:hea
 
 advancement revoke @p only main:mechanics/heart_container_obtained
 
+#If they acheived max hearts in this last pick-up, grant the with_songs advancement
+execute if score @s Hearts >= maximum_hearts Hearts run advancement grant @s only main:with_songs/max_health
+
 #If they still have the Crystal Heart, run the function again
 execute if items entity @s container.* *[minecraft:item_model="minecraft:heart_container"] run function main:mechanic/heart_container/process_heart_container

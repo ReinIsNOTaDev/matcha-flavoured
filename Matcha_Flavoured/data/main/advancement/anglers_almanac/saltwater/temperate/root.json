@@ -4,7 +4,7 @@
     "icon": {
       "id": "tube_coral",
 			"components": {
-				"minecraft:item_model": "minecraft:temperate_saltwater"
+				"minecraft:item_model": "matcha:saltwater_temperate"
 			}
     },
     "title": {

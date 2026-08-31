@@ -1,0 +1,34 @@
+{
+	"parent": "main:with_songs/root",
+	"criteria": {
+		"cartographer": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+				},
+				"item": {
+					"items": "minecraft:filled_map"
+				}
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.adventure.trade_with_cartographer.desc"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:cartography_table"
+		},
+		"title": {
+			"translate": "adv.kleispack.adventure.trade_with_cartographer"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"cartographer"
+		]
+	]
+}

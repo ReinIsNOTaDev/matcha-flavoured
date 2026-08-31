@@ -4,7 +4,7 @@
     "icon": {
       "id": "mangrove_propagule",
 			"components": {
-				"minecraft:item_model": "minecraft:tropical_freshwater"
+				"minecraft:item_model": "matcha:freshwater_hot_wet"
       }
     },
     "title": {

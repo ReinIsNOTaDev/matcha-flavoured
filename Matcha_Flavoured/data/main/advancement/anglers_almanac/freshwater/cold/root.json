@@ -4,7 +4,7 @@
     "icon": {
       "id": "ice",
 			"components": {
-				"minecraft:item_model": "minecraft:cold_freshwater"
+				"minecraft:item_model": "matcha:freshwater_cold"
 			}
     },
     "title": {

@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"has_primary_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:book",
+						"components": {
+							"minecraft:item_model": "minecraft:paradise_lost"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"function":	"matcha:update_old_items/paradise_lost"
+	}
+}

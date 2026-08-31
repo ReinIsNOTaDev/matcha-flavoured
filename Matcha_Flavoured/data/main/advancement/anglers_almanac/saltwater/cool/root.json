@@ -4,7 +4,7 @@
     "icon": {
       "id": "packed_ice",
 			"components": {
-				"minecraft:item_model": "minecraft:cool_saltwater"
+				"minecraft:item_model": "matcha:saltwater_cool"
 			}
     },
     "title": {

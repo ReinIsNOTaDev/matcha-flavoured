@@ -13,7 +13,7 @@
 	},
 	"display": {
 		"announce_to_chat": false,
-		"background": "minecraft:block/deepslate_bricks",
+		"background": "matcha:block/mossy_deepslate_bricks",
 		"description": {
 			"text": ""
 		},

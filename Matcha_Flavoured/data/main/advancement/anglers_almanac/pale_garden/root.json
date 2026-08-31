@@ -2,7 +2,7 @@
   "parent": "main:anglers_almanac/root",
   "display": {
     "icon": {
-      "id": "open_eyeblossom"
+      "id": "pale_moss_block"
     },
     "title": {
       "translate": "biome.minecraft.pale_garden"

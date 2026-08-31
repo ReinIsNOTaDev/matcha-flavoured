@@ -4,7 +4,6 @@ execute as @s if score @s Hearts >= maximum_hearts Hearts run scoreboard players
 execute if score current_world_settings_difficulty difficulty_score matches 1 run execute as @s if score @s Hearts < minimum_hearts Hearts run scoreboard players set @s Hearts 20
 #If they are NOT on easy, and they dip below the minimum, set it to the minimum (NamlessJu showed me how to set scores with another score! Thank you, Ju!!)
 execute unless score current_world_settings_difficulty difficulty_score matches 1 run execute as @s if score @s Hearts < current_minimum_hearts Hearts store result score @s Hearts run scoreboard players get current_minimum_hearts Hearts
-say hi
 
 # Check to see if my score corresponds to the other scores, if so, set my health to the corresponding score
 execute as @s if score @s Hearts matches 60 run attribute @s minecraft:max_health base set 60

@@ -1,5 +1,5 @@
 {
-  "parent": "main:adventure/root",
+  "parent": "main:with_songs/root",
   "criteria": {
     "get_ash": {
       "trigger": "minecraft:inventory_changed",

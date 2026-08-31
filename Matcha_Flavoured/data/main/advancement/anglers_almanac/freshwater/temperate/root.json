@@ -4,7 +4,7 @@
     "icon": {
       "id": "seagrass",
 			"components": {
-				"minecraft:item_model": "minecraft:temperate_freshwater"
+				"minecraft:item_model": "matcha:freshwater_temperate"
       }
     },
     "title": {

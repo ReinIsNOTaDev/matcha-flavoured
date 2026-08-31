@@ -4,7 +4,7 @@
     "icon": {
       "id": "mud",
 			"components": {
-				"minecraft:item_model": "minecraft:brackish"
+				"minecraft:item_model": "matcha:brackish"
       }
     },
     "title": {

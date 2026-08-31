@@ -4,7 +4,7 @@
     "icon": {
       "id": "fire_coral",
 			"components": {
-				"minecraft:item_model": "minecraft:hot_saltwater"
+				"minecraft:item_model": "matcha:saltwater_hot"
 			}
     },
     "title": {

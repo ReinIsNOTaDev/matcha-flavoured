@@ -14,8 +14,9 @@
 - Vee Vaicekauskas: Background musics (Check out their bandcamp!: https://par4.bandcamp.com/)
 - DeBlezyBestie: Music Discs (Check out their YT!: https://www.youtube.com/@deblezyboi)
 - Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
+- HappySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers
 - All of the translation volunteers
-- Thank you so much everyone
+- Thank you so much everyone!
 
 
 

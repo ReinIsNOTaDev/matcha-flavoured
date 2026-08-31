@@ -56,7 +56,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"main:max_magic_protection": 1,
 				"main:cleanse_armor_maleffect": 1,
 				"main:shakudo_regen" : 1

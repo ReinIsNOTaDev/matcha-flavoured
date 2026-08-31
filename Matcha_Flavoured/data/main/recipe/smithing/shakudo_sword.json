@@ -27,7 +27,10 @@
 					"slot": "mainhand"
 				}
 			],
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"minecraft:sweeping_edge": 1,
 				"main:sanguine": 1
 			},

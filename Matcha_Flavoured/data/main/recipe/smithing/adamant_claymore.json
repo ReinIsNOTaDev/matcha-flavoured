@@ -11,7 +11,10 @@
 				"color": "gold"
 			},
 			"minecraft:item_model": "minecraft:adamant_claymore",
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2,
 				"minecraft:sharpness": 1
 			},

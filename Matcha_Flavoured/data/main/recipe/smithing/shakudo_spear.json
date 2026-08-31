@@ -59,7 +59,10 @@
 					"minecraft:copper_block"
 				]
 			},
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"main:sanguine": 1
 			},
 			"minecraft:enchantment_glint_override": false

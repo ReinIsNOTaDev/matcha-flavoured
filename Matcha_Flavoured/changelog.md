@@ -36,7 +36,7 @@ This symbol (👥) means the feature was changed/added per community feedback, o
     * The only work around I could do for this, is scanning the player inventory/using advancemnts to remove old items and add new ones.
     * I do not think a feature like this would be worth the time (so much time), or computational expense...MAYBE
     * There have been complaints about mod compatibility. Something like this may be the only solution, I want to look into this to see if It would be worth doing.
-    * Please Mojang add "Item Preset" file type or something, thats lets us reference an item output (LT, Recipe, etc) to a single item preset so duplications across all item instances aren't required (I beg you)
+    * Please Mojang let Loot tables be usable in recipe and villager trade outputs (I beg you)
 - Cooking Additions and Changes (See Below)
 - Tool & Enchantment Tweaks (See Below)
 - Ore & World Generation (See Below)

@@ -9,8 +9,8 @@
 #### Special Thanks & Credits
 - Hashiru: Optimisations
 - NamlessJU: Various coding things, translations
-- Nat: Translation project lead
-- Imtlx: New Angler's Almanac, fishing sounds, and translation
+- Nat: Translation project lead, and other stuff
+- Imtlx: New Angler's Almanac, Fishing Sounds, Translation, and Github help
 - Vee Vaicekauskas: Background musics (Check out their bandcamp!: https://par4.bandcamp.com/)
 - DeBlezyBestie: Music Discs (Check out their YT!: https://www.youtube.com/@deblezyboi)
 - Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
@@ -341,10 +341,15 @@ This symbol (👥) means the feature was changed/added per community feedback, o
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
+sorry
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Before pre-release
 - Add All of Artem's biome sprites
-
+   - Pale Garde
+   - Deep Dark
+   - Sulfur Caves
 
 
 ## Test Optimisations

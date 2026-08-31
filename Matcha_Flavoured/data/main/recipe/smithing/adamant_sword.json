@@ -10,7 +10,10 @@
 				"translate": "item.minecraft.netherite_sword",
 				"color": "gold"
 			},
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"minecraft:sharpness": 1,
 				"minecraft:unbreaking": 2
 			},

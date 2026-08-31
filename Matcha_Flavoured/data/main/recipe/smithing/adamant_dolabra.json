@@ -27,7 +27,10 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2,
 				"minecraft:efficiency": 1
 			},

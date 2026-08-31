@@ -111,3 +111,6 @@ scoreboard players set easy difficulty_score 1
 scoreboard players set normal difficulty_score 2
 scoreboard players set hard difficulty_score 3
 execute store result score current_world_settings_difficulty difficulty_score run difficulty
+
+#Used in main/function/mechanic/intrinsic_enchants/
+scoreboard objectives add intrinsic_enchants_levels dummy

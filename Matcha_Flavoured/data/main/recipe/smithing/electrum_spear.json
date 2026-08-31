@@ -47,7 +47,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"minecraft:smite": 2,
 				"minecraft:looting": 2,
 				"main:warding2": 1

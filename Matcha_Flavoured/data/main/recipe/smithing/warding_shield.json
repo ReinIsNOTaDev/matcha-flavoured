@@ -53,7 +53,10 @@
 					"minecraft:banner_patterns"
 				]
 			},
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"main:warding1": 1
 			},
 			"minecraft:item_name": "Warding Shield",

@@ -6,7 +6,10 @@
 		"id": "minecraft:netherite_chestplate",
 		"components": {
 			"minecraft:max_damage": 1000,
-			"minecraft:enchantments": {
+			"minecraft:custom_data": {
+                "has_intrinsic_enchants": 1
+			},
+			"minecraft:stored_enchantments": {
 				"main:divinity": 1,
 				"minecraft:unbreaking": 2,
 				"minecraft:protection": 1

@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"nautilus_shell": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:nautilus_shell"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"nautilus_shell"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/nautilus_shell"
+	}
+}

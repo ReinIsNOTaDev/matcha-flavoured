@@ -1,0 +1,49 @@
+{
+	"parent": "main:tutorial/enter_nether",
+	"criteria": {
+		"in_stronghold": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "minecraft:stronghold"
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE010 ",
+				"color": "red"
+			},
+			{
+				"translate": "adv.kleispack.find_stronghold.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"count": 1,
+			"id": "minecraft:ender_eye"
+		},
+		"title": {
+			"translate": "adv.kleispack.find_stronghold"
+		},
+		"frame": "goal"
+	},
+	"requirements": [
+		[
+			"in_stronghold"
+		]
+	],
+	"rewards": {
+		"function": "main:mechanic/heart_container/decreases/check_end_age"
+	}
+}

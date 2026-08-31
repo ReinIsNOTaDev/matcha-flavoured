@@ -1,0 +1,16 @@
+{
+	"wants": {
+		"id": "minecraft:stone_shovel",
+		"components": {
+			"minecraft:item_model": "minecraft:shakudo_shovel"
+		},
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:shulker_shell",
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 10
+}

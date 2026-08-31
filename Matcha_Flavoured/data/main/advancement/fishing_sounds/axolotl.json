@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"chicken_spawn_egg": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:chicken_spawn_egg"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"chicken_spawn_egg"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/axolotl"
+	}
+}

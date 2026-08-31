@@ -1,0 +1,2 @@
+function main:timers/divinity/divinity_armor
+function main:timers/divinity/apotropaic_armor

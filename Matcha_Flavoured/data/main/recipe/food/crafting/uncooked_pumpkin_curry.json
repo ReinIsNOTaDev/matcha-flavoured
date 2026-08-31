@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glowstone_dust",
+		"minecraft:sugar",
+		"minecraft:breeze_rod",
+		"minecraft:happy_ghast_spawn_egg",
+		"minecraft:sunflower",
+		"minecraft:beetroot_soup",
+		"minecraft:carrot",
+		"minecraft:bamboo",
+		"minecraft:bowl"
+	],
+	"result": {
+		"id": "minecraft:ghast_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}

@@ -1,0 +1,2 @@
+stopwatch restart minecraft:shakudo_regen_7
+function main:timers/shakudo_regen_7/on_restart

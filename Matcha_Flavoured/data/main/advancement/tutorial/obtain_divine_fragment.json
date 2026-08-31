@@ -1,0 +1,48 @@
+{
+	"parent": "main:tutorial/obtain_estus",
+	"criteria": {
+		"get_fragment": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:turtle_scute"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE00F\uE00F ",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.obtain_divine_fragment.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"count": 1,
+			"id": "minecraft:turtle_scute"
+		},
+		"title": {
+			"translate": "adv.kleispack.obtain_divine_fragment"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_fragment"
+		]
+	],
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_2"
+		]
+	}
+}

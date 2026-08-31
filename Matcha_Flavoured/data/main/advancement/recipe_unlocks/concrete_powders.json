@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:concrete_powders"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"main:crafting/yellow_concrete_from_concrete_powder",
+			"main:crafting/magenta_concrete_from_concrete_powder",
+			"main:crafting/lime_concrete_from_concrete_powder",
+			"main:crafting/light_gray_concrete_from_concrete_powder",
+			"main:crafting/light_blue_concrete_from_concrete_powder",
+			"main:crafting/green_concrete_from_concrete_powder",
+			"main:crafting/gray_concrete_from_concrete_powder",
+			"main:crafting/cyan_concrete_from_concrete_powder",
+			"main:crafting/brown_concrete_from_concrete_powder",
+			"main:crafting/blue_concrete_from_concrete_powder",
+			"main:crafting/black_concrete_from_concrete_powder",
+			"main:crafting/white_concrete_from_concrete_powder",
+			"main:crafting/red_concrete_from_concrete_powder",
+			"main:crafting/purple_concrete_from_concrete_powder",
+			"main:crafting/pink_concrete_from_concrete_powder",
+			"main:crafting/orange_concrete_from_concrete_powder"
+		]
+	}
+}
+

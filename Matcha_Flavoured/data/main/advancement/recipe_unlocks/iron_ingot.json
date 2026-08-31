@@ -1,0 +1,61 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_ingot"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "main:crafting/iron_pickaxe"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"main:crafting/rail_from_iron",
+			"main:crafting/minecart_from_iron",
+			"main:crafting/iron_trapdoor_from_iron",
+			"main:crafting/iron_pickaxe",
+			"main:crafting/iron_hoe",
+			"main:crafting/iron_axe",
+			"main:crafting/iron_shovel",
+			"main:crafting/iron_sword",
+			"main:crafting/iron_spear",
+			"main:crafting/iron_helmet",
+			"main:crafting/iron_chestplate",
+			"main:crafting/iron_leggings",
+			"main:crafting/iron_boots",
+			"main:crafting/iron_mattock",
+			"main:crafting/iron_door_from_iron",
+			"main:crafting/iron_chain_from_iron",
+			"main:crafting/iron_chain",
+			"main:crafting/iron_bars",
+			"main:crafting/iron_dolabra",
+			"main:crafting/iron_shears",
+			"main:crafting/carbon_rich_iron",
+			"main:crafting/anvil",
+			"main:crafting/hopper_from_iron",
+			"main:crafting/detector_rail_from_iron",
+			"main:crafting/cauldron_from_iron",
+			"main:crafting/bucket_from_iron",
+			"main:crafting/activator_rail_from_iron",
+			"main:crafting/chemistry_stand",
+			"main:blast/iron_block_from_blasting_raw_iron_block",
+			"main:blast/iron_ingot_from_blasting_iron_materials"
+		]
+	}
+}

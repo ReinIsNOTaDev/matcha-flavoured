@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:baked_potato"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"main:food/crafting/pickled_potatoes",
+			"main:food/crafting/latke",
+			"main:food/crafting/fish_and_chips"
+		]
+	}
+}

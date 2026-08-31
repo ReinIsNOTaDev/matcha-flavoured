@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:honey_bottle",
+		"minecraft:brown_mushroom",
+		"minecraft:sugar",
+		"minecraft:sugar",
+		[
+			"minecraft:sweet_berries",
+			"minecraft:apple",
+			"minecraft:glow_berries"
+		]
+	],
+	"result": {
+		"id": "minecraft:splash_potion",
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:potion_contents": {
+				"custom_color": 15978319,
+				"custom_effects": [
+					{
+						"id": "minecraft:speed",
+						"amplifier": 1,
+						"duration": 6000,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"translate": "desc.kleispack.throwable",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "🏃 +40% (5:00)",
+					"color": "#37cafb",
+					"italic": false
+				}
+			],
+			"minecraft:custom_name": {
+				"translate": "item.kleispack.bubbling_mead",
+				"italic": false
+			},
+			"minecraft:item_model": "minecraft:bubbling_mead"
+		},
+		"count": 1
+	}
+}

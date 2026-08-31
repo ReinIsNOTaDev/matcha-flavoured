@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"bone": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:bone"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bone"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/fish_bones"
+	}
+}

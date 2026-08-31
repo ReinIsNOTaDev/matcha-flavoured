@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"structures": [
+						"minecraft:trial_chambers",
+						"minecraft:abbey_overgrown"
+					]
+				}
+			}
+		}
+	]
+}

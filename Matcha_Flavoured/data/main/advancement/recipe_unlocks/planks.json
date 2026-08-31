@@ -1,0 +1,31 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:planks"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"main:crafting/wooden_pickaxe",
+			"main:crafting/wooden_axe",
+			"main:crafting/wooden_shovel",
+			"main:crafting/wooden_hoe",
+			"main:crafting/wooden_sword",
+			"main:crafting/wooden_spear",
+			"main:crafting/vanilla_chest_from_planks"
+		]
+	}
+}

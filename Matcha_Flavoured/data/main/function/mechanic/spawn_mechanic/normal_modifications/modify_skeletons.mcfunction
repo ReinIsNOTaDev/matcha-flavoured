@@ -1,0 +1,3 @@
+attribute @s minecraft:max_health base set 10
+data merge entity @s {equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"punch":0}}}}}
+data merge entity @s {equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"punch":1}}}},drop_chances:{mainhand:0.000}}

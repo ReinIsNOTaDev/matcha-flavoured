@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "sugar",
+	"ingredients": [
+		"minecraft:piglin_spawn_egg"
+	],
+	"result": {
+		"count": 3,
+		"id": "minecraft:sugar"
+	}
+}

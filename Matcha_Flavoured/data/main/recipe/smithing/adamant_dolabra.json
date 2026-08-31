@@ -1,0 +1,101 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_axe",
+	"result": {
+		"id": "minecraft:netherite_axe",
+		"components": {
+			"minecraft:max_damage": 5000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#main:obsidian_based",
+						"speed": 55,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 13,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 13,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:enchantments": {
+				"minecraft:unbreaking": 2,
+				"minecraft:efficiency": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 13",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 10",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.repaired_with",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "block.minecraft.diamond_block",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "item.minecraft.netherite_scrap",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:netherite_scrap"
+				]
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.adamant_dolabra",
+				"color": "gold"
+			},
+			"minecraft:item_model": "minecraft:adamant_dolabra",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 9,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -3.0,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			]
+		}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
+}

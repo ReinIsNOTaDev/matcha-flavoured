@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"frog_spawn_egg": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:frog_spawn_egg"
+				}
+			}
+		},
+		"tadpole_spawn_egg": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tadpole_spawn_egg"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"tadpole_spawn_egg",
+			"frog_spawn_egg"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/frog"
+	}
+}

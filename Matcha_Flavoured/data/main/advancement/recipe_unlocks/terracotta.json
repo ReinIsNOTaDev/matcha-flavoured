@@ -1,0 +1,42 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:terracotta"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"main:crafting/brick_from_terracottas",
+			"main:kiln/terracotta",
+			"main:kiln/black_glazed_terracotta",
+			"main:kiln/gray_glazed_terracotta",
+			"main:kiln/light_gray_glazed_terracotta",
+			"main:kiln/white_glazed_terracotta",
+			"main:kiln/pink_glazed_terracotta",
+			"main:kiln/brown_glazed_terracotta",
+			"main:kiln/red_glazed_terracotta",
+			"main:kiln/orange_glazed_terracotta",
+			"main:kiln/yellow_glazed_terracotta",
+			"main:kiln/lime_glazed_terracotta",
+			"main:kiln/green_glazed_terracotta",
+			"main:kiln/cyan_glazed_terracotta",
+			"main:kiln/blue_glazed_terracotta",
+			"main:kiln/light_blue_glazed_terracotta",
+			"main:kiln/magenta_glazed_terracotta",
+			"main:kiln/purple_glazed_terracotta"
+		]
+	}
+}

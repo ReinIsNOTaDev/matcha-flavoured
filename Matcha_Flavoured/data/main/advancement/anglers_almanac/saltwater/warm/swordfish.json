@@ -1,0 +1,60 @@
+{
+  "parent": "main:fishers_almanac/saltwater/warm/flounder",
+  "display": {
+    "icon": {
+      "id": "salmon",
+      "components": {
+        "minecraft:item_model": "swordfish"
+      }
+    },
+    "title": {
+      "translate": "item.kleispack.fish.swordfish"
+    },
+    "description": [
+      {
+        "translate": "fish.fishing.swordfish.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.rarity.4",
+        "italic": false
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": ["2.4%"],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "catch": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "main:fishers_almanac/root": true
+            }
+          }
+        },
+        "item": {
+          "components": {
+            "minecraft:item_model": "swordfish"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "catch"
+    ]
+  ]
+}

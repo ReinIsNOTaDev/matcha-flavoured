@@ -1,0 +1,3 @@
+execute if score current_world_settings_difficulty difficulty_score matches 2 run tellraw @a [{"translate":"log.kleispack.gamemode_is_now"},{"text":" "},{"translate":"log.kleispack.hard","bold":true,"color":"red"},{"text":"\n"},{"translate":"log.kleispack.difficulty_disclaimer","color":"gray"}]
+execute if score current_world_settings_difficulty difficulty_score matches 2 run difficulty hard
+execute store result score current_world_settings_difficulty difficulty_score run difficulty

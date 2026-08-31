@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"obtained_item": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:elytra",
+						"components": {
+							"minecraft:enchantments": {}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"obtained_item"
+		]
+	],
+	"rewards": {
+		"function": "main:item_contingencies/elytra"
+	}
+}

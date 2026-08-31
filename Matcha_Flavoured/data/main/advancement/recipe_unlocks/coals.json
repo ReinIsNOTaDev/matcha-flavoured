@@ -1,0 +1,31 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:coal",
+							"minecraft:charcoal"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"main:crafting/torch",
+			"main:crafting/coal_alternate",
+			"main:crafting/black_dye",
+			"main:crafting/black_dye_from_coals"
+		]
+	}
+}

@@ -1,0 +1,132 @@
+{
+	"criteria": {
+		"echo_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:echo_fish"
+					}
+				}
+			}
+		},
+		"pale_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:pale_fish"
+					}
+				}
+			}
+		},
+		"swordfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:swordfish"
+					}
+				}
+			}
+		},
+		"skate": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:skate"
+					}
+				}
+			}
+		},
+		"siberian_sturgeon": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:siberian_sturgeon"
+					}
+				}
+			}
+		},
+		"opah": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:opah"
+					}
+				}
+			}
+		},
+		"oarfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:oarfish"
+					}
+				}
+			}
+		},
+		"muskellunge": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:muskellunge"
+					}
+				}
+			}
+		},
+		"european_eel": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:european_eel"
+					}
+				}
+			}
+		},
+		"bass": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:bass"
+					}
+				}
+			}
+		},
+		"arapaima": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:arapaima"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"arapaima",
+			"bass",
+			"echo_fish",
+			"european_eel",
+			"muskellunge",
+			"oarfish",
+			"opah",
+			"pale_fish",
+			"siberian_sturgeon",
+			"skate",
+			"swordfish"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/4_star"
+	}
+}

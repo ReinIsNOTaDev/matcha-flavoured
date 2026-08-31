@@ -1,0 +1,1 @@
+execute as @a[tag=is_sleeping] run function main:timers/0_5/sleeping_functions/sleep_update

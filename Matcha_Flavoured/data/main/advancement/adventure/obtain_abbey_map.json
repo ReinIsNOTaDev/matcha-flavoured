@@ -1,0 +1,36 @@
+{
+  "parent": "main:adventure/trade_with_cartographer",
+  "criteria": {
+    "primary_requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "adv.kleispack.adventure.obtain_tanakh.desc"
+    },
+    "icon": {
+			"components": {
+				"minecraft:item_model": "tanakh"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+    "title": {
+      "translate": "adv.kleispack.adventure.obtain_tanakh"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "primary_requirement"
+    ]
+  ]
+}

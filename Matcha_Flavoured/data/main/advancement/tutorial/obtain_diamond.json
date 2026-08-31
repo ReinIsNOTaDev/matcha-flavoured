@@ -1,0 +1,43 @@
+{
+  "parent": "main:tutorial/obtain_blast_furnace",
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": [
+			{
+				"text":"\uE010 ",
+				"color": "red"
+			},
+      {
+      "translate": "adv.kleispack.obtain_diamond.desc",
+      "color": "gray"
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "adv.kleispack.obtain_diamond"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_diamond"
+    ]
+  ],
+	"rewards": {
+		"function": "main:mechanic/heart_container/decreases/check_diamond_age"
+	}
+}

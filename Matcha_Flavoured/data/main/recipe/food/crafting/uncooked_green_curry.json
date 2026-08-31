@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:green_dye",
+		"minecraft:glowstone_dust",
+		"minecraft:sugar",
+		"minecraft:beetroot_soup",
+		"minecraft:happy_ghast_spawn_egg",
+		[
+			"minecraft:cod",
+			"minecraft:salmon",
+			"minecraft:hoglin_spawn_egg"
+		],
+		"minecraft:bowl"
+	],
+	"result": {
+		"id": "minecraft:zombified_piglin_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}

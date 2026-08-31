@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "seitan",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:shulker_spawn_egg",
+		"minecraft:potion",
+		[
+			"minecraft:carrot",
+			"minecraft:potato",
+			"minecraft:dried_kelp"
+		]
+	],
+	"result": {
+		"id": "minecraft:hoglin_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}

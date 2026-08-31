@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:smelting",
+	"group": "tall_dry_grass",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.01,
+	"ingredient": [
+		"minecraft:tall_grass",
+		"minecraft:large_fern"
+	],
+	"result": {
+		"id": "minecraft:tall_dry_grass"
+	}
+}

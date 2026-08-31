@@ -1,0 +1,1 @@
+function main:timers/shakudo_regen_3/shakudo_regen

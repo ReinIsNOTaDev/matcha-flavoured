@@ -1,5 +1,5 @@
 {
-  "parent": "main:fishers_almanac/saltwater/temperate/flying_fish",
+  "parent": "main:anglers_almanac/saltwater/temperate/flying_fish",
   "display": {
     "icon": {
       "id": "salmon",
@@ -18,7 +18,7 @@
       },
       "\n",
       {
-        "translate": "adv.kleispack.anglers_almanac.rarity.3",
+        "translate": "adv.kleispack.fishing.rarity.3",
         "italic": false
       },
       "\n",
@@ -40,7 +40,7 @@
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "main:fishers_almanac/root": true
+              "main:anglers_almanac/root": true
             }
           }
         },

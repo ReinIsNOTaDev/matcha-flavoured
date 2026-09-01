@@ -18,8 +18,7 @@
 								"minecraft:item_model": "monkfish",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐⭐",
-										"color": "aqua",
+										"translate": "adv.kleispack.fishing.rarity.3",
 										"italic": false
 									}
 								]

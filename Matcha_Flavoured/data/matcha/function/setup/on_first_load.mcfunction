@@ -1,0 +1,2 @@
+function matcha:setup/gamerules
+scoreboard players set current_minimum_hearts Hearts 20

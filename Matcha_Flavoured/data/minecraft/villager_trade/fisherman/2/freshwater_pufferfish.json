@@ -13,8 +13,7 @@
 			"minecraft:item_model": "freshwater_pufferfish",
 			"minecraft:lore": [
 				{
-					"text": "⭐",
-					"color": "gray",
+					"translate": "adv.kleispack.fishing.rarity.1",
 					"italic": false
 				}
 			]
@@ -23,5 +22,5 @@
 		"id": "minecraft:pufferfish"
 	},
 	"reputation_discount": 0,
-	"xp": 10
+	"xp": 60
 }

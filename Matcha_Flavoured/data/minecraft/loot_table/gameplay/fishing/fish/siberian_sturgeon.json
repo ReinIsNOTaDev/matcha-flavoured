@@ -18,8 +18,7 @@
 								"minecraft:item_model": "siberian_sturgeon",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐⭐⭐",
-										"color": "light_purple",
+										"translate": "adv.kleispack.fishing.rarity.4",
 										"italic": false
 									}
 								]

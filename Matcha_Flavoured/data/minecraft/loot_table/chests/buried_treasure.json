@@ -226,11 +226,11 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/paradise_lost"
+					"value": "matcha:treasure/paradise_lost"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/divine_comedy"
+					"value": "matcha:treasure/divine_comedy"
 				}
 			]
 		}

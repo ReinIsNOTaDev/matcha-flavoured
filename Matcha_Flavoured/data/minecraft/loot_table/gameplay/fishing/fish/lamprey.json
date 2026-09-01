@@ -18,8 +18,7 @@
 								"minecraft:item_model": "lamprey",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐",
-										"color": "green",
+										"translate": "adv.kleispack.fishing.rarity.2",
 										"italic": false
 									}
 								]

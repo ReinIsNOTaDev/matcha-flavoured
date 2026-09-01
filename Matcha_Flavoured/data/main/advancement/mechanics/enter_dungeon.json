@@ -11,6 +11,7 @@
 						"predicate": {
 							"minecraft:location": {
 								"structures": [
+									"minecraft:abbey_overgrown",
 									"minecraft:trial_chambers"
 								]
 							}

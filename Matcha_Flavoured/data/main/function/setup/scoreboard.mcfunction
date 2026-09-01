@@ -29,8 +29,6 @@ scoreboard players add end_age Hearts 0
 scoreboard players set minimum_normal_hearts Hearts 12
 scoreboard players set minimum_hard_hearts Hearts 6
 scoreboard players set maximum_hearts Hearts 60
-#This is a potential mechanic, but it doesn't "feel" good, so Im reconsidering
-scoreboard players set maximum_hard_hearts Hearts 40
 
 scoreboard objectives add sleepTimerScore dummy
 scoreboard players set 1 sleepTimerScore 1
@@ -93,8 +91,8 @@ scoreboard players set 15min wandering_trader_timer_score 90
 scoreboard players set 0 wandering_trader_timer_score 0
 
 scoreboard objectives add version_number dummy
-#EX. 104 is 1.04, it represents the current version
-scoreboard players set current_version version_number 112
+#EX. 104 is 1.04, it represents the current version, 1211 1.12.1
+scoreboard players set current_version version_number 1121
 scoreboard players set zero version_number 0
 
 scoreboard objectives add gamerule_safe_surface dummy

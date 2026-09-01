@@ -18,8 +18,7 @@
 								"minecraft:item_model": "alaska_blackfish",
 								"minecraft:lore": [
 									{
-										"text": "⭐",
-										"color": "gray",
+										"translate": "adv.kleispack.fishing.rarity.1",
 										"italic": false
 									}
 								]

@@ -13,8 +13,7 @@
 			"minecraft:item_model": "pale_fish",
 			"minecraft:lore": [
 				{
-					"text": "⭐⭐⭐",
-					"color": "aqua",
+					"translate": "adv.kleispack.fishing.rarity.3",
 					"italic": false
 				}
 			]

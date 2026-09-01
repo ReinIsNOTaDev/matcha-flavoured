@@ -18,8 +18,7 @@
 								"minecraft:item_model": "flying_fish",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐",
-										"color": "green",
+										"translate": "adv.kleispack.fishing.rarity.2",
 										"italic": false
 									}
 								]

@@ -18,8 +18,7 @@
 								"minecraft:item_model": "mahi_mahi",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐",
-										"color": "green",
+										"translate": "adv.kleispack.fishing.rarity.2",
 										"italic": false
 									}
 								]

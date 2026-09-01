@@ -219,7 +219,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/avesta"
+					"value": "matcha:treasure/avesta"
 				},
 				{
 					"type": "minecraft:empty",

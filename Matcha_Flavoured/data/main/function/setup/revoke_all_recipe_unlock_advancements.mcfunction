@@ -1,6 +1,10 @@
 #For a new version, we wipe their recipe unlock advancemnts so they can learn new things that were added or tweaked (or bugged)
 tellraw @a ["",{"text":"[!]","bold":true,"color":"green"},{"text":": ","color":"green"},{"translate":"log.kleispack.player_updated","color":"gray"}]
 
+
+#Revoke root adv, so that on_first_load functions run
+advancement revoke @s only main:tutorial/root
+
 #We remove old stopwatches that aren't used anymore
 stopwatch remove minecraft:divinity20s
 stopwatch remove minecraft:divinity30s
@@ -239,10 +243,10 @@ advancement revoke @s only main:end/smith_shakudo_elytra
 
 
 
-#Players start with Hearts score of 0, which means they would be in-debt 10 hearts before they could earn new ones, so if they are below the minimum we set it to the minimum
-execute if score current_world_settings_difficulty difficulty_score matches 1 run execute as @s if score @s Hearts < minimum_hearts Hearts run scoreboard players set @s Hearts 20
-execute if score current_world_settings_difficulty difficulty_score matches 2 run execute as @s if score @s Hearts < minimum_normal_hearts Hearts run scoreboard players set @s Hearts 12
-execute if score current_world_settings_difficulty difficulty_score matches 3 run execute as @s if score @s Hearts < minimum_hard_hearts Hearts run scoreboard players set @s Hearts 6
+# #Players start with Hearts score of 0, which means they would be in-debt 10 hearts before they could earn new ones, so if they are below the minimum we set it to the minimum
+# execute if score current_world_settings_difficulty difficulty_score matches 1 run execute as @s if score @s Hearts < minimum_hearts Hearts run scoreboard players set @s Hearts 20
+# execute if score current_world_settings_difficulty difficulty_score >= normal difficulty_score 1 run execute as @s if score @s Hearts < current_minimum_hearts Hearts run scoreboard players set @s Hearts 12
+# execute if score current_world_settings_difficulty difficulty_score matches 3 run execute as @s if score @s Hearts < minimum_hard_hearts Hearts run scoreboard players set @s Hearts 6
 
 #This line was made by NamelessJu! (Thank you)
 #This sets the players version number to the current version if it is less than the current version

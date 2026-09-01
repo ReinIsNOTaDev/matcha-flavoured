@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "main:setup/set_minimum_hearts_on_first_load"
+		"function": "matcha:setup/on_first_load"
 	}
 }

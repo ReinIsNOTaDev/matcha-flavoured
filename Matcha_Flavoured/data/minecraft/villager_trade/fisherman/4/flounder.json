@@ -13,8 +13,7 @@
 			"minecraft:item_model": "flounder",
 			"minecraft:lore": [
 				{
-					"text": "⭐⭐⭐",
-					"color": "aqua",
+					"translate": "adv.kleispack.fishing.rarity.3",
 					"italic": false
 				}
 			]
@@ -23,5 +22,5 @@
 		"id": "minecraft:salmon"
 	},
 	"reputation_discount": 0,
-	"xp": 75
+	"xp": 160
 }

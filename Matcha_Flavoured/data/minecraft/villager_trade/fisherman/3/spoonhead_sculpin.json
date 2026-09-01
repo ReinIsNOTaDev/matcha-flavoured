@@ -13,8 +13,7 @@
 			"minecraft:item_model": "spoonhead_sculpin",
 			"minecraft:lore": [
 				{
-					"text": "⭐⭐",
-					"color": "green",
+					"translate": "adv.kleispack.fishing.rarity.2",
 					"italic": false
 				}
 			]
@@ -23,5 +22,5 @@
 		"id": "minecraft:cod"
 	},
 	"reputation_discount": 0,
-	"xp": 24
+	"xp": 120
 }

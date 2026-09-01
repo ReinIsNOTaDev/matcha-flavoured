@@ -18,8 +18,7 @@
 								"minecraft:item_model": "tunisian_barb",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐⭐",
-										"color": "aqua",
+										"translate": "adv.kleispack.fishing.rarity.3",
 										"italic": false
 									}
 								]

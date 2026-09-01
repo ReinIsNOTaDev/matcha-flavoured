@@ -18,8 +18,7 @@
 								"minecraft:item_model": "blind_cave_fish",
 								"minecraft:lore": [
 									{
-										"text": "⭐",
-										"color": "gray",
+										"translate": "adv.kleispack.fishing.rarity.1",
 										"italic": false
 									}
 								]

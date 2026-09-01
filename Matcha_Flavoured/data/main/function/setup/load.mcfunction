@@ -1,6 +1,5 @@
 function main:environmental/load_day_cycle_extender
 function main:setup/scoreboard
-function main:setup/gamerules
 tellraw @p {"bold":false,"color":"#65E082","translate":"log.kleispack.now_loaded","with":["1.12.1"]}
 tellraw @p {"bold":false,"color":"#8fb398","translate":"log.kleispack.now_loaded.desc"}
 execute if score current_world_settings_difficulty difficulty_score matches 3 run tellraw @a [{"text":"[\u2620\u2620\u2620] ","color":"red"},{"translate":"log.kleispack.gamemode_is","color":"gray"},{"text":" "},{"translate":"log.kleispack.hard","bold":true,"color":"red"},{"text":" "},{"text":"\n"},{"translate":"log.kleispack.difficulty_disclaimer","color":"dark_gray"}]

@@ -18,8 +18,7 @@
 								"minecraft:item_model": "northern_pike",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐⭐",
-										"color": "aqua",
+										"translate": "adv.kleispack.fishing.rarity.3",
 										"italic": false
 									}
 								]

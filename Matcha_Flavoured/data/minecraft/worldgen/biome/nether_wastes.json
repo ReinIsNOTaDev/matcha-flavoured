@@ -56,7 +56,7 @@
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-			"minecraft:nether_wart"
+			"matcha:nether_wart"
     ]
   ],
   "has_precipitation": false,

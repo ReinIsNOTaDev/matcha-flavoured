@@ -66,7 +66,7 @@
 		[],
 		[
 			"minecraft:spring_lava",
-			"minecraft:nether_wart"
+			"matcha:nether_wart"
 		]
 	],
 	"has_precipitation": false,

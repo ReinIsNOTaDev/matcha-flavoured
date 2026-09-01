@@ -14,7 +14,7 @@
 - Vee Vaicekauskas: Background musics (Check out their bandcamp!: https://par4.bandcamp.com/)
 - DeBlezyBestie: Music Discs (Check out their YT!: https://www.youtube.com/@deblezyboi)
 - Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
-- HappySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers
+- HapppySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers
 - All of the translation volunteers
 - Thank you so much everyone!
 
@@ -107,6 +107,7 @@ This symbol (👥) means the feature was changed/added per community feedback, o
 - Crying Obsidian is now a valid portal block (Will only work post-autumn drop)
 - Warding stones can not be placed in Abbeys
 - Craftable Bad Omen
+- Asylum Seeker Applications are now random (Made by HapppySpud!)
 
 #### Cooking Changes & Additions
 * **Most foods will not stack with previously made/found foods** (Datapack limitation)
@@ -182,8 +183,10 @@ This symbol (👥) means the feature was changed/added per community feedback, o
 - Coal spawns in very large amounts at deepslate level beneath deserts
 - Quartz now spawns at much higher elevations, and in larger amounts (Good source of glass) (👥)
 - Beaches now spawn blue orchids and cornflowers (because I think the blue flowers look nice on the sand)
-* Hellspore (Nether wart) now spawns in Soul Sand Valleys (Wastes too, but its much more rare) (👥)
-    * I was having trouble figuring out how to place soul sand patches with nether wart on top. This is a temp thing until I learn more about world gen
+* Hellspore (Nether wart) now spawns in Soul Sand Valleys and Wastes (Made by HapppySpud!) (👥)
+    * HapppySpud found a way to use trees to make nether wart patches with soul sand beneath! I wasn't able to figure that out.
+    * I want to learn more about features in the future so I can make the patches that perfectly fit for me, but this is an amazing feature they made so its staying in
+- Gravel removed from Hell (Made by HapppySpud!)
 
 ### Bugs
 #### Multiplayer Bugs

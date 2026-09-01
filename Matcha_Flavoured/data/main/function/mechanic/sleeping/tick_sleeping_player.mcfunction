@@ -19,5 +19,5 @@ tag @s remove is_sleeping
 schedule function main:mechanic/sleeping/calculate_sleep_rate 1t
 
 # display "n/n players sleeping" text in action bar
-schedule function main:mechanic/sleeping/notify_sleeping_players 1t
+schedule function main:mechanic/sleeping/notify_sleeping_players 2t
 

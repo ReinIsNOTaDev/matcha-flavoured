@@ -10,4 +10,4 @@ execute if score current_world_settings_difficulty difficulty_score matches 2 ru
 execute if score current_world_settings_difficulty difficulty_score matches 1 run tellraw @a [{"text":"[⛏] ","color":"green"},{"translate":"log.kleispack.gamemode_is","color":"gray"},{"text":" "},{"translate":"log.kleispack.easy","bold":true,"color":"green"},{"text":" "},{"text":"\n"},{"translate":"log.kleispack.difficulty_disclaimer","color":"dark_gray"}]
 
 # Start player update checker
-#function main:setup/player_update_check_loop
+function main:setup/player_update_check_loop

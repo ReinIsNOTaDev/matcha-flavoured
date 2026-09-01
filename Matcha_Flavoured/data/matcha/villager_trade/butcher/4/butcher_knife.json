@@ -25,7 +25,8 @@
 			"minecraft:item_model": "minecraft:butcher_knife",
 			"minecraft:lore": [
 				{
-					"text": "\uE034 -1",
+					"translate": "desc.kleispack.entity_interaction_range",
+					"with": ["-1"],
 					"color": "red",
 					"italic": false
 				},

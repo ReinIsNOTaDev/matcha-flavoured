@@ -2,7 +2,6 @@
 	"type": "minecraft:block",
 	"pools": [
 		{
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
@@ -26,9 +25,9 @@
 									}
 								}
 							],
-							"name": "minecraft:deepslate_iron_ore"
+							"name": "minecraft:stone"
 						},
-						{
+                        {
 							"type": "minecraft:item",
 							"conditions": [
 								{
@@ -44,39 +43,16 @@
 									}
 								}
 							],
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": 2
-								},
-								{
-									"enchantment": "minecraft:fortune",
-									"formula": "minecraft:ore_drops",
-									"function": "minecraft:apply_bonus"
-								},
-								{
-									"function": "minecraft:explosion_decay"
-								}
-							],
-							"name": "minecraft:iron_ingot"
+							"name": "minecraft:smooth_stone"
 						},
 						{
 							"type": "minecraft:item",
-							"functions": [
+							"conditions": [
 								{
-									"function": "minecraft:set_count",
-									"count": 2
-								},
-								{
-									"enchantment": "minecraft:fortune",
-									"formula": "minecraft:ore_drops",
-									"function": "minecraft:apply_bonus"
-								},
-								{
-									"function": "minecraft:explosion_decay"
+									"condition": "minecraft:survives_explosion"
 								}
 							],
-							"name": "minecraft:raw_iron"
+							"name": "minecraft:cobblestone"
 						}
 					]
 				}
@@ -84,5 +60,5 @@
 			"rolls": 1
 		}
 	],
-	"random_sequence": "minecraft:blocks/deepslate_iron_ore"
+	"random_sequence": "minecraft:blocks/stone"
 }

@@ -28,6 +28,34 @@
               ],
               "name": "minecraft:deepslate_emerald_ore"
             },
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "matcha:smelting"
+												}
+											]
+										}
+									}
+								}
+							],
+							"functions": [
+								{
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops",
+									"function": "minecraft:apply_bonus"
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:prismarine_crystals"
+						},
             {
               "type": "minecraft:item",
               "functions": [

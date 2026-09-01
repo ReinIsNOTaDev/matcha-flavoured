@@ -28,6 +28,43 @@
               ],
               "name": "minecraft:copper_ore"
             },
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "matcha:smelting"
+												}
+											]
+										}
+									}
+								}
+							],
+							"functions": [
+								{
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2,
+                    "min": 1
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops",
+									"function": "minecraft:apply_bonus"
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:copper_ingot"
+						},
             {
               "type": "minecraft:item",
               "functions": [

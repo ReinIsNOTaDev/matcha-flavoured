@@ -8,17 +8,17 @@
 			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
-					"text": "💥🚫 +1",
+					"text": "\uE029 +1",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⛊ 5",
+					"text": "🛡 5",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⛨ 1",
+					"text": "\uE008 1",
 					"color": "dark_green",
 					"italic": false
 				},

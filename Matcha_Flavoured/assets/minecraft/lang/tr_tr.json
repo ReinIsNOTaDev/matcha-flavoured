@@ -960,7 +960,7 @@
   "effect.kleispack.unluck": " Kötü Şans (%s)",
   "effect.kleispack.dolphins_grace": "🐬 Yunusun Lütfu (%s)",
   "effect.kleispack.glowing": "🌟 Parlama (%s)",
-  "effect.kleispack.jump_boost": "🐇 Zıplama Desteği (%s)",
+  "effect.kleispack.jump_boost": "\uE030 Zıplama Desteği (%s)",
   "effect.kleispack.mining_fatigue": "⛏ Madenci Yorgunluğu (%s)",
   "effect.kleispack.nausea": " Bulantı (%s)",
   "effect.kleispack.slow_falling": " Yavaş Düşüş (%s)",

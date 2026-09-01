@@ -949,7 +949,7 @@
   "effect.kleispack.unluck": " 霉運 (%s)",
   "effect.kleispack.dolphins_grace": "🐬 海豚悠游 (%s)",
   "effect.kleispack.glowing": "🌟 發光 (%s)",
-  "effect.kleispack.jump_boost": "🐇 跳躍提升 (%s)",
+  "effect.kleispack.jump_boost": "\uE030 跳躍提升 (%s)",
   "effect.kleispack.mining_fatigue": "⛏ 挖掘加速 (%s)",
   "effect.kleispack.nausea": " 噁心 (%s)",
   "effect.kleispack.slow_falling": " 緩降 (%s)",

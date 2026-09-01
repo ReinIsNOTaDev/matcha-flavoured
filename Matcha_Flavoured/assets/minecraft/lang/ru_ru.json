@@ -961,7 +961,7 @@
   "effect.kleispack.unluck": " Невезение (%s)",
   "effect.kleispack.dolphins_grace": "🐬 Грация дельфина (%s)",
   "effect.kleispack.glowing": "🌟 Свечение (%s)",
-  "effect.kleispack.jump_boost": "🐇 Прыгучесть (%s)",
+  "effect.kleispack.jump_boost": "\uE030 Прыгучесть (%s)",
   "effect.kleispack.mining_fatigue": "⛏ Утомление (%s)",
   "effect.kleispack.nausea": " Тошнота (%s)",
   "effect.kleispack.slow_falling": " Плавное падение (%s)",

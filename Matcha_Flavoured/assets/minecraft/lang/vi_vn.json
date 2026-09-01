@@ -954,7 +954,7 @@
   "effect.kleispack.unluck": " Rủi ro (%s)",
   "effect.kleispack.dolphins_grace": "🐬 Ân huệ của cá heo (%s)",
   "effect.kleispack.glowing": "🌟 Phát sáng (%s)",
-  "effect.kleispack.jump_boost": "🐇 Nhảy cao (%s)",
+  "effect.kleispack.jump_boost": "\uE030 Nhảy cao (%s)",
   "effect.kleispack.mining_fatigue": "⛏ Đào chậm (%s)",
   "effect.kleispack.nausea": " Choáng (%s)",
   "effect.kleispack.slow_falling": " Rơi chậm (%s)",

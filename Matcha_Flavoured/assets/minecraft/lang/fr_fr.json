@@ -947,7 +947,7 @@
   "effect.kleispack.unluck": " Malchance (%s)",
   "effect.kleispack.dolphins_grace": "🐬 Grâce du dauphin (%s)",
   "effect.kleispack.glowing": "🌟 Surbrillance (%s)",
-  "effect.kleispack.jump_boost": "🐇 Sauts améliorés (%s)",
+  "effect.kleispack.jump_boost": "\uE030 Sauts améliorés (%s)",
   "effect.kleispack.mining_fatigue": "⛏ Fatigue de minage (%s)",
   "effect.kleispack.nausea": " Nausée (%s)",
   "effect.kleispack.slow_falling": " Chute ralentie (%s)",

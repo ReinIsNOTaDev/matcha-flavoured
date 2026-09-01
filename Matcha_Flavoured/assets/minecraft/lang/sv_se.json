@@ -960,7 +960,7 @@
   "effect.kleispack.unluck": " Otur (%s)",
   "effect.kleispack.dolphins_grace": "🐬 Delfingåva (%s)",
   "effect.kleispack.glowing": "🌟 Självlysande (%s)",
-  "effect.kleispack.jump_boost": "🐇 Hoppstyrka (%s)",
+  "effect.kleispack.jump_boost": "\uE030 Hoppstyrka (%s)",
   "effect.kleispack.mining_fatigue": "⛏ Trötthet (%s)",
   "effect.kleispack.nausea": " Illamående (%s)",
   "effect.kleispack.slow_falling": " Långsamt fall (%s)",

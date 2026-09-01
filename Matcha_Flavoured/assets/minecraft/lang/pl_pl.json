@@ -778,7 +778,7 @@
   "effect.kleispack.unluck": " Pech (%s)",
   "effect.kleispack.dolphins_grace": "🐬 Pomocna płetwa (%s)",
   "effect.kleispack.glowing": "🌟 Blask (%s)",
-  "effect.kleispack.jump_boost": "🐇 Zwiększony skok (%s)",
+  "effect.kleispack.jump_boost": "\uE030 Zwiększony skok (%s)",
   "effect.kleispack.mining_fatigue": "⛏ Mining Fatigue (%s)",
   "effect.kleispack.nausea": " Nausea (%s)",
   "effect.kleispack.slow_falling": " Slow Falling (%s)",

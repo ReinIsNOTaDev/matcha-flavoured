@@ -15,6 +15,9 @@ advancement revoke @s from main:end/elytra
 # Revoke Mechanics advancements which were not removed properly in previous versions
 advancement revoke @s only main:mechanics/heart_container_obtained
 
+# Maybe unnecessary? but if they have this they won't be able to sleep so just in case
+advancement revoke @s only main:mechanics/slept_in_bed
+
 #We remove old stopwatches that aren't used anymore
 stopwatch remove minecraft:divinity15s
 stopwatch remove minecraft:divinity20s

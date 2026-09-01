@@ -72,12 +72,12 @@
 					"italic": false
 				},
 				{
-					"text": "🧍↔🧍 +3",
+					"text": "\uE034 +3",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⬇⛊ 1",
+					"text": "\uE033 1",
 					"color": "dark_green",
 					"italic": false
 				}

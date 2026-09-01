@@ -13,7 +13,7 @@
 								"minecraft:max_damage": 300,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 2",
+										"text": "🛡 2",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -58,7 +58,7 @@
 								"minecraft:max_damage": 300,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 6",
+										"text": "🛡 6",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -103,7 +103,7 @@
 								"minecraft:max_damage": 300,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 5",
+										"text": "🛡 5",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -148,7 +148,7 @@
 								"minecraft:max_damage": 300,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 2",
+										"text": "🛡 2",
 										"color": "dark_green",
 										"italic": false
 									}

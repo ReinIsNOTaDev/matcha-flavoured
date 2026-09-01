@@ -30,9 +30,12 @@ scoreboard players set minimum_normal_hearts Hearts 12
 scoreboard players set minimum_hard_hearts Hearts 6
 scoreboard players set maximum_hearts Hearts 60
 
+# players' sleepTimer data value, and several other variables
+# related to sleeping stored in fake players
 scoreboard objectives add sleepTimerScore dummy
-scoreboard players set 1 sleepTimerScore 1
-scoreboard players set 100 sleepTimerScore 100
+
+# players' amount of gametime to sleep before waking up
+scoreboard objectives add sleepDuration dummy
 
 scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0

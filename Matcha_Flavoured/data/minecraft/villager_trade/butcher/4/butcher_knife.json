@@ -25,7 +25,7 @@
 			"minecraft:item_model": "minecraft:butcher_knife",
 			"minecraft:lore": [
 				{
-					"text": "🧍↔🧍 -1",
+					"text": "\uE034 -1",
 					"color": "red",
 					"italic": false
 				},

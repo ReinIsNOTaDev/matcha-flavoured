@@ -12,12 +12,12 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 3",
+										"text": "🛡 3",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "\uE008 2",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -45,12 +45,12 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 8",
+										"text": "🛡 8",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "\uE008 2",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -78,12 +78,12 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 6",
+										"text": "🛡 6",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "\uE008 2",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -111,12 +111,12 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 3",
+										"text": "🛡 3",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "\uE008 2",
 										"color": "dark_green",
 										"italic": false
 									}

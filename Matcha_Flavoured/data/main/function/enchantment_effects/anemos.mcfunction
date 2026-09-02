@@ -1,10 +1,11 @@
-# I did it this way becuase I thought it would be easier to track an active effect on a player than by using a stopwatch? Am I dumb?
+# Abort this function if Anemos is on Cooldown
+execute if score @s AnemosCooldown matches 1.. run return fail
 
-# Hashiru: The nbt selector was replaced by a predicate, you also did it 3 times. this was reduced to 1 by moving the effect to another function
-execute unless predicate main:effects/has_unluck run function main:enchantment_effects/anemos_unluck
+execute anchored eyes run summon wind_charge ^ ^ ^.75 {Tags:["motion_projectile"]}
+execute as @n[tag=motion_projectile] at @s rotated as @p run function main:backend/apply_motion
 
-#This sets the windcharge to be owned by the player with the enchantment, which means advancments can detect it in the abbey!!!! Yessss! This took me so long, dude
+# Set the player's cooldown to 10 ticks, i.e. 0.5s, same as a normal Wind Charge
+scoreboard players add @s AnemosCooldown 10
+
+# This sets the Wind Charge to be owned by the player with the enchantment, which means advancements can detect it in the abbey!!!! Yessss! This took me so long, dude
 data modify entity @n[type=minecraft:wind_charge] Owner set from entity @s UUID
-
-#This makes the cool-down less than 1s, to 0.5s, same as a normal windcharge
-execute at @s run schedule function main:enchantment_effects/remove_anemos_maleffect 10t

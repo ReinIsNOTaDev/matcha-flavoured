@@ -54,13 +54,15 @@ stopwatch create shakudo_regen_6
 stopwatch create shakudo_regen_7
 stopwatch create shakudo_regen_8
 
+scoreboard objectives add AnemosCooldown dummy
+
 #Used mostly for particles
 stopwatch create 3s
 stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
 
-#Used to clear xp after a cetain time after interacting with an anvil (cannot use schedule, as only the server can run schedule right now)
+#Used to clear xp after a certain time after interacting with an anvil (cannot use schedule, as only the server can run schedule right now)
 stopwatch create xp_timer
 
 #Used for village sounds
@@ -79,9 +81,9 @@ scoreboard players set 0 anvil_interaction 0
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
 scoreboard players set 1 water_bucket_used 1
 
-#On load, set the wandering trader timer, and reset ALL people who summoned him, becuase if we dont, functions that should be looping wont be
-#and itll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
-#We will also kill any existing wandering traders, on load. Because again, thatll mess things up
+#On load, set the wandering trader timer, and reset ALL people who summoned him, because if we don't, functions that should be looping wont be
+#and it'll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
+#We will also kill any existing wandering traders, on load. Because again, that'll mess things up
 function main:mechanic/wandering_trader/kill_wandering_trader_early
 scoreboard objectives add wandering_trader_timer_score dummy
 scoreboard players reset @a wandering_trader_timer_score

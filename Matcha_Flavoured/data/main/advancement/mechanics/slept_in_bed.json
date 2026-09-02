@@ -10,6 +10,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:mechanic/sleeping/process_sleeping"
+		"function": "main:mechanic/sleeping/on_player_sleep"
 	}
 }

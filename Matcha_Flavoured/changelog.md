@@ -55,7 +55,7 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Before Release
-- Add All of Imtlx's biome sprites
+- Add All of Imtlx' biome sprites
    - Pale Garden
    - Deep Dark
    - Sulfur Caves
@@ -69,13 +69,18 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Remove all unused scoreboards
 - Double check the code changes that guy did, this may no longer be applicable
 
+# moving Changes
+- Maake all curry stocks spawn eggs
+- Make Phantom Membrane spawn egg
+
 # BUGS
 - Update Abbey LT to have the good Abbey disc
-- Add New Lang Emojis to lang spread sheet
 - Remove Redstone Particles
 - Didn't update Pack mcmeta
-
-
+- REMOVE WITH SONGS
+- Brachio Chicken Nugget name is wrong? I think I wrote diplo in the lang and never updated it
+- Would minecraft:wake_up_from_sleep work as a marker?
+- Add credits for all the new commit things in github
 
 # Rebalancing Alloys
 - Fortune III Craftable book from electrum? Would that work with the fortune cap?
@@ -85,17 +90,27 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Autosmelt on tools (jesus christ loottables)
     - Sand
     - Logs
+    - 
 - Maybe god-tier for Bronze/Shakudo Weapons, a new alloy made with Adamant + Thing? Thats a lot of new tools...
 - Change divinity to be a different item, like a jewllery set that adds hearts but gives no armour prot
 
 
 
 
+## Rebalancing Health Difficulty
+- Let current minimum hearts be per player instead of per world...but how we could track advancement things? 
+- Current min could be its own scoreboard, and maybe the advncement would lower the score every time they got a new thing
+- So scoreboart objectives Current Minimum
+- Each player has their own
+- Advnacement runs a function (same function for all advancements)
 
 
 
-
-
+## Langs
+"options.difficulty.peaceful.info"
+"options.difficulty.easy.info"
+"options.difficulty.normal.info"
+"options.difficulty.hard.info"
 
 
 

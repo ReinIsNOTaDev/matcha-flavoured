@@ -3,11 +3,6 @@ tag @s add is_sleeping
 
 advancement revoke @s only main:mechanics/slept_in_bed
 
-# clear weather
-# maybe this should also depend on number of players sleeping and how long?
-# i couldn't think of a good way to do it
-weather clear
-
 function main:mechanic/sleeping/calculate_sleep_duration
 
 # needs to be scheduled because it relies on is_sleeping tag and

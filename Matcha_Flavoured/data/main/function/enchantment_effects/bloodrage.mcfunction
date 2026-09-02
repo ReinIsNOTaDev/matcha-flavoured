@@ -1,3 +1,7 @@
-execute if entity @s[scores={HealthPoints=..10}] run effect give @s minecraft:resistance 1 1 true
-execute if entity @s[scores={HealthPoints=..10}] run effect give @s minecraft:strength 1 0 true
-execute if entity @s[scores={HealthPoints=..10}] run particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~1.5 ~ .25 .25 .25 .1 1 normal
+# If the player has more than 10 health, stop the function without running the rest of the commands
+execute unless entity @s[scores={HealthPoints=..10}] run return fail
+
+# Apply Bloodrage
+effect give @s minecraft:resistance 1 1 true
+effect give @s minecraft:strength 1 0 true
+particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~1.5 ~ .25 .25 .25 .1 1 normal

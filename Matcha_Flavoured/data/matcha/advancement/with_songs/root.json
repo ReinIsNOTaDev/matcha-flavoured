@@ -1,0 +1,35 @@
+{
+	"criteria": {
+		"get_ash": {
+			"trigger": "minecraft:impossible",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glowstone_dust"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "matcha:block/mossy_deepslate_bricks",
+		"description": {
+			"text": ""
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:mossy_cobblestone"
+		},
+		"show_toast": false,
+		"title": {
+			"translate": "adv.kleispack.adventure.root"
+		},
+		"hidden": true
+	},
+	"requirements": [
+		[
+			"get_ash"
+		]
+	]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "matcha:tutorial/obtain_gold",
+  "criteria": {
+    "get_smithing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": [
+			{
+				"text":"\uE010 ",
+				"color": "red"
+			},
+      {
+				"translate": "adv.kleispack.obtain_adamant.desc",
+				"color": "gray"
+			}
+		],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "adv.kleispack.obtain_adamant"
+    },
+		"frame": "goal"
+  },
+  "requirements": [
+    [
+      "get_smithing"
+    ]
+  ],
+	"rewards": {
+		"function": "matcha:mechanic/heart_container/decrease_minimum_hearts"
+	}
+}

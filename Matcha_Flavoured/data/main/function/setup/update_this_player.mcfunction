@@ -23,10 +23,5 @@ stopwatch remove minecraft:divinity30s
 # As only players with a version number below the current version are made to run this function, we can set player's version number to current version
 scoreboard players operation @s version_number = current_version version_number
 
-# #Players start with Hearts score of 0, which means they would be in-debt 10 hearts before they could earn new ones, so if they are below the minimum we set it to the minimum
-# execute if score current_world_settings_difficulty difficulty_score matches 1 run execute as @s if score @s Hearts < minimum_hearts Hearts run scoreboard players set @s Hearts 20
-# execute if score current_world_settings_difficulty difficulty_score >= normal difficulty_score 1 run execute as @s if score @s Hearts < current_minimum_hearts Hearts run scoreboard players set @s Hearts 12
-# execute if score current_world_settings_difficulty difficulty_score matches 3 run execute as @s if score @s Hearts < minimum_hard_hearts Hearts run scoreboard players set @s Hearts 6
-
 # Announce that a player has been updated
 tellraw @a ["",{"text":"[!]","bold":true,"color":"green"},{"text":": ","color":"green"},{"translate":"log.kleispack.player_updated","color":"gray"}]

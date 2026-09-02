@@ -1,0 +1,34 @@
+{
+  "parent": "matcha:tutorial/root",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "adv.kleispack.obtain_obol.desc",
+      "color": "gray"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "adv.kleispack.obtain_obol"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ]
+}

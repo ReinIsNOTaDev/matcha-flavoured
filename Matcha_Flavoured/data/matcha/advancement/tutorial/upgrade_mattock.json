@@ -1,0 +1,94 @@
+{
+	"parent": "matcha:tutorial/obtain_smithing_upgrade",
+	"criteria": {
+		"steel_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/steel_dolabra"
+			}
+		},
+		"steel_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/steel_mattock"
+			}
+		},
+		"shakudo_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/shakudo_dolabra"
+			}
+		},
+		"shakudo_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/shakudo_mattock"
+			}
+		},
+		"bronze_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/bronze_dolabra"
+			}
+		},
+		"bronze_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/bronze_mattock"
+			}
+		},
+		"electrum_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/electrum_mattock"
+			}
+		},
+		"electrum_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:smithing/electrum_dolabra"
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE00F\uE00F ",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.upgrade_mattock.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:steel_dolabra"
+			},
+			"count": 1,
+			"id": "minecraft:wooden_axe"
+		},
+		"title": {
+			"translate": "adv.kleispack.upgrade_mattock"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"shakudo_mattock",
+			"shakudo_dolabra",
+			"bronze_dolabra",
+			"bronze_mattock",
+			"steel_dolabra",
+			"steel_mattock",
+			"electrum_dolabra",
+			"electrum_mattock"
+		]
+	],
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_1"
+		]
+	}
+}

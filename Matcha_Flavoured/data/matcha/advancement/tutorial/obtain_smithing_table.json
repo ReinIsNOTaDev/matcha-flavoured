@@ -1,0 +1,34 @@
+{
+  "parent": "matcha:tutorial/obtain_steel",
+  "criteria": {
+    "get_smithing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smithing_table"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "adv.kleispack.obtain_smithing_table.desc",
+      "color": "gray"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "adv.kleispack.obtain_smithing_table"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_smithing"
+    ]
+  ]
+}

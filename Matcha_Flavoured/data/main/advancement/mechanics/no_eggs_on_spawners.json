@@ -100,8 +100,15 @@
 						}
 					},
 					{
-						"condition": "minecraft:block_state_property",
-						"block": "minecraft:spawner"
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:spawner",
+									"minecraft:trial_spawner"
+								]
+							}
+						}
 					}
 				]
 			}

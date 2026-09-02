@@ -11,7 +11,7 @@ execute store result score players_sleeping sleepTimerScore \
 # calculate sleep rate (amount of time to skip per tick)
 #
 # formula:
-#  sleep_rate = (players_sleeping/players_in_overworld)^2 * 60
+#  sleep_rate = (players_sleeping/players_in_overworld)^2 * 100
 #
 scoreboard players set sleep_rate sleepTimerScore 100
 scoreboard players operation sleep_rate sleepTimerScore *= players_sleeping sleepTimerScore

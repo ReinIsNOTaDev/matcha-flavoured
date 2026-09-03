@@ -3,8 +3,6 @@ tag @s add is_sleeping
 
 advancement revoke @s only matcha:mechanics/slept_in_bed
 
-function matcha:mechanic/sleeping/calculate_sleep_duration
-
 # needs to be scheduled because it relies on is_sleeping tag and
 # apparently the tag command takes a tick to apply
 schedule function matcha:mechanic/sleeping/calculate_sleep_rate 1t

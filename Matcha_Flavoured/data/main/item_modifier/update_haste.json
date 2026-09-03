@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"components": {
+			"minecraft:enchantments": {
+				"main:haste": 1
+			}
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"matcha:haste": 1,
+			"main:haste": 0
+		}
+	},
+	"conditions": []
+}

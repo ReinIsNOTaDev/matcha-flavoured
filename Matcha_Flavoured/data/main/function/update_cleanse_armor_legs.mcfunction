@@ -1,0 +1,1 @@
+item modify entity @s armor.legs main:update_cleanse_armor_legs

@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bone_meal"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/clone_allium",
+			"matcha:crafting/clone_azure_bluet",
+			"matcha:crafting/clone_blue_orchid",
+			"matcha:crafting/clone_closed_eyeblossom",
+			"matcha:crafting/clone_cornflower",
+			"matcha:crafting/clone_lily_of_the_valley",
+			"matcha:crafting/clone_open_eyeblossom",
+			"matcha:crafting/clone_orange_tulip",
+			"matcha:crafting/clone_oxeye_daisy",
+			"matcha:crafting/clone_pink_tulip",
+			"matcha:crafting/clone_poppy",
+			"matcha:crafting/clone_red_tulip",
+			"matcha:crafting/clone_spore_blossom",
+			"matcha:crafting/clone_white_tulip",
+			"matcha:crafting/clone_wither_rose",
+			"matcha:crafting/clone_dandelion",
+			"matcha:crafting/white_dye_from_bonemeal"
+		]
+	}
+}

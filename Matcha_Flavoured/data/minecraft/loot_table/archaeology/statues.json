@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:cheerful_clay_statue",
+								"minecraft:item_model": "matcha:cheerful_clay_statue",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.cheerful_clay_statue"
 								},
@@ -33,7 +33,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:mournful_clay_statue",
+								"minecraft:item_model": "matcha:mournful_clay_statue",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.mournful_clay_statue"
 								},

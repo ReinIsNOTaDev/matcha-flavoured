@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.piranha"
 			},
-			"minecraft:item_model": "piranha",
+			"minecraft:item_model": "matcha:piranha",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.2",

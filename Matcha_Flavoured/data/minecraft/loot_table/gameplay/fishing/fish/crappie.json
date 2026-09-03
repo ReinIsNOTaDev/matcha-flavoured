@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.crappie"
 								},
-								"minecraft:item_model": "crappie",
+								"minecraft:item_model": "matcha:crappie",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

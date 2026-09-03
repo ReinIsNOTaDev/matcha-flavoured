@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.mahi_mahi"
 								},
-								"minecraft:item_model": "mahi_mahi",
+								"minecraft:item_model": "matcha:mahi_mahi",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.2",

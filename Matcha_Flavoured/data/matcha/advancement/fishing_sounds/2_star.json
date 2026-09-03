@@ -1,0 +1,121 @@
+{
+	"criteria": {
+		"piranha": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:piranha"
+					}
+				}
+			}
+		},
+		"lamprey": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:lamprey"
+					}
+				}
+			}
+		},
+		"carp": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:carp"
+					}
+				}
+			}
+		},
+		"walleye": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:walleye"
+					}
+				}
+			}
+		},
+		"spoonhead_sculpin": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:spoonhead_sculpin"
+					}
+				}
+			}
+		},
+		"herring": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:herring"
+					}
+				}
+			}
+		},
+		"black_seabass": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:black_seabass"
+					}
+				}
+			}
+		},
+		"flying_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:flying_fish"
+					}
+				}
+			}
+		},
+		"gurnard": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:gurnard"
+					}
+				}
+			}
+		},
+		"mahi_mahi": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:mahi_mahi"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"black_seabass",
+			"carp",
+			"flying_fish",
+			"gurnard",
+			"herring",
+			"lamprey",
+			"mahi_mahi",
+			"piranha",
+			"spoonhead_sculpin",
+			"walleye"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/2_star"
+	}
+}

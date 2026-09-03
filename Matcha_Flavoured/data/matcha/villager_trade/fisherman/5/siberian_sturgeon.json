@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.siberian_sturgeon"
 			},
-			"minecraft:item_model": "siberian_sturgeon",
+			"minecraft:item_model": "matcha:siberian_sturgeon",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.4",

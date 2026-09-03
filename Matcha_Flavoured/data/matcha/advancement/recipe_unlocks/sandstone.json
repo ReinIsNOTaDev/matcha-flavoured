@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sandstone"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/sand_from_sandstone",
+			"matcha:kiln/smooth_sandstone",
+			"matcha:blast/sandstone_from_blasting_smooth_sandstone"
+		]
+	}
+}

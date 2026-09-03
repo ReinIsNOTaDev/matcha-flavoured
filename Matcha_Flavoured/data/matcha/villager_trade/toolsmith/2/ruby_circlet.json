@@ -42,13 +42,13 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:item_model": "minecraft:ruby_circlet",
+			"minecraft:item_model": "matcha:ruby_circlet",
 			"minecraft:equippable": {
 				"slot": "head",
-				"asset_id": "minecraft:ruby_circlet"
+				"asset_id": "matcha:ruby_circlet"
 			},
 			"minecraft:enchantments": {
-				"main:fire_proof": 1
+				"matcha:fire_proof": 1
 			},
 			"minecraft:unbreakable": {}
 		},

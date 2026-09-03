@@ -42,13 +42,13 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:item_model": "minecraft:amber_earrings",
+			"minecraft:item_model": "matcha:amber_earrings",
 			"minecraft:equippable": {
 				"slot": "head",
-				"asset_id": "minecraft:amber_earrings"
+				"asset_id": "matcha:amber_earrings"
 			},
 			"minecraft:enchantments": {
-				"main:regeneration": 1
+				"matcha:regeneration": 1
 			},
 			"minecraft:unbreakable": {}
 		},

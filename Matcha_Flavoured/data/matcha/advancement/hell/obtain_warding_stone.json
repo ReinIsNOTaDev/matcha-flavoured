@@ -1,0 +1,47 @@
+{
+	"parent": "matcha:hell/obtain_stabilised_estus",
+	"criteria": {
+		"craft_warding_stone": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:crafting/warding_stone"
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE00F\uE00F ",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.hell.obtain_warding_stone.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:warding_stone"
+			},
+			"count": 1,
+			"id": "minecraft:chicken_spawn_egg"
+		},
+		"title": {
+			"translate": "adv.kleispack.hell.obtain_warding_stone"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"craft_warding_stone"
+		]
+	],
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_2"
+		]
+	}
+}

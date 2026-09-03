@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.skate"
 			},
-			"minecraft:item_model": "skate",
+			"minecraft:item_model": "matcha:skate",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.4",

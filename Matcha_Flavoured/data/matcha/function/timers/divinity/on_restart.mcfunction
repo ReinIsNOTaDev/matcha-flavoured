@@ -1,0 +1,2 @@
+function matcha:timers/divinity/divinity_armor
+function matcha:timers/divinity/apotropaic_armor

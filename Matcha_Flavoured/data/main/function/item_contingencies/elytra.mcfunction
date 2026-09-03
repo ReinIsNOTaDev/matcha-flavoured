@@ -1,2 +1,0 @@
-execute if predicate main:elytra/wearing_unenchanted_elytra run item replace entity @s armor.chest with elytra[item_model="minecraft:elytra",repairable={items:["honeycomb","feather"]},lore=[{"color":"gray","italic":false,"translate":"desc.kleispack.repaired_with"},{"color":"dark_gray","italic":false,"translate":"item.minecraft.honeycomb"},{"color":"dark_gray","italic":false,"translate":"item.minecraft.feather"}]] 1
-advancement revoke @s only main:item_contingencies/elytra

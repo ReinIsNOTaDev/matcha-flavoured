@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.lamprey"
 								},
-								"minecraft:item_model": "lamprey",
+								"minecraft:item_model": "matcha:lamprey",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.2",

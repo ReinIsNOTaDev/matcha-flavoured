@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.striped_perch"
 								},
-								"minecraft:item_model": "striped_perch",
+								"minecraft:item_model": "matcha:striped_perch",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

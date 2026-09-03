@@ -12,7 +12,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:anglers_almanac"
+			"minecraft:item_model": "matcha:anglers_almanac"
 		},
 		"count": 1
 	},

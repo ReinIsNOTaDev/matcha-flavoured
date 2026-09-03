@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:amethyst_shard"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/tinted_glass",
+			"matcha:crafting/spyglass",
+			"matcha:kiln/tinted_glass_from_smoking_amethyst",
+			"matcha:crafting/crying_obsidian",
+			"matcha:crafting/amethyst_shard_from_amethyst_block"
+		]
+	}
+}

@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.mediterranean_killifish"
 								},
-								"minecraft:item_model": "mediterranean_killifish",
+								"minecraft:item_model": "matcha:mediterranean_killifish",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

@@ -1,0 +1,121 @@
+{
+	"criteria": {
+		"painted_moray": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:painted_moray"
+					}
+				}
+			}
+		},
+		"flounder": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:flounder"
+					}
+				}
+			}
+		},
+		"sturgeon": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:sturgeon"
+					}
+				}
+			}
+		},
+		"monkfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:monkfish"
+					}
+				}
+			}
+		},
+		"tunisian_barb": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:tunisian_barb"
+					}
+				}
+			}
+		},
+		"armoured_catfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:armoured_catfish"
+					}
+				}
+			}
+		},
+		"catfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:catfish"
+					}
+				}
+			}
+		},
+		"gar": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:gar"
+					}
+				}
+			}
+		},
+		"northern_pike": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:northern_pike"
+					}
+				}
+			}
+		},
+		"wolffish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:wolffish"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"armoured_catfish",
+			"catfish",
+			"flounder",
+			"gar",
+			"monkfish",
+			"northern_pike",
+			"painted_moray",
+			"sturgeon",
+			"tunisian_barb",
+			"wolffish"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/3_star"
+	}
+}

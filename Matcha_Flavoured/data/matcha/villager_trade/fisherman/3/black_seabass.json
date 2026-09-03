@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.black_seabass"
 			},
-			"minecraft:item_model": "black_seabass",
+			"minecraft:item_model": "matcha:black_seabass",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.2",

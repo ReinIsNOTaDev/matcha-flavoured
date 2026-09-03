@@ -69,8 +69,8 @@
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel",
-      		"main:ore_emerald_deep",
-      		"main:ore_coal_deep_large"
+      		"matcha:ore_emerald_deep",
+      		"matcha:ore_coal_deep_large"
 		],
 		[],
 		[

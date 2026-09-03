@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.european_eel"
 			},
-			"minecraft:item_model": "european_eel",
+			"minecraft:item_model": "matcha:european_eel",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.4",

@@ -1,0 +1,1 @@
+advancement grant @s only matcha:anglers_almanac/root

@@ -1,0 +1,27 @@
+{
+	"parent": "main:mechanics/root",
+	"criteria": {
+		"obtained_intrinsic_enchants_item": {
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+                                "has_intrinsic_enchants": 1
+                            }
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"obtained_intrinsic_enchants_item"
+		]
+	],
+	"rewards": {
+		"function": "matcha:mechanic/intrinsic_enchants/process_intrinsic_enchants"
+	}
+}

@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.muskellunge"
 			},
-			"minecraft:item_model": "muskellunge",
+			"minecraft:item_model": "matcha:muskellunge",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.4",

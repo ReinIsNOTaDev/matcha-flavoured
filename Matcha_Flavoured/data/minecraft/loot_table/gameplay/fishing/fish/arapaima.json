@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.arapaima"
 								},
-								"minecraft:item_model": "arapaima",
+								"minecraft:item_model": "matcha:arapaima",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.4",

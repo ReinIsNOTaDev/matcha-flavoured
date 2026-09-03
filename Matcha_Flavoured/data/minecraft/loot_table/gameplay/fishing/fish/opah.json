@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.opah"
 								},
-								"minecraft:item_model": "opah",
+								"minecraft:item_model": "matcha:opah",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.4",

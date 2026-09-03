@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.gurnard"
 								},
-								"minecraft:item_model": "gurnard",
+								"minecraft:item_model": "matcha:gurnard",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.2",

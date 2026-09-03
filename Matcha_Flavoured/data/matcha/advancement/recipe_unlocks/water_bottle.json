@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:potion"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/mud",
+			"matcha:crafting/clay_from_mud_and_potion"
+		]
+	}
+}
+

@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.blind_cave_fish"
 								},
-								"minecraft:item_model": "blind_cave_fish",
+								"minecraft:item_model": "matcha:blind_cave_fish",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

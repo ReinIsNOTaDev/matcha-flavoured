@@ -1,1 +1,0 @@
-advancement grant @s only main:anglers_almanac/root

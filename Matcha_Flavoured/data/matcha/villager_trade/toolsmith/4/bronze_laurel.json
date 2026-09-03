@@ -49,10 +49,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:item_model": "minecraft:bronze_laurel",
+			"minecraft:item_model": "matcha:bronze_laurel",
 			"minecraft:equippable": {
 				"slot": "head",
-				"asset_id": "minecraft:bronze_laurel"
+				"asset_id": "matcha:bronze_laurel"
 			},
 			"minecraft:unbreakable": {}
 		},

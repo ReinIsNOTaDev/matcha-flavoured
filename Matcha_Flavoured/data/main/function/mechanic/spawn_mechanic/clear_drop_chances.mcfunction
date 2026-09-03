@@ -1,1 +1,0 @@
-data merge entity @n[type=#main:mundane_hostiles] {drop_chances:{feet:0.0f,legs:0.0f,chest:0.0f,head:0.0f,mainhand:0.0f}}

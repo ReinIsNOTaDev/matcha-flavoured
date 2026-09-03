@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:copper_ingot"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/copper_wire",
+			"matcha:crafting/copper_helmet",
+			"matcha:crafting/copper_chestplate",
+			"matcha:crafting/copper_leggings",
+			"matcha:crafting/copper_boots",
+			"matcha:crafting/copper_pickaxe",
+			"matcha:crafting/copper_axe",
+			"matcha:crafting/copper_shovel",
+			"matcha:crafting/copper_hoe",
+			"matcha:crafting/copper_sword",
+			"matcha:crafting/copper_mattock",
+			"matcha:crafting/copper_dolabra",
+			"matcha:crafting/copper_shears",
+			"matcha:crafting/copper_spear",
+			"matcha:crafting/copper_compass",
+			"matcha:crafting/powered_rail_from_copper",
+			"matcha:crafting/bell",
+			"matcha:blast/copper_block_from_blasting_raw_copper_block",
+			"matcha:blast/copper_ingot_from_blasting_copper_materials"
+		]
+	}
+}

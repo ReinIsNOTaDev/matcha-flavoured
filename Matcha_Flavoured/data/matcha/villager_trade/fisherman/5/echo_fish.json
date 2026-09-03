@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.echo_fish"
 			},
-			"minecraft:item_model": "echo_fish",
+			"minecraft:item_model": "matcha:echo_fish",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.4",

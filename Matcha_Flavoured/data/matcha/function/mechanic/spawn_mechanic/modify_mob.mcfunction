@@ -1,0 +1,3 @@
+execute if score current_world_settings_difficulty difficulty_score matches 1 run function matcha:mechanic/spawn_mechanic/easy_modifications/check_type
+execute if score current_world_settings_difficulty difficulty_score matches 2 run function matcha:mechanic/spawn_mechanic/normal_modifications/check_type
+execute if score current_world_settings_difficulty difficulty_score matches 3 run function matcha:mechanic/spawn_mechanic/hard_modifications/check_type

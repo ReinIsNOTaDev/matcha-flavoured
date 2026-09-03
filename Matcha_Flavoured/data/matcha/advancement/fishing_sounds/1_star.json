@@ -1,0 +1,187 @@
+{
+	"criteria": {
+		"alaska_blackfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:alaska_blackfish"
+					}
+				}
+			}
+		},
+		"anchovy": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:anchovy"
+					}
+				}
+			}
+		},
+		"rainbow_wrasse": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:rainbow_wrasse"
+					}
+				}
+			}
+		},
+		"guppy": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:guppy"
+					}
+				}
+			}
+		},
+		"bluegill": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:bluegill"
+					}
+				}
+			}
+		},
+		"bujurqui": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:bujurqui"
+					}
+				}
+			}
+		},
+		"cod": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:cod"
+					}
+				}
+			}
+		},
+		"crappie": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:crappie"
+					}
+				}
+			}
+		},
+		"freshwater_pufferfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:freshwater_pufferfish"
+					}
+				}
+			}
+		},
+		"humpback_whitefish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:humpback_whitefish"
+					}
+				}
+			}
+		},
+		"mediterranean_killifish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:mediterranean_killifish"
+					}
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:pufferfish"
+					}
+				}
+			}
+		},
+		"salmon": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:salmon"
+					}
+				}
+			}
+		},
+		"shad": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:shad"
+					}
+				}
+			}
+		},
+		"striped_perch": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:striped_perch"
+					}
+				}
+			}
+		},
+		"tropical_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:tropical_fish"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"alaska_blackfish",
+			"anchovy",
+			"bluegill",
+			"bujurqui",
+			"cod",
+			"crappie",
+			"freshwater_pufferfish",
+			"guppy",
+			"humpback_whitefish",
+			"mediterranean_killifish",
+			"pufferfish",
+			"rainbow_wrasse",
+			"salmon",
+			"shad",
+			"striped_perch",
+			"tropical_fish"
+		]
+	],
+	"rewards": {
+		"function": "main:sound_fx/1_star"
+	}
+}

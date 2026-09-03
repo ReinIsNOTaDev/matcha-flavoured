@@ -82,7 +82,7 @@
 									]
 								},
 								"minecraft:enchantments": {
-									"main:anemos": 1
+									"matcha:anemos": 1
 								}
 							}
 						}

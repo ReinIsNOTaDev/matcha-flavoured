@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.flying_fish"
 								},
-								"minecraft:item_model": "flying_fish",
+								"minecraft:item_model": "matcha:flying_fish",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.2",

@@ -42,13 +42,13 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:item_model": "minecraft:topaz_earrings",
+			"minecraft:item_model": "matcha:topaz_earrings",
 			"minecraft:equippable": {
 				"slot": "head",
-				"asset_id": "minecraft:topaz_earrings"
+				"asset_id": "matcha:topaz_earrings"
 			},
 			"minecraft:enchantments": {
-				"main:haste": 1
+				"matcha:haste": 1
 			},
 			"minecraft:unbreakable": {}
 		},

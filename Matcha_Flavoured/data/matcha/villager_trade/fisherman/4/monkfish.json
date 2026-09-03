@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.monkfish"
 			},
-			"minecraft:item_model": "monkfish",
+			"minecraft:item_model": "matcha:monkfish",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.3",

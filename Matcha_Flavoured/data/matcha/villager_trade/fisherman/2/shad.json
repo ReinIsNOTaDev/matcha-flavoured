@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.shad"
 			},
-			"minecraft:item_model": "shad",
+			"minecraft:item_model": "matcha:shad",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.1",

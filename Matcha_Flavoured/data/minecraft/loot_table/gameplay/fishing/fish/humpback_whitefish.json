@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.humpback_whitefish"
 								},
-								"minecraft:item_model": "humpback_whitefish",
+								"minecraft:item_model": "matcha:humpback_whitefish",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

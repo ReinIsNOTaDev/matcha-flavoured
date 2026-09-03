@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:flint"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "matcha:crafting/fire_starter"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/fire_starter",
+			"matcha:crafting/gravel",
+			"matcha:crafting/cobblestone",
+			"matcha:crafting/cobbled_deepslate",
+			"matcha:crafting/arrow"
+		]
+	}
+}

@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.bluegill"
 								},
-								"minecraft:item_model": "bluegill",
+								"minecraft:item_model": "matcha:bluegill",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

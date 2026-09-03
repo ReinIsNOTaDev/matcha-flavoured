@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.carp"
 			},
-			"minecraft:item_model": "carp",
+			"minecraft:item_model": "matcha:carp",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.2",

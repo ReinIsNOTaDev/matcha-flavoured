@@ -15,7 +15,7 @@
 			"minecraft:item_model": "minecraft:ofuda",
 			"minecraft:stored_enchantments": {
 				"minecraft:loyalty": 3,
-				"main:traversal": 3,
+				"matcha:traversal": 3,
 				"minecraft:power": 2
 			}
 		}

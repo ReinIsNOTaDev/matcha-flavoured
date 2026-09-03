@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.bujurqui"
 								},
-								"minecraft:item_model": "bujurqui",
+								"minecraft:item_model": "matcha:bujurqui",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.rainbow_wrasse"
 			},
-			"minecraft:item_model": "rainbow_wrasse",
+			"minecraft:item_model": "matcha:rainbow_wrasse",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.1",

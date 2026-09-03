@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_chain"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/chainmail_boots",
+			"matcha:crafting/chainmail_chestplate",
+			"matcha:crafting/chainmail_helmet",
+			"matcha:crafting/chainmail_leggings"
+		]
+	}
+}

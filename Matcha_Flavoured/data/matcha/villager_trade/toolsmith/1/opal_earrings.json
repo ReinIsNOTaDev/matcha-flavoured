@@ -42,13 +42,13 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:item_model": "minecraft:opal_earrings",
+			"minecraft:item_model": "matcha:opal_earrings",
 			"minecraft:equippable": {
 				"slot": "head",
-				"asset_id": "minecraft:opal_earrings"
+				"asset_id": "matcha:opal_earrings"
 			},
 			"minecraft:enchantments": {
-				"main:conduit_power": 1
+				"matcha:conduit_power": 1
 			},
 			"minecraft:unbreakable": {}
 		},

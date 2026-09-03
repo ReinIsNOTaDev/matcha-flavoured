@@ -1,0 +1,31 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:happy_ghast_spawn_egg"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:food/crafting/stego_chicken_nugget",
+			"matcha:food/crafting/tricero_chicken_nugget",
+			"matcha:food/crafting/brachio_chicken_nugget",
+			"matcha:food/crafting/ptero_chicken_nugget",
+			"matcha:food/crafting/lumpia",
+			"matcha:food/crafting/bunuelo",
+			"matcha:food/crafting/fish_and_chips"
+		]
+	}
+}

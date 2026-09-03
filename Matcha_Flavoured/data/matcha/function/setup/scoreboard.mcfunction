@@ -86,7 +86,7 @@ scoreboard players set 1 water_bucket_used 1
 #On load, set the wandering trader timer, and reset ALL people who summoned him, becuase if we dont, functions that should be looping wont be
 #and itll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
 #We will also kill any existing wandering traders, on load. Because again, thatll mess things up
-function main:mechanic/wandering_trader/kill_wandering_trader_early
+function matcha:mechanic/wandering_trader/kill_wandering_trader_early
 scoreboard objectives add wandering_trader_timer_score dummy
 scoreboard players reset @a wandering_trader_timer_score
 tag @a remove SummonedTrader

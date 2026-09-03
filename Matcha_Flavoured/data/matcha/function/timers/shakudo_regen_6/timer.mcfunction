@@ -1,0 +1,2 @@
+stopwatch restart minecraft:shakudo_regen_6
+function matcha:timers/shakudo_regen_6/on_restart

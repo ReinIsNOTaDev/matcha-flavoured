@@ -10,7 +10,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.herring"
 			},
-			"minecraft:item_model": "herring",
+			"minecraft:item_model": "matcha:herring",
 			"minecraft:lore": [
 				{
 					"translate": "adv.kleispack.fishing.rarity.2",

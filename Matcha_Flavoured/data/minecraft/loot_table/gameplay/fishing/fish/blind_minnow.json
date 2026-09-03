@@ -15,7 +15,7 @@
 								"minecraft:item_name": {
 									"translate": "item.kleispack.fish.blind_minnow"
 								},
-								"minecraft:item_model": "blind_minnow",
+								"minecraft:item_model": "matcha:blind_minnow",
 								"minecraft:lore": [
 									{
 										"translate": "adv.kleispack.fishing.rarity.1",

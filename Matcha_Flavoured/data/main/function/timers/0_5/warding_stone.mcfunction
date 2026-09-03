@@ -1,2 +1,0 @@
-# Instead of checking where the warding stones are 4 times, we do it once, then call the effect function
-execute as @e[type=minecraft:armor_stand,tag=WardingStone] at @s run function main:timers/0_5/warding_stone_functions/warding_stone_effect

@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:beetroot"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "matcha:crafting/tomato_seeds_from_tomato"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/tomato_seeds_from_tomato",
+			"matcha:crafting/red_dye_from_tomato",
+			"matcha:food/oven/grilled_tomatoes",
+			"matcha:food/crafting/kontomire_stew",
+			"matcha:food/crafting/pickled_tomatoes",
+			"matcha:food/crafting/bruschetta"
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:gold_ingot"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/golden_pickaxe",
+			"matcha:crafting/golden_axe",
+			"matcha:crafting/golden_shovel",
+			"matcha:crafting/golden_hoe",
+			"matcha:crafting/golden_sword",
+			"matcha:crafting/golden_spear",
+			"matcha:crafting/golden_helmet",
+			"matcha:crafting/golden_chestplate",
+			"matcha:crafting/golden_leggings",
+			"matcha:crafting/golden_boots",
+			"matcha:crafting/golden_compass",
+			"matcha:crafting/shakudo_alloy",
+			"matcha:crafting/powered_rail_from_gold",
+			"matcha:blast/gold_block_from_blasting_raw_gold_block",
+			"matcha:blast/gold_ingot_from_blasting_gold_materials"
+		]
+	}
+}

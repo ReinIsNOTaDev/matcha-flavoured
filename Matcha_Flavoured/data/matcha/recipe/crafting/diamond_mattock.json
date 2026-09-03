@@ -32,7 +32,7 @@
 				"translate": "item.kleispack.diamond_mattock"
 			},
 			"minecraft:max_damage": 2500,
-			"minecraft:item_model": "minecraft:diamond_mattock",
+			"minecraft:item_model": "matcha:diamond_mattock",
 			"minecraft:lore": [
 				{
 					"text": "⛏ 8",

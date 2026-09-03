@@ -42,7 +42,7 @@
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "minecraft:obsidian",
+						"blocks": "#matcha:obsidian_based",
 						"speed": 3,
 						"correct_for_drops": false
 					},

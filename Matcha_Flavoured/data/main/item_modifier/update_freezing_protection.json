@@ -1,52 +1,23 @@
 {
 	"function": "minecraft:filtered",
 	"item_filter": {
-		"components": {
-			"minecraft:enchantments": {
-				"main:reach": 1
-			}
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": [
+						"main:freezing_protection"
+					]
+				}
+			]
 		}
 	},
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
 			"matcha:freezing_protection": 1,
-			"main:freezing_protection": 0
-		}
-	},
-	"on_fail": {
-		"function": "minecraft:filtered",
-		"item_filter": {
-			"components": {
-				"minecraft:enchantments": {
-					"main:freezing_protection": 2
-				}
-			}
+			"main:freezing_protection": -1
 		},
-		"on_pass": {
-			"function": "minecraft:set_enchantments",
-			"enchantments": {
-				"matcha:freezing_protection": 2,
-				"main:freezing_protection": 0
-			}
-		},
-		"on_fail": {
-			"function": "minecraft:filtered",
-			"item_filter": {
-				"components": {
-					"minecraft:enchantments": {
-						"main:freezing_protection": 3
-					}
-				}
-			},
-			"on_pass": {
-				"function": "minecraft:set_enchantments",
-				"enchantments": {
-					"main:freezing_protection": 0,
-					"matcha:freezing_protection": 3
-				}
-			}
-		}
+		"add": true
 	},
 	"conditions": []
 }

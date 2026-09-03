@@ -1,35 +1,36 @@
 {
 	"function": "minecraft:filtered",
 	"item_filter": {
-		"items": "minecraft:netherite_sword",
-		"components": {
-			"minecraft:enchantments": {
-				"main:divinity": 1
-			}
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": [
+						"main:divinity"
+					]
+				}
+			]
 		}
 	},
 	"on_pass": {
-		"function": "minecraft:set_enchantments",
-		"enchantments": {
-			"matcha:adamant_weapon_intrinsic": 1,
-			"main:divinity": 0
-		}
-	},
-	"on_fail": {
 		"function": "minecraft:filtered",
 		"item_filter": {
-			"components": {
-				"minecraft:enchantments": {
-					"main:divinity": 1
-				}
-			}
+			"items": "minecraft:netherite_sword"
 		},
 		"on_pass": {
 			"function": "minecraft:set_enchantments",
 			"enchantments": {
+				"matcha:adamant_weapon_intrinsic": 1,
+				"main:divinity": -1
+			},
+			"add": true
+		},
+		"on_fail": {
+			"function": "minecraft:set_enchantments",
+			"enchantments": {
 				"matcha:adamant_tool_intrinsic": 1,
-				"main:divinity": 0
-			}
+				"main:divinity": -1
+			},
+			"add": true
 		}
 	},
 	"conditions": []

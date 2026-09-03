@@ -5,7 +5,7 @@
 			"minecraft:enchantments": [
 				{
 					"enchantments": [
-						"main:riposte"
+						"main:anemos"
 					]
 				}
 			]
@@ -14,8 +14,8 @@
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
-			"matcha:riposte": 1,
-			"main:riposte": -1
+			"matcha:anemos": 1,
+			"main:anemos": -1
 		},
 		"add": true
 	},

@@ -1,18 +1,23 @@
 {
 	"function": "minecraft:filtered",
 	"item_filter": {
-		"components": {
-			"minecraft:enchantments": {
-				"main:divinity": 1
-			}
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": [
+						"main:divinity"
+					]
+				}
+			]
 		}
 	},
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
 			"matcha:adamant_armour_intrinsic": 1,
-			"main:divinity": 0
-		}
+			"main:divinity": -1
+		},
+		"add": true
 	},
 	"conditions": []
 }

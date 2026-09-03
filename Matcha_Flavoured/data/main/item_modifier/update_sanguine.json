@@ -1,18 +1,23 @@
 {
 	"function": "minecraft:filtered",
 	"item_filter": {
-		"components": {
-			"minecraft:enchantments": {
-				"main:sanguine": 1
-			}
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": [
+						"main:sanguine"
+					]
+				}
+			]
 		}
 	},
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
-			"matcha:life_steal": 1,
-			"main:sanguine": 0
-		}
+			"matcha:sanguine": 1,
+			"main:sanguine": -1
+		},
+		"add": true
 	},
 	"conditions": []
 }

@@ -1,1 +1,1 @@
-item modify entity @s armor.feet main:update_anemos
+item modify entity @s weapon.mainhand main:update_anemos

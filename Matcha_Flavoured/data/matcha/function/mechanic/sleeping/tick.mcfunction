@@ -4,12 +4,19 @@
 # scoreboard objectives)
 execute unless score players_sleeping sleepTimerScore matches 1.. run return 0
 
+# update current_time
+execute in minecraft:overworld store result score current_time sleepTimerScore run time query day
+
 # skip sleep_rate ticks forward in time.
 # yes, this is a macro function that runs every tick which is said to be bad
 # for performance.
 # however: it's not forked, it only runs when players are sleeping,
 # and it doesn't seem to have any effect on the TPS graph on my machine...
 function matcha:mechanic/sleeping/add_variable_time with storage sleep_rate_temp
+
+# wake players if the current time is 0-99 (to make sure we WILL hit it at one point)
+execute as @a[tag=is_sleeping] if score current_time sleepTimerScore matches 0..99 \
+        run function matcha:mechanic/sleeping/wake_sleeping_player
 
 # update sleeping players' sleep duration and check that they are still asleep.
 execute as @a[tag=is_sleeping] run function matcha:mechanic/sleeping/tick_sleeping_player

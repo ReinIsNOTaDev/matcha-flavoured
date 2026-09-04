@@ -32,6 +32,7 @@ function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:warding2"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:warding3"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:warding_armour"}
+function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:electrum_armour"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:zephyr"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "minecraft:aqua_affinity"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "minecraft:bane_of_arthropods"}

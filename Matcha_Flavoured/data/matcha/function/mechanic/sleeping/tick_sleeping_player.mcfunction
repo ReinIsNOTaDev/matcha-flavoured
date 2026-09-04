@@ -1,4 +1,10 @@
 # this function runs every tick for all players with the "is_sleeping" tag
+# update sleepDuration
+scoreboard players operation @s sleepDuration -= sleep_rate sleepTimerScore
+
+# wake player if they've slept their whole sleepDuration
+execute if score @s sleepDuration matches ..0 \
+        run function matcha:mechanic/sleeping/wake_sleeping_player
 
 # if the player is still in bed, nothing left to do. exit.
 execute store result score @s sleepTimerScore run data get entity @s SleepTimer

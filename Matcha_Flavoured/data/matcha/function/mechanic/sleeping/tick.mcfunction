@@ -14,9 +14,5 @@ execute in minecraft:overworld store result score current_time sleepTimerScore r
 # and it doesn't seem to have any effect on the TPS graph on my machine...
 function matcha:mechanic/sleeping/add_variable_time with storage sleep_rate_temp
 
-# wake players if the current time is 0-99 (to make sure we WILL hit it at one point)
-execute as @a[tag=is_sleeping] if score current_time sleepTimerScore matches 0..99 \
-        run function matcha:mechanic/sleeping/wake_sleeping_player
-
 # update sleeping players' sleep duration and check that they are still asleep.
 execute as @a[tag=is_sleeping] run function matcha:mechanic/sleeping/tick_sleeping_player

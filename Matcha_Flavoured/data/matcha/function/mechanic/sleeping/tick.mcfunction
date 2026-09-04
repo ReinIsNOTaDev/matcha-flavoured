@@ -4,9 +4,6 @@
 # scoreboard objectives)
 execute unless score players_sleeping sleepTimerScore matches 1.. run return 0
 
-# update current_time
-execute in minecraft:overworld store result score current_time sleepTimerScore run time query day
-
 # skip sleep_rate ticks forward in time.
 # yes, this is a macro function that runs every tick which is said to be bad
 # for performance.

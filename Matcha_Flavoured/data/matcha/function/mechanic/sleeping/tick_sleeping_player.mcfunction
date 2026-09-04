@@ -1,4 +1,5 @@
 # this function runs every tick for all players with the "is_sleeping" tag
+
 # update sleepDuration
 scoreboard players operation @s sleepDuration -= sleep_rate sleepTimerScore
 

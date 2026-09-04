@@ -38,6 +38,9 @@ scoreboard players set maximum_hearts Hearts 60
 # related to sleeping stored in fake players
 scoreboard objectives add sleepTimerScore dummy
 
+# players' amount of gametime to sleep before waking up
+scoreboard objectives add sleepDuration dummy
+
 scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
 scoreboard objectives add apotropaic dummy

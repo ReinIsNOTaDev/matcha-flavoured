@@ -1,6 +1,5 @@
 function matcha:mechanic/sleeping/tick
 function matcha:mechanic/manage_hunger
-function matcha:mechanic/water_bottle_stacking
 function matcha:mechanic/warding_stone/warding_stone
 function matcha:mechanic/spawn_mechanic/ticking
 function matcha:mechanic/anvil_xp/remove_xp

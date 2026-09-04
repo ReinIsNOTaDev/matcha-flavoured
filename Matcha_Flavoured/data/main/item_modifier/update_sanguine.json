@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"components": {
+			"minecraft:enchantments": {
+				"main:sanguine": 1
+			}
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"matcha:life_steal": 1,
+			"main:sanguine": 0
+		}
+	},
+	"conditions": []
+}

@@ -1,0 +1,1 @@
+item modify entity @s armor.chest main:update_max_magic_protection

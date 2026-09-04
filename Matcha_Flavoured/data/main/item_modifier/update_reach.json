@@ -1,0 +1,52 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"components": {
+			"minecraft:enchantments": {
+				"main:reach": 1
+			}
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"matcha:reach": 1,
+			"main:reach": 0
+		}
+	},
+	"on_fail": {
+		"function": "minecraft:filtered",
+		"item_filter": {
+			"components": {
+				"minecraft:enchantments": {
+					"main:reach": 2
+				}
+			}
+		},
+		"on_pass": {
+			"function": "minecraft:set_enchantments",
+			"enchantments": {
+				"matcha:reach": 2,
+				"main:reach": 0
+			}
+		},
+		"on_fail": {
+			"function": "minecraft:filtered",
+			"item_filter": {
+				"components": {
+					"minecraft:enchantments": {
+						"main:reach": 3
+					}
+				}
+			},
+			"on_pass": {
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"main:reach": 0,
+					"matcha:reach": 3
+				}
+			}
+		}
+	},
+	"conditions": []
+}

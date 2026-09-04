@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"components": {
+			"minecraft:enchantments": {
+				"main:cleanse_armor_chest": 1
+			}
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"matcha:cleanse_armour_chest": 1,
+			"main:cleanse_armor_chest": 0
+		}
+	},
+	"conditions": []
+}

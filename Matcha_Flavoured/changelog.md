@@ -43,8 +43,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 
 
 
-#### Texture Changes
- #### Credits
+#### Credits
 - Hashiru: Optimisations
 - NamlessJU: Various coding things, translations
 - Nat: Translation project lead, and other stuff
@@ -91,11 +90,13 @@ This symbol (🖌️) means the art was added by community artists (music is art
 
 #### Texture Changes
 - Removed Redstone Particles
+- Poplar Leaves, Log & Plank textures added
+- All Vertical Slab textures added (👥, specifically barce & fwhip's video)
 
 #### Removed 
 
 ### Technical Changes 
-- Moved all assets and data into "matcha" namespace. Main no longer exists
+- Moved all assets and data into "matcha" namespace. Main no longer exists (Technically it does for enchantment updates but it will be removed entirely soon)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------

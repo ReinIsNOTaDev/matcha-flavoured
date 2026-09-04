@@ -6,6 +6,7 @@
         "minecraft:snow_golem",
         "minecraft:wolf",
         "minecraft:cat",
-        "minecraft:player"
+        "minecraft:player",
+        "minecraft:happy_ghast"
     ]
 }

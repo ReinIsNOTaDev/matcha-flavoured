@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:sequence",
+	"config": {
+		"features": [
+            {
+                "feature": {
+                    "type": "minecraft:monster_room",
+                    "config": {}
+                },
+                "placement": []
+            },
+            {
+                "feature": {
+                    "type": "minecraft:simple_block",
+                    "config": {
+                        "to_place": {
+                            "type": "simple_state_provider",
+                            "state": {
+                                "Name": "minecraft:cyan_candle"
+                            }
+                        }
+                    }
+                },
+                "placement": []
+            }
+        ]
+	}
+}

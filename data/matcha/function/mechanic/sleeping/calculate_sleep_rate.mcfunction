@@ -1,6 +1,6 @@
 # count number of players in overworld
 execute store result score players_in_overworld sleepTimerScore \
-    if entity @a[nbt={Dimension:"minecraft:overworld"}]
+    if entity @a[predicate=matcha:in_overworld]
 
 
 # count number of players sleeping

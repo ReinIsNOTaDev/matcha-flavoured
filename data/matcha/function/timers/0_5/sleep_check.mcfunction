@@ -1,1 +1,0 @@
-execute as @a[tag=is_sleeping] run function matcha:timers/0_5/sleeping_functions/sleep_update

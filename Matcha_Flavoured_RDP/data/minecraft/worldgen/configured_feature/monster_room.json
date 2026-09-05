@@ -1,7 +1,7 @@
 {
-	"type": "minecraft:sequence",
-	"config": {
-		"features": [
+    "type": "minecraft:sequence",
+    "config": {
+    "features": [
             {
                 "feature": {
                     "type": "minecraft:monster_room",
@@ -11,18 +11,41 @@
             },
             {
                 "feature": {
-                    "type": "minecraft:simple_block",
+                    "type": "minecraft:template",
                     "config": {
-                        "to_place": {
-                            "type": "simple_state_provider",
-                            "state": {
-                                "Name": "minecraft:cyan_candle"
+                        "templates": [
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "id": "matcha:spawner/zombie_spawner",
+                                    "rotations": [
+                                        "none"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "id": "matcha:spawner/skeleton_spawner",
+                                    "rotations": [
+                                        "none"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "id": "matcha:spawner/spider_spawner",
+                                    "rotations": [
+                                        "none"
+                                    ]
+                                }
                             }
-                        }
+                        ]
                     }
                 },
                 "placement": []
             }
         ]
-	}
+    }
 }

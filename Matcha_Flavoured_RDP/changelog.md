@@ -23,6 +23,8 @@ This symbol (🖌️) means the art was added by community artists (music is art
 ### Tweaks & Small Additions 
 - Enderman can only pick up melon, pumpkins, and TNT (💻, Linkershim)
 - Multiplayer support improvements! (💻, Linkershim)
+- Trim Colours added
+    * Yet to add: Patina (green), Electrum, Shakudo, Hepatizon
 
 #### Cooking Changes & Additions 
 
@@ -31,7 +33,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Electrum Equipment can no longer burn in lava or fire (since its technically netherite now)
 - Warding now "Stacks" with others of its same "type" (that sounds confusing, let me explain)
     * If you hold a ✟ 1 item in your mainhand, and a ✟ 2 in your off-hand, it will apply a ✟ 3 level effect
-    * This cannot exceed ✟ 3 without electrum armour, ✟ 4 is reversed for the electrum set bonus effect
+    * This cannot exceed ✟ 3 without electrum armour, ✟ 4 is reserved for the electrum set bonus effect
     * ✟ 4 has other benefits, it can slow husks and even pierce copper armour's warding resistance
     * **Wearing** **✟** 1 and **holding** ✟ 1 will not create a ✟ 2 effect, ✟ always prefers to check armour over held items.
     * So If you hold a ✟ 3 and are wearing **✟** 2, it will have a ✟ 3 effect. If you are wearing **✟** 3 and holding ✟ 2, will will have a ✟ 3 effect
@@ -98,7 +100,6 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 
 # BUGS
 - Update Abbey LT to have the good Abbey disc
-- Remove Redstone Particles
 - Didn't update Pack mcmeta
 - REMOVE WITH SONGS
 - Brachio Chicken Nugget name is wrong? I think I wrote diplo in the lang and never updated it
@@ -108,6 +109,13 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Opal Earring should only work when in water, topaz should give night vision
 - Poplar leaves crafting needs to be added to adv
 - ON LOAD version number isn't printing
+- The Advancements for the special elytras currently dont trigger on intem in inventory/wearing the item nor crafting either of the items?
+- if you GAINED max hearts between achievements it thinks you've lost yet another heart.
+- Change freezing water to use on surface predicate
+- Abbey background track frquency too high? (It should be the same rate as everything else)
+- Add predicate for surface spawn that excludes structures
+
+
 
 # Rebalancing Alloys
 - Rework Netherite to be fire-based and Hell-based
@@ -130,6 +138,12 @@ So if more intrinisc books are added, they can have exlusions, like smelting for
     * Incompatible with: Silk Touch, Warding
 - OH MY GOD WITH DRAGON'S BREATH YOU CAN EXTRACT AN INTRINSIC
 
+
+### Trims
+- Patina
+- Shakudo
+- Hepatizon
+- Update Steel, Iron?
 
 # Rebalance Zephyr
 - FreshDoktor 
@@ -176,12 +190,19 @@ So if more intrinisc books are added, they can have exlusions, like smelting for
 - Add Cinnabar and Sulfur, dripstone, raw copper to dripstone caves, Badlands raw gold, deep dark, disc fragments, to fishing trash
 - Craftable Thorns
 
-
 ### Suggestions
 - Fermented Spider eye secret meal
 - New paintings (with hints!)
 - Bag of Sugar!
 - ADV: Restore its memory, of what it used to be (Echoes: Restore an Echo Shard's memory)
+- Shields
+    - Steel shield: a normal shield but with high durability/unbreaking enchant attached
+    - Shakudo shield: prevents you from splash potion effects being applied to you if held up (looking at witches), could also give a small amount of magic res as a bonus.
+    - Hepatizon shield: removes movement speed penalty when held up.
+    - Electrum shield: the same warding effects as current warding shield but blocking attacks from undead monsters deals damage to them so they will die even faster.
+    - Adamantium shield: deals a very small dmg to the attacker when blocking his dmg, it works on all types of enemies but the damage is way lower than electrum shield, could also come with increased durability/unbreaking.
+- Cold biomes (and oceans) should have better loot due to freezing water
+- Rebalance obol to be more rare in chests? Trial chambers esp...idk
 
 # Medium Additions
 - "Have recipes or hints toward features appear in abandoned camp loot pools, or possibly other loot pools as well.
@@ -198,8 +219,6 @@ While much advamcement has been made toward making the learning process of the p
 - Get Full Health Advancement
 - Craft a secret weapon advancemnt
 
-## Back Burner
-- Trims, updated and expanded
 
 ## Textures
 - Chiseled Sandstone

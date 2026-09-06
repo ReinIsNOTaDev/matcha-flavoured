@@ -48,7 +48,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:paneer_makhani",
+			"minecraft:item_model": "matcha:paneer_makhani",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.paneer_makhani"
 			},

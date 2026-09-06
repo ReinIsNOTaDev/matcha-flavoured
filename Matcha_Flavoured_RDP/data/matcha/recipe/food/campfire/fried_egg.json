@@ -32,7 +32,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:fried_egg",
+			"minecraft:item_model": "matcha:fried_egg",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fried_egg"
 			},

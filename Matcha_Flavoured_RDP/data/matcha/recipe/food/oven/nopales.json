@@ -41,7 +41,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.nopales"
 			},
-			"minecraft:item_model": "minecraft:nopales"
+			"minecraft:item_model": "matcha:nopales"
 		}
 	}
 }

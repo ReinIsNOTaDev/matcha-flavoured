@@ -32,7 +32,7 @@
 					"slot": "mainhand"
 				}
 			],
-			"minecraft:item_model": "minecraft:steel_sword",
+			"minecraft:item_model": "matcha:steel_sword",
 			"minecraft:lore": [
 				{
 					"text": "💥 1",

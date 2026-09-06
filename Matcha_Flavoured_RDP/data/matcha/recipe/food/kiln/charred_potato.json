@@ -31,7 +31,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:charred_potato",
+			"minecraft:item_model": "matcha:charred_potato",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.charred_potato"
 			},

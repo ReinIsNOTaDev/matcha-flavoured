@@ -25,7 +25,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.beacon_kindling"
 			},
-			"minecraft:item_model": "minecraft:beacon_kindling"
+			"minecraft:item_model": "matcha:beacon_kindling"
 		},
 		"count": 1,
 		"id": "minecraft:chicken_spawn_egg"

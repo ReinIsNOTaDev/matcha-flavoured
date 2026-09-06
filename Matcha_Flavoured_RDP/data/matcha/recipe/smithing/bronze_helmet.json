@@ -54,7 +54,7 @@
 				]
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "minecraft:bronze_helmet",
+			"minecraft:item_model": "matcha:bronze_helmet",
 			"minecraft:equippable": {
 				"slot": "head",
 				"asset_id": "minecraft:bronze"

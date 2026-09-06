@@ -28,7 +28,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_apollo"
+			"minecraft:item_model": "matcha:blessing_apollo"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

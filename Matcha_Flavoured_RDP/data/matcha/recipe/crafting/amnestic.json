@@ -27,7 +27,7 @@
 				"color": "white",
 				"italic": false
 			},
-			"minecraft:item_model": "minecraft:amnestic_wrapped",
+			"minecraft:item_model": "matcha:amnestic_wrapped",
 			"minecraft:entity_data": {
 				"id": "minecraft:armor_stand",
 				"NoGravity": true,

@@ -34,7 +34,7 @@
       "minecraft:max_stack_size": 16,
       "minecraft:custom_model_data": {
         "strings": [
-          "ramen"
+          "matcha:ramen"
         ]
       },
       "minecraft:item_name": "Ramen"

@@ -14,7 +14,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:mead",
+			"minecraft:item_model": "matcha:mead",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.mead"
 			},

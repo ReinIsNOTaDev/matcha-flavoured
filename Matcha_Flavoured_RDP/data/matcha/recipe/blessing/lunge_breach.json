@@ -32,7 +32,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_ares"
+			"minecraft:item_model": "matcha:blessing_ares"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

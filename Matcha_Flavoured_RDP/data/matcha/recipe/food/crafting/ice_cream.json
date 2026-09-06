@@ -11,7 +11,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:ice_cream",
+			"minecraft:item_model": "matcha:ice_cream",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.ice_cream"
 			},

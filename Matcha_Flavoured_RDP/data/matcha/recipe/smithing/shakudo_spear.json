@@ -10,7 +10,7 @@
 				"translate": "item.kleispack.shakudo_spear",
 				"color": "#c96691"
 			},
-			"minecraft:item_model": "minecraft:shakudo_spear",
+			"minecraft:item_model": "matcha:shakudo_spear",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",

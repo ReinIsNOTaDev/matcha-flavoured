@@ -48,7 +48,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:steamed_carrots",
+			"minecraft:item_model": "matcha:steamed_carrots",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.steamed_carrots"
 			},

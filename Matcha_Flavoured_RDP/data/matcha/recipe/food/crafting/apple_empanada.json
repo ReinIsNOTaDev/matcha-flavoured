@@ -10,7 +10,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:apple_empanada",
+			"minecraft:item_model": "matcha:apple_empanada",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.apple_empanada"
 			},

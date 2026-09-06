@@ -14,7 +14,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:lumpia",
+			"minecraft:item_model": "matcha:lumpia",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.lumpia"
 			},

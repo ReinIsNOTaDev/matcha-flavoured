@@ -9,7 +9,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:golden_pickled_carrots",
+			"minecraft:item_model": "matcha:golden_pickled_carrots",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.golden_pickled_carrots",
 				"color": "yellow"

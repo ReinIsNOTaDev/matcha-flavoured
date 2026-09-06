@@ -68,7 +68,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:honey_ginger_tea",
+			"minecraft:item_model": "matcha:honey_ginger_tea",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.honey_ginger_tea"
 			},

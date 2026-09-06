@@ -20,7 +20,7 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
-			"minecraft:item_model": "minecraft:steel_axe",
+			"minecraft:item_model": "matcha:steel_axe",
 			"minecraft:lore": [
 				{
 					"text": "⛏ 8",

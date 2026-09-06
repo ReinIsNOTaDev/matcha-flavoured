@@ -16,7 +16,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:warped_pizza",
+			"minecraft:item_model": "matcha:warped_pizza",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.warped_pizza",
 				"color": "#3cc6c8"

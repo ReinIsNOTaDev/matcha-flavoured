@@ -47,7 +47,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:japanese_curry",
+			"minecraft:item_model": "matcha:japanese_curry",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.japanese_curry"
 			},

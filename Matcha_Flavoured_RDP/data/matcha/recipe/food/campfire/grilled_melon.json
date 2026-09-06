@@ -46,7 +46,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:grilled_melon",
+			"minecraft:item_model": "matcha:grilled_melon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.grilled_melon"
 			},

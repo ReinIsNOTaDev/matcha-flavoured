@@ -43,7 +43,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:stego_chicken_nugget",
+			"minecraft:item_model": "matcha:stego_chicken_nugget",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.stego_chicken_nugget"
 			},

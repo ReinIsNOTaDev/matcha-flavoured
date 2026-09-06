@@ -49,7 +49,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:ramen",
+			"minecraft:item_model": "matcha:ramen",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.ramen"
 			},

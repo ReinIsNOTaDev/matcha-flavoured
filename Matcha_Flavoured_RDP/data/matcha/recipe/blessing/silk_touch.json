@@ -27,7 +27,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_eros"
+			"minecraft:item_model": "matcha:blessing_eros"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

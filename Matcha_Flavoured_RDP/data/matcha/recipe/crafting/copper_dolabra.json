@@ -66,7 +66,7 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:item_model": "minecraft:copper_dolabra",
+			"minecraft:item_model": "matcha:copper_dolabra",
 			"minecraft:max_damage": 350,
 			"minecraft:attribute_modifiers": [
 				{

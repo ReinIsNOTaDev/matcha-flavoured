@@ -27,7 +27,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_icarus"
+			"minecraft:item_model": "matcha:blessing_icarus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

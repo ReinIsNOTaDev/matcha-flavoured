@@ -76,7 +76,7 @@
 				"slot": "chest",
 				"asset_id": "minecraft:steel"
 			},
-			"minecraft:item_model": "minecraft:steel_chestplate",
+			"minecraft:item_model": "matcha:steel_chestplate",
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:iron_ingot"

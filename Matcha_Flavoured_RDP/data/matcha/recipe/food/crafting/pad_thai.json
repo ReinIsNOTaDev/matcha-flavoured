@@ -15,7 +15,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:pad_thai",
+			"minecraft:item_model": "matcha:pad_thai",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pad_thai"
 			},

@@ -12,7 +12,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:gimmari",
+			"minecraft:item_model": "matcha:gimmari",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.gimmari"
 			},

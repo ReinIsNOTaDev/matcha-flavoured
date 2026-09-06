@@ -8,12 +8,14 @@
 			"minecraft:max_damage": 3000,
 			"minecraft:lore": [
 				{
-					"text": "🗡 7",
+					"translate": "desc.kleispack.attack_damage",
+					"with": [{"text": "7"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.9",
+					"translate": "desc.kleispack.cooldown",
+					"with": [{"text": "1.9"}],
 					"color": "dark_green",
 					"italic": false
 				},

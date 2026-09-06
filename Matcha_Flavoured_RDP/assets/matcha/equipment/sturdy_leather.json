@@ -5,10 +5,10 @@
 				"dyeable": {
 					"color_when_undyed": -6265536
 				},
-				"texture": "minecraft:sturdy_leather"
+				"texture": "matcha:sturdy_leather"
 			},
 			{
-				"texture": "minecraft:sturdy_leather_overlay"
+				"texture": "matcha:sturdy_leather_overlay"
 			}
 		],
 		"humanoid_leggings": [
@@ -16,10 +16,10 @@
 				"dyeable": {
 					"color_when_undyed": -6265536
 				},
-				"texture": "minecraft:sturdy_leather"
+				"texture": "matcha:sturdy_leather"
 			},
 			{
-				"texture": "minecraft:sturdy_leather_overlay"
+				"texture": "matcha:sturdy_leather_overlay"
 			}
 		]
 	}

@@ -13,13 +13,25 @@
 			"minecraft:max_damage": 350,
 			"minecraft:lore": [
 				{
-					"text": "🛡 2",
+					"translate": "desc.kleispack.armour",
+					"with": [{"text": "2"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE033 1",
+					"translate": "desc.kleispack.fall_height_attribute",
+					"with": [{"text": "2"}],
 					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.repaired_with",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "item.minecraft.rabbit_hide",
+					"color": "dark_gray",
 					"italic": false
 				}
 			],
@@ -33,7 +45,7 @@
 				{
 					"type": "minecraft:safe_fall_distance",
 					"id": "leather_boots",
-					"amount": 1,
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "feet"
 				},
@@ -50,14 +62,17 @@
 				"minecraft:feather_falling": 3,
 				"matcha:traversal": 1
 			},
-			"minecraft:item_model": "minecraft:sturdy_leather_boots",
+			"minecraft:item_model": "matcha:sturdy_leather_boots",
 			"minecraft:equippable": {
 				"slot": "feet",
-				"asset_id": "minecraft:sturdy_leather"
+				"asset_id": "matcha:sturdy_leather"
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.sturdy_leather_boots",
 				"color": "white"
+			},
+			"minecraft:repairable": {
+				"items": "minecraft:rabbit_hide"
 			}
 		},
 		"count": 1,

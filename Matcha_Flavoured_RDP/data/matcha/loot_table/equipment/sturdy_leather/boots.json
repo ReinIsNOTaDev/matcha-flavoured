@@ -11,16 +11,28 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:max_damage": 200,
+                                "minecraft:max_damage": 350,
                                 "minecraft:lore": [
                                     {
-                                        "text": "🛡 1",
+                                        "translate": "desc.kleispack.armour",
+                                        "with": [{"text": "2"}],
                                         "color": "dark_green",
                                         "italic": false
                                     },
                                     {
-                                        "text": "\uE033 1",
+                                        "translate": "desc.kleispack.fall_height_attribute",
+                                        "with": [{"text": "2"}],
                                         "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "desc.kleispack.repaired_with",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "item.minecraft.rabbit_hide",
+                                        "color": "dark_gray",
                                         "italic": false
                                     }
                                 ],
@@ -34,24 +46,34 @@
                                     {
                                         "type": "minecraft:safe_fall_distance",
                                         "id": "leather_boots",
-                                        "amount": 1,
+                                        "amount": 2,
                                         "operation": "add_value",
                                         "slot": "feet"
                                     },
                                     {
                                         "type": "minecraft:armor",
                                         "id": "minecraft:armor.boots",
-                                        "amount": 1,
+                                        "amount": 2,
                                         "operation": "add_value",
                                         "slot": "feet"
                                     }
                                 ],
                                 "minecraft:enchantments": {
-                                    "minecraft:feather_falling": 2
+                                    "minecraft:projectile_protection": 2,
+                                    "minecraft:feather_falling": 3,
+                                    "matcha:traversal": 1
+                                },
+                                "minecraft:item_model": "matcha:sturdy_leather_boots",
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "asset_id": "matcha:sturdy_leather"
                                 },
                                 "minecraft:item_name": {
-                                    "translate": "item.minecraft.leather_boots",
+                                    "translate": "item.kleispack.sturdy_leather_boots",
                                     "color": "white"
+                                },
+                                "minecraft:repairable": {
+                                    "items": "minecraft:rabbit_hide"
                                 }
                             }
 						}

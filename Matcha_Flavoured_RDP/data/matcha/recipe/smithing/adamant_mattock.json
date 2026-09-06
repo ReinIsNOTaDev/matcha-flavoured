@@ -27,21 +27,25 @@
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:efficiency": 1,
+				"matcha:adamant_tool": 1,
 				"minecraft:unbreaking": 2
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 13",
+					"translate": "desc.kleispack.mining_speed",
+					"with": [{"text": "13"}],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 1",
+					"translate": "desc.kleispack.attack_damage",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 4",
+					"translate": "desc.kleispack.cooldown",
+					"with": [{"text": "4"}],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -76,7 +80,7 @@
 				"translate": "item.kleispack.adamant_mattock",
 				"color": "gold"
 			},
-			"minecraft:item_model": "minecraft:adamant_mattock"
+			"minecraft:item_model": "matcha:adamant_mattock"
 		}
 	},
 	"template": "minecraft:netherite_upgrade_smithing_template"

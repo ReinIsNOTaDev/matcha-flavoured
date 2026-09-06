@@ -20,5 +20,6 @@ execute if stopwatch minecraft:shakudo_regen_8 8.. run function matcha:timers/sh
 # Reset scores
 scoreboard players set @a divinity 0
 scoreboard players set @a electrum_armour 0
+scoreboard players set @a adamant_armour 0
 scoreboard players set @a warding_equipment 0
 scoreboard players set @a shakudo_regen 0

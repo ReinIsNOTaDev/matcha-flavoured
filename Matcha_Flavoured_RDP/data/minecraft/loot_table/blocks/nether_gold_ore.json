@@ -36,7 +36,7 @@
 										"predicates": {
 											"minecraft:enchantments": [
 												{
-													"enchantments": "matcha:smelting"
+													"enchantments": "matcha:adamant_tool"
 												}
 											]
 										}
@@ -52,7 +52,7 @@
 								{
 									"function": "minecraft:apply_bonus",
 									"enchantment": "matcha:electrum_tool",
-									"formula": "minecraft:uniform_bonus_count"
+									"formula": "minecraft:ore_drops"
 								}
 							],
 							"name": "minecraft:gold_ingot"
@@ -74,7 +74,9 @@
 									"function": "minecraft:apply_bonus"
 								},
 								{
-									"function": "minecraft:explosion_decay"
+									"function": "minecraft:apply_bonus",
+									"enchantment": "matcha:electrum_tool",
+									"formula": "minecraft:ore_drops"
 								}
 							],
 							"name": "minecraft:gold_nugget"

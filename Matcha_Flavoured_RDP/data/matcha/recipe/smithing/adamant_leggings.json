@@ -10,23 +10,26 @@
                 "has_intrinsic_enchants": 1
 			},
 			"minecraft:stored_enchantments": {
-				"main:divinity": 1,
+				"matcha:adamant_armour": 1,
 				"minecraft:unbreaking": 2,
 				"minecraft:protection": 1
 			},
 			"minecraft:lore": [
 				{
-					"text": "🛡 6",
+					"text": "desc.kleispack.armour",
+					"with": [{"text": "6"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE008 3",
+					"text": "desc.kleispack.armour_toughness",
+					"with": [{"text": "3"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE029 1",
+					"text": "desc.kleispack.knockback_resistance",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				},

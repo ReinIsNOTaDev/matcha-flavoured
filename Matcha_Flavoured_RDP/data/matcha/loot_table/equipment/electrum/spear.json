@@ -28,12 +28,14 @@
                                 ],
                                 "minecraft:lore": [
                                     {
-                                        "text": "🗡 4",
+                                        "translate": "desc.kleispack.attack_damage",
+                                        "with": [{"text": "4"}],
                                         "color": "dark_green",
                                         "italic": false
                                     },
                                     {
-                                        "text": "🕒 1.18",
+                                        "translate": "desc.kleispack.cooldown",
+                                        "with": [{"text": "1.18"}],
                                         "color": "dark_green",
                                         "italic": false
                                     },

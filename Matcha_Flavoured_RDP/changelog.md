@@ -16,15 +16,16 @@ This symbol (💻) means the feature was changed/added by community code contrib
 This symbol (🖌️) means the art was added by community artists (music is art)
 
 ### Major Additions and Changes 
-* Smelting Intrinsic
-    * This will replace adamant's current tool intrinsic
-    * Right now it only supports blocks (entities upcoming--wait fucking fire aspect? But isn't fire aspect annoying?)
+* Electrum & Adamant Reworks (See Below)
 - New Intrinsic/Effect Icons! (They look awesome, 💻/🖌️, Voxybuns)
 ### Tweaks & Small Additions 
 - Enderman can only pick up melon, pumpkins, and TNT (💻, Linkershim)
 - Multiplayer support improvements! (💻, Linkershim)
 - Trim Colours added
     * Yet to add: Patina (green), Electrum, Shakudo, Hepatizon
+- Buffed Sturdy Leather's Safe Fall Distance (1 -> 2)
+- Sturdy Leather can now be repaired with tattered leather
+- Feather Falling is better now (base damage reduction 12% -> 24%; max damage reduction 48% -> 72%)
 
 #### Cooking Changes & Additions 
 
@@ -40,7 +41,17 @@ This symbol (🖌️) means the art was added by community artists (music is art
     * Some minor things have been changed, like the particle effect working on babies, unique particles for slowness v damage, and the way warding works, no longer constant, instead running on a timer
     * ✟ 1 & 2 - effect/1s
     * ✟ 3 & 4 - effect/0.5s
-    
+
+#### Adamant & DOOM!
+- Adamant's intrinisc has been reworked into DOOM! (👥, CHECK WHO SUGGESTED THIS, AND EMAIL IF ITS OKAY TO CREDIT)
+- Doom is an intrinic of adamant armour, which clears weakness every three seconds from nearby mobs, when the effect is cleared, it deals armour-piercing damage
+- 𐕣 1 -> 1.5 hearts; 𐕣 2 -> 3 hearts; 𐕣 3 -> 4.5 hearts; 𐕣 4 -> 8 hearts
+    * These numbers will likley be changed when I get some more feedback
+- Adamant's Weapon intrinic applies weakness to mobs
+- Adamant's Tool intrinsic auto-smelts mined blocks
+- Yes, this means using tipped weakness arrows is a really useful thing now, but I'll add a better recipe for that later (A way to get lingering potions I think)
+- I think this fits Adamant's apocryphal title much more, and ties in with its hell-based theming
+- Bonus soul hearts don't work yet but I will add them soon
 
 #### Ore and World Generation 
 - 
@@ -114,7 +125,9 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Change freezing water to use on surface predicate
 - Abbey background track frquency too high? (It should be the same rate as everything else)
 - Add predicate for surface spawn that excludes structures
-
+- When running on mud brick slabs with traversal boots, when I jump I get the speed boost, but when I just run on it normally I don't get the speed boost
+- Villager Gift LT (Toolsmith give stone tools, laaame)
+- OAK LEAF and dark oak fortune and apple drop LT not updated
 
 
 # Rebalancing Alloys
@@ -124,9 +137,12 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 
 ### Adamant
 - Opposite of Electrum thematically
-    - Red flames, that grant weakness/slowness to ALL mobs but doesn't damage them (inverted cross)
-    - Smelting Instrinc on Tools
-    - Fire Aspect on swords? That seems underwhelming. Surely theres something cooler here?
+    - Inverted Cross, grants red flames
+    - Weapons grant weakness and slowness, an arura, on a timer, checks to see if any mobs have a weakness effect, if they do, it burns them, dealing lots of damage, and clears the effect
+    - The more Satanic Cross the more damage is done, but it does not increase tht timer speed.
+    - On set bonus, a long timer (Maybe 45sec or something) runs, and grants weakness to all mobs in range, which can be cleared for damage
+    - Inverted cross' number reflects the amount of damage done per clear
+    - THis will take some balancing...Idk how much per clear would be a good amount
 
 
 ### Electrum
@@ -173,11 +189,14 @@ So if more intrinisc books are added, they can have exlusions, like smelting for
 - Replace some abbey boon rooms with shard instead of crystal hearts (Or spawners)
 - Abbey Overhaul Build needs to be done before we can move forward with this.
 
+### Advancements
+- Restore their memory, of what they used to be (Echoes: Restore an Echo Shard's memory)
+- Child of Moros: Smith Full Adamant Set 
+- Harbinger of Fate: Smith Adamant Elytra 
 
 # Small Additions
 - Lilypad cloning
 - Increase rein amount in pale graden fishing
-- ADV: Restore their memory, of what they used to be (Echoes: Restore an Echo Shard's memory)
 - Potatoes and Molasses
 - French Fries
 - Jelly/Jam Bread (Or PBJ without the PB)

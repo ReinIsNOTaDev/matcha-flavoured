@@ -14,13 +14,25 @@
 			"minecraft:max_damage": 350,
 			"minecraft:lore": [
 				{
-					"text": "🛡 5",
+					"translate": "desc.kleispack.armour",
+					"with": [{"text": "5"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE033 1",
+					"translate": "desc.kleispack.fall_height_attribute",
+					"with": [{"text": "2"}],
 					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.repaired_with",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "item.minecraft.rabbit_hide",
+					"color": "dark_gray",
 					"italic": false
 				}
 			],
@@ -34,7 +46,7 @@
 				{
 					"type": "minecraft:safe_fall_distance",
 					"id": "leather_chestplate",
-					"amount": 1,
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "chest"
 				},
@@ -49,14 +61,17 @@
 			"minecraft:enchantments": {
 				"minecraft:projectile_protection": 4
 			},
-			"minecraft:item_model": "minecraft:sturdy_leather_chestplate",
+			"minecraft:item_model": "matcha:sturdy_leather_chestplate",
 			"minecraft:equippable": {
 				"slot": "chest",
-				"asset_id": "minecraft:sturdy_leather"
+				"asset_id": "matcha:sturdy_leather"
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.sturdy_leather_chestplate",
 				"color": "white"
+			},
+			"minecraft:repairable": {
+				"items": "minecraft:rabbit_hide"
 			}
 		},
 		"count": 1,

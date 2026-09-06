@@ -21,22 +21,26 @@
                 "has_intrinsic_enchants": 1
 			},
 			"minecraft:stored_enchantments": {
+				"matcha:adamant_tool": 1,
 				"minecraft:efficiency": 2,
 				"minecraft:unbreaking": 2
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 15",
+					"translate": "desc.kleispack.mining_speed",
+					"with": [{"text": "15"}],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 6.5",
+					"translate": "desc.kleispack.attack_damage",
+					"with": [{"text": "6.5"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"translate": "desc.kleispack.cooldown",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				},

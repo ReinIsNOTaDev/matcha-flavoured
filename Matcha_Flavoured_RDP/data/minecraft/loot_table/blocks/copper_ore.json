@@ -37,7 +37,7 @@
 										"predicates": {
 											"minecraft:enchantments": [
 												{
-													"enchantments": "matcha:smelting"
+													"enchantments": "matcha:adamant_tool"
 												}
 											]
 										}
@@ -62,7 +62,7 @@
 								{
 									"function": "minecraft:apply_bonus",
 									"enchantment": "matcha:electrum_tool",
-									"formula": "minecraft:uniform_bonus_count"
+									"formula": "minecraft:ore_drops"
 								}
 							],
 							"name": "minecraft:copper_ingot"
@@ -87,7 +87,7 @@
 								{
 									"function": "minecraft:apply_bonus",
 									"enchantment": "matcha:electrum_tool",
-									"formula": "minecraft:uniform_bonus_count"
+									"formula": "minecraft:ore_drops"
 								}
               ],
               "name": "minecraft:raw_copper"

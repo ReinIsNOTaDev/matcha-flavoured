@@ -37,7 +37,7 @@
 										"predicates": {
 											"minecraft:enchantments": [
 												{
-													"enchantments": "matcha:smelting"
+													"enchantments": "matcha:adamant_tool"
 												}
 											]
 										}
@@ -55,7 +55,9 @@
 									"formula": "minecraft:uniform_bonus_count"
 								},
 								{
-									"function": "minecraft:explosion_decay"
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops",
+									"function": "minecraft:apply_bonus"
 								}
 							],
 							"name": "minecraft:iron_ingot"
@@ -75,7 +77,7 @@
 								{
 									"function": "minecraft:apply_bonus",
 									"enchantment": "matcha:electrum_tool",
-									"formula": "minecraft:uniform_bonus_count"
+									"formula": "minecraft:ore_drops"
 								}
 							],
 							"name": "minecraft:raw_iron"

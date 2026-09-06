@@ -51,6 +51,10 @@ scoreboard players set 0 electrum_armour 0
 scoreboard objectives add warding_equipment dummy
 scoreboard players set 0 warding_equipment 0
 
+# Adamant Armour
+scoreboard objectives add adamant_armour dummy
+scoreboard players set 0 adamant_armour 0
+
 # Shakudo TO BE CHANGED
 scoreboard objectives add shakudo_regen dummy
 scoreboard players set 0 shakudo_regen 0

@@ -6,7 +6,10 @@ data modify storage minecraft:intrinsic_enchants slot set from storage minecraft
 data modify storage minecraft:intrinsic_enchants enchantments set value {}
 data modify storage minecraft:intrinsic_enchants enchantments merge from storage minecraft:intrinsic_enchants item.components.minecraft:enchantments
 
+function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:adamant_armour"}
+function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:adamant_tool"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:anemos"}
+function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:adamant_weapon"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:bloodrage"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:cleanse_armor_chest"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:cleanse_armor_feet"}

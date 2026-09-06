@@ -9,7 +9,7 @@
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "#main:obsidian_based",
+						"blocks": "#matcha:obsidian_based",
 						"speed": 55,
 						"correct_for_drops": true
 					},
@@ -32,21 +32,25 @@
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2,
+				"matcha:adamant_tool": 1,
 				"minecraft:efficiency": 1
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 13",
+					"translate": "desc.kleispack.mining_speed",
+					"with": [{"text": "13"}],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 10",
+					"translate": "desc.kleispack.attack_damage",
+					"with": [{"text": "7"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"translate": "desc.kleispack.cooldown",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -81,12 +85,12 @@
 				"translate": "item.kleispack.adamant_dolabra",
 				"color": "gold"
 			},
-			"minecraft:item_model": "minecraft:adamant_dolabra",
+			"minecraft:item_model": "matcha:adamant_dolabra",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",
 					"id": "attack_damage",
-					"amount": 9,
+					"amount": 6,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},

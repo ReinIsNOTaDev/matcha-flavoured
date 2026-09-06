@@ -12,12 +12,14 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "🗡 4",
+					"translate": "desc.kleispack.attack_damage",
+					"with": [{"text": "4"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.95",
+					"translate": "desc.kleispack.cooldown",
+					"with": [{"text": "0.95"}],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -54,7 +56,8 @@
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:sharpness": 1,
-				"minecraft:unbreaking": 2
+				"minecraft:unbreaking": 2,
+				"matcha:adamant_weapon": 1
 			}
 		}
 	}

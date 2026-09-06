@@ -10,22 +10,25 @@
 				"translate": "item.kleispack.adamant_claymore",
 				"color": "gold"
 			},
-			"minecraft:item_model": "minecraft:adamant_claymore",
+			"minecraft:item_model": "matcha:adamant_claymore",
 			"minecraft:custom_data": {
                 "has_intrinsic_enchants": 1
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2,
+				"matcha:adamant_weapon": 1,
 				"minecraft:sharpness": 1
 			},
 			"minecraft:lore": [
 				{
-					"text": "🗡 9",
+					"translate": "desc.kleispack.attack_damage",
+					"with": [{"text": "9"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.0",
+					"translate": "desc.kleispack.cooldown",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -36,17 +39,13 @@
 				},
 				{
 					"translate": "desc.kleispack.melee_blocking",
-					"with": [
-						"80"
-					],
+					"with": ["80"],
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.projectile_blocking",
-					"with": [
-						"70"
-					],
+					"with": ["70"],
 					"color": "dark_gray",
 					"italic": false
 				},

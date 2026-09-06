@@ -1,15 +1,9 @@
 {
-	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor_and_weapon",
-	"primary_items": [
-		"minecraft:netherite_helmet",
-		"minecraft:netherite_chestplate",
-		"minecraft:netherite_leggings",
-		"minecraft:netherite_boots"
-	],
+	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor",
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.divinity",
-		"color": "gray"
+		"translate": "enchantment.kleispack.adamant_armour",
+		"color": "yellow"
 	},
 	"effects": {
 		"minecraft:tick": [
@@ -23,7 +17,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/divinity"
+					"function": "matcha:enchantment_effects/adamant_armour"
 				}
 			}
 		]
@@ -40,11 +34,6 @@
 	"slots": [
 		"armor"
 	],
-	"supported_items": [
-		"minecraft:netherite_helmet",
-		"minecraft:netherite_chestplate",
-		"minecraft:netherite_leggings",
-		"minecraft:netherite_boots"
-	],
+	"supported_items": "#minecraft:enchantable/armor",
 	"weight": 1
 }

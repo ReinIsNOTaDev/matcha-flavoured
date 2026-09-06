@@ -52,7 +52,7 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
-			"minecraft:item_model": "minecraft:steel_hoe",
+			"minecraft:item_model": "matcha:steel_hoe",
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:iron_ingot"

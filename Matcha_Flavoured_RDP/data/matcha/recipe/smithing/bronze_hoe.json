@@ -53,7 +53,7 @@
 				"translate": "item.kleispack.bronze_hoe",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "minecraft:bronze_hoe",
+			"minecraft:item_model": "matcha:bronze_hoe",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:movement_speed",

@@ -21,7 +21,7 @@
 				"translate": "item.kleispack.shakudo_hoe",
 				"color": "#c96691"
 			},
-			"minecraft:item_model": "minecraft:shakudo_hoe",
+			"minecraft:item_model": "matcha:shakudo_hoe",
 			"minecraft:custom_data": {
                 "has_intrinsic_enchants": 1
 			},

@@ -26,7 +26,7 @@
 				"translate": "item.kleispack.bronze_mattock",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "minecraft:bronze_mattock",
+			"minecraft:item_model": "matcha:bronze_mattock",
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"

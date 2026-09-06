@@ -21,7 +21,7 @@
 				"translate": "item.kleispack.bronze_axe",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "minecraft:bronze_axe",
+			"minecraft:item_model": "matcha:bronze_axe",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",

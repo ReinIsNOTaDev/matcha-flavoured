@@ -58,7 +58,7 @@
 				"translate": "item.kleispack.bronze_pickaxe",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "minecraft:bronze_pickaxe",
+			"minecraft:item_model": "matcha:bronze_pickaxe",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",

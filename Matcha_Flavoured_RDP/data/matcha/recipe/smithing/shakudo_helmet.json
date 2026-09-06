@@ -60,7 +60,7 @@
 				"main:shakudo_regen" : 1
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "minecraft:shakudo_helmet",
+			"minecraft:item_model": "matcha:shakudo_helmet",
 			"minecraft:equippable": {
 				"slot": "head",
 				"asset_id": "minecraft:shakudo"

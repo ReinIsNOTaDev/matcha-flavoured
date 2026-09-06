@@ -26,7 +26,7 @@
 				"translate": "item.kleispack.bronze_dolabra",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "minecraft:bronze_dolabra",
+			"minecraft:item_model": "matcha:bronze_dolabra",
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"

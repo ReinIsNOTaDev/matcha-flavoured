@@ -65,7 +65,7 @@
 				"main:shakudo_regen" : 1
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "minecraft:shakudo_elytra",
+			"minecraft:item_model": "matcha:shakudo_elytra",
 			"minecraft:equippable": {
 				"slot": "chest",
 				"asset_id": "minecraft:shakudo_elytra"

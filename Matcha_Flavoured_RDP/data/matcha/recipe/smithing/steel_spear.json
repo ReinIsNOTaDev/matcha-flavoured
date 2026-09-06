@@ -9,7 +9,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.steel_spear"
 			},
-			"minecraft:item_model": "minecraft:steel_spear",
+			"minecraft:item_model": "matcha:steel_spear",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",

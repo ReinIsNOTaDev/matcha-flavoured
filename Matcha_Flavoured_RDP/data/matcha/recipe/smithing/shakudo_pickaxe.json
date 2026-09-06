@@ -26,7 +26,7 @@
 				"translate": "item.kleispack.shakudo_pickaxe",
 				"color": "#c96691"
 			},
-			"minecraft:item_model": "minecraft:shakudo_pickaxe",
+			"minecraft:item_model": "matcha:shakudo_pickaxe",
 			"minecraft:custom_data": {
                 "has_intrinsic_enchants": 1
 			},

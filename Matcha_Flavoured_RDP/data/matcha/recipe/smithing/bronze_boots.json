@@ -54,7 +54,7 @@
 				]
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "minecraft:bronze_boots",
+			"minecraft:item_model": "matcha:bronze_boots",
 			"minecraft:equippable": {
 				"slot": "feet",
 				"asset_id": "minecraft:bronze"

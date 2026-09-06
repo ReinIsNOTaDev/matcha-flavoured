@@ -59,7 +59,7 @@
 				]
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "minecraft:bronze_elytra",
+			"minecraft:item_model": "matcha:bronze_elytra",
 			"minecraft:equippable": {
 				"slot": "chest",
 				"asset_id": "minecraft:bronze_elytra"

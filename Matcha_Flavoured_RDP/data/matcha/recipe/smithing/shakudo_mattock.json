@@ -53,7 +53,7 @@
 				"translate": "item.kleispack.shakudo_mattock",
 				"color": "#c96691"
 			},
-			"minecraft:item_model": "minecraft:shakudo_mattock",
+			"minecraft:item_model": "matcha:shakudo_mattock",
 			"minecraft:custom_data": {
                 "has_intrinsic_enchants": 1
 			},

@@ -25,7 +25,7 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
-			"minecraft:item_model": "minecraft:steel_dolabra",
+			"minecraft:item_model": "matcha:steel_dolabra",
 			"minecraft:lore": [
 				{
 					"text": "⛏ 7",

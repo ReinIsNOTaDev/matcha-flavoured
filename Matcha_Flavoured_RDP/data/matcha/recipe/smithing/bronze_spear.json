@@ -10,7 +10,7 @@
 				"translate": "item.kleispack.bronze_spear",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "minecraft:bronze_spear",
+			"minecraft:item_model": "matcha:bronze_spear",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:movement_speed",

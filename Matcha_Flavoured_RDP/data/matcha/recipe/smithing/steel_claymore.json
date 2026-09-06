@@ -9,7 +9,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.steel_claymore"
 			},
-			"minecraft:item_model": "minecraft:steel_claymore",
+			"minecraft:item_model": "matcha:steel_claymore",
 			"minecraft:lore": [
 				{
 					"text": "💥 2",

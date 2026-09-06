@@ -1,0 +1,80 @@
+{
+	"condition": "minecraft:any",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+                    "mainhand": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "matcha:divinity"
+                            }
+                        ]
+                    }
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+                    "head": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "matcha:divinity"
+                            }
+                        ]
+                    }
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+                    "chest": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "matcha:divinity"
+                            }
+                        ]
+                    }
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+                    "legs": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "matcha:divinity"
+                            }
+                        ]
+                    }
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+                    "feet": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "matcha:divinity"
+                            }
+                        ]
+                    }
+				}
+			}
+		}
+	]
+}

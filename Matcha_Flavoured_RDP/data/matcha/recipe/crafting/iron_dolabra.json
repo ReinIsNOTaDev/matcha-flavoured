@@ -32,7 +32,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:max_damage": 500,
-			"minecraft:item_model": "minecraft:iron_dolabra",
+			"minecraft:item_model": "matcha:iron_dolabra",
 			"minecraft:lore": [
 				{
 					"text": "⛏ 6",

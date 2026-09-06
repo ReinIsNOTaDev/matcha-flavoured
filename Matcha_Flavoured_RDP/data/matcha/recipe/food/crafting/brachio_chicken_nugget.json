@@ -43,7 +43,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:brachio_chicken_nugget",
+			"minecraft:item_model": "matcha:brachio_chicken_nugget",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.brachio_chicken_nugget"
 			},

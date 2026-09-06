@@ -48,7 +48,7 @@
 				"translate": "item.kleispack.bubbling_mead",
 				"italic": false
 			},
-			"minecraft:item_model": "minecraft:bubbling_mead"
+			"minecraft:item_model": "matcha:bubbling_mead"
 		},
 		"count": 1
 	}

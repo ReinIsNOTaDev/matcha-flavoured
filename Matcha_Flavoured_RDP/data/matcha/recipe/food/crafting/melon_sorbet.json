@@ -10,7 +10,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:melon_sorbet",
+			"minecraft:item_model": "matcha:melon_sorbet",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.melon_sorbet"
 			},

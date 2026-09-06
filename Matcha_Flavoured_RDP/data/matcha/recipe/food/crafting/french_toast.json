@@ -10,7 +10,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:french_toast",
+			"minecraft:item_model": "matcha:french_toast",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.french_toast"
 			},

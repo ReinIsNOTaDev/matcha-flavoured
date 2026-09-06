@@ -9,7 +9,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:canned_golden_apples",
+			"minecraft:item_model": "matcha:canned_golden_apples",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.canned_golden_apples",
 				"color": "yellow"

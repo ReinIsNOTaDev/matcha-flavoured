@@ -9,7 +9,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:pickled_carrots",
+			"minecraft:item_model": "matcha:pickled_carrots",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pickled_carrots"
 			},

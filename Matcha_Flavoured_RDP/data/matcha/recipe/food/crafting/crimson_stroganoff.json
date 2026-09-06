@@ -11,7 +11,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:crimson_stroganoff",
+			"minecraft:item_model": "matcha:crimson_stroganoff",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.crimson_stroganoff",
 				"color": "#c54457"

@@ -15,7 +15,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:kontomire_stew",
+			"minecraft:item_model": "matcha:kontomire_stew",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.kontomire_stew"
 			},

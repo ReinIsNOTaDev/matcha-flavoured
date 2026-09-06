@@ -48,7 +48,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:chocolate_chip_cookie",
+			"minecraft:item_model": "matcha:chocolate_chip_cookie",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.chocolate_chip_cookie"
 			},

@@ -11,7 +11,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:honied_french_toast",
+			"minecraft:item_model": "matcha:honied_french_toast",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.honied_french_toast"
 			},

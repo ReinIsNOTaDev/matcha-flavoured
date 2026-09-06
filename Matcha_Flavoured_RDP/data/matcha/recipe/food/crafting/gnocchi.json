@@ -11,7 +11,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:gnocchi",
+			"minecraft:item_model": "matcha:gnocchi",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.gnocchi",
 				"color": "#e1bc62"

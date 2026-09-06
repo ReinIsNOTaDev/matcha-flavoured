@@ -10,7 +10,7 @@
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:golden_apple_empanada",
+			"minecraft:item_model": "matcha:golden_apple_empanada",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.golden_empanada",
 				"color": "yellow"

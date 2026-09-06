@@ -47,7 +47,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:braised_warped_fungus",
+			"minecraft:item_model": "matcha:braised_warped_fungus",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.braised_warped_fungus",
 				"color": "#3cc6c8"

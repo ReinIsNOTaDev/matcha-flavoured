@@ -37,7 +37,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:charred_meat",
+			"minecraft:item_model": "matcha:charred_meat",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.charred_meat"
 			},

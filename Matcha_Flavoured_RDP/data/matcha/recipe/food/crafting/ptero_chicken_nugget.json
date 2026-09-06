@@ -43,7 +43,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:ptero_chicken_nugget",
+			"minecraft:item_model": "matcha:ptero_chicken_nugget",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.ptero_chicken_nugget"
 			},

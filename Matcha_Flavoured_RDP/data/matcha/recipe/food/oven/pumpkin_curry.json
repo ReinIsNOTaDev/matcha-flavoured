@@ -49,7 +49,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:pumpkin_curry",
+			"minecraft:item_model": "matcha:pumpkin_curry",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pumpkin_curry"
 			},

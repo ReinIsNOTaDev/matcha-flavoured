@@ -46,7 +46,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:green_curry",
+			"minecraft:item_model": "matcha:green_curry",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.green_curry"
 			},

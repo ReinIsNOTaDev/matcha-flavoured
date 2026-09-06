@@ -46,7 +46,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:braised_red_mushroom",
+			"minecraft:item_model": "matcha:braised_red_mushroom",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.braised_red_mushroom"
 			},

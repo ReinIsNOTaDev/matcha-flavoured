@@ -48,7 +48,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:golden_steamed_carrots",
+			"minecraft:item_model": "matcha:golden_steamed_carrots",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.golden_steamed_carrots",
 				"color": "yellow"

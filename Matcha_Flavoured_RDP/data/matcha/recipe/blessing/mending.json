@@ -28,7 +28,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_lu_ban"
+			"minecraft:item_model": "matcha:blessing_lu_ban"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

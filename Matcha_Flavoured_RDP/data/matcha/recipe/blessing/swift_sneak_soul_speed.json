@@ -28,7 +28,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_cronus"
+			"minecraft:item_model": "matcha:blessing_cronus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

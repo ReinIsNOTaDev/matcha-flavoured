@@ -27,7 +27,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_hyacinthus"
+			"minecraft:item_model": "matcha:blessing_hyacinthus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

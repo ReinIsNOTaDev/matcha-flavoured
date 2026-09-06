@@ -27,7 +27,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_aeolus"
+			"minecraft:item_model": "matcha:blessing_aeolus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

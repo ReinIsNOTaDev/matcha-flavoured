@@ -28,7 +28,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_god_king"
+			"minecraft:item_model": "matcha:blessing_god_king"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

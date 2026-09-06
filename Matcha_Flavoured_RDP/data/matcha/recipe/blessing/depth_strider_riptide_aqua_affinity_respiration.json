@@ -28,7 +28,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_yamm"
+			"minecraft:item_model": "matcha:blessing_yamm"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

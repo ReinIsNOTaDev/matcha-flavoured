@@ -27,7 +27,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_clement"
+			"minecraft:item_model": "matcha:blessing_clement"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

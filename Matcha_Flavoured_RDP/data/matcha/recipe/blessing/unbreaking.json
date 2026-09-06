@@ -27,7 +27,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_prometheus"
+			"minecraft:item_model": "matcha:blessing_prometheus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

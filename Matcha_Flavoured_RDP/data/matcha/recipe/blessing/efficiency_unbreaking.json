@@ -30,7 +30,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:blessing_daedalus"
+			"minecraft:item_model": "matcha:blessing_daedalus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

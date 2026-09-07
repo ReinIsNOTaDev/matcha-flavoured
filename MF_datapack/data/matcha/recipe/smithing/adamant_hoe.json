@@ -25,6 +25,7 @@
 				"minecraft:unbreaking": 2,
 				"minecraft:efficiency": 2
 			},
+			"minecraft:enchantment_glint_override": "true",
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",

@@ -11,11 +11,11 @@ $data modify storage minecraft:intrinsic_enchants $(queue).slot set from storage
 #set the intrinsic to the item's stored_enchantments
 $data modify storage minecraft:intrinsic_enchants $(queue).intrinsic set from storage minecraft:intrinsic_enchants $(queue).item.components.minecraft:stored_enchantments
 
-#set the enchantments to the item's enchantments
-$data modify storage minecraft:intrinsic_enchants $(queue).enchantments set from storage minecraft:intrinsic_enchants $(queue).item.components.minecraft:enchantments
-
 #apply intrinsic
 $function matcha:mechanic/intrinsic_enchants/apply_intrinsic_enchants with storage minecraft:intrinsic_enchants $(queue)
+
+#set arbitrary "done" data to mark that we're done here
+$data modify storage minecraft:intrinsic_enchants $(queue).done set value 1
 
 #run queue reducer if we're the last processing in the queue to run
 $execute if score queue intrinsic_enchants matches $(queue) run function matcha:mechanic/intrinsic_enchants/reduce_queue with storage minecraft:intrinsic_enchants

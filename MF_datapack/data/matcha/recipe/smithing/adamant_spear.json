@@ -10,6 +10,7 @@
 				"translate": "item.minecraft.netherite_spear",
 				"color": "gold"
 			},
+			"minecraft:enchantment_glint_override": "true",
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",

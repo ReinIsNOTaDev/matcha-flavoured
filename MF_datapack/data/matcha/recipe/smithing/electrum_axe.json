@@ -17,6 +17,7 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
+			"minecraft:enchantment_glint_override": "true",
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",

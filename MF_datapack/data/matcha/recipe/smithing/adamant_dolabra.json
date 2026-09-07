@@ -35,6 +35,7 @@
 				"matcha:adamant_tool": 1,
 				"minecraft:efficiency": 1
 			},
+			"minecraft:enchantment_glint_override": "true",
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",

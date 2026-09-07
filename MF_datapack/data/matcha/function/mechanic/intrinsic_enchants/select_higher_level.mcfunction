@@ -1,0 +1,4 @@
+$execute store result score current intrinsic_enchants_levels run data get storage minecraft:intrinsic_enchants enchantments.$(enchantment_id)
+$execute store result score intrinsic intrinsic_enchants_levels run data get storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.$(enchantment_id)
+
+$execute if score current intrinsic_enchants_levels < intrinsic intrinsic_enchants_levels run data modify storage minecraft:intrinsic_enchants enchantments.$(enchantment_id) set from storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.$(enchantment_id)

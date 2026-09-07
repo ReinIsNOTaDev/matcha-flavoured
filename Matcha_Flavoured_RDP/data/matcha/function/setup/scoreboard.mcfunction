@@ -129,4 +129,4 @@ scoreboard players set hard difficulty_score 3
 execute store result score current_world_settings_difficulty difficulty_score run difficulty
 
 #Used in main/function/mechanic/intrinsic_enchants/
-scoreboard objectives add intrinsic_enchants_levels dummy
+scoreboard objectives add intrinsic_enchants dummy

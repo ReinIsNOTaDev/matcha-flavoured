@@ -22,6 +22,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/intrinsic_enchants/process_intrinsic_enchants"
+		"function": "matcha:mechanic/intrinsic_enchants/process_obtaining_intrinsic"
 	}
 }

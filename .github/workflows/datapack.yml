@@ -2,7 +2,7 @@ name: Create Matcha Zip Files
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "graphical-actions-pr" ]
   pull_request:
     branches: [ "main" ]
   

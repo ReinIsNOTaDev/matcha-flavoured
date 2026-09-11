@@ -27,7 +27,7 @@ jobs:
         
       - name: Setup Minecraft
         id: minecraft
-        uses: intsuc/setup-minecraft@v3.3.2
+        uses: intsuc/setup-minecraft@main
         with:
           version: "26.2"
           

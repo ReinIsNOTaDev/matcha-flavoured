@@ -44,7 +44,7 @@ jobs:
           initial-enabled-packs=vanilla,file/MF_datapack.zip
           EOF
           echo "eula=true" > eula.txt
-          cp ../MF_datapack.zip ./world/datapack
+          cp ./MF_datapack.zip ./world/datapack
           nohup java -jar $MINECRAFT nogui&> server.log &
           sleep 1
           timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"|\[main/ERROR\]' <(tail -f server.log) || exit 1

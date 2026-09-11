@@ -46,8 +46,8 @@ jobs:
           echo "eula=true" > eula.txt
           mkdir world
           cd world
-          mkdir datapack
-          cd datapack
+          mkdir datapacks
+          cd datapacks
           cp ../../MF_datapack.zip ./
           cd ../../
           nohup java -jar $MINECRAFT nogui&> server.log &

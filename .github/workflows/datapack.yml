@@ -1,4 +1,4 @@
-name: Create Matcha Zip Files
+name: Test Datapack and Upload Zip Files
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
           java-version: ${{ fromJson(steps.minecraft.outputs.package).javaVersion.majorVersion }}
   
       - name: Run Server
-        working-directory: ./server
+        working-directory: server
         timeout-minutes: 6
         run: |
           echo Running Minecraft ${{ steps.minecraft.outputs.version }}.

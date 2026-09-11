@@ -2,7 +2,9 @@ name: Create Matcha Zip Files
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
   
   workflow_dispatch:
 

@@ -48,8 +48,8 @@ jobs:
           cd world
           mkdir datapack
           cd datapack
-          cp .../MF_datapack.zip ./
-          cd .../
+          cp ../../MF_datapack.zip ./
+          cd ../../
           nohup java -jar $MINECRAFT nogui&> server.log &
           sleep 1
           timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"|\[main/ERROR\]' <(tail -f server.log) || exit 1

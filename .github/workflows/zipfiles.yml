@@ -24,15 +24,13 @@ jobs:
           zip -r ../MF_datapack.zip .
 
       - name: Upload MF_resourcepack artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
-          name: MF_resourcepack
           path: MF_resourcepack.zip
           archive: false
 
       - name: Upload MF_datapack artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
-          name: MF_datapack
           path: MF_datapack.zip
           archive: false

@@ -28,9 +28,11 @@ jobs:
         with:
           name: MF_resourcepack
           path: MF_resourcepack.zip
+          archive: false
 
       - name: Upload MF_datapack artifact
         uses: actions/upload-artifact@v4
         with:
           name: MF_datapack
           path: MF_datapack.zip
+          archive: false

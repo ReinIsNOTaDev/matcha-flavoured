@@ -48,6 +48,10 @@ jobs:
           sleep 1
           timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"' <(tail -f server.log) || exit 1
 
+  handling:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
       - name: Filter by errors
         run: grep -E '\[.*\/ERROR\]' server.log
 

@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  setup:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -30,10 +30,6 @@ jobs:
           distribution: "microsoft"
           java-version: ${{ fromJson(steps.minecraft.outputs.package).javaVersion.majorVersion }}
 
-  test:
-    runs-on: ubuntu-latest
-    needs: setup
-    steps:
       - name: Run Server
         timeout-minutes: 6
         run: |
@@ -52,10 +48,6 @@ jobs:
           sleep 1
           timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"' <(tail -f server.log) || exit 1
 
-  upload:
-    runs-on: ubuntu-latest
-    needs: [test, setup]
-    steps:
       - name: Filter by errors
         run: grep -E '[*/ERROR]' server.log
 

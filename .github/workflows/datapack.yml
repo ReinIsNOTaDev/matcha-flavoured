@@ -48,13 +48,12 @@ jobs:
           sleep 1
           timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"' <(tail -f server.log) || exit 1
 
-  handling:
-    needs: test
-    steps:
       - name: Filter by errors
+        if: ${{ !cancelled() }}
         run: grep -E '\[.*\/ERROR\]' server.log
 
       - name: Upload server logs
+        if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v7
         with:
           path: server.log

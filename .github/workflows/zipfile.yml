@@ -1,4 +1,4 @@
-name: Create Matcha Zip Files
+name: Zip Matcha
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  zip-and-upload:
+  zip:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,6 +22,10 @@ jobs:
           cd MF_datapack
           zip -r ../MF_datapack.zip .
 
+  upload:
+    runs-on: ubuntu-latest
+    needs: zip
+    steps:
       - name: Upload MF_resourcepack artifact
         uses: actions/upload-artifact@v7
         with:

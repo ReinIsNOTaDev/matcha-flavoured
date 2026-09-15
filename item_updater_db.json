@@ -98,6 +98,7 @@
 					"translate": "item.minecraft.glistering_melon_slice",
 					"color": "yellow"
 				},
+				"Baked Golden Apple",
 				"Baked Golden Apple"
 			],
 			"id": "minecraft:glistering_melon_slice",
@@ -341,6 +342,7 @@
 					"translate": "item.kleispack.braised_crimson_fungus",
 					"color": "#c54457"
 				},
+				"Braised Crimson Fungus",
 				"Braised Crimson Fungus"
 			],
 			"id": "",
@@ -413,6 +415,7 @@
 				{
 					"translate": "item.kleispack.braised_red_mushroom"
 				},
+				"Braised Toadstool",
 				"Braised Toadstool"
 			],
 			"id": "",
@@ -484,6 +487,7 @@
 					"translate": "item.kleispack.braised_warped_fungus",
 					"color": "#3cc6c8"
 				},
+				"Braised Warped Fungus",
 				"Braised Warped Fungus"
 			],
 			"id": "",
@@ -923,6 +927,7 @@
 				{
 					"translate": "item.kleispack.fish.cooked_pufferfish"
 				},
+				"Cooked Pufferfish",
 				"Cooked Pufferfish"
 			],
 			"id": "",
@@ -1134,6 +1139,7 @@
 				{
 					"translate": "item.kleispack.fried_egg"
 				},
+				"Fried Egg",
 				"Fried Egg"
 			],
 			"id": "",
@@ -1247,6 +1253,7 @@
 					"translate": "item.kleispack.golden_steamed_carrots",
 					"color": "yellow"
 				},
+				"Steamed Golden Carrots",
 				"Steamed Golden Carrots"
 			],
 			"id": "",
@@ -1320,6 +1327,7 @@
 				{
 					"translate": "item.kleispack.green_curry"
 				},
+				"Green Curry",
 				"Green Curry"
 			],
 			"id": "",
@@ -1394,6 +1402,7 @@
 				{
 					"translate": "item.kleispack.grilled_melon"
 				},
+				"Grilled Melon",
 				"Grilled Melon"
 			],
 			"id": "",
@@ -1464,6 +1473,7 @@
 				{
 					"translate": "item.kleispack.grilled_tomatoes"
 				},
+				"Grilled Tomatoes",
 				"Grilled Tomatoes"
 			],
 			"id": "",
@@ -1535,6 +1545,7 @@
 				{
 					"translate": "item.kleispack.honey_ginger_tea"
 				},
+				"Honey Ginger Tea",
 				"Honey Ginger Tea"
 			],
 			"id": "",
@@ -1630,6 +1641,7 @@
 				{
 					"translate": "item.kleispack.japanese_curry"
 				},
+				"Japanese Curry",
 				"Japanese Curry"
 			],
 			"id": "",
@@ -1723,6 +1735,7 @@
 				{
 					"translate": "item.kleispack.nopales"
 				},
+				"Nopales",
 				"Nopales"
 			],
 			"id": "minecraft:green_dye",
@@ -1780,6 +1793,7 @@
 				{
 					"translate": "item.kleispack.paneer_makhani"
 				},
+				"Paneer Makhani",
 				"Paneer Makhani"
 			],
 			"id": "",
@@ -1856,6 +1870,7 @@
 				{
 					"translate": "item.kleispack.ramen"
 				},
+				"Tonkotsu Ramen",
 				"Tonkotsu Ramen"
 			],
 			"id": "",
@@ -1933,6 +1948,7 @@
 				{
 					"translate": "item.kleispack.steamed_carrots"
 				},
+				"Steamed Carrots",
 				"Steamed Carrots"
 			],
 			"id": "",
@@ -2088,6 +2104,7 @@
 				{
 					"translate": "item.kleispack.apple_empanada"
 				},
+				"Apple Empanada",
 				"Apple Empanada"
 			],
 			"id": "",
@@ -2157,6 +2174,7 @@
 				{
 					"translate": "item.kleispack.bokguk"
 				},
+				"Bokguk",
 				"Bokguk"
 			],
 			"id": "",
@@ -2230,6 +2248,7 @@
 				{
 					"translate": "item.kleispack.brachio_chicken_nugget"
 				},
+				"Brachio Chicken Nugget",
 				"Brachio Chicken Nugget"
 			],
 			"id": "",
@@ -2285,6 +2304,7 @@
 				{
 					"translate": "item.kleispack.brownie"
 				},
+				"Brownie",
 				"Brownie"
 			],
 			"id": "",
@@ -2355,6 +2375,7 @@
 				{
 					"translate": "item.kleispack.bruschetta"
 				},
+				"Bruschetta",
 				"Bruschetta"
 			],
 			"id": "",
@@ -2475,6 +2496,7 @@
 				{
 					"translate": "item.kleispack.bunuelo"
 				},
+				"Bu\u00f1uelo",
 				"Bu\u00f1uelo"
 			],
 			"id": "",
@@ -2573,6 +2595,7 @@
 				{
 					"translate": "item.kleispack.canned_apples"
 				},
+				"Canned Apples",
 				"Canned Apples"
 			],
 			"id": "",
@@ -2646,6 +2669,7 @@
 					"translate": "item.kleispack.canned_golden_apples",
 					"color": "yellow"
 				},
+				"Canned Golden Apples",
 				"Canned Golden Apples"
 			],
 			"id": "",
@@ -2732,6 +2756,7 @@
 				{
 					"translate": "item.kleispack.carrot_cupcake"
 				},
+				"Carrot Cupcake",
 				"Carrot Cupcake"
 			],
 			"id": "",
@@ -2845,6 +2870,7 @@
 				{
 					"translate": "item.kleispack.cheese_pizza"
 				},
+				"Cheese Pizza",
 				"Cheese Pizza"
 			],
 			"id": "",
@@ -2915,6 +2941,7 @@
 				{
 					"translate": "item.kleispack.chocolate_chip_cookie"
 				},
+				"Chocolate Chip Cookie",
 				"Chocolate Chip Cookie"
 			],
 			"id": "",
@@ -2986,6 +3013,7 @@
 					"translate": "item.kleispack.chorus_mochi",
 					"color": "#ae6cbc"
 				},
+				"Chorus Mochi",
 				"Chorus Mochi"
 			],
 			"id": "",
@@ -3058,6 +3086,7 @@
 					"translate": "item.kleispack.crimson_stroganoff",
 					"color": "#c54457"
 				},
+				"Crimson Stroganoff",
 				"Crimson Stroganoff"
 			],
 			"id": "",
@@ -3290,6 +3319,7 @@
 				{
 					"translate": "item.kleispack.fish_and_chips"
 				},
+				"Fish and Chips",
 				"Fish and Chips"
 			],
 			"id": "",
@@ -3397,6 +3427,7 @@
 				{
 					"translate": "item.kleispack.french_toast"
 				},
+				"French Toast",
 				"French Toast"
 			],
 			"id": "",
@@ -3452,6 +3483,7 @@
 				{
 					"translate": "item.kleispack.gimmari"
 				},
+				"Gimmari",
 				"Gimmari"
 			],
 			"id": "",
@@ -3522,6 +3554,7 @@
 				{
 					"translate": "item.kleispack.glow_berry_crumble"
 				},
+				"Glow Berry Crumble",
 				"Glow Berry Crumble"
 			],
 			"id": "",
@@ -3585,6 +3618,7 @@
 				{
 					"translate": "item.kleispack.glow_berry_jam"
 				},
+				"Glow Berry Jam",
 				"Glow Berry Jam"
 			],
 			"id": "",
@@ -3654,6 +3688,7 @@
 					"translate": "item.kleispack.gnocchi",
 					"color": "#e1bc62"
 				},
+				"Gnocchi",
 				"Gnocchi"
 			],
 			"id": "",
@@ -3787,6 +3822,7 @@
 					"translate": "item.kleispack.golden_empanada",
 					"color": "yellow"
 				},
+				"Gilded Empanada",
 				"Gilded Empanada"
 			],
 			"id": "",
@@ -3931,6 +3967,7 @@
 					"translate": "item.kleispack.golden_carrot_cupcake",
 					"color": "yellow"
 				},
+				"Golden Carrot Cupcake",
 				"Golden Carrot Cupcake"
 			],
 			"id": "",
@@ -4001,6 +4038,7 @@
 					"translate": "item.kleispack.golden_pickled_carrots",
 					"color": "yellow"
 				},
+				"Golden Pickled Carrots",
 				"Golden Pickled Carrots"
 			],
 			"id": "",
@@ -4074,6 +4112,7 @@
 				{
 					"translate": "item.kleispack.honied_french_toast"
 				},
+				"Honied French Toast",
 				"Honied French Toast"
 			],
 			"id": "",
@@ -4141,6 +4180,7 @@
 				{
 					"translate": "item.kleispack.ice_cream"
 				},
+				"Ice Cream",
 				"Ice Cream"
 			],
 			"id": "",
@@ -4221,6 +4261,7 @@
 				{
 					"translate": "item.kleispack.kontomire_stew"
 				},
+				"Kontomire-Dandelion Stew",
 				"Kontomire-Dandelion Stew"
 			],
 			"id": "",
@@ -4310,6 +4351,7 @@
 				{
 					"translate": "item.kleispack.latke"
 				},
+				"Latke",
 				"Latke"
 			],
 			"id": "",
@@ -4366,6 +4408,7 @@
 				{
 					"translate": "item.kleispack.lumpia"
 				},
+				"Lumpia",
 				"Lumpia"
 			],
 			"id": "",
@@ -4450,6 +4493,7 @@
 				{
 					"translate": "item.kleispack.mead"
 				},
+				"Mead",
 				"Mead"
 			],
 			"id": "",
@@ -4526,6 +4570,7 @@
 				{
 					"translate": "item.kleispack.meat_pizza"
 				},
+				"Meat Pizza",
 				"Meat Pizza"
 			],
 			"id": "",
@@ -4635,6 +4680,7 @@
 				{
 					"translate": "item.kleispack.melon_sorbet"
 				},
+				"Melon Sorbet",
 				"Melon Sorbet"
 			],
 			"id": "",
@@ -4754,6 +4800,7 @@
 				{
 					"translate": "item.kleispack.mushroom_pizza"
 				},
+				"Mushroom Pizza",
 				"Mushroom Pizza"
 			],
 			"id": "",
@@ -4824,6 +4871,7 @@
 				{
 					"translate": "item.kleispack.oatmeal"
 				},
+				"Apple Cinnamon Oatmeal",
 				"Apple Cinnamon Oatmeal"
 			],
 			"id": "",
@@ -4926,6 +4974,7 @@
 				{
 					"translate": "item.kleispack.pad_thai"
 				},
+				"Pad Thai",
 				"Pad Thai"
 			],
 			"id": "",
@@ -5000,6 +5049,7 @@
 				{
 					"translate": "item.kleispack.pickled_carrots"
 				},
+				"Pickled Carrots",
 				"Pickled Carrots"
 			],
 			"id": "",
@@ -5126,6 +5176,7 @@
 				{
 					"translate": "item.kleispack.pickled_mushrooms"
 				},
+				"Pickled Mushrooms",
 				"Pickled Mushrooms"
 			],
 			"id": "",
@@ -5184,6 +5235,7 @@
 				{
 					"translate": "item.kleispack.pickled_potatoes"
 				},
+				"Pickled Potatoes",
 				"Pickled Potatoes"
 			],
 			"id": "",
@@ -5295,6 +5347,7 @@
 				{
 					"translate": "item.kleispack.pickled_tomatoes"
 				},
+				"Sun-dried Tomatoes",
 				"Sun-dried Tomatoes"
 			],
 			"id": "",
@@ -5484,6 +5537,7 @@
 				{
 					"translate": "item.kleispack.ptero_chicken_nugget"
 				},
+				"Ptero Chicken Nugget",
 				"Ptero Chicken Nugget"
 			],
 			"id": "",
@@ -5539,6 +5593,7 @@
 				{
 					"translate": "item.kleispack.puerquito"
 				},
+				"Puerquito",
 				"Puerquito"
 			],
 			"id": "",
@@ -5608,6 +5663,7 @@
 				{
 					"translate": "item.kleispack.pumpkin_empanada"
 				},
+				"Pumpkin Empanada",
 				"Pumpkin Empanada"
 			],
 			"id": "",
@@ -5678,6 +5734,7 @@
 				{
 					"translate": "item.kleispack.pumpkin_jam"
 				},
+				"Pumpkin Jam",
 				"Pumpkin Jam"
 			],
 			"id": "",
@@ -5752,6 +5809,7 @@
 				{
 					"translate": "item.kleispack.pupusa"
 				},
+				"Pupusa",
 				"Pupusa"
 			],
 			"id": "",
@@ -5807,6 +5865,7 @@
 				{
 					"translate": "item.kleispack.red_mushroom_stroganoff"
 				},
+				"Toadstool Stroganoff",
 				"Toadstool Stroganoff"
 			],
 			"id": "",
@@ -5880,6 +5939,7 @@
 				{
 					"translate": "item.kleispack.rind_jam"
 				},
+				"Rind Jam",
 				"Rind Jam"
 			],
 			"id": "",
@@ -5969,6 +6029,7 @@
 				{
 					"translate": "item.kleispack.stego_chicken_nugget"
 				},
+				"Stego Chicken Nugget",
 				"Stego Chicken Nugget"
 			],
 			"id": "",
@@ -6024,6 +6085,7 @@
 				{
 					"translate": "item.kleispack.stroganoff"
 				},
+				"Stroganoff",
 				"Stroganoff"
 			],
 			"id": "",
@@ -6082,6 +6144,7 @@
 				{
 					"translate": "item.kleispack.sweet_berry_danish"
 				},
+				"Sweet Berry Danish",
 				"Sweet Berry Danish"
 			],
 			"id": "",
@@ -6149,6 +6212,7 @@
 				{
 					"translate": "item.kleispack.sweet_berry_jam"
 				},
+				"Sweet Berry Jam",
 				"Sweet Berry Jam"
 			],
 			"id": "",
@@ -6222,6 +6286,7 @@
 					"translate": "item.kleispack.sweet_berry_toast",
 					"color": "#e85e8f"
 				},
+				"Sweet Berry Toast",
 				"Sweet Berry Toast"
 			],
 			"id": "",
@@ -6290,6 +6355,7 @@
 				{
 					"translate": "item.kleispack.tricero_chicken_nugget"
 				},
+				"Tricero Chicken Nugget",
 				"Tricero Chicken Nugget"
 			],
 			"id": "",
@@ -6431,6 +6497,7 @@
 					"translate": "item.kleispack.warped_pizza",
 					"color": "#3cc6c8"
 				},
+				"Warped Pizza",
 				"Warped Pizza"
 			],
 			"id": "",
@@ -6518,6 +6585,7 @@
 					"translate": "item.kleispack.warped_stroganoff",
 					"color": "#3cc6c8"
 				},
+				"Warped Stroganoff",
 				"Warped Stroganoff"
 			],
 			"id": "",
@@ -6592,6 +6660,7 @@
 				{
 					"translate": "item.kleispack.charred_fish"
 				},
+				"Charred Fish",
 				"Charred Fish"
 			],
 			"id": "",
@@ -6646,6 +6715,7 @@
 				{
 					"translate": "item.kleispack.charred_meat"
 				},
+				"Charred Meat",
 				"Charred Meat"
 			],
 			"id": "",
@@ -6700,6 +6770,7 @@
 				{
 					"translate": "item.kleispack.charred_potato"
 				},
+				"Charred Potato",
 				"Charred Potato"
 			],
 			"id": "",
@@ -6754,6 +6825,7 @@
 				{
 					"translate": "item.kleispack.naan"
 				},
+				"Naan",
 				"Naan"
 			],
 			"id": "minecraft:bread",
@@ -6808,6 +6880,7 @@
 				{
 					"translate": "item.kleispack.pumpkin_curry"
 				},
+				"Pumpkin Curry",
 				"Pumpkin Curry"
 			],
 			"id": "minecraft:poisonous_potato",
@@ -6885,6 +6958,7 @@
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
 				},
+				"Adamant Axe",
 				"Adamant Axe"
 			],
 			"id": "",
@@ -6988,6 +7062,7 @@
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
 				},
+				"Adamant Boots",
 				"Adamant Boots"
 			],
 			"id": "",
@@ -7088,6 +7163,7 @@
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
 				},
+				"Adamant Chestplate",
 				"Adamant Chestplate"
 			],
 			"id": "",
@@ -7188,6 +7264,7 @@
 					"translate": "item.kleispack.adamant_claymore",
 					"color": "gold"
 				},
+				"Adamant Claymore",
 				"Adamant Claymore"
 			],
 			"id": "",
@@ -7335,6 +7412,7 @@
 					"translate": "item.kleispack.adamant_dolabra",
 					"color": "gold"
 				},
+				"Adamant Dolabra",
 				"Adamant Dolabra"
 			],
 			"id": "",
@@ -7464,6 +7542,7 @@
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
 				},
+				"Adamant Helmet",
 				"Adamant Helmet"
 			],
 			"id": "",
@@ -7564,6 +7643,7 @@
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
 				},
+				"Adamant Hoe",
 				"Adamant Hoe"
 			],
 			"id": "",
@@ -7666,6 +7746,7 @@
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
 				},
+				"Adamant Leggings",
 				"Adamant Leggings"
 			],
 			"id": "",
@@ -7766,6 +7847,7 @@
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
 				},
+				"Adamant Mattock",
 				"Adamant Mattock"
 			],
 			"id": "",
@@ -7874,6 +7956,7 @@
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
 				},
+				"Adamant Pickaxe",
 				"Adamant Pickaxe"
 			],
 			"id": "",
@@ -7991,6 +8074,7 @@
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
 				},
+				"Adamant Shovel",
 				"Adamant Shovel"
 			],
 			"id": "",
@@ -8093,6 +8177,7 @@
 					"translate": "item.minecraft.netherite_spear",
 					"color": "gold"
 				},
+				"Adamant Spear",
 				"Adamant Spear"
 			],
 			"id": "",
@@ -8175,6 +8260,7 @@
 					"translate": "item.minecraft.netherite_sword",
 					"color": "gold"
 				},
+				"Adamant Sword",
 				"Adamant Sword"
 			],
 			"id": "",
@@ -8272,6 +8358,7 @@
 					"translate": "item.kleispack.electrum_axe",
 					"color": "yellow"
 				},
+				"Electrum Axe",
 				"Electrum Axe"
 			],
 			"id": "",
@@ -8386,6 +8473,7 @@
 					"translate": "item.kleispack.electrum_boots",
 					"color": "yellow"
 				},
+				"Electrum Boots",
 				"Electrum Boots"
 			],
 			"id": "minecraft:netherite_boots",
@@ -8502,6 +8590,7 @@
 					"translate": "item.kleispack.electrum_chestplate",
 					"color": "yellow"
 				},
+				"Electrum Chestplate",
 				"Electrum Chestplate"
 			],
 			"id": "minecraft:netherite_chestplate",
@@ -8618,6 +8707,7 @@
 					"translate": "item.kleispack.electrum_dolabra",
 					"color": "yellow"
 				},
+				"Electrum Dolabra",
 				"Electrum Dolabra"
 			],
 			"id": "minecraft:netherite_axe",
@@ -8739,6 +8829,7 @@
 					"translate": "item.kleispack.electrum_helmet",
 					"color": "yellow"
 				},
+				"Electrum Helmet",
 				"Electrum Helmet"
 			],
 			"id": "minecraft:netherite_helmet",
@@ -8855,6 +8946,7 @@
 					"translate": "item.kleispack.electrum_hoe",
 					"color": "yellow"
 				},
+				"Electrum Hoe",
 				"Electrum Hoe"
 			],
 			"id": "",
@@ -8966,6 +9058,7 @@
 					"translate": "item.kleispack.electrum_leggings",
 					"color": "yellow"
 				},
+				"Electrum Leggings",
 				"Electrum Leggings"
 			],
 			"id": "minecraft:netherite_leggings",
@@ -9082,6 +9175,7 @@
 					"translate": "item.kleispack.electrum_mattock",
 					"color": "yellow"
 				},
+				"Electrum Mattock",
 				"Electrum Mattock"
 			],
 			"id": "minecraft:netherite_hoe",
@@ -9199,6 +9293,7 @@
 					"translate": "item.kleispack.electrum_pickaxe",
 					"color": "yellow"
 				},
+				"Electrum Pickaxe",
 				"Electrum Pickaxe"
 			],
 			"id": "minecraft:netherite_pickaxe",
@@ -9315,6 +9410,7 @@
 					"translate": "item.kleispack.electrum_shovel",
 					"color": "yellow"
 				},
+				"Electrum Shovel",
 				"Electrum Shovel"
 			],
 			"id": "minecraft:netherite_shovel",
@@ -9426,6 +9522,7 @@
 					"translate": "item.kleispack.electrum_spear",
 					"color": "yellow"
 				},
+				"Electrum Spear",
 				"Electrum Spear"
 			],
 			"id": "minecraft:netherite_spear",
@@ -9511,6 +9608,7 @@
 					"translate": "item.kleispack.electrum_sword",
 					"color": "yellow"
 				},
+				"Electrum Sword",
 				"Electrum Sword"
 			],
 			"id": "minecraft:netherite_sword",
@@ -9603,6 +9701,7 @@
 					"translate": "item.kleispack.hepatizon_axe",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Axe",
 				"Hepatizon Axe"
 			],
 			"id": "",
@@ -9718,6 +9817,7 @@
 					"translate": "item.kleispack.hepatizon_boots",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Boots",
 				"Hepatizon Boots"
 			],
 			"id": "",
@@ -9805,6 +9905,7 @@
 					"translate": "item.kleispack.hepatizon_chestplate",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Chestplate",
 				"Hepatizon Chestplate"
 			],
 			"id": "",
@@ -9892,6 +9993,7 @@
 					"translate": "item.kleispack.hepatizon_dolabra",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Dolabra",
 				"Hepatizon Dolabra"
 			],
 			"id": "",
@@ -10105,6 +10207,7 @@
 					"translate": "item.kleispack.hepatizon_helmet",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Helmet",
 				"Hepatizon Helmet"
 			],
 			"id": "",
@@ -10192,6 +10295,7 @@
 					"translate": "item.kleispack.hepatizon_hoe",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Hoe",
 				"Hepatizon Hoe"
 			],
 			"id": "",
@@ -10294,6 +10398,7 @@
 					"translate": "item.kleispack.hepatizon_leggings",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Leggings",
 				"Hepatizon Leggings"
 			],
 			"id": "",
@@ -10381,6 +10486,7 @@
 					"translate": "item.kleispack.hepatizon_mattock",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Mattock",
 				"Hepatizon Mattock"
 			],
 			"id": "",
@@ -10502,6 +10608,7 @@
 					"translate": "item.kleispack.hepatizon_pickaxe",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Pickaxe",
 				"Hepatizon Pickaxe"
 			],
 			"id": "",
@@ -10623,6 +10730,7 @@
 					"translate": "item.kleispack.hepatizon_shovel",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Shovel",
 				"Hepatizon Shovel"
 			],
 			"id": "",
@@ -10739,6 +10847,7 @@
 					"translate": "item.kleispack.hepatizon_spear",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Spear",
 				"Hepatizon Spear"
 			],
 			"id": "",
@@ -10841,6 +10950,7 @@
 					"translate": "item.kleispack.hepatizon_sword",
 					"color": "#ac7b5c"
 				},
+				"Hepatizon Sword",
 				"Hepatizon Sword"
 			],
 			"id": "",
@@ -10943,6 +11053,7 @@
 					"translate": "item.kleispack.shakudo_axe",
 					"color": "#c96691"
 				},
+				"Shakudo Axe",
 				"Shakudo Axe"
 			],
 			"id": "",
@@ -11050,6 +11161,7 @@
 					"translate": "item.kleispack.shakudo_boots",
 					"color": "#c96691"
 				},
+				"Shakudo Boots",
 				"Shakudo Boots"
 			],
 			"id": "minecraft:copper_boots",
@@ -11138,6 +11250,7 @@
 					"translate": "item.kleispack.shakudo_chestplate",
 					"color": "#c96691"
 				},
+				"Shakudo Chestplate",
 				"Shakudo Chestplate"
 			],
 			"id": "minecraft:copper_chestplate",
@@ -11226,6 +11339,7 @@
 					"translate": "item.kleispack.shakudo_dolabra",
 					"color": "#c96691"
 				},
+				"Shakudo Dolabra",
 				"Shakudo Dolabra"
 			],
 			"id": "",
@@ -11335,6 +11449,7 @@
 					"translate": "item.kleispack.shakudo_elytra",
 					"color": "#c96691"
 				},
+				"Shakudo Elytra",
 				"Shakudo Elytra"
 			],
 			"id": "minecraft:elytra",
@@ -11429,6 +11544,7 @@
 					"translate": "item.kleispack.shakudo_helmet",
 					"color": "#c96691"
 				},
+				"Shakudo Helmet",
 				"Shakudo Helmet"
 			],
 			"id": "minecraft:copper_helmet",
@@ -11517,6 +11633,7 @@
 					"translate": "item.kleispack.shakudo_hoe",
 					"color": "#c96691"
 				},
+				"Shakudo Hoe",
 				"Shakudo Hoe"
 			],
 			"id": "",
@@ -11616,6 +11733,7 @@
 					"translate": "item.kleispack.shakudo_leggings",
 					"color": "#c96691"
 				},
+				"Shakudo Leggings",
 				"Shakudo Leggings"
 			],
 			"id": "minecraft:copper_leggings",
@@ -11704,6 +11822,7 @@
 					"translate": "item.kleispack.shakudo_mattock",
 					"color": "#c96691"
 				},
+				"Shakudo Mattock",
 				"Shakudo Mattock"
 			],
 			"id": "",
@@ -11815,6 +11934,7 @@
 					"translate": "item.kleispack.shakudo_pickaxe",
 					"color": "#c96691"
 				},
+				"Shakudo Pickaxe",
 				"Shakudo Pickaxe"
 			],
 			"id": "",
@@ -11919,6 +12039,7 @@
 					"translate": "item.kleispack.shakudo_shovel",
 					"color": "#c96691"
 				},
+				"Shakudo Shovel",
 				"Shakudo Shovel"
 			],
 			"id": "",
@@ -12025,6 +12146,7 @@
 					"translate": "item.kleispack.shakudo_spear",
 					"color": "#c96691"
 				},
+				"Shakudo Spear",
 				"Shakudo Spear"
 			],
 			"id": "",
@@ -12112,6 +12234,7 @@
 					"translate": "item.kleispack.shakudo_sword",
 					"color": "#c96691"
 				},
+				"Shakudo Sword",
 				"Shakudo Sword"
 			],
 			"id": "",
@@ -12199,6 +12322,7 @@
 				{
 					"translate": "item.kleispack.silver_sword"
 				},
+				"Silver Sword",
 				"Silver Sword"
 			],
 			"id": "",
@@ -12295,6 +12419,7 @@
 				{
 					"translate": "item.kleispack.steel_axe"
 				},
+				"Steel Axe",
 				"Steel Axe"
 			],
 			"id": "",
@@ -12410,6 +12535,7 @@
 					"translate": "item.kleispack.steel_boots",
 					"color": "white"
 				},
+				"Steel Boots",
 				"Steel Boots"
 			],
 			"id": "minecraft:iron_boots",
@@ -12516,6 +12642,7 @@
 					"translate": "item.kleispack.steel_chestplate",
 					"color": "white"
 				},
+				"Steel Chestplate",
 				"Steel Chestplate"
 			],
 			"id": "minecraft:iron_chestplate",
@@ -12621,6 +12748,7 @@
 				{
 					"translate": "item.kleispack.steel_claymore"
 				},
+				"Steel Claymore",
 				"Steel Claymore"
 			],
 			"id": "",
@@ -12765,6 +12893,7 @@
 				{
 					"translate": "item.kleispack.steel_dolabra"
 				},
+				"Steel Dolabra",
 				"Steel Dolabra"
 			],
 			"id": "minecraft:stone_axe",
@@ -12870,6 +12999,7 @@
 					"translate": "item.kleispack.steel_helmet",
 					"color": "white"
 				},
+				"Steel Helmet",
 				"Steel Helmet"
 			],
 			"id": "minecraft:iron_helmet",
@@ -12975,6 +13105,7 @@
 				{
 					"translate": "item.kleispack.steel_hoe"
 				},
+				"Steel Hoe",
 				"Steel Hoe"
 			],
 			"id": "",
@@ -13059,6 +13190,7 @@
 					"translate": "item.kleispack.steel_leggings",
 					"color": "white"
 				},
+				"Steel Leggings",
 				"Steel Leggings"
 			],
 			"id": "minecraft:iron_leggings",
@@ -13164,6 +13296,7 @@
 				{
 					"translate": "item.kleispack.steel_mattock"
 				},
+				"Steel Mattock",
 				"Steel Mattock"
 			],
 			"id": "minecraft:stone_hoe",
@@ -13252,6 +13385,7 @@
 				{
 					"translate": "item.kleispack.steel_pickaxe"
 				},
+				"Steel Pickaxe",
 				"Steel Pickaxe"
 			],
 			"id": "minecraft:stone_pickaxe",
@@ -13330,6 +13464,7 @@
 				{
 					"translate": "item.kleispack.steel_shears"
 				},
+				"Steel Shears",
 				"Steel Shears"
 			],
 			"id": "minecraft:shears",
@@ -13373,6 +13508,7 @@
 				{
 					"translate": "item.kleispack.steel_shovel"
 				},
+				"Steel Shovel",
 				"Steel Shovel"
 			],
 			"id": "minecraft:stone_shovel",
@@ -13451,6 +13587,7 @@
 				{
 					"translate": "item.kleispack.steel_spear"
 				},
+				"Steel Spear",
 				"Steel Spear"
 			],
 			"id": "minecraft:stone_spear",
@@ -13547,6 +13684,7 @@
 				{
 					"translate": "item.kleispack.steel_sword"
 				},
+				"Steel Sword",
 				"Steel Sword"
 			],
 			"id": "",
@@ -13643,6 +13781,7 @@
 				{
 					"translate": "item.kleispack.warding_shield"
 				},
+				"Warding Shield",
 				"Warding Shield"
 			],
 			"id": "minecraft:shield",
@@ -13725,6 +13864,7 @@
 				{
 					"translate": "item.kleispack.warding_sword"
 				},
+				"Warding Sword",
 				"Warding Sword"
 			],
 			"id": "minecraft:stone_sword",
@@ -13813,6 +13953,7 @@
 		}
 	},
 	"options": {
-		"createHelpDiag": "False"
+		"createHelpDiag": "False",
+		"askForConfirmation": "False"
 	}
 }

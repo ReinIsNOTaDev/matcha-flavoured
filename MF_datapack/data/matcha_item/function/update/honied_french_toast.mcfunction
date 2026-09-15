@@ -1,2 +1,1 @@
-execute if predicate matcha_item:mainhand/honied_french_toast run matcha_item:mainhand/honied_french_toast
-execute if predicate matcha_item:offhand/honied_french_toast run matcha_item:offhand/honied_french_toast
+advancement revoke @s only matcha_item:trigger/honied_french_toast

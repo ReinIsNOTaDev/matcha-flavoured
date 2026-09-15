@@ -1,2 +1,1 @@
-execute if predicate matcha_item:mainhand/uncooked_ramen run matcha_item:mainhand/uncooked_ramen
-execute if predicate matcha_item:offhand/uncooked_ramen run matcha_item:offhand/uncooked_ramen
+advancement revoke @s only matcha_item:trigger/uncooked_ramen

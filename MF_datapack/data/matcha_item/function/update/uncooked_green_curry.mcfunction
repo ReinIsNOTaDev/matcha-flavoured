@@ -1,2 +1,1 @@
-execute if predicate matcha_item:mainhand/uncooked_green_curry run matcha_item:mainhand/uncooked_green_curry
-execute if predicate matcha_item:offhand/uncooked_green_curry run matcha_item:offhand/uncooked_green_curry
+advancement revoke @s only matcha_item:trigger/uncooked_green_curry

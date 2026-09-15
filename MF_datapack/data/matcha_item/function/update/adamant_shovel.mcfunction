@@ -1,2 +1,1 @@
-execute if predicate matcha_item:mainhand/adamant_shovel run matcha_item:mainhand/adamant_shovel
-execute if predicate matcha_item:offhand/adamant_shovel run matcha_item:offhand/adamant_shovel
+advancement revoke @s only matcha_item:trigger/adamant_shovel

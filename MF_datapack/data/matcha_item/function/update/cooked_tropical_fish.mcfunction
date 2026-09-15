@@ -1,2 +1,1 @@
-execute if predicate matcha_item:mainhand/cooked_tropical_fish run matcha_item:mainhand/cooked_tropical_fish
-execute if predicate matcha_item:offhand/cooked_tropical_fish run matcha_item:offhand/cooked_tropical_fish
+advancement revoke @s only matcha_item:trigger/cooked_tropical_fish

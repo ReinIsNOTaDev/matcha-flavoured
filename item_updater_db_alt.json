@@ -27,6 +27,7 @@
 	},
 	"files": {},
 	"options": {
-		"createHelpDiag": "False"
+		"createHelpDiag": "False",
+		"askForConfirmation": "False"
 	}
 }

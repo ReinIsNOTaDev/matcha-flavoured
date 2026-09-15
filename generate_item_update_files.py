@@ -187,9 +187,11 @@ def create(item):
         elif obj["processed"] == True:
             if debug == False:
                 print("[D] item already processed: "+item) if debug else None
-            else:
+            elif DB["options"]["askForConfirmation"] == "True":
                 cont = input("[D] reprocess file <"+item+">? [y/N] ")
-                obj = creationHelper(obj, item) if cont == y else None
+                obj = creationHelper(obj, item) if cont == "y" else None
+            else:
+                obj = creationHelper(obj, item)
         else:
             obj = creationHelper(obj, item)
     else:
@@ -200,9 +202,11 @@ def create(item):
             elif obj["processed"] == True:
                 if debug == False:
                     print("Item already processed: "+item)
-                else:
+                elif DB["options"]["askForConfirmation"] == "True":
                     cont = input("[D] reprocess file <"+item+">? [y/N] ")
-                    obj = creationHelper(obj, item) if cont == y else None
+                    obj = creationHelper(obj, item) if cont == "y" else None
+                else:
+                    obj = creationHelper(obj, item)
             else:
                 obj = creationHelper(obj, item)
     if debug:
@@ -285,60 +289,57 @@ def creationHelper(obj, item):
     print("[D] a bunch of predicates: "+str([id_predicates,names_predicates,version_predicates])) if debug else None
 # defining main predicates
     if len(slots) == 2:
-        mainhand_predicate = {"conditions": {"player": {"predicate": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}}
-        offhand_predicate = {"conditions": {"player": {"predicate": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}}
+        mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}
+        offhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}
         i = 0
         for names_predicate in names_predicates:
             if (i % 2) == 0:
-                mainhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(names_predicate)
+                mainhand_predicate["terms"][0]["terms"].append(names_predicate)
             else:
-                offhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(names_predicate)
+                offhand_predicate["terms"][0]["terms"].append(names_predicate)
             i += 1
         if id_ != "":
-            mainhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(id_predicates[0])
-            offhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(id_predicates[1])
+            mainhand_predicate["terms"][0]["terms"].append(id_predicates[0])
+            offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
         else:
             pass
-        mainhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(version_predicates[0])
-        offhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(version_predicates[1])
+        mainhand_predicate["terms"][0]["terms"].append(version_predicates[0])
+        offhand_predicate["terms"][0]["terms"].append(version_predicates[1])
     else:
         pass
 # defining trigger advancement
     trigger_advancement_path = os.path.join(Updater,"advancement/"+item+".json")
-    trigger_advancement = {"criteria": {item: {"conditions": {"player": {"predicate": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}}, "trigger": "minecraft:inventory_changed"}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+    trigger_advancement = {"criteria": {item: {"conditions": {"player": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}, "trigger": "minecraft:inventory_changed"}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
     if names != []:
-        for names_predicate in names_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(names_predicate)
+        for i in range(len(names_predicates)):
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i][0]["condition"])
     else:
         pass
     if id_ != "":
         for id_predicate in id_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(id_predicate)
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(id_predicate)
     else:
         pass
     if len(version_predicates) == 1:
-        trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][1]["terms"].append(version_predicates[0])
+        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append(version_predicates[0])
     else:
         for version_predicate in version_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][1]["terms"].append({"condition": "minecraft:any_of", "terms": [version_predicate]})
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append({"condition": "minecraft:any_of", "terms": [version_predicate]})
 # defining update function
     match type_:
-        case "helmet":
-            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
-        case "chestplate":
-            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
-        case "leggings":
-            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
-        case "boots":
-            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
+        case "helmet" | "leggings" | "boots" | "chestplate":
+            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            update_function = "advancement revoke @s only matcha_item:trigger/"+item
         case "tool":
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item
+            update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item+"\n"
+            update_function = "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case "generic":
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item
+            update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item+"\n"
+            update_function = "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case _:
@@ -362,7 +363,7 @@ def creationHelper(obj, item):
 # write it!
     yesses = 0
     for path in paths:
-        if debug:
+        if debug and DB["options"]["askForConfirmation"] == "True":
             if path[2] != "function":
                 print(json.dumps(path[1], indent=1))
             else:

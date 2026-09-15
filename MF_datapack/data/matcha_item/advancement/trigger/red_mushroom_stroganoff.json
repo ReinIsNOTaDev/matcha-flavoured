@@ -3,121 +3,62 @@
 		"red_mushroom_stroganoff": {
 			"conditions": {
 				"player": {
-					"predicate": {
-						"condition": "minecraft:all_of",
-						"terms": [
-							{
-								"condition": "minecraft:any_of",
-								"terms": [
-									[
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:any_of",
+							"terms": [
+								"minecraft:entity_properties",
+								"minecraft:entity_properties",
+								"minecraft:entity_properties"
+							]
+						},
+						{
+							"condition": "minecraft:inverted",
+							"terms": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
 										{
 											"condition": "minecraft:entity_properties",
 											"entity": "this",
 											"predicate": {
 												"minecraft:slots": {
 													"weapon.mainhand": {
-														"components": {
-															"minecraft:item_name": {
-																"translate": "item.kleispack.red_mushroom_stroganoff"
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": "1"
 															}
-														}
-													}
-												}
-											}
-										},
-										{
-											"condition": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.offhand": {
-														"components": {
-															"minecraft:item_name": {
-																"translate": "item.kleispack.red_mushroom_stroganoff"
-															}
-														}
-													}
-												}
-											}
-										}
-									],
-									[
-										{
-											"condition": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.mainhand": {
-														"components": {
-															"minecraft:item_name": "Toadstool Stroganoff"
-														}
-													}
-												}
-											}
-										},
-										{
-											"condition": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.offhand": {
-														"components": {
-															"minecraft:item_name": "Toadstool Stroganoff"
 														}
 													}
 												}
 											}
 										}
 									]
-								]
-							},
-							{
-								"condition": "minecraft:inverted",
-								"terms": [
-									{
-										"condition": "minecraft:any_of",
-										"terms": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": "1"
-																}
+								},
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": "1"
 															}
 														}
 													}
 												}
 											}
-										]
-									},
-									{
-										"condition": "minecraft:any_of",
-										"terms": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.offhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": "1"
-																}
-															}
-														}
-													}
-												}
-											}
-										]
-									}
-								]
-							}
-						]
-					}
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			}
 		},

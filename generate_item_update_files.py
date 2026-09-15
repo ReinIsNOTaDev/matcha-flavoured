@@ -180,7 +180,7 @@ def destructive():
 def create(item):
     print("----Create Mode in Debug----") if debug else None
     files = DB["files"]
-    for item in files:
+    if item:
         obj = files[item]
         if obj["ignore"] == True:
             print("[D] ignored processing: "+item) if debug else None
@@ -188,10 +188,34 @@ def create(item):
             if debug == False:
                 print("[D] item already processed: "+item) if debug else None
             else:
-                 cont = input("[D] reprocess file <"+item+">? [y/N] ")
-                 obj = creationHelper(obj, item) if cont == y else None
+                cont = input("[D] reprocess file <"+item+">? [y/N] ")
+                obj = creationHelper(obj, item) if cont == y else None
         else:
             obj = creationHelper(obj, item)
+    else:
+        for item in files:
+            obj = files[item]
+            if obj["ignore"] == True:
+                print("[D] ignored processing: "+item) if debug else None
+            elif obj["processed"] == True:
+                if debug == False:
+                    print("Item already processed: "+item)
+                else:
+                    cont = input("[D] reprocess file <"+item+">? [y/N] ")
+                    obj = creationHelper(obj, item) if cont == y else None
+            else:
+                obj = creationHelper(obj, item)
+    if debug:
+        print(json.dumps(DB, indent=1))
+        cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+        if cont == "y":
+            with open(DBpath, 'w') as f:
+                json.dump(DB, f, indent="\t")
+        else:
+            pass
+    else:
+        with open(DBpath, 'w') as f:
+            json.dump(DB, f, indent="\t")
 
 class item_predicate():
     def __init__(self, predicate, slots):
@@ -201,19 +225,34 @@ class item_predicate():
 
 def creationHelper(obj, item):
 # helper CLI if there's no names, and for id use config
-    use_id = input("Please define if you want to use item id <"+obj["id"]+"> [y/n] ")
-    if use_id == "y":
-        pass
+    if DB["options"]["createHelpDiag"] == "True":
+        use_id = input("Please define if you want to use item id <"+obj["id"]+"> for item <"+item+"> [y/n] ")
+        if use_id == "y":
+            pass
+        else:
+            obj["id"] = ""
+        print("Names: "+str(obj["names"]))
+        raw_names = input("Please provide additional names for this item <"+item+">, separated by commas. ")
+        if raw_names == "":
+            pass
+        else:
+            for raw_name in raw_names.split(", "):
+                obj["names"].append(raw_name)
+            print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
     else:
-        obj["id"] = ""
-    print(str(obj["names"]))
-    raw_names = input("Please provide additional names for this item <"+item+">, separated by commas. ")
-    if raw_names == "":
-        pass
-    else:
-        for raw_name in raw_names.split(", "):
-            obj["names"].append(raw_name)
-        print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
+        duplications = -1
+        files = DB["files"]
+        for item_ in files:
+            if files[item_]["id"] == obj["id"]:
+                duplications += 1
+        if duplications >= 1:
+            obj["id"] = ""
+        lang_path = os.path.join("MF_resourcepack/assets/minecraft/lang/en_us.json")
+        lang_json = json.load(open(lang_path, 'r'))
+        try:
+            obj["names"].append(lang_json[obj["components"]["minecraft:item_name"]["translate"]])
+        except:
+            pass
 # defining variables
     names = obj["names"]
     id_ = obj["id"]
@@ -229,7 +268,7 @@ def creationHelper(obj, item):
             slots = ["armor.legs"]
         case "boots":
             slots = ["armor.feet"]
-        case "tools":
+        case "tool":
             slots = ["weapon.mainhand","weapon.offhand"]
         case "generic":
             slots = ["weapon.mainhand","weapon.offhand"]
@@ -243,7 +282,7 @@ def creationHelper(obj, item):
     for name in names:
         names_predicates.append(item_predicate({"components": {"minecraft:item_name": name}}, slots).dict_)
     version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).dict_
-    print("[D] a bunch of predicates: "+str([id_predicates,names_predicates,version_predicates]))
+    print("[D] a bunch of predicates: "+str([id_predicates,names_predicates,version_predicates])) if debug else None
 # defining main predicates
     if len(slots) == 2:
         mainhand_predicate = {"conditions": {"player": {"predicate": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}}
@@ -264,7 +303,6 @@ def creationHelper(obj, item):
         offhand_predicate["conditions"]["player"]["predicate"]["terms"][0]["terms"].append(version_predicates[1])
     else:
         pass
-
 # defining trigger advancement
     trigger_advancement_path = os.path.join(Updater,"advancement/"+item+".json")
     trigger_advancement = {"criteria": {item: {"conditions": {"player": {"predicate": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}}, "trigger": "minecraft:inventory_changed"}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
@@ -279,21 +317,21 @@ def creationHelper(obj, item):
     else:
         pass
     if len(version_predicates) == 1:
-        trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][1]["terms"].append(version_predicate[0])
+        trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][1]["terms"].append(version_predicates[0])
     else:
         for version_predicate in version_predicates:
             trigger_advancement["criteria"][item]["conditions"]["player"]["predicate"]["terms"][1]["terms"].append({"condition": "minecraft:any_of", "terms": [version_predicate]})
 # defining update function
     match type_:
         case "helmet":
-            update_function = "item modify entity @s "+slots+" "+str(item_modifier)
+            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
         case "chestplate":
-            update_function = "item modify entity @s "+slots+" "+str(item_modifier)
+            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
         case "leggings":
-            update_function = "item modify entity @s "+slots+" "+str(item_modifier)
+            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
         case "boots":
-            update_function = "item modify entity @s "+slots+" "+str(item_modifier)
-        case "tools":
+            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
+        case "tool":
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
@@ -310,9 +348,17 @@ def creationHelper(obj, item):
     update_function_path = os.path.join(Updater,"function/update",item+".mcfunction")
     mainhand_function_path = os.path.join(Updater,"function/mainhand",item+".mcfunction")
     offhand_function_path = os.path.join(Updater,"function/offhand",item+".mcfunction")
-    mainhand_predicate_path = os.path.join(Updater,"predicate/mainhand",item+".mcfunction")
-    offhand_predicate_path = os.path.join(Updater,"predicate/offhand",item+".mcfunction")
-    paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
+    mainhand_predicate_path = os.path.join(Updater,"predicate/mainhand",item+".json")
+    offhand_predicate_path = os.path.join(Updater,"predicate/offhand",item+".json")
+    match type_:
+        case "helmet" | "leggings" | "boots" | "chestplate":
+            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"]]
+            needed_yesses = 2
+        case "tool" | "generic":
+            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
+            needed_yesses = 6
+        case _:
+            pass
 # write it!
     yesses = 0
     for path in paths:
@@ -338,11 +384,17 @@ def creationHelper(obj, item):
                 with open(path[0], 'w') as f:
                     json.dump(path[1], f, indent="\t")
                     yesses +=1
+                print(path[0])
             else:
                 with open(path[0], 'w') as f:
                     f.write(path[1])
                     yesses +=1
+                print(path[0])
 # return the object
+    if yesses == needed_yesses:
+        obj["processed"] = True
+    else:
+        pass
     return obj
 
 # function stuff:
@@ -366,6 +418,29 @@ def creationHelper(obj, item):
 #          any_of (not needed in armor)
 #            version_predicate
 
+def config(option):
+    options = DB["options"]
+    if option != "":
+        if options.get(option) != None:
+            options[option] = input("Configure value for option <"+option+">, currently set to "+options[option]+": ")
+    else:
+        print(json.dumps(options, indent=2))
+        option = input("Choose an option to configure: ")
+        if options.get(option) != None:
+            options[option] = input("Configure value for option <"+option+">, currently set to "+options[option]+": ")
+    if debug:
+        print(json.dumps(DB["options"], indent=1))
+        cont = input("[D] Confirm if this is the correct (partial) JSON file details [y/N]: ")
+        if cont == "y":
+            with open(DBpath, 'w') as f:
+                json.dump(DB, f, indent="\t")
+        else:
+            pass
+    else:
+        with open(DBpath, 'w') as f:
+            json.dump(DB, f, indent="\t")
+
+
 # help mode: command help and maaybe documentation
 def help_(debug):
     if debug:
@@ -375,16 +450,20 @@ This script is used with command line arguments, eg. py [script] [arguments]. Th
     D - Go through configured folders and add 1 version custom data
     u (file) - Update item updater for items with new version
     c (file) - Create new item updater for items with version custom data
-(file): optionally, a path to the file from the root folder
-(override): [boolean] optionally,  override existing item entries""")
+    C (option) - Configure a stored option
+(file): optionally, name of the file excluding file extension
+(override): [boolean] optionally,  override existing item entries
+(option): optionally, a stored option""")
     else:
         print("""This script is used with command line arguments, eg. py [script] [arguments]. These are the following arguments:
     d (override) - Discovers files in configured folders and adds to database
     D - Go through configured folders and add 1 version custom data
     u (file) - Update item updater for items with new version
     c (file) - Create new item updater for items with version custom data
+    C (option) - Configure a stored option
 (file): optionally, name of the file excluding file extension
-(override): [boolean] optionally,  override existing item entries""")
+(override): [boolean] optionally,  override existing item entries
+(option): optionally, a stored option""")
 
 # match command options and run different functions
 match opt:
@@ -396,7 +475,9 @@ match opt:
         update()
     case "c":
         create(opt2)
+    case "C":
+        config(opt2)
     case "DEBUG":
         debugf(opt2,opt3)
     case _:
-        help_()
+        help_(False)

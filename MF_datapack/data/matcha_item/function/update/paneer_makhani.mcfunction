@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/paneer_makhani run matcha_item:mainhand/paneer_makhani
+execute if predicate matcha_item:offhand/paneer_makhani run matcha_item:offhand/paneer_makhani

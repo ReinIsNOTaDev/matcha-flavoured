@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/brachio_chicken_nugget run matcha_item:mainhand/brachio_chicken_nugget
+execute if predicate matcha_item:offhand/brachio_chicken_nugget run matcha_item:offhand/brachio_chicken_nugget

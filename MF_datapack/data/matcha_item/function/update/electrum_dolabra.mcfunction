@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/electrum_dolabra run matcha_item:mainhand/electrum_dolabra
+execute if predicate matcha_item:offhand/electrum_dolabra run matcha_item:offhand/electrum_dolabra

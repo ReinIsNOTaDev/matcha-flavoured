@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/charred_potato run matcha_item:mainhand/charred_potato
+execute if predicate matcha_item:offhand/charred_potato run matcha_item:offhand/charred_potato

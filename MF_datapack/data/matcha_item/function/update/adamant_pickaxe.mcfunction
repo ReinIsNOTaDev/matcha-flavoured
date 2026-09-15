@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/adamant_pickaxe run matcha_item:mainhand/adamant_pickaxe
+execute if predicate matcha_item:offhand/adamant_pickaxe run matcha_item:offhand/adamant_pickaxe

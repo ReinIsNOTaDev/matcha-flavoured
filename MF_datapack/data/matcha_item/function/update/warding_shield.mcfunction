@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/warding_shield run matcha_item:mainhand/warding_shield
+execute if predicate matcha_item:offhand/warding_shield run matcha_item:offhand/warding_shield

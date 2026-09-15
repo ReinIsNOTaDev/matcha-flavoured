@@ -35,7 +35,7 @@
 			"names": [],
 			"id": "minecraft:fermented_spider_eye",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -80,6 +80,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -94,11 +97,12 @@
 				{
 					"translate": "item.minecraft.glistering_melon_slice",
 					"color": "yellow"
-				}
+				},
+				"Baked Golden Apple"
 			],
 			"id": "minecraft:glistering_melon_slice",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -161,6 +165,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -174,7 +181,7 @@
 			"names": [],
 			"id": "minecraft:baked_potato",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -206,6 +213,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -219,7 +229,7 @@
 			"names": [],
 			"id": "minecraft:breeze_rod",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -266,6 +276,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -279,7 +292,7 @@
 			"names": [],
 			"id": "minecraft:rabbit_foot",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -310,6 +323,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -324,11 +340,12 @@
 				{
 					"translate": "item.kleispack.braised_crimson_fungus",
 					"color": "#c54457"
-				}
+				},
+				"Braised Crimson Fungus"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -379,6 +396,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -392,11 +412,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.braised_red_mushroom"
-				}
+				},
+				"Braised Toadstool"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -445,6 +466,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -459,11 +483,12 @@
 				{
 					"translate": "item.kleispack.braised_warped_fungus",
 					"color": "#3cc6c8"
-				}
+				},
+				"Braised Warped Fungus"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -514,6 +539,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -525,9 +553,9 @@
 				"food_oven"
 			],
 			"names": [],
-			"id": "minecraft:bread",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -580,6 +608,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -593,7 +624,7 @@
 			"names": [],
 			"id": "minecraft:mushroom_stew",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -640,7 +671,10 @@
 					"can_always_eat": true
 				},
 				"minecraft:max_stack_size": 64,
-				"!minecraft:use_remainder": {}
+				"!minecraft:use_remainder": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -653,7 +687,7 @@
 			"names": [],
 			"id": "minecraft:cooked_beef",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -684,6 +718,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -697,7 +734,7 @@
 			"names": [],
 			"id": "minecraft:cooked_chicken",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -728,6 +765,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -739,9 +779,9 @@
 				"food_oven"
 			],
 			"names": [],
-			"id": "minecraft:cooked_cod",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -772,6 +812,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -785,7 +828,7 @@
 			"names": [],
 			"id": "minecraft:cooked_mutton",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -816,6 +859,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -829,7 +875,7 @@
 			"names": [],
 			"id": "minecraft:cooked_porkchop",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -860,6 +906,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -873,11 +922,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.fish.cooked_pufferfish"
-				}
+				},
+				"Cooked Pufferfish"
 			],
-			"id": "minecraft:cooked_cod",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -926,6 +976,9 @@
 				},
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.cooked_pufferfish"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -939,7 +992,7 @@
 			"names": [],
 			"id": "minecraft:cooked_rabbit",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -970,6 +1023,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -983,7 +1039,7 @@
 			"names": [],
 			"id": "minecraft:cooked_salmon",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1014,6 +1070,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1027,7 +1086,7 @@
 			"names": [],
 			"id": "minecraft:cooked_cod",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1058,6 +1117,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1071,11 +1133,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.fried_egg"
-				}
+				},
+				"Fried Egg"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1110,6 +1173,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1123,7 +1189,7 @@
 			"names": [],
 			"id": "minecraft:rotten_flesh",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1163,6 +1229,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1177,11 +1246,12 @@
 				{
 					"translate": "item.kleispack.golden_steamed_carrots",
 					"color": "yellow"
-				}
+				},
+				"Steamed Golden Carrots"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1233,6 +1303,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1246,11 +1319,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.green_curry"
-				}
+				},
+				"Green Curry"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1303,7 +1377,10 @@
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
 				},
-				"minecraft:max_stack_size": 64
+				"minecraft:max_stack_size": 64,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1316,11 +1393,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.grilled_melon"
-				}
+				},
+				"Grilled Melon"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1369,6 +1447,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1382,11 +1463,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.grilled_tomatoes"
-				}
+				},
+				"Grilled Tomatoes"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1436,6 +1518,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1449,11 +1534,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.honey_ginger_tea"
-				}
+				},
+				"Honey Ginger Tea"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1527,6 +1613,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1540,11 +1629,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.japanese_curry"
-				}
+				},
+				"Japanese Curry"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1598,7 +1688,10 @@
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
 				},
-				"minecraft:max_stack_size": 64
+				"minecraft:max_stack_size": 64,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1611,9 +1704,12 @@
 			"names": [],
 			"id": "minecraft:piglin_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1626,11 +1722,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.nopales"
-				}
+				},
+				"Nopales"
 			],
 			"id": "minecraft:green_dye",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1666,7 +1763,10 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.nopales"
 				},
-				"minecraft:item_model": "matcha:nopales"
+				"minecraft:item_model": "matcha:nopales",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1679,11 +1779,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.paneer_makhani"
-				}
+				},
+				"Paneer Makhani"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1738,7 +1839,10 @@
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
 				},
-				"minecraft:max_stack_size": 64
+				"minecraft:max_stack_size": 64,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1751,11 +1855,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.ramen"
-				}
+				},
+				"Tonkotsu Ramen"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1811,7 +1916,10 @@
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
 				},
-				"minecraft:max_stack_size": 64
+				"minecraft:max_stack_size": 64,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1824,11 +1932,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steamed_carrots"
-				}
+				},
+				"Steamed Carrots"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1879,6 +1988,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1892,7 +2004,7 @@
 			"names": [],
 			"id": "minecraft:magma_cream",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1936,6 +2048,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1972,11 +2087,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.apple_empanada"
-				}
+				},
+				"Apple Empanada"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:apple_empanada",
 				"minecraft:item_name": {
@@ -2025,7 +2141,10 @@
 						"color": "#e85e8f",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2037,11 +2156,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.bokguk"
-				}
+				},
+				"Bokguk"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bokguk",
 				"minecraft:item_name": {
@@ -2094,6 +2214,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2106,11 +2229,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.brachio_chicken_nugget"
-				}
+				},
+				"Brachio Chicken Nugget"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2145,6 +2269,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2157,11 +2284,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.brownie"
-				}
+				},
+				"Brownie"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2211,6 +2339,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2223,11 +2354,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.bruschetta"
-				}
+				},
+				"Bruschetta"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bruschetta",
 				"minecraft:item_name": {
@@ -2277,7 +2409,10 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2287,9 +2422,9 @@
 				"food_crafting"
 			],
 			"names": [],
-			"id": "minecraft:splash_potion",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -2324,7 +2459,10 @@
 					"translate": "item.kleispack.bubbling_mead",
 					"italic": false
 				},
-				"minecraft:item_model": "matcha:bubbling_mead"
+				"minecraft:item_model": "matcha:bubbling_mead",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2336,11 +2474,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.bunuelo"
-				}
+				},
+				"Bu\u00f1uelo"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bunuelo",
 				"minecraft:item_name": {
@@ -2390,7 +2529,10 @@
 						"color": "dark_green",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2402,7 +2544,7 @@
 			"names": [],
 			"id": "minecraft:cake",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2415,7 +2557,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2427,11 +2572,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.canned_apples"
-				}
+				},
+				"Canned Apples"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:canned_apples",
 				"minecraft:item_name": {
@@ -2483,6 +2629,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2496,11 +2645,12 @@
 				{
 					"translate": "item.kleispack.canned_golden_apples",
 					"color": "yellow"
-				}
+				},
+				"Canned Golden Apples"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:canned_golden_apples",
 				"minecraft:item_name": {
@@ -2566,6 +2716,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2578,11 +2731,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.carrot_cupcake"
-				}
+				},
+				"Carrot Cupcake"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:carrot_cupcake",
 				"minecraft:item_name": {
@@ -2630,7 +2784,10 @@
 						"color": "green",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2642,7 +2799,7 @@
 			"names": [],
 			"id": "minecraft:cookie",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2672,6 +2829,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2684,11 +2844,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.cheese_pizza"
-				}
+				},
+				"Cheese Pizza"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:cheese_pizza",
 				"minecraft:item_name": {
@@ -2738,7 +2899,10 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2750,11 +2914,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.chocolate_chip_cookie"
-				}
+				},
+				"Chocolate Chip Cookie"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2804,6 +2969,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2817,11 +2985,12 @@
 				{
 					"translate": "item.kleispack.chorus_mochi",
 					"color": "#ae6cbc"
-				}
+				},
+				"Chorus Mochi"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:chorus_mochi",
 				"minecraft:item_name": {
@@ -2872,7 +3041,10 @@
 						"color": "#ae6cbc",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2885,11 +3057,12 @@
 				{
 					"translate": "item.kleispack.crimson_stroganoff",
 					"color": "#c54457"
-				}
+				},
+				"Crimson Stroganoff"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:crimson_stroganoff",
 				"minecraft:item_name": {
@@ -2943,6 +3116,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2953,11 +3129,14 @@
 				"food_crafting"
 			],
 			"names": [],
-			"id": "minecraft:shulker_spawn_egg",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2969,9 +3148,12 @@
 			"names": [],
 			"id": "minecraft:shulker_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2981,9 +3163,9 @@
 				"food_crafting"
 			],
 			"names": [],
-			"id": "minecraft:dried_kelp",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3030,6 +3212,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3042,7 +3227,7 @@
 			"names": [],
 			"id": "minecraft:dried_kelp",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3089,6 +3274,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3101,11 +3289,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.fish_and_chips"
-				}
+				},
+				"Fish and Chips"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:fish_and_chips",
 				"minecraft:item_name": {
@@ -3141,7 +3330,10 @@
 						"color": "red",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3151,11 +3343,14 @@
 				"food_crafting"
 			],
 			"names": [],
-			"id": "minecraft:enderman_spawn_egg",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3167,9 +3362,12 @@
 			"names": [],
 			"id": "minecraft:magma_cube_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3181,9 +3379,12 @@
 			"names": [],
 			"id": "minecraft:enderman_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3195,11 +3396,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.french_toast"
-				}
+				},
+				"French Toast"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:french_toast",
 				"minecraft:item_name": {
@@ -3234,7 +3436,10 @@
 						"color": "red",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3246,11 +3451,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.gimmari"
-				}
+				},
+				"Gimmari"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:gimmari",
 				"minecraft:item_name": {
@@ -3300,7 +3506,10 @@
 						"color": "#7ec9e7",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3312,11 +3521,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.glow_berry_crumble"
-				}
+				},
+				"Glow Berry Crumble"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:glow_berry_crumble",
 				"minecraft:item_name": {
@@ -3359,7 +3569,10 @@
 						"color": "#0fffa3",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3371,11 +3584,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.glow_berry_jam"
-				}
+				},
+				"Glow Berry Jam"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:glow_jam",
 				"minecraft:item_name": {
@@ -3423,6 +3637,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3436,11 +3653,12 @@
 				{
 					"translate": "item.kleispack.gnocchi",
 					"color": "#e1bc62"
-				}
+				},
+				"Gnocchi"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:gnocchi",
 				"minecraft:item_name": {
@@ -3478,6 +3696,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3490,7 +3711,7 @@
 			"names": [],
 			"id": "minecraft:golden_apple",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3549,6 +3770,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3562,11 +3786,12 @@
 				{
 					"translate": "item.kleispack.golden_empanada",
 					"color": "yellow"
-				}
+				},
+				"Gilded Empanada"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_apple_empanada",
 				"minecraft:item_name": {
@@ -3627,7 +3852,10 @@
 						"color": "#e85e8f",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3639,7 +3867,7 @@
 			"names": [],
 			"id": "minecraft:golden_carrot",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3686,6 +3914,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3699,11 +3930,12 @@
 				{
 					"translate": "item.kleispack.golden_carrot_cupcake",
 					"color": "yellow"
-				}
+				},
+				"Golden Carrot Cupcake"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_carrot_cupcake",
 				"minecraft:item_name": {
@@ -3752,7 +3984,10 @@
 						"color": "green",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3765,11 +4000,12 @@
 				{
 					"translate": "item.kleispack.golden_pickled_carrots",
 					"color": "yellow"
-				}
+				},
+				"Golden Pickled Carrots"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_pickled_carrots",
 				"minecraft:item_name": {
@@ -3822,6 +4058,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3834,11 +4073,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.honied_french_toast"
-				}
+				},
+				"Honied French Toast"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:honied_french_toast",
 				"minecraft:item_name": {
@@ -3885,7 +4125,10 @@
 						"color": "#37cafb",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3897,11 +4140,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.ice_cream"
-				}
+				},
+				"Ice Cream"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ice_cream",
 				"minecraft:item_name": {
@@ -3961,6 +4205,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3973,11 +4220,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.kontomire_stew"
-				}
+				},
+				"Kontomire-Dandelion Stew"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:kontomire_stew",
 				"minecraft:item_name": {
@@ -4046,6 +4294,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4058,11 +4309,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.latke"
-				}
+				},
+				"Latke"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:latke",
 				"minecraft:item_name": {
@@ -4098,7 +4350,10 @@
 						"color": "red",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4110,11 +4365,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.lumpia"
-				}
+				},
+				"Lumpia"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:lumpia",
 				"minecraft:item_name": {
@@ -4178,7 +4434,10 @@
 						"color": "green",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4190,11 +4449,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.mead"
-				}
+				},
+				"Mead"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mead",
 				"minecraft:item_name": {
@@ -4250,6 +4510,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4262,11 +4525,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.meat_pizza"
-				}
+				},
+				"Meat Pizza"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:meat_pizza",
 				"minecraft:item_name": {
@@ -4316,7 +4580,10 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4328,7 +4595,7 @@
 			"names": [],
 			"id": "minecraft:melon_slice",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4352,6 +4619,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4364,11 +4634,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.melon_sorbet"
-				}
+				},
+				"Melon Sorbet"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:melon_sorbet",
 				"minecraft:item_name": {
@@ -4423,6 +4694,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4435,7 +4709,7 @@
 			"names": [],
 			"id": "minecraft:beetroot_soup",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4464,6 +4738,9 @@
 							"type": "minecraft:clear_all_effects"
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4476,11 +4753,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.mushroom_pizza"
-				}
+				},
+				"Mushroom Pizza"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mushroom_pizza",
 				"minecraft:item_name": {
@@ -4530,7 +4808,10 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4542,11 +4823,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.oatmeal"
-				}
+				},
+				"Apple Cinnamon Oatmeal"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:oatmeal",
 				"minecraft:item_name": {
@@ -4611,6 +4893,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4623,9 +4908,12 @@
 			"names": [],
 			"id": "minecraft:happy_ghast_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4637,11 +4925,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pad_thai"
-				}
+				},
+				"Pad Thai"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pad_thai",
 				"minecraft:item_name": {
@@ -4695,6 +4984,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4707,11 +4999,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pickled_carrots"
-				}
+				},
+				"Pickled Carrots"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_carrots",
 				"minecraft:item_name": {
@@ -4763,6 +5056,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4773,9 +5069,9 @@
 				"food_crafting"
 			],
 			"names": [],
-			"id": "minecraft:splash_potion",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -4814,7 +5110,10 @@
 					"color": "#c54457",
 					"italic": false
 				},
-				"minecraft:item_model": "matcha:pickled_crimson_fungus"
+				"minecraft:item_model": "matcha:pickled_crimson_fungus",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4826,11 +5125,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pickled_mushrooms"
-				}
+				},
+				"Pickled Mushrooms"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_mushrooms",
 				"minecraft:item_name": {
@@ -4868,6 +5168,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4880,11 +5183,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pickled_potatoes"
-				}
+				},
+				"Pickled Potatoes"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_potatoes",
 				"minecraft:item_name": {
@@ -4922,6 +5226,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4932,9 +5239,9 @@
 				"food_crafting"
 			],
 			"names": [],
-			"id": "minecraft:splash_potion",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -4972,7 +5279,10 @@
 					"translate": "item.kleispack.pickled_red_mushrooms",
 					"italic": false
 				},
-				"minecraft:item_model": "matcha:pickled_red_mushrooms"
+				"minecraft:item_model": "matcha:pickled_red_mushrooms",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -4984,11 +5294,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pickled_tomatoes"
-				}
+				},
+				"Sun-dried Tomatoes"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_tomatoes",
 				"minecraft:item_name": {
@@ -5040,6 +5351,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5052,7 +5366,7 @@
 			"names": [],
 			"id": "minecraft:splash_potion",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -5092,7 +5406,10 @@
 					"color": "#3cc6c8",
 					"italic": false
 				},
-				"minecraft:item_model": "matcha:pickled_warped_fungus"
+				"minecraft:item_model": "matcha:pickled_warped_fungus",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5104,7 +5421,7 @@
 			"names": [],
 			"id": "minecraft:popped_chorus_fruit",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -5151,6 +5468,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5163,11 +5483,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.ptero_chicken_nugget"
-				}
+				},
+				"Ptero Chicken Nugget"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -5202,6 +5523,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5214,11 +5538,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.puerquito"
-				}
+				},
+				"Puerquito"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:puerquito",
 				"minecraft:item_name": {
@@ -5267,7 +5592,10 @@
 						"color": "#e85e8f",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5279,11 +5607,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pumpkin_empanada"
-				}
+				},
+				"Pumpkin Empanada"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_empanada",
 				"minecraft:item_name": {
@@ -5333,7 +5662,10 @@
 						"color": "blue",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5345,11 +5677,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pumpkin_jam"
-				}
+				},
+				"Pumpkin Jam"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_jam",
 				"minecraft:item_name": {
@@ -5403,6 +5736,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5415,11 +5751,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pupusa"
-				}
+				},
+				"Pupusa"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pupusa",
 				"minecraft:item_name": {
@@ -5454,7 +5791,10 @@
 						"color": "red",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5466,11 +5806,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.red_mushroom_stroganoff"
-				}
+				},
+				"Toadstool Stroganoff"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:red_mushroom_stroganoff",
 				"minecraft:item_name": {
@@ -5523,6 +5864,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5535,11 +5879,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.rind_jam"
-				}
+				},
+				"Rind Jam"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:rind_jam",
 				"minecraft:item_name": {
@@ -5591,6 +5936,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5603,9 +5951,12 @@
 			"names": [],
 			"id": "minecraft:hoglin_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5617,11 +5968,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.stego_chicken_nugget"
-				}
+				},
+				"Stego Chicken Nugget"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -5656,6 +6008,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5668,11 +6023,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.stroganoff"
-				}
+				},
+				"Stroganoff"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:stroganoff",
 				"minecraft:item_name": {
@@ -5710,6 +6066,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5722,11 +6081,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.sweet_berry_danish"
-				}
+				},
+				"Sweet Berry Danish"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_danish",
 				"minecraft:item_name": {
@@ -5773,7 +6133,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5785,11 +6148,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.sweet_berry_jam"
-				}
+				},
+				"Sweet Berry Jam"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_jam",
 				"minecraft:item_name": {
@@ -5841,6 +6205,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5854,11 +6221,12 @@
 				{
 					"translate": "item.kleispack.sweet_berry_toast",
 					"color": "#e85e8f"
-				}
+				},
+				"Sweet Berry Toast"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_toast",
 				"minecraft:item_name": {
@@ -5906,7 +6274,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5918,11 +6289,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.tricero_chicken_nugget"
-				}
+				},
+				"Tricero Chicken Nugget"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -5957,6 +6329,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5969,9 +6344,12 @@
 			"names": [],
 			"id": "minecraft:strider_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5983,9 +6361,12 @@
 			"names": [],
 			"id": "minecraft:zombified_piglin_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -5997,9 +6378,12 @@
 			"names": [],
 			"id": "minecraft:zoglin_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -6011,9 +6395,12 @@
 			"names": [],
 			"id": "minecraft:ghast_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -6025,9 +6412,12 @@
 			"names": [],
 			"id": "minecraft:wither_skeleton_spawn_egg",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -6040,11 +6430,12 @@
 				{
 					"translate": "item.kleispack.warped_pizza",
 					"color": "#3cc6c8"
-				}
+				},
+				"Warped Pizza"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:warped_pizza",
 				"minecraft:item_name": {
@@ -6110,7 +6501,10 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -6123,11 +6517,12 @@
 				{
 					"translate": "item.kleispack.warped_stroganoff",
 					"color": "#3cc6c8"
-				}
+				},
+				"Warped Stroganoff"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:warped_stroganoff",
 				"minecraft:item_name": {
@@ -6181,6 +6576,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6193,11 +6591,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.charred_fish"
-				}
+				},
+				"Charred Fish"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -6231,6 +6630,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6243,11 +6645,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.charred_meat"
-				}
+				},
+				"Charred Meat"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -6281,6 +6684,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6293,11 +6699,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.charred_potato"
-				}
+				},
+				"Charred Potato"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -6331,6 +6738,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6343,11 +6753,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.naan"
-				}
+				},
+				"Naan"
 			],
 			"id": "minecraft:bread",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -6381,6 +6792,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6393,11 +6807,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.pumpkin_curry"
-				}
+				},
+				"Pumpkin Curry"
 			],
 			"id": "minecraft:poisonous_potato",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -6453,7 +6868,10 @@
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
 				},
-				"minecraft:max_stack_size": 64
+				"minecraft:max_stack_size": 64,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -6466,11 +6884,12 @@
 				{
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
-				}
+				},
+				"Adamant Axe"
 			],
-			"id": "minecraft:netherite_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -6485,7 +6904,8 @@
 					"damage_per_block": 1
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:efficiency": 2,
@@ -6567,15 +6987,17 @@
 				{
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
-				}
+				},
+				"Adamant Boots"
 			],
-			"id": "minecraft:netherite_boots",
+			"id": "",
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:adamant_armour": 1,
@@ -6665,15 +7087,17 @@
 				{
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
-				}
+				},
+				"Adamant Chestplate"
 			],
-			"id": "minecraft:netherite_chestplate",
+			"id": "",
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:adamant_armour": 1,
@@ -6763,11 +7187,12 @@
 				{
 					"translate": "item.kleispack.adamant_claymore",
 					"color": "gold"
-				}
+				},
+				"Adamant Claymore"
 			],
-			"id": "minecraft:netherite_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -6776,7 +7201,8 @@
 				},
 				"minecraft:item_model": "matcha:adamant_claymore",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:unbreaking": 2,
@@ -6908,11 +7334,12 @@
 				{
 					"translate": "item.kleispack.adamant_dolabra",
 					"color": "gold"
-				}
+				},
+				"Adamant Dolabra"
 			],
-			"id": "minecraft:netherite_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -6937,7 +7364,8 @@
 					"damage_per_block": 1
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:unbreaking": 2,
@@ -7035,15 +7463,17 @@
 				{
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
-				}
+				},
+				"Adamant Helmet"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "",
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:adamant_armour": 1,
@@ -7133,11 +7563,12 @@
 				{
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
-				}
+				},
+				"Adamant Hoe"
 			],
-			"id": "minecraft:netherite_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -7152,7 +7583,8 @@
 					"damage_per_block": 1
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:adamant_tool": 1,
@@ -7233,15 +7665,17 @@
 				{
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
-				}
+				},
+				"Adamant Leggings"
 			],
-			"id": "minecraft:netherite_leggings",
+			"id": "",
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:adamant_armour": 1,
@@ -7331,11 +7765,12 @@
 				{
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
-				}
+				},
+				"Adamant Mattock"
 			],
-			"id": "minecraft:netherite_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -7355,7 +7790,8 @@
 					"damage_per_block": 1
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:efficiency": 1,
@@ -7437,11 +7873,12 @@
 				{
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
-				}
+				},
+				"Adamant Pickaxe"
 			],
-			"id": "minecraft:netherite_pickaxe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -7461,7 +7898,8 @@
 					"damage_per_block": 1
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:efficiency": 2,
@@ -7552,11 +7990,12 @@
 				{
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
-				}
+				},
+				"Adamant Shovel"
 			],
-			"id": "minecraft:netherite_shovel",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -7571,7 +8010,8 @@
 					"damage_per_block": 1
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:adamant_tool": 1,
@@ -7652,11 +8092,12 @@
 				{
 					"translate": "item.minecraft.netherite_spear",
 					"color": "gold"
-				}
+				},
+				"Adamant Spear"
 			],
-			"id": "minecraft:netherite_spear",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:item_name": {
@@ -7713,7 +8154,8 @@
 				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:sharpness": 1,
@@ -7732,11 +8174,12 @@
 				{
 					"translate": "item.minecraft.netherite_sword",
 					"color": "gold"
-				}
+				},
+				"Adamant Sword"
 			],
-			"id": "minecraft:netherite_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -7744,7 +8187,8 @@
 					"color": "gold"
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:sharpness": 1,
@@ -7827,11 +8271,12 @@
 				{
 					"translate": "item.kleispack.electrum_axe",
 					"color": "yellow"
-				}
+				},
+				"Electrum Axe"
 			],
-			"id": "minecraft:netherite_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -7914,7 +8359,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_tool": 3,
@@ -7939,11 +8385,12 @@
 				{
 					"translate": "item.kleispack.electrum_boots",
 					"color": "yellow"
-				}
+				},
+				"Electrum Boots"
 			],
 			"id": "minecraft:netherite_boots",
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -8026,7 +8473,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_armour": 1
@@ -8053,11 +8501,12 @@
 				{
 					"translate": "item.kleispack.electrum_chestplate",
 					"color": "yellow"
-				}
+				},
+				"Electrum Chestplate"
 			],
 			"id": "minecraft:netherite_chestplate",
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -8140,7 +8589,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_armour": 1
@@ -8167,11 +8617,12 @@
 				{
 					"translate": "item.kleispack.electrum_dolabra",
 					"color": "yellow"
-				}
+				},
+				"Electrum Dolabra"
 			],
 			"id": "minecraft:netherite_axe",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -8264,7 +8715,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_tool": 3
@@ -8286,11 +8738,12 @@
 				{
 					"translate": "item.kleispack.electrum_helmet",
 					"color": "yellow"
-				}
+				},
+				"Electrum Helmet"
 			],
 			"id": "minecraft:netherite_helmet",
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -8373,7 +8826,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_armour": 1
@@ -8400,11 +8854,12 @@
 				{
 					"translate": "item.kleispack.electrum_hoe",
 					"color": "yellow"
-				}
+				},
+				"Electrum Hoe"
 			],
-			"id": "minecraft:netherite_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -8487,7 +8942,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_tool": 3
@@ -8509,11 +8965,12 @@
 				{
 					"translate": "item.kleispack.electrum_leggings",
 					"color": "yellow"
-				}
+				},
+				"Electrum Leggings"
 			],
 			"id": "minecraft:netherite_leggings",
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -8596,7 +9053,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_armour": 1
@@ -8623,11 +9081,12 @@
 				{
 					"translate": "item.kleispack.electrum_mattock",
 					"color": "yellow"
-				}
+				},
+				"Electrum Mattock"
 			],
 			"id": "minecraft:netherite_hoe",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -8715,7 +9174,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_tool": 2,
@@ -8738,11 +9198,12 @@
 				{
 					"translate": "item.kleispack.electrum_pickaxe",
 					"color": "yellow"
-				}
+				},
+				"Electrum Pickaxe"
 			],
 			"id": "minecraft:netherite_pickaxe",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -8830,7 +9291,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_tool": 3
@@ -8852,11 +9314,12 @@
 				{
 					"translate": "item.kleispack.electrum_shovel",
 					"color": "yellow"
-				}
+				},
+				"Electrum Shovel"
 			],
 			"id": "minecraft:netherite_shovel",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -8939,7 +9402,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:electrum_tool": 3
@@ -8961,11 +9425,12 @@
 				{
 					"translate": "item.kleispack.electrum_spear",
 					"color": "yellow"
-				}
+				},
+				"Electrum Spear"
 			],
 			"id": "minecraft:netherite_spear",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -9020,7 +9485,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:smite": 4,
@@ -9044,11 +9510,12 @@
 				{
 					"translate": "item.kleispack.electrum_sword",
 					"color": "yellow"
-				}
+				},
+				"Electrum Sword"
 			],
 			"id": "minecraft:netherite_sword",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:lore": [
@@ -9109,7 +9576,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:looting": 2,
@@ -9134,11 +9602,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_axe",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Axe"
 			],
-			"id": "minecraft:stone_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -9232,6 +9701,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9245,11 +9717,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_boots",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Boots"
 			],
-			"id": "minecraft:copper_boots",
+			"id": "",
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -9315,6 +9788,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9328,11 +9804,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_chestplate",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Chestplate"
 			],
-			"id": "minecraft:copper_chestplate",
+			"id": "",
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -9398,6 +9875,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9411,11 +9891,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_dolabra",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Dolabra"
 			],
-			"id": "minecraft:stone_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -9515,6 +9996,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9530,9 +10014,9 @@
 					"color": "#ac7b5c"
 				}
 			],
-			"id": "minecraft:elytra",
+			"id": "",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 800,
 				"minecraft:lore": [
@@ -9604,6 +10088,9 @@
 						"minecraft:honeycomb_block",
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9617,11 +10104,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_helmet",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Helmet"
 			],
-			"id": "minecraft:copper_helmet",
+			"id": "",
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -9687,6 +10175,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9700,11 +10191,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_hoe",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Hoe"
 			],
-			"id": "minecraft:stone_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -9785,6 +10277,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9798,11 +10293,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_leggings",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Leggings"
 			],
-			"id": "minecraft:copper_leggings",
+			"id": "",
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -9868,6 +10364,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9881,11 +10380,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_mattock",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Mattock"
 			],
-			"id": "minecraft:stone_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -9985,6 +10485,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -9998,11 +10501,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_pickaxe",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Pickaxe"
 			],
-			"id": "minecraft:stone_pickaxe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -10102,6 +10606,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -10115,11 +10622,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_shovel",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Shovel"
 			],
-			"id": "minecraft:stone_shovel",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -10214,6 +10722,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -10227,11 +10738,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_spear",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Spear"
 			],
-			"id": "minecraft:stone_spear",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -10304,7 +10816,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:lunge": 3
@@ -10327,11 +10840,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_sword",
 					"color": "#ac7b5c"
-				}
+				},
+				"Hepatizon Sword"
 			],
-			"id": "minecraft:stone_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -10404,7 +10918,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:riposte": 2
@@ -10427,11 +10942,12 @@
 				{
 					"translate": "item.kleispack.shakudo_axe",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Axe"
 			],
-			"id": "minecraft:stone_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -10451,7 +10967,8 @@
 				},
 				"minecraft:item_model": "matcha:shakudo_axe",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:silk_touch": 1,
@@ -10532,11 +11049,12 @@
 				{
 					"translate": "item.kleispack.shakudo_boots",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Boots"
 			],
 			"id": "minecraft:copper_boots",
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -10588,7 +11106,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:cleanse_armor_feet": 1,
@@ -10618,11 +11137,12 @@
 				{
 					"translate": "item.kleispack.shakudo_chestplate",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Chestplate"
 			],
 			"id": "minecraft:copper_chestplate",
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -10674,7 +11194,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:cleanse_armor_chest": 1,
@@ -10704,11 +11225,12 @@
 				{
 					"translate": "item.kleispack.shakudo_dolabra",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Dolabra"
 			],
-			"id": "minecraft:stone_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -10733,7 +11255,8 @@
 				},
 				"minecraft:item_model": "matcha:shakudo_dolabra",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:silk_touch": 1
@@ -10811,11 +11334,12 @@
 				{
 					"translate": "item.kleispack.shakudo_elytra",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Elytra"
 			],
 			"id": "minecraft:elytra",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 800,
 				"minecraft:lore": [
@@ -10872,7 +11396,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:max_magic_protection": 1,
@@ -10903,11 +11428,12 @@
 				{
 					"translate": "item.kleispack.shakudo_helmet",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Helmet"
 			],
 			"id": "minecraft:copper_helmet",
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -10959,7 +11485,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:cleanse_armor_head": 1,
@@ -10989,11 +11516,12 @@
 				{
 					"translate": "item.kleispack.shakudo_hoe",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Hoe"
 			],
-			"id": "minecraft:stone_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11013,7 +11541,8 @@
 				},
 				"minecraft:item_model": "matcha:shakudo_hoe",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:silk_touch": 1
@@ -11086,11 +11615,12 @@
 				{
 					"translate": "item.kleispack.shakudo_leggings",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Leggings"
 			],
 			"id": "minecraft:copper_leggings",
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -11142,7 +11672,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:cleanse_armor_legs": 1,
@@ -11172,11 +11703,12 @@
 				{
 					"translate": "item.kleispack.shakudo_mattock",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Mattock"
 			],
-			"id": "minecraft:stone_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11237,7 +11769,8 @@
 				},
 				"minecraft:item_model": "matcha:shakudo_mattock",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:silk_touch": 1
@@ -11281,11 +11814,12 @@
 				{
 					"translate": "item.kleispack.shakudo_pickaxe",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Pickaxe"
 			],
-			"id": "minecraft:stone_pickaxe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11310,7 +11844,8 @@
 				},
 				"minecraft:item_model": "matcha:shakudo_pickaxe",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:silk_touch": 1
@@ -11383,11 +11918,12 @@
 				{
 					"translate": "item.kleispack.shakudo_shovel",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Shovel"
 			],
-			"id": "minecraft:stone_shovel",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11407,7 +11943,8 @@
 				},
 				"minecraft:item_model": "matcha:shakudo_shovel",
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:silk_touch": 1
@@ -11487,11 +12024,12 @@
 				{
 					"translate": "item.kleispack.shakudo_spear",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Spear"
 			],
-			"id": "minecraft:stone_spear",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -11554,7 +12092,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:shakudo_weapon": 1
@@ -11572,11 +12111,12 @@
 				{
 					"translate": "item.kleispack.shakudo_sword",
 					"color": "#c96691"
-				}
+				},
+				"Shakudo Sword"
 			],
-			"id": "minecraft:stone_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -11601,7 +12141,8 @@
 					}
 				],
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:sweeping_edge": 1,
@@ -11657,11 +12198,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.silver_sword"
-				}
+				},
+				"Silver Sword"
 			],
-			"id": "minecraft:stone_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 400,
 				"minecraft:lore": [
@@ -11726,7 +12268,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:smite": 3,
@@ -11751,11 +12294,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_axe"
-				}
+				},
+				"Steel Axe"
 			],
-			"id": "minecraft:stone_axe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_axe"
@@ -11849,6 +12393,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -11862,11 +12409,12 @@
 				{
 					"translate": "item.kleispack.steel_boots",
 					"color": "white"
-				}
+				},
+				"Steel Boots"
 			],
 			"id": "minecraft:iron_boots",
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -11938,7 +12486,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:blast_protection": 2
@@ -11966,11 +12515,12 @@
 				{
 					"translate": "item.kleispack.steel_chestplate",
 					"color": "white"
-				}
+				},
+				"Steel Chestplate"
 			],
 			"id": "minecraft:iron_chestplate",
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -12042,7 +12592,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:blast_protection": 4
@@ -12069,11 +12620,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_claymore"
-				}
+				},
+				"Steel Claymore"
 			],
-			"id": "minecraft:stone_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1500,
 				"minecraft:item_name": {
@@ -12197,7 +12749,10 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -12209,11 +12764,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_dolabra"
-				}
+				},
+				"Steel Dolabra"
 			],
 			"id": "minecraft:stone_axe",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_dolabra"
@@ -12297,6 +12853,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -12310,11 +12869,12 @@
 				{
 					"translate": "item.kleispack.steel_helmet",
 					"color": "white"
-				}
+				},
+				"Steel Helmet"
 			],
 			"id": "minecraft:iron_helmet",
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -12386,7 +12946,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:blast_protection": 2
@@ -12413,11 +12974,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_hoe"
-				}
+				},
+				"Steel Hoe"
 			],
-			"id": "minecraft:stone_hoe",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_hoe"
@@ -12480,6 +13042,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -12493,11 +13058,12 @@
 				{
 					"translate": "item.kleispack.steel_leggings",
 					"color": "white"
-				}
+				},
+				"Steel Leggings"
 			],
 			"id": "minecraft:iron_leggings",
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -12569,7 +13135,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"minecraft:blast_protection": 3
@@ -12596,11 +13163,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_mattock"
-				}
+				},
+				"Steel Mattock"
 			],
 			"id": "minecraft:stone_hoe",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_mattock"
@@ -12668,6 +13236,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -12680,11 +13251,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_pickaxe"
-				}
+				},
+				"Steel Pickaxe"
 			],
 			"id": "minecraft:stone_pickaxe",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_pickaxe"
@@ -12742,6 +13314,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -12754,11 +13329,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_shears"
-				}
+				},
+				"Steel Shears"
 			],
 			"id": "minecraft:shears",
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_shears"
@@ -12781,7 +13357,10 @@
 						"color": "dark_gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -12793,11 +13372,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_shovel"
-				}
+				},
+				"Steel Shovel"
 			],
 			"id": "minecraft:stone_shovel",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_shovel"
@@ -12855,6 +13435,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -12867,11 +13450,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_spear"
-				}
+				},
+				"Steel Spear"
 			],
 			"id": "minecraft:stone_spear",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -12947,7 +13531,10 @@
 						"minecraft:iron_ingot"
 					]
 				},
-				"minecraft:enchantment_glint_override": false
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -12959,11 +13546,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.steel_sword"
-				}
+				},
+				"Steel Sword"
 			],
-			"id": "minecraft:stone_sword",
+			"id": "",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_sword"
@@ -13039,6 +13627,9 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -13051,11 +13642,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.warding_shield"
-				}
+				},
+				"Warding Shield"
 			],
 			"id": "minecraft:shield",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -13106,7 +13698,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:warding_1": 1
@@ -13131,11 +13724,12 @@
 			"names": [
 				{
 					"translate": "item.kleispack.warding_sword"
-				}
+				},
+				"Warding Sword"
 			],
 			"id": "minecraft:stone_sword",
 			"type": "tool",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -13200,7 +13794,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1
+					"has_intrinsic_enchants": 1,
+					"version": 1
 				},
 				"minecraft:stored_enchantments": {
 					"matcha:warding_1": 1
@@ -13216,5 +13811,8 @@
 			},
 			"ignore": null
 		}
+	},
+	"options": {
+		"createHelpDiag": "False"
 	}
 }

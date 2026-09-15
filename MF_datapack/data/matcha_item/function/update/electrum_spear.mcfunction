@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/electrum_spear run matcha_item:mainhand/electrum_spear
+execute if predicate matcha_item:offhand/electrum_spear run matcha_item:offhand/electrum_spear

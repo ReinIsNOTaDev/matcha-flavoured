@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/sweet_berry_mash run matcha_item:mainhand/sweet_berry_mash
+execute if predicate matcha_item:offhand/sweet_berry_mash run matcha_item:offhand/sweet_berry_mash

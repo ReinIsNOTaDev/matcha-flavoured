@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/honey_ginger_tea run matcha_item:mainhand/honey_ginger_tea
+execute if predicate matcha_item:offhand/honey_ginger_tea run matcha_item:offhand/honey_ginger_tea

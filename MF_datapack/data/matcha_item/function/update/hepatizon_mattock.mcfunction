@@ -1,0 +1,2 @@
+execute if predicate matcha_item:mainhand/hepatizon_mattock run matcha_item:mainhand/hepatizon_mattock
+execute if predicate matcha_item:offhand/hepatizon_mattock run matcha_item:offhand/hepatizon_mattock

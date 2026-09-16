@@ -1,6 +1,3 @@
-# Set required Gamerules
-function matcha:setup/gamerules
-
 # Set up Scoreboards
 function matcha:setup/scoreboard/create_scoreboards
 
@@ -13,3 +10,7 @@ execute if score current_world_settings_difficulty difficulty_score matches 1 ru
 
 # Start player update checker
 function matcha:setup/player_update_check_loop
+
+#Revoke Crystal heart advancement just in-case something goes wrong
+#This is temporary until I figure something else out, maybe a tag and scan situation but I want to be mindful of performance
+advancement revoke @a only matcha:mechanics/crystal_heart_used

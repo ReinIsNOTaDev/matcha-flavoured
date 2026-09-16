@@ -23,18 +23,13 @@
 													"weapon.mainhand": {
 														"predicates": {
 															"minecraft:custom_data": {
-																"version": "1"
+																"version": 1
 															}
 														}
 													}
 												}
 											}
-										}
-									]
-								},
-								{
-									"condition": "minecraft:any_of",
-									"terms": [
+										},
 										{
 											"condition": "minecraft:entity_properties",
 											"entity": "this",
@@ -43,7 +38,7 @@
 													"weapon.offhand": {
 														"predicates": {
 															"minecraft:custom_data": {
-																"version": "1"
+																"version": 1
 															}
 														}
 													}

@@ -223,9 +223,9 @@ def create(item):
 
 class item_predicate():
     def __init__(self, predicate, slots):
-        self.dict_ = []
+        self.createDict = []
         for slot in slots:
-            self.dict_.append({"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:slots": {slot: predicate}}})
+            self.createDict.append({"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:slots": {slot: predicate}}})
 
 def creationHelper(obj, item):
 # helper CLI if there's no names, and for id use config
@@ -244,20 +244,26 @@ def creationHelper(obj, item):
                 obj["names"].append(raw_name)
             print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
     else:
+        obj["names"] = []
         duplications = -1
         files = DB["files"]
-        for item_ in files:
-            if files[item_]["id"] == obj["id"]:
-                duplications += 1
-        if duplications >= 1:
-            obj["id"] = ""
+        if obj["id"] != "":
+            for item_ in files:
+                if files[item_]["id"] == obj["id"]:
+                    duplications += 1
+            if duplications >= 1:
+                obj["id"] = ""
+        else:
+            pass
         lang_path = os.path.join("MF_resourcepack/assets/minecraft/lang/en_us.json")
         lang_json = json.load(open(lang_path, 'r'))
         try:
-            obj["names"].append(lang_json[obj["components"]["minecraft:item_name"]["translate"]])
+            obj["names"].append(obj["components"].get("minecraft:item_name")) if obj["components"].get("minecraft:item_name") != None else None
+            obj["names"].append(lang_json[obj["components"]["minecraft:item_name"].get("translate")]) if obj["components"].get("minecraft:item_name") != None else None
         except:
-            pass
+            print("[D] name appending fail caused by: "+item) if debug else None
 # defining variables
+    print("[D] names: "+str(obj["names"])) if debug else None
     names = obj["names"]
     id_ = obj["id"]
     version = obj["version"]
@@ -281,12 +287,11 @@ def creationHelper(obj, item):
 # defining item modifier
     item_modifier = {"function": "set_components", "components": components}
 # defining item predicates
-    id_predicates = item_predicate({"items": id_}, slots).dict_
+    id_predicates = item_predicate({"items": id_}, slots).createDict
     names_predicates = []
-    for name in names:
-        names_predicates.append(item_predicate({"components": {"minecraft:item_name": name}}, slots).dict_)
-    version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).dict_
-    print("[D] a bunch of predicates: "+str([id_predicates,names_predicates,version_predicates])) if debug else None
+    for i in range(len(names)):
+        names_predicates.append(item_predicate({"components": {"minecraft:item_name": names[i]}}, slots).createDict)
+    version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).createDict
 # defining main predicates
     if len(slots) == 2:
         mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}
@@ -294,25 +299,24 @@ def creationHelper(obj, item):
         i = 0
         for names_predicate in names_predicates:
             if (i % 2) == 0:
-                mainhand_predicate["terms"][0]["terms"].append(names_predicate)
+                mainhand_predicate["terms"][0]["terms"].append(names_predicates[i])
             else:
-                offhand_predicate["terms"][0]["terms"].append(names_predicate)
+                offhand_predicate["terms"][0]["terms"].append(names_predicates[i])
             i += 1
         if id_ != "":
             mainhand_predicate["terms"][0]["terms"].append(id_predicates[0])
             offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
         else:
             pass
-        mainhand_predicate["terms"][0]["terms"].append(version_predicates[0])
-        offhand_predicate["terms"][0]["terms"].append(version_predicates[1])
+        mainhand_predicate["terms"][1]["terms"].append(version_predicates[0])
+        offhand_predicate["terms"][1]["terms"].append(version_predicates[1])
     else:
         pass
 # defining trigger advancement
-    trigger_advancement_path = os.path.join(Updater,"advancement/"+item+".json")
     trigger_advancement = {"criteria": {item: {"conditions": {"player": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}}, "trigger": "minecraft:inventory_changed"}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
     if names != []:
         for i in range(len(names_predicates)):
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i][0]["condition"])
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i])
     else:
         pass
     if id_ != "":
@@ -323,23 +327,24 @@ def creationHelper(obj, item):
     if len(version_predicates) == 1:
         trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append(version_predicates[0])
     else:
-        for version_predicate in version_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append({"condition": "minecraft:any_of", "terms": [version_predicate]})
+        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append({"condition": "minecraft:any_of", "terms": []})
+        for i in range(len(version_predicates)):
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"][0]["terms"].append(version_predicates[i])
 # defining update function
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
             update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
-            update_function = "advancement revoke @s only matcha_item:trigger/"+item
+            update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "tool":
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item+"\n"
-            update_function = "advancement revoke @s only matcha_item:trigger/"+item
+            update_function += "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case "generic":
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item+"\n"
-            update_function = "advancement revoke @s only matcha_item:trigger/"+item
+            update_function += "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case _:

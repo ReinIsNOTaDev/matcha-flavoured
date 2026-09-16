@@ -1,1 +1,3 @@
+execute if predicate matcha_item:mainhand/golden_steamed_carrots run matcha_item:mainhand/golden_steamed_carrots
+execute if predicate matcha_item:offhand/golden_steamed_carrots run matcha_item:offhand/golden_steamed_carrots
 advancement revoke @s only matcha_item:trigger/golden_steamed_carrots

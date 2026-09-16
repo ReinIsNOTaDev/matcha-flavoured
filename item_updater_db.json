@@ -27,7 +27,7 @@
 	},
 	"files": {
 		"baked_apple": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -88,7 +88,7 @@
 			"ignore": null
 		},
 		"baked_golden_apple": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -98,7 +98,6 @@
 					"translate": "item.minecraft.glistering_melon_slice",
 					"color": "yellow"
 				},
-				"Baked Golden Apple",
 				"Baked Golden Apple"
 			],
 			"id": "minecraft:glistering_melon_slice",
@@ -174,7 +173,7 @@
 			"ignore": null
 		},
 		"baked_potato": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -222,7 +221,7 @@
 			"ignore": null
 		},
 		"baked_pumpkin": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -285,7 +284,7 @@
 			"ignore": null
 		},
 		"braised_brown_mushroom": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -332,7 +331,7 @@
 			"ignore": null
 		},
 		"braised_crimson_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -342,7 +341,6 @@
 					"translate": "item.kleispack.braised_crimson_fungus",
 					"color": "#c54457"
 				},
-				"Braised Crimson Fungus",
 				"Braised Crimson Fungus"
 			],
 			"id": "",
@@ -406,7 +404,7 @@
 			"ignore": null
 		},
 		"braised_red_mushroom": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -415,7 +413,6 @@
 				{
 					"translate": "item.kleispack.braised_red_mushroom"
 				},
-				"Braised Toadstool",
 				"Braised Toadstool"
 			],
 			"id": "",
@@ -477,7 +474,7 @@
 			"ignore": null
 		},
 		"brasied_warped_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -487,7 +484,6 @@
 					"translate": "item.kleispack.braised_warped_fungus",
 					"color": "#3cc6c8"
 				},
-				"Braised Warped Fungus",
 				"Braised Warped Fungus"
 			],
 			"id": "",
@@ -551,7 +547,7 @@
 			"ignore": null
 		},
 		"bread": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -620,7 +616,7 @@
 			"ignore": null
 		},
 		"chocolate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -683,7 +679,7 @@
 			"ignore": null
 		},
 		"cooked_beef": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -730,7 +726,7 @@
 			"ignore": null
 		},
 		"cooked_chicken": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -777,7 +773,7 @@
 			"ignore": null
 		},
 		"cooked_cod": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -824,7 +820,7 @@
 			"ignore": null
 		},
 		"cooked_mutton": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -871,7 +867,7 @@
 			"ignore": null
 		},
 		"cooked_pork": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -918,7 +914,7 @@
 			"ignore": null
 		},
 		"cooked_pufferfish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -927,7 +923,6 @@
 				{
 					"translate": "item.kleispack.fish.cooked_pufferfish"
 				},
-				"Cooked Pufferfish",
 				"Cooked Pufferfish"
 			],
 			"id": "",
@@ -989,7 +984,7 @@
 			"ignore": null
 		},
 		"cooked_rabbit": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1036,7 +1031,7 @@
 			"ignore": null
 		},
 		"cooked_salmon": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1083,7 +1078,7 @@
 			"ignore": null
 		},
 		"cooked_tropical_fish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1130,7 +1125,7 @@
 			"ignore": null
 		},
 		"fried_egg": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1139,7 +1134,6 @@
 				{
 					"translate": "item.kleispack.fried_egg"
 				},
-				"Fried Egg",
 				"Fried Egg"
 			],
 			"id": "",
@@ -1187,7 +1181,7 @@
 			"ignore": null
 		},
 		"glow_mash": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1243,7 +1237,7 @@
 			"ignore": null
 		},
 		"golden_steamed_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1253,7 +1247,6 @@
 					"translate": "item.kleispack.golden_steamed_carrots",
 					"color": "yellow"
 				},
-				"Steamed Golden Carrots",
 				"Steamed Golden Carrots"
 			],
 			"id": "",
@@ -1318,7 +1311,7 @@
 			"ignore": null
 		},
 		"green_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1327,7 +1320,6 @@
 				{
 					"translate": "item.kleispack.green_curry"
 				},
-				"Green Curry",
 				"Green Curry"
 			],
 			"id": "",
@@ -1393,7 +1385,7 @@
 			"ignore": null
 		},
 		"grilled_melon": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1402,7 +1394,6 @@
 				{
 					"translate": "item.kleispack.grilled_melon"
 				},
-				"Grilled Melon",
 				"Grilled Melon"
 			],
 			"id": "",
@@ -1464,7 +1455,7 @@
 			"ignore": null
 		},
 		"grilled_tomatoes": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1473,7 +1464,6 @@
 				{
 					"translate": "item.kleispack.grilled_tomatoes"
 				},
-				"Grilled Tomatoes",
 				"Grilled Tomatoes"
 			],
 			"id": "",
@@ -1536,7 +1526,7 @@
 			"ignore": null
 		},
 		"honey_ginger_tea": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1545,7 +1535,6 @@
 				{
 					"translate": "item.kleispack.honey_ginger_tea"
 				},
-				"Honey Ginger Tea",
 				"Honey Ginger Tea"
 			],
 			"id": "",
@@ -1632,7 +1621,7 @@
 			"ignore": null
 		},
 		"japanese_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1641,7 +1630,6 @@
 				{
 					"translate": "item.kleispack.japanese_curry"
 				},
-				"Japanese Curry",
 				"Japanese Curry"
 			],
 			"id": "",
@@ -1708,7 +1696,7 @@
 			"ignore": null
 		},
 		"molasses": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1726,7 +1714,7 @@
 			"ignore": null
 		},
 		"nopales": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1735,7 +1723,6 @@
 				{
 					"translate": "item.kleispack.nopales"
 				},
-				"Nopales",
 				"Nopales"
 			],
 			"id": "minecraft:green_dye",
@@ -1784,7 +1771,7 @@
 			"ignore": null
 		},
 		"paneer_makhani": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1793,7 +1780,6 @@
 				{
 					"translate": "item.kleispack.paneer_makhani"
 				},
-				"Paneer Makhani",
 				"Paneer Makhani"
 			],
 			"id": "",
@@ -1861,7 +1847,7 @@
 			"ignore": null
 		},
 		"ramen": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1870,7 +1856,6 @@
 				{
 					"translate": "item.kleispack.ramen"
 				},
-				"Tonkotsu Ramen",
 				"Tonkotsu Ramen"
 			],
 			"id": "",
@@ -1939,7 +1924,7 @@
 			"ignore": null
 		},
 		"steamed_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -1948,7 +1933,6 @@
 				{
 					"translate": "item.kleispack.steamed_carrots"
 				},
-				"Steamed Carrots",
 				"Steamed Carrots"
 			],
 			"id": "",
@@ -2012,7 +1996,7 @@
 			"ignore": null
 		},
 		"sweet_berry_mash": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_campfire",
 				"food_oven"
@@ -2096,7 +2080,7 @@
 			"ignore": true
 		},
 		"apple_empanada": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2104,7 +2088,6 @@
 				{
 					"translate": "item.kleispack.apple_empanada"
 				},
-				"Apple Empanada",
 				"Apple Empanada"
 			],
 			"id": "",
@@ -2166,7 +2149,7 @@
 			"ignore": null
 		},
 		"bokguk": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2174,7 +2157,6 @@
 				{
 					"translate": "item.kleispack.bokguk"
 				},
-				"Bokguk",
 				"Bokguk"
 			],
 			"id": "",
@@ -2240,7 +2222,7 @@
 			"ignore": null
 		},
 		"brachio_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2248,7 +2230,6 @@
 				{
 					"translate": "item.kleispack.brachio_chicken_nugget"
 				},
-				"Brachio Chicken Nugget",
 				"Brachio Chicken Nugget"
 			],
 			"id": "",
@@ -2296,7 +2277,7 @@
 			"ignore": null
 		},
 		"brownie": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2304,7 +2285,6 @@
 				{
 					"translate": "item.kleispack.brownie"
 				},
-				"Brownie",
 				"Brownie"
 			],
 			"id": "",
@@ -2367,7 +2347,7 @@
 			"ignore": null
 		},
 		"bruschetta": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2375,7 +2355,6 @@
 				{
 					"translate": "item.kleispack.bruschetta"
 				},
-				"Bruschetta",
 				"Bruschetta"
 			],
 			"id": "",
@@ -2438,7 +2417,7 @@
 			"ignore": null
 		},
 		"bubbling_mead": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2488,7 +2467,7 @@
 			"ignore": null
 		},
 		"bunuelo": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2496,7 +2475,6 @@
 				{
 					"translate": "item.kleispack.bunuelo"
 				},
-				"Bu\u00f1uelo",
 				"Bu\u00f1uelo"
 			],
 			"id": "",
@@ -2559,7 +2537,7 @@
 			"ignore": null
 		},
 		"cake": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2587,7 +2565,7 @@
 			"ignore": null
 		},
 		"canned_apples": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2595,7 +2573,6 @@
 				{
 					"translate": "item.kleispack.canned_apples"
 				},
-				"Canned Apples",
 				"Canned Apples"
 			],
 			"id": "",
@@ -2660,7 +2637,7 @@
 			"ignore": null
 		},
 		"canned_golden_apples": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2669,7 +2646,6 @@
 					"translate": "item.kleispack.canned_golden_apples",
 					"color": "yellow"
 				},
-				"Canned Golden Apples",
 				"Canned Golden Apples"
 			],
 			"id": "",
@@ -2748,7 +2724,7 @@
 			"ignore": null
 		},
 		"carrot_cupcake": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2756,7 +2732,6 @@
 				{
 					"translate": "item.kleispack.carrot_cupcake"
 				},
-				"Carrot Cupcake",
 				"Carrot Cupcake"
 			],
 			"id": "",
@@ -2817,7 +2792,7 @@
 			"ignore": null
 		},
 		"cheese": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2862,7 +2837,7 @@
 			"ignore": null
 		},
 		"cheese_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2870,7 +2845,6 @@
 				{
 					"translate": "item.kleispack.cheese_pizza"
 				},
-				"Cheese Pizza",
 				"Cheese Pizza"
 			],
 			"id": "",
@@ -2933,7 +2907,7 @@
 			"ignore": null
 		},
 		"chocolate_chip_cookie": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2941,7 +2915,6 @@
 				{
 					"translate": "item.kleispack.chocolate_chip_cookie"
 				},
-				"Chocolate Chip Cookie",
 				"Chocolate Chip Cookie"
 			],
 			"id": "",
@@ -3004,7 +2977,7 @@
 			"ignore": null
 		},
 		"chorus_mochi": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3013,7 +2986,6 @@
 					"translate": "item.kleispack.chorus_mochi",
 					"color": "#ae6cbc"
 				},
-				"Chorus Mochi",
 				"Chorus Mochi"
 			],
 			"id": "",
@@ -3077,7 +3049,7 @@
 			"ignore": null
 		},
 		"crimson_stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3086,7 +3058,6 @@
 					"translate": "item.kleispack.crimson_stroganoff",
 					"color": "#c54457"
 				},
-				"Crimson Stroganoff",
 				"Crimson Stroganoff"
 			],
 			"id": "",
@@ -3153,7 +3124,7 @@
 			"ignore": null
 		},
 		"dough": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3170,7 +3141,7 @@
 			"ignore": null
 		},
 		"dough_from_water": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3187,7 +3158,7 @@
 			"ignore": null
 		},
 		"dried_kelp": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3249,7 +3220,7 @@
 			"ignore": null
 		},
 		"dried_kelp_from_dried_kelp_block": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3311,7 +3282,7 @@
 			"ignore": null
 		},
 		"fish_and_chips": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3319,7 +3290,6 @@
 				{
 					"translate": "item.kleispack.fish_and_chips"
 				},
-				"Fish and Chips",
 				"Fish and Chips"
 			],
 			"id": "",
@@ -3368,7 +3338,7 @@
 			"ignore": null
 		},
 		"flour": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3385,7 +3355,7 @@
 			"ignore": null
 		},
 		"flour_bag": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3402,7 +3372,7 @@
 			"ignore": null
 		},
 		"flour_from_flour_bag": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3419,7 +3389,7 @@
 			"ignore": null
 		},
 		"french_toast": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3427,7 +3397,6 @@
 				{
 					"translate": "item.kleispack.french_toast"
 				},
-				"French Toast",
 				"French Toast"
 			],
 			"id": "",
@@ -3475,7 +3444,7 @@
 			"ignore": null
 		},
 		"gimmari": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3483,7 +3452,6 @@
 				{
 					"translate": "item.kleispack.gimmari"
 				},
-				"Gimmari",
 				"Gimmari"
 			],
 			"id": "",
@@ -3546,7 +3514,7 @@
 			"ignore": null
 		},
 		"glow_berry_crumble": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3554,7 +3522,6 @@
 				{
 					"translate": "item.kleispack.glow_berry_crumble"
 				},
-				"Glow Berry Crumble",
 				"Glow Berry Crumble"
 			],
 			"id": "",
@@ -3610,7 +3577,7 @@
 			"ignore": null
 		},
 		"glow_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3618,7 +3585,6 @@
 				{
 					"translate": "item.kleispack.glow_berry_jam"
 				},
-				"Glow Berry Jam",
 				"Glow Berry Jam"
 			],
 			"id": "",
@@ -3679,7 +3645,7 @@
 			"ignore": null
 		},
 		"gnocchi": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3688,7 +3654,6 @@
 					"translate": "item.kleispack.gnocchi",
 					"color": "#e1bc62"
 				},
-				"Gnocchi",
 				"Gnocchi"
 			],
 			"id": "",
@@ -3739,7 +3704,7 @@
 			"ignore": null
 		},
 		"golden_apple": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3813,7 +3778,7 @@
 			"ignore": null
 		},
 		"golden_apple_empanada": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3822,7 +3787,6 @@
 					"translate": "item.kleispack.golden_empanada",
 					"color": "yellow"
 				},
-				"Gilded Empanada",
 				"Gilded Empanada"
 			],
 			"id": "",
@@ -3896,7 +3860,7 @@
 			"ignore": null
 		},
 		"golden_carrot": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3958,7 +3922,7 @@
 			"ignore": null
 		},
 		"golden_carrot_cupcake": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3967,7 +3931,6 @@
 					"translate": "item.kleispack.golden_carrot_cupcake",
 					"color": "yellow"
 				},
-				"Golden Carrot Cupcake",
 				"Golden Carrot Cupcake"
 			],
 			"id": "",
@@ -4029,7 +3992,7 @@
 			"ignore": null
 		},
 		"golden_pickled_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4038,7 +4001,6 @@
 					"translate": "item.kleispack.golden_pickled_carrots",
 					"color": "yellow"
 				},
-				"Golden Pickled Carrots",
 				"Golden Pickled Carrots"
 			],
 			"id": "",
@@ -4104,7 +4066,7 @@
 			"ignore": null
 		},
 		"honied_french_toast": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4112,7 +4074,6 @@
 				{
 					"translate": "item.kleispack.honied_french_toast"
 				},
-				"Honied French Toast",
 				"Honied French Toast"
 			],
 			"id": "",
@@ -4172,7 +4133,7 @@
 			"ignore": null
 		},
 		"ice_cream": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4180,7 +4141,6 @@
 				{
 					"translate": "item.kleispack.ice_cream"
 				},
-				"Ice Cream",
 				"Ice Cream"
 			],
 			"id": "",
@@ -4253,7 +4213,7 @@
 			"ignore": null
 		},
 		"kontomire_stew": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4261,7 +4221,6 @@
 				{
 					"translate": "item.kleispack.kontomire_stew"
 				},
-				"Kontomire-Dandelion Stew",
 				"Kontomire-Dandelion Stew"
 			],
 			"id": "",
@@ -4343,7 +4302,7 @@
 			"ignore": null
 		},
 		"latke": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4351,7 +4310,6 @@
 				{
 					"translate": "item.kleispack.latke"
 				},
-				"Latke",
 				"Latke"
 			],
 			"id": "",
@@ -4400,7 +4358,7 @@
 			"ignore": null
 		},
 		"lumpia": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4408,7 +4366,6 @@
 				{
 					"translate": "item.kleispack.lumpia"
 				},
-				"Lumpia",
 				"Lumpia"
 			],
 			"id": "",
@@ -4485,7 +4442,7 @@
 			"ignore": null
 		},
 		"mead": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4493,7 +4450,6 @@
 				{
 					"translate": "item.kleispack.mead"
 				},
-				"Mead",
 				"Mead"
 			],
 			"id": "",
@@ -4562,7 +4518,7 @@
 			"ignore": null
 		},
 		"meat_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4570,7 +4526,6 @@
 				{
 					"translate": "item.kleispack.meat_pizza"
 				},
-				"Meat Pizza",
 				"Meat Pizza"
 			],
 			"id": "",
@@ -4633,7 +4588,7 @@
 			"ignore": null
 		},
 		"melon_slice": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4672,7 +4627,7 @@
 			"ignore": null
 		},
 		"melon_sorbet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4680,7 +4635,6 @@
 				{
 					"translate": "item.kleispack.melon_sorbet"
 				},
-				"Melon Sorbet",
 				"Melon Sorbet"
 			],
 			"id": "",
@@ -4748,7 +4702,7 @@
 			"ignore": null
 		},
 		"milk_bottle": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4792,7 +4746,7 @@
 			"ignore": null
 		},
 		"mushroom_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4800,7 +4754,6 @@
 				{
 					"translate": "item.kleispack.mushroom_pizza"
 				},
-				"Mushroom Pizza",
 				"Mushroom Pizza"
 			],
 			"id": "",
@@ -4863,7 +4816,7 @@
 			"ignore": null
 		},
 		"oatmeal": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4871,7 +4824,6 @@
 				{
 					"translate": "item.kleispack.oatmeal"
 				},
-				"Apple Cinnamon Oatmeal",
 				"Apple Cinnamon Oatmeal"
 			],
 			"id": "",
@@ -4949,7 +4901,7 @@
 			"ignore": null
 		},
 		"oil": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4966,7 +4918,7 @@
 			"ignore": null
 		},
 		"pad_thai": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4974,7 +4926,6 @@
 				{
 					"translate": "item.kleispack.pad_thai"
 				},
-				"Pad Thai",
 				"Pad Thai"
 			],
 			"id": "",
@@ -5041,7 +4992,7 @@
 			"ignore": null
 		},
 		"pickled_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5049,7 +5000,6 @@
 				{
 					"translate": "item.kleispack.pickled_carrots"
 				},
-				"Pickled Carrots",
 				"Pickled Carrots"
 			],
 			"id": "",
@@ -5114,7 +5064,7 @@
 			"ignore": null
 		},
 		"pickled_crimson_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5168,7 +5118,7 @@
 			"ignore": null
 		},
 		"pickled_mushrooms": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5176,7 +5126,6 @@
 				{
 					"translate": "item.kleispack.pickled_mushrooms"
 				},
-				"Pickled Mushrooms",
 				"Pickled Mushrooms"
 			],
 			"id": "",
@@ -5227,7 +5176,7 @@
 			"ignore": null
 		},
 		"pickled_potatoes": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5235,7 +5184,6 @@
 				{
 					"translate": "item.kleispack.pickled_potatoes"
 				},
-				"Pickled Potatoes",
 				"Pickled Potatoes"
 			],
 			"id": "",
@@ -5286,7 +5234,7 @@
 			"ignore": null
 		},
 		"pickled_red_mushrooms": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5339,7 +5287,7 @@
 			"ignore": null
 		},
 		"pickled_tomatoes": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5347,7 +5295,6 @@
 				{
 					"translate": "item.kleispack.pickled_tomatoes"
 				},
-				"Sun-dried Tomatoes",
 				"Sun-dried Tomatoes"
 			],
 			"id": "",
@@ -5412,7 +5359,7 @@
 			"ignore": null
 		},
 		"pickled_warped_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5467,7 +5414,7 @@
 			"ignore": null
 		},
 		"popped_chorus_fruit": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5529,7 +5476,7 @@
 			"ignore": null
 		},
 		"ptero_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5537,7 +5484,6 @@
 				{
 					"translate": "item.kleispack.ptero_chicken_nugget"
 				},
-				"Ptero Chicken Nugget",
 				"Ptero Chicken Nugget"
 			],
 			"id": "",
@@ -5585,7 +5531,7 @@
 			"ignore": null
 		},
 		"puerquito": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5593,7 +5539,6 @@
 				{
 					"translate": "item.kleispack.puerquito"
 				},
-				"Puerquito",
 				"Puerquito"
 			],
 			"id": "",
@@ -5655,7 +5600,7 @@
 			"ignore": null
 		},
 		"pumpkin_empanada": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5663,7 +5608,6 @@
 				{
 					"translate": "item.kleispack.pumpkin_empanada"
 				},
-				"Pumpkin Empanada",
 				"Pumpkin Empanada"
 			],
 			"id": "",
@@ -5726,7 +5670,7 @@
 			"ignore": null
 		},
 		"pumpkin_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5734,7 +5678,6 @@
 				{
 					"translate": "item.kleispack.pumpkin_jam"
 				},
-				"Pumpkin Jam",
 				"Pumpkin Jam"
 			],
 			"id": "",
@@ -5801,7 +5744,7 @@
 			"ignore": null
 		},
 		"pupusa": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5809,7 +5752,6 @@
 				{
 					"translate": "item.kleispack.pupusa"
 				},
-				"Pupusa",
 				"Pupusa"
 			],
 			"id": "",
@@ -5857,7 +5799,7 @@
 			"ignore": null
 		},
 		"red_mushroom_stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5865,7 +5807,6 @@
 				{
 					"translate": "item.kleispack.red_mushroom_stroganoff"
 				},
-				"Toadstool Stroganoff",
 				"Toadstool Stroganoff"
 			],
 			"id": "",
@@ -5931,7 +5872,7 @@
 			"ignore": null
 		},
 		"rind_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5939,7 +5880,6 @@
 				{
 					"translate": "item.kleispack.rind_jam"
 				},
-				"Rind Jam",
 				"Rind Jam"
 			],
 			"id": "",
@@ -6004,7 +5944,7 @@
 			"ignore": null
 		},
 		"seitan": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6021,7 +5961,7 @@
 			"ignore": null
 		},
 		"stego_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6029,7 +5969,6 @@
 				{
 					"translate": "item.kleispack.stego_chicken_nugget"
 				},
-				"Stego Chicken Nugget",
 				"Stego Chicken Nugget"
 			],
 			"id": "",
@@ -6077,7 +6016,7 @@
 			"ignore": null
 		},
 		"stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6085,7 +6024,6 @@
 				{
 					"translate": "item.kleispack.stroganoff"
 				},
-				"Stroganoff",
 				"Stroganoff"
 			],
 			"id": "",
@@ -6136,7 +6074,7 @@
 			"ignore": null
 		},
 		"sweet_berry_danish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6144,7 +6082,6 @@
 				{
 					"translate": "item.kleispack.sweet_berry_danish"
 				},
-				"Sweet Berry Danish",
 				"Sweet Berry Danish"
 			],
 			"id": "",
@@ -6204,7 +6141,7 @@
 			"ignore": null
 		},
 		"sweet_berry_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6212,7 +6149,6 @@
 				{
 					"translate": "item.kleispack.sweet_berry_jam"
 				},
-				"Sweet Berry Jam",
 				"Sweet Berry Jam"
 			],
 			"id": "",
@@ -6277,7 +6213,7 @@
 			"ignore": null
 		},
 		"sweet_berry_toast": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6286,7 +6222,6 @@
 					"translate": "item.kleispack.sweet_berry_toast",
 					"color": "#e85e8f"
 				},
-				"Sweet Berry Toast",
 				"Sweet Berry Toast"
 			],
 			"id": "",
@@ -6347,7 +6282,7 @@
 			"ignore": null
 		},
 		"tricero_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6355,7 +6290,6 @@
 				{
 					"translate": "item.kleispack.tricero_chicken_nugget"
 				},
-				"Tricero Chicken Nugget",
 				"Tricero Chicken Nugget"
 			],
 			"id": "",
@@ -6403,7 +6337,7 @@
 			"ignore": null
 		},
 		"uncooked_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6420,7 +6354,7 @@
 			"ignore": null
 		},
 		"uncooked_green_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6437,7 +6371,7 @@
 			"ignore": null
 		},
 		"uncooked_paneer_makhani": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6454,7 +6388,7 @@
 			"ignore": null
 		},
 		"uncooked_pumpkin_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6471,7 +6405,7 @@
 			"ignore": null
 		},
 		"uncooked_ramen": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6488,7 +6422,7 @@
 			"ignore": null
 		},
 		"warped_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6497,7 +6431,6 @@
 					"translate": "item.kleispack.warped_pizza",
 					"color": "#3cc6c8"
 				},
-				"Warped Pizza",
 				"Warped Pizza"
 			],
 			"id": "",
@@ -6576,7 +6509,7 @@
 			"ignore": null
 		},
 		"warped_stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6585,7 +6518,6 @@
 					"translate": "item.kleispack.warped_stroganoff",
 					"color": "#3cc6c8"
 				},
-				"Warped Stroganoff",
 				"Warped Stroganoff"
 			],
 			"id": "",
@@ -6652,7 +6584,7 @@
 			"ignore": null
 		},
 		"charred_fish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6660,7 +6592,6 @@
 				{
 					"translate": "item.kleispack.charred_fish"
 				},
-				"Charred Fish",
 				"Charred Fish"
 			],
 			"id": "",
@@ -6707,7 +6638,7 @@
 			"ignore": null
 		},
 		"charred_meat": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6715,7 +6646,6 @@
 				{
 					"translate": "item.kleispack.charred_meat"
 				},
-				"Charred Meat",
 				"Charred Meat"
 			],
 			"id": "",
@@ -6762,7 +6692,7 @@
 			"ignore": null
 		},
 		"charred_potato": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6770,7 +6700,6 @@
 				{
 					"translate": "item.kleispack.charred_potato"
 				},
-				"Charred Potato",
 				"Charred Potato"
 			],
 			"id": "",
@@ -6817,7 +6746,7 @@
 			"ignore": null
 		},
 		"naan": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6825,7 +6754,6 @@
 				{
 					"translate": "item.kleispack.naan"
 				},
-				"Naan",
 				"Naan"
 			],
 			"id": "minecraft:bread",
@@ -6872,7 +6800,7 @@
 			"ignore": null
 		},
 		"pumpkin_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -6880,7 +6808,6 @@
 				{
 					"translate": "item.kleispack.pumpkin_curry"
 				},
-				"Pumpkin Curry",
 				"Pumpkin Curry"
 			],
 			"id": "minecraft:poisonous_potato",
@@ -6949,7 +6876,7 @@
 			"ignore": null
 		},
 		"adamant_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -6958,7 +6885,6 @@
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
 				},
-				"Adamant Axe",
 				"Adamant Axe"
 			],
 			"id": "",
@@ -7053,7 +6979,7 @@
 			"ignore": null
 		},
 		"adamant_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7062,7 +6988,6 @@
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
 				},
-				"Adamant Boots",
 				"Adamant Boots"
 			],
 			"id": "",
@@ -7154,7 +7079,7 @@
 			"ignore": null
 		},
 		"adamant_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7163,7 +7088,6 @@
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
 				},
-				"Adamant Chestplate",
 				"Adamant Chestplate"
 			],
 			"id": "",
@@ -7255,7 +7179,7 @@
 			"ignore": null
 		},
 		"adamant_claymore": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7264,7 +7188,6 @@
 					"translate": "item.kleispack.adamant_claymore",
 					"color": "gold"
 				},
-				"Adamant Claymore",
 				"Adamant Claymore"
 			],
 			"id": "",
@@ -7403,7 +7326,7 @@
 			"ignore": null
 		},
 		"adamant_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7412,7 +7335,6 @@
 					"translate": "item.kleispack.adamant_dolabra",
 					"color": "gold"
 				},
-				"Adamant Dolabra",
 				"Adamant Dolabra"
 			],
 			"id": "",
@@ -7533,7 +7455,7 @@
 			"ignore": null
 		},
 		"adamant_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7542,7 +7464,6 @@
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
 				},
-				"Adamant Helmet",
 				"Adamant Helmet"
 			],
 			"id": "",
@@ -7634,7 +7555,7 @@
 			"ignore": null
 		},
 		"adamant_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7643,7 +7564,6 @@
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
 				},
-				"Adamant Hoe",
 				"Adamant Hoe"
 			],
 			"id": "",
@@ -7737,7 +7657,7 @@
 			"ignore": null
 		},
 		"adamant_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7746,7 +7666,6 @@
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
 				},
-				"Adamant Leggings",
 				"Adamant Leggings"
 			],
 			"id": "",
@@ -7838,7 +7757,7 @@
 			"ignore": null
 		},
 		"adamant_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7847,7 +7766,6 @@
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
 				},
-				"Adamant Mattock",
 				"Adamant Mattock"
 			],
 			"id": "",
@@ -7947,7 +7865,7 @@
 			"ignore": null
 		},
 		"adamant_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7956,7 +7874,6 @@
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
 				},
-				"Adamant Pickaxe",
 				"Adamant Pickaxe"
 			],
 			"id": "",
@@ -8065,7 +7982,7 @@
 			"ignore": null
 		},
 		"adamant_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8074,7 +7991,6 @@
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
 				},
-				"Adamant Shovel",
 				"Adamant Shovel"
 			],
 			"id": "",
@@ -8168,7 +8084,7 @@
 			"ignore": null
 		},
 		"adamant_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8177,7 +8093,6 @@
 					"translate": "item.minecraft.netherite_spear",
 					"color": "gold"
 				},
-				"Adamant Spear",
 				"Adamant Spear"
 			],
 			"id": "",
@@ -8251,7 +8166,7 @@
 			"ignore": null
 		},
 		"adamant_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8260,7 +8175,6 @@
 					"translate": "item.minecraft.netherite_sword",
 					"color": "gold"
 				},
-				"Adamant Sword",
 				"Adamant Sword"
 			],
 			"id": "",
@@ -8349,7 +8263,7 @@
 			"ignore": null
 		},
 		"electrum_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8358,7 +8272,6 @@
 					"translate": "item.kleispack.electrum_axe",
 					"color": "yellow"
 				},
-				"Electrum Axe",
 				"Electrum Axe"
 			],
 			"id": "",
@@ -8464,7 +8377,7 @@
 			"ignore": null
 		},
 		"electrum_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8473,7 +8386,6 @@
 					"translate": "item.kleispack.electrum_boots",
 					"color": "yellow"
 				},
-				"Electrum Boots",
 				"Electrum Boots"
 			],
 			"id": "minecraft:netherite_boots",
@@ -8581,7 +8493,7 @@
 			"ignore": null
 		},
 		"electrum_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8590,7 +8502,6 @@
 					"translate": "item.kleispack.electrum_chestplate",
 					"color": "yellow"
 				},
-				"Electrum Chestplate",
 				"Electrum Chestplate"
 			],
 			"id": "minecraft:netherite_chestplate",
@@ -8698,7 +8609,7 @@
 			"ignore": null
 		},
 		"electrum_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8707,7 +8618,6 @@
 					"translate": "item.kleispack.electrum_dolabra",
 					"color": "yellow"
 				},
-				"Electrum Dolabra",
 				"Electrum Dolabra"
 			],
 			"id": "minecraft:netherite_axe",
@@ -8820,7 +8730,7 @@
 			"ignore": null
 		},
 		"electrum_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8829,7 +8739,6 @@
 					"translate": "item.kleispack.electrum_helmet",
 					"color": "yellow"
 				},
-				"Electrum Helmet",
 				"Electrum Helmet"
 			],
 			"id": "minecraft:netherite_helmet",
@@ -8937,7 +8846,7 @@
 			"ignore": null
 		},
 		"electrum_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8946,7 +8855,6 @@
 					"translate": "item.kleispack.electrum_hoe",
 					"color": "yellow"
 				},
-				"Electrum Hoe",
 				"Electrum Hoe"
 			],
 			"id": "",
@@ -9049,7 +8957,7 @@
 			"ignore": null
 		},
 		"electrum_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9058,7 +8966,6 @@
 					"translate": "item.kleispack.electrum_leggings",
 					"color": "yellow"
 				},
-				"Electrum Leggings",
 				"Electrum Leggings"
 			],
 			"id": "minecraft:netherite_leggings",
@@ -9166,7 +9073,7 @@
 			"ignore": null
 		},
 		"electrum_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9175,7 +9082,6 @@
 					"translate": "item.kleispack.electrum_mattock",
 					"color": "yellow"
 				},
-				"Electrum Mattock",
 				"Electrum Mattock"
 			],
 			"id": "minecraft:netherite_hoe",
@@ -9284,7 +9190,7 @@
 			"ignore": null
 		},
 		"electrum_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9293,7 +9199,6 @@
 					"translate": "item.kleispack.electrum_pickaxe",
 					"color": "yellow"
 				},
-				"Electrum Pickaxe",
 				"Electrum Pickaxe"
 			],
 			"id": "minecraft:netherite_pickaxe",
@@ -9401,7 +9306,7 @@
 			"ignore": null
 		},
 		"electrum_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9410,7 +9315,6 @@
 					"translate": "item.kleispack.electrum_shovel",
 					"color": "yellow"
 				},
-				"Electrum Shovel",
 				"Electrum Shovel"
 			],
 			"id": "minecraft:netherite_shovel",
@@ -9513,7 +9417,7 @@
 			"ignore": null
 		},
 		"electrum_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9522,7 +9426,6 @@
 					"translate": "item.kleispack.electrum_spear",
 					"color": "yellow"
 				},
-				"Electrum Spear",
 				"Electrum Spear"
 			],
 			"id": "minecraft:netherite_spear",
@@ -9599,7 +9502,7 @@
 			"ignore": null
 		},
 		"electrum_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9608,7 +9511,6 @@
 					"translate": "item.kleispack.electrum_sword",
 					"color": "yellow"
 				},
-				"Electrum Sword",
 				"Electrum Sword"
 			],
 			"id": "minecraft:netherite_sword",
@@ -9692,7 +9594,7 @@
 			"ignore": null
 		},
 		"hepatizon_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9701,7 +9603,6 @@
 					"translate": "item.kleispack.hepatizon_axe",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Axe",
 				"Hepatizon Axe"
 			],
 			"id": "",
@@ -9808,7 +9709,7 @@
 			"ignore": null
 		},
 		"hepatizon_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9817,7 +9718,6 @@
 					"translate": "item.kleispack.hepatizon_boots",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Boots",
 				"Hepatizon Boots"
 			],
 			"id": "",
@@ -9896,7 +9796,7 @@
 			"ignore": null
 		},
 		"hepatizon_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9905,7 +9805,6 @@
 					"translate": "item.kleispack.hepatizon_chestplate",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Chestplate",
 				"Hepatizon Chestplate"
 			],
 			"id": "",
@@ -9984,7 +9883,7 @@
 			"ignore": null
 		},
 		"hepatizon_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9993,7 +9892,6 @@
 					"translate": "item.kleispack.hepatizon_dolabra",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Dolabra",
 				"Hepatizon Dolabra"
 			],
 			"id": "",
@@ -10106,7 +10004,7 @@
 			"ignore": null
 		},
 		"hepatizon_elytra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10198,7 +10096,7 @@
 			"ignore": null
 		},
 		"hepatizon_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10207,7 +10105,6 @@
 					"translate": "item.kleispack.hepatizon_helmet",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Helmet",
 				"Hepatizon Helmet"
 			],
 			"id": "",
@@ -10286,7 +10183,7 @@
 			"ignore": null
 		},
 		"hepatizon_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10295,7 +10192,6 @@
 					"translate": "item.kleispack.hepatizon_hoe",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Hoe",
 				"Hepatizon Hoe"
 			],
 			"id": "",
@@ -10389,7 +10285,7 @@
 			"ignore": null
 		},
 		"hepatizon_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10398,7 +10294,6 @@
 					"translate": "item.kleispack.hepatizon_leggings",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Leggings",
 				"Hepatizon Leggings"
 			],
 			"id": "",
@@ -10477,7 +10372,7 @@
 			"ignore": null
 		},
 		"hepatizon_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10486,7 +10381,6 @@
 					"translate": "item.kleispack.hepatizon_mattock",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Mattock",
 				"Hepatizon Mattock"
 			],
 			"id": "",
@@ -10599,7 +10493,7 @@
 			"ignore": null
 		},
 		"hepatizon_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10608,7 +10502,6 @@
 					"translate": "item.kleispack.hepatizon_pickaxe",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Pickaxe",
 				"Hepatizon Pickaxe"
 			],
 			"id": "",
@@ -10721,7 +10614,7 @@
 			"ignore": null
 		},
 		"hepatizon_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10730,7 +10623,6 @@
 					"translate": "item.kleispack.hepatizon_shovel",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Shovel",
 				"Hepatizon Shovel"
 			],
 			"id": "",
@@ -10838,7 +10730,7 @@
 			"ignore": null
 		},
 		"hepatizon_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10847,7 +10739,6 @@
 					"translate": "item.kleispack.hepatizon_spear",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Spear",
 				"Hepatizon Spear"
 			],
 			"id": "",
@@ -10941,7 +10832,7 @@
 			"ignore": null
 		},
 		"hepatizon_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10950,7 +10841,6 @@
 					"translate": "item.kleispack.hepatizon_sword",
 					"color": "#ac7b5c"
 				},
-				"Hepatizon Sword",
 				"Hepatizon Sword"
 			],
 			"id": "",
@@ -11044,7 +10934,7 @@
 			"ignore": null
 		},
 		"shakudo_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11053,7 +10943,6 @@
 					"translate": "item.kleispack.shakudo_axe",
 					"color": "#c96691"
 				},
-				"Shakudo Axe",
 				"Shakudo Axe"
 			],
 			"id": "",
@@ -11152,7 +11041,7 @@
 			"ignore": null
 		},
 		"shakudo_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11161,7 +11050,6 @@
 					"translate": "item.kleispack.shakudo_boots",
 					"color": "#c96691"
 				},
-				"Shakudo Boots",
 				"Shakudo Boots"
 			],
 			"id": "minecraft:copper_boots",
@@ -11241,7 +11129,7 @@
 			"ignore": null
 		},
 		"shakudo_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11250,7 +11138,6 @@
 					"translate": "item.kleispack.shakudo_chestplate",
 					"color": "#c96691"
 				},
-				"Shakudo Chestplate",
 				"Shakudo Chestplate"
 			],
 			"id": "minecraft:copper_chestplate",
@@ -11330,7 +11217,7 @@
 			"ignore": null
 		},
 		"shakudo_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11339,7 +11226,6 @@
 					"translate": "item.kleispack.shakudo_dolabra",
 					"color": "#c96691"
 				},
-				"Shakudo Dolabra",
 				"Shakudo Dolabra"
 			],
 			"id": "",
@@ -11440,7 +11326,7 @@
 			"ignore": null
 		},
 		"shakudo_elytra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11449,7 +11335,6 @@
 					"translate": "item.kleispack.shakudo_elytra",
 					"color": "#c96691"
 				},
-				"Shakudo Elytra",
 				"Shakudo Elytra"
 			],
 			"id": "minecraft:elytra",
@@ -11535,7 +11420,7 @@
 			"ignore": null
 		},
 		"shakudo_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11544,7 +11429,6 @@
 					"translate": "item.kleispack.shakudo_helmet",
 					"color": "#c96691"
 				},
-				"Shakudo Helmet",
 				"Shakudo Helmet"
 			],
 			"id": "minecraft:copper_helmet",
@@ -11624,7 +11508,7 @@
 			"ignore": null
 		},
 		"shakudo_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11633,7 +11517,6 @@
 					"translate": "item.kleispack.shakudo_hoe",
 					"color": "#c96691"
 				},
-				"Shakudo Hoe",
 				"Shakudo Hoe"
 			],
 			"id": "",
@@ -11724,7 +11607,7 @@
 			"ignore": null
 		},
 		"shakudo_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11733,7 +11616,6 @@
 					"translate": "item.kleispack.shakudo_leggings",
 					"color": "#c96691"
 				},
-				"Shakudo Leggings",
 				"Shakudo Leggings"
 			],
 			"id": "minecraft:copper_leggings",
@@ -11813,7 +11695,7 @@
 			"ignore": null
 		},
 		"shakudo_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11822,7 +11704,6 @@
 					"translate": "item.kleispack.shakudo_mattock",
 					"color": "#c96691"
 				},
-				"Shakudo Mattock",
 				"Shakudo Mattock"
 			],
 			"id": "",
@@ -11925,7 +11806,7 @@
 			"ignore": null
 		},
 		"shakudo_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11934,7 +11815,6 @@
 					"translate": "item.kleispack.shakudo_pickaxe",
 					"color": "#c96691"
 				},
-				"Shakudo Pickaxe",
 				"Shakudo Pickaxe"
 			],
 			"id": "",
@@ -12030,7 +11910,7 @@
 			"ignore": null
 		},
 		"shakudo_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12039,7 +11919,6 @@
 					"translate": "item.kleispack.shakudo_shovel",
 					"color": "#c96691"
 				},
-				"Shakudo Shovel",
 				"Shakudo Shovel"
 			],
 			"id": "",
@@ -12137,7 +12016,7 @@
 			"ignore": null
 		},
 		"shakudo_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12146,7 +12025,6 @@
 					"translate": "item.kleispack.shakudo_spear",
 					"color": "#c96691"
 				},
-				"Shakudo Spear",
 				"Shakudo Spear"
 			],
 			"id": "",
@@ -12225,7 +12103,7 @@
 			"ignore": null
 		},
 		"shakudo_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12234,7 +12112,6 @@
 					"translate": "item.kleispack.shakudo_sword",
 					"color": "#c96691"
 				},
-				"Shakudo Sword",
 				"Shakudo Sword"
 			],
 			"id": "",
@@ -12314,7 +12191,7 @@
 			"ignore": null
 		},
 		"silver_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12322,7 +12199,6 @@
 				{
 					"translate": "item.kleispack.silver_sword"
 				},
-				"Silver Sword",
 				"Silver Sword"
 			],
 			"id": "",
@@ -12411,7 +12287,7 @@
 			"ignore": null
 		},
 		"steel_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12419,7 +12295,6 @@
 				{
 					"translate": "item.kleispack.steel_axe"
 				},
-				"Steel Axe",
 				"Steel Axe"
 			],
 			"id": "",
@@ -12526,7 +12401,7 @@
 			"ignore": null
 		},
 		"steel_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12535,7 +12410,6 @@
 					"translate": "item.kleispack.steel_boots",
 					"color": "white"
 				},
-				"Steel Boots",
 				"Steel Boots"
 			],
 			"id": "minecraft:iron_boots",
@@ -12633,7 +12507,7 @@
 			"ignore": null
 		},
 		"steel_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12642,7 +12516,6 @@
 					"translate": "item.kleispack.steel_chestplate",
 					"color": "white"
 				},
-				"Steel Chestplate",
 				"Steel Chestplate"
 			],
 			"id": "minecraft:iron_chestplate",
@@ -12740,7 +12613,7 @@
 			"ignore": null
 		},
 		"steel_claymore": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12748,7 +12621,6 @@
 				{
 					"translate": "item.kleispack.steel_claymore"
 				},
-				"Steel Claymore",
 				"Steel Claymore"
 			],
 			"id": "",
@@ -12885,7 +12757,7 @@
 			"ignore": null
 		},
 		"steel_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12893,7 +12765,6 @@
 				{
 					"translate": "item.kleispack.steel_dolabra"
 				},
-				"Steel Dolabra",
 				"Steel Dolabra"
 			],
 			"id": "minecraft:stone_axe",
@@ -12990,7 +12861,7 @@
 			"ignore": null
 		},
 		"steel_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12999,7 +12870,6 @@
 					"translate": "item.kleispack.steel_helmet",
 					"color": "white"
 				},
-				"Steel Helmet",
 				"Steel Helmet"
 			],
 			"id": "minecraft:iron_helmet",
@@ -13097,7 +12967,7 @@
 			"ignore": null
 		},
 		"steel_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13105,7 +12975,6 @@
 				{
 					"translate": "item.kleispack.steel_hoe"
 				},
-				"Steel Hoe",
 				"Steel Hoe"
 			],
 			"id": "",
@@ -13181,7 +13050,7 @@
 			"ignore": null
 		},
 		"steel_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13190,7 +13059,6 @@
 					"translate": "item.kleispack.steel_leggings",
 					"color": "white"
 				},
-				"Steel Leggings",
 				"Steel Leggings"
 			],
 			"id": "minecraft:iron_leggings",
@@ -13288,7 +13156,7 @@
 			"ignore": null
 		},
 		"steel_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13296,7 +13164,6 @@
 				{
 					"translate": "item.kleispack.steel_mattock"
 				},
-				"Steel Mattock",
 				"Steel Mattock"
 			],
 			"id": "minecraft:stone_hoe",
@@ -13377,7 +13244,7 @@
 			"ignore": null
 		},
 		"steel_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13385,7 +13252,6 @@
 				{
 					"translate": "item.kleispack.steel_pickaxe"
 				},
-				"Steel Pickaxe",
 				"Steel Pickaxe"
 			],
 			"id": "minecraft:stone_pickaxe",
@@ -13456,7 +13322,7 @@
 			"ignore": null
 		},
 		"steel_shears": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13464,7 +13330,6 @@
 				{
 					"translate": "item.kleispack.steel_shears"
 				},
-				"Steel Shears",
 				"Steel Shears"
 			],
 			"id": "minecraft:shears",
@@ -13500,7 +13365,7 @@
 			"ignore": null
 		},
 		"steel_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13508,7 +13373,6 @@
 				{
 					"translate": "item.kleispack.steel_shovel"
 				},
-				"Steel Shovel",
 				"Steel Shovel"
 			],
 			"id": "minecraft:stone_shovel",
@@ -13579,7 +13443,7 @@
 			"ignore": null
 		},
 		"steel_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13587,7 +13451,6 @@
 				{
 					"translate": "item.kleispack.steel_spear"
 				},
-				"Steel Spear",
 				"Steel Spear"
 			],
 			"id": "minecraft:stone_spear",
@@ -13676,7 +13539,7 @@
 			"ignore": null
 		},
 		"steel_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13684,7 +13547,6 @@
 				{
 					"translate": "item.kleispack.steel_sword"
 				},
-				"Steel Sword",
 				"Steel Sword"
 			],
 			"id": "",
@@ -13773,7 +13635,7 @@
 			"ignore": null
 		},
 		"warding_shield": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13781,7 +13643,6 @@
 				{
 					"translate": "item.kleispack.warding_shield"
 				},
-				"Warding Shield",
 				"Warding Shield"
 			],
 			"id": "minecraft:shield",
@@ -13856,7 +13717,7 @@
 			"ignore": null
 		},
 		"warding_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13864,7 +13725,6 @@
 				{
 					"translate": "item.kleispack.warding_sword"
 				},
-				"Warding Sword",
 				"Warding Sword"
 			],
 			"id": "minecraft:stone_sword",

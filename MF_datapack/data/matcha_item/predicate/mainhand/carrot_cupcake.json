@@ -35,35 +35,12 @@
 							}
 						}
 					}
-				],
-				[
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:slots": {
-								"weapon.mainhand": {
-									"components": {
-										"minecraft:item_name": "Carrot Cupcake"
-									}
-								}
-							}
-						}
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:slots": {
-								"weapon.offhand": {
-									"components": {
-										"minecraft:item_name": "Carrot Cupcake"
-									}
-								}
-							}
-						}
-					}
-				],
+				]
+			]
+		},
+		{
+			"condition": "minecraft:inverted",
+			"terms": [
 				{
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
@@ -72,7 +49,7 @@
 							"weapon.mainhand": {
 								"predicates": {
 									"minecraft:custom_data": {
-										"version": "1"
+										"version": 1
 									}
 								}
 							}
@@ -80,10 +57,6 @@
 					}
 				}
 			]
-		},
-		{
-			"condition": "minecraft:inverted",
-			"terms": []
 		}
 	]
 }

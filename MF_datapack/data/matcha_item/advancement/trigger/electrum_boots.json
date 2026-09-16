@@ -8,39 +8,35 @@
 						{
 							"condition": "minecraft:any_of",
 							"terms": [
-								[
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.electrum_boots",
-															"color": "yellow"
-														}
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.feet": {
+												"components": {
+													"minecraft:item_name": {
+														"translate": "item.kleispack.electrum_boots",
+														"color": "yellow"
 													}
 												}
 											}
 										}
 									}
-								],
-								[
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"components": {
-														"minecraft:item_name": "Electrum Boots"
-													}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.feet": {
+												"components": {
+													"minecraft:item_name": "Electrum Boots"
 												}
 											}
 										}
 									}
-								],
+								},
 								{
 									"condition": "minecraft:entity_properties",
 									"entity": "this",

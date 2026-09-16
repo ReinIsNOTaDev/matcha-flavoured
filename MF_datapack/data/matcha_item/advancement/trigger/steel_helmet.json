@@ -8,39 +8,35 @@
 						{
 							"condition": "minecraft:any_of",
 							"terms": [
-								[
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.steel_helmet",
-															"color": "white"
-														}
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.head": {
+												"components": {
+													"minecraft:item_name": {
+														"translate": "item.kleispack.steel_helmet",
+														"color": "white"
 													}
 												}
 											}
 										}
 									}
-								],
-								[
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
-														"minecraft:item_name": "Steel Helmet"
-													}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.head": {
+												"components": {
+													"minecraft:item_name": "Steel Helmet"
 												}
 											}
 										}
 									}
-								],
+								},
 								{
 									"condition": "minecraft:entity_properties",
 									"entity": "this",

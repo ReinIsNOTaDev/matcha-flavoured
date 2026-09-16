@@ -288,9 +288,12 @@ def creationHelper(obj, item):
     item_modifier = {"function": "set_components", "components": components}
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict
+    temp_names_predicates = []
     names_predicates = []
     for i in range(len(names)):
-        names_predicates.append(item_predicate({"components": {"minecraft:item_name": names[i]}}, slots).createDict)
+        temp_names_predicates.append(item_predicate({"components": {"minecraft:item_name": names[i]}}, slots).createDict)
+        for i2 in range(len(temp_names_predicates[i])):
+            names_predicates.append(temp_names_predicates[i][i2])
     version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).createDict
 # defining main predicates
     if len(slots) == 2:

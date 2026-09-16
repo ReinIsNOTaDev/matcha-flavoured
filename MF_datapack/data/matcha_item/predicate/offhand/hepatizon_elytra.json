@@ -3,7 +3,24 @@
 	"terms": [
 		{
 			"condition": "minecraft:any_of",
-			"terms": []
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.hepatizon_elytra",
+										"color": "#ac7b5c"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
 		},
 		{
 			"condition": "minecraft:inverted",

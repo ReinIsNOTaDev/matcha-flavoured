@@ -1,7 +1,7 @@
 {
   "pack": {
-	"min_format": [107.1],
-	"max_format": [107.1],
+	"min_format": [107,1],
+	"max_format": [121,0],
     "description": [
       {
         "text": "Matcha Flavoured DP",
@@ -11,11 +11,20 @@
         "text": "\n"
       },
       {
-        "text": "1.12.2 for 26.2",
+        "text": "1.12.2 for 26.2 and 26.3",
         "color": "#908b8b"
       }
     ]
   },
+	"overlays": {
+		"entries":[
+			{
+				"directory": "26-2compat",
+				"min_format": [107,1],
+				"max_format": [107,1]
+			}
+		]
+	},
 	"filter": {
 		"block": [{
 			"namespace": "minecraft",

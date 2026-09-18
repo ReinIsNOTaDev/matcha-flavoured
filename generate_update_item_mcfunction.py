@@ -34,6 +34,9 @@ output = open(UPDATE_HELD_LOCATION, "w", encoding="utf-8")
 # Write command to summon an "empty" item
 output.write('summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},PickupDelay:0s}\n')
 # Save selected item identifiers to storage for more performance
+output.write('data modify storage matcha:update_item id set value ""\n')
+output.write('data modify storage matcha:update_item translate set value ""\n')
+output.write('data modify storage matcha:update_item enchantments set value {}\n')
 output.write('data modify storage matcha:update_item id set from entity @s SelectedItem.id\n')
 output.write('data modify storage matcha:update_item translate set from entity @s SelectedItem.components.minecraft:item_name.translate\n')
 # Go trough recipe directories and copy data from the json files
@@ -122,6 +125,7 @@ for file in final_jsons:
 # merge components based on item (enchantments, durability, current name)
 MERGE_DATA = [
     '\n# Merge Item Data \n',
+    'data modify entity @n[type=item] Item.count set from entity @s SelectedItem.count\n'
     'data modify entity @n[type=item] Item.components.minecraft:custom_name set from entity @s SelectedItem.components.minecraft:custom_name\n',
     'execute store result score #damage update_item run data get entity @s SelectedItem.components.minecraft:damage\n',
     'scoreboard players operation #damage update_item *= #1000 update_item\n',

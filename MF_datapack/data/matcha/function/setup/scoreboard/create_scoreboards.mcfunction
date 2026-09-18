@@ -36,6 +36,9 @@ scoreboard players set $Easy minimum_hearts 20
 scoreboard players set $Normal minimum_hearts 12
 scoreboard players set $Hard minimum_hearts 6
 
+# Setup "CrystalHeartCooldown" scoreboard
+scoreboard objectives add CrystalHeartCooldown dummy
+
 
 # players' sleepTimer data value, and several other variables
 # related to sleeping stored in fake players

@@ -1,21 +1,21 @@
 {
-  "parent": "matcha:hell/root",
-  "criteria": {
-    "get_benzene": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:endermite_spawn_egg"
-          }
-        ]
-      }
-    }
-  },
-  "display": {
-    "description": [
+	"parent": "matcha:hell/root",
+	"criteria": {
+		"get_benzene": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:endermite_spawn_egg"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": [
 			{
-				"text": "\uE00F ",
+				"text": "\ue00f ",
 				"color": "#ac7b5c"
 			},
 			{
@@ -23,20 +23,20 @@
 				"color": "gray"
 			}
 		],
-    "icon": {
-      "count": 1,
-      "id": "minecraft:endermite_spawn_egg"
-    },
-    "title": {
-      "translate": "adv.kleispack.hell.obtain_benzene"
-    },
-    "hidden": false
-  },
-  "requirements": [
-    [
-      "get_benzene"
-    ]
-  ],
+		"icon": {
+			"count": 1,
+			"id": "minecraft:endermite_spawn_egg"
+		},
+		"title": {
+			"translate": "adv.kleispack.hell.obtain_benzene"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_benzene"
+		]
+	],
 	"rewards": {
 		"loot": [
 			"matcha:advancement/obol_1"

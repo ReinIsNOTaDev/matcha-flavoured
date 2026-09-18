@@ -7,7 +7,7 @@
 				"player": {},
 				"location": [
 					{
-						"condition": "minecraft:match_tool",
+						"type": "minecraft:match_tool",
 						"predicate": {
 							"items": [
 								"minecraft:allay_spawn_egg",
@@ -100,7 +100,7 @@
 						}
 					},
 					{
-						"condition": "minecraft:location_check",
+						"type": "minecraft:location_check",
 						"predicate": {
 							"block": {
 								"blocks": [

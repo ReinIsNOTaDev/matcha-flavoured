@@ -20,6 +20,6 @@
 		]
 	],
 	"rewards": {
-		"function":	"matcha:update_old_items/tanakh"
+		"function": "matcha:update_old_items/tanakh"
 	}
 }

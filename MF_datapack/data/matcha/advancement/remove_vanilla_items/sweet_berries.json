@@ -20,6 +20,6 @@
 		]
 	],
 	"rewards": {
-		"function":	"matcha:remove_vanilla_items/sweet_berries"
+		"function": "matcha:remove_vanilla_items/sweet_berries"
 	}
 }

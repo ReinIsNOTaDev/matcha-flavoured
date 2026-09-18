@@ -20,6 +20,6 @@
 		]
 	],
 	"rewards": {
-		"function":	"matcha:remove_vanilla_items/apple"
+		"function": "matcha:remove_vanilla_items/apple"
 	}
 }

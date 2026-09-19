@@ -1,1 +1,1 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 2, 'minecraft:enchantments': None}}
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 2}}

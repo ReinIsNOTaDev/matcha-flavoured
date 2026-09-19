@@ -1,1 +1,1 @@
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:crete', 'minecraft:item_model': 'matcha:music_disc_crete', 'minecraft:enchantments': None}}
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:crete', 'minecraft:item_model': 'matcha:music_disc_crete'}}

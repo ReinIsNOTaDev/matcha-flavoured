@@ -1924,8 +1924,7 @@
 				"minecraft:max_stack_size": 64,
 				"minecraft:custom_data": {
 					"version": 1
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -6974,12 +6973,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 2,
-					"matcha:adamant_tool": 1,
-					"matcha:adamant_weapon": 1,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -7075,11 +7068,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7175,11 +7163,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7322,12 +7305,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_weapon": 1,
-					"minecraft:sharpness": 1
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -7451,12 +7429,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_tool": 1,
-					"minecraft:efficiency": 1
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -7551,11 +7524,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7653,11 +7621,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:efficiency": 2
 				}
 			},
 			"ignore": null
@@ -7753,11 +7716,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7861,12 +7819,7 @@
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
 				},
-				"minecraft:item_model": "matcha:adamant_mattock",
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 1,
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2
-				}
+				"minecraft:item_model": "matcha:adamant_mattock"
 			},
 			"ignore": null
 		},
@@ -7978,11 +7931,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 2,
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -8080,11 +8028,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_tool": 1,
-					"minecraft:efficiency": 2,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -8162,11 +8105,6 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
-				},
-				"minecraft:enchantments": {
-					"minecraft:sharpness": 1,
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_weapon": 1
 				}
 			},
 			"ignore": null
@@ -8259,12 +8197,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:sharpness": 1,
-					"matcha:adamant_weapon": 1,
-					"minecraft:unbreaking": 2
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -8372,12 +8305,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3,
-					"minecraft:looting": 2,
-					"minecraft:smite": 3,
-					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
@@ -8491,9 +8418,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8607,9 +8531,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8728,9 +8649,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -8844,9 +8762,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8955,9 +8870,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9071,9 +8983,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -9187,10 +9096,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 2,
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -9304,9 +9209,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9415,9 +9317,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9498,11 +9397,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:smite": 4,
-					"minecraft:looting": 2,
-					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
@@ -9590,12 +9484,7 @@
 						"minecraft:diamond_block"
 					]
 				},
-				"minecraft:item_model": "matcha:electrum_sword",
-				"minecraft:enchantments": {
-					"minecraft:looting": 2,
-					"minecraft:smite": 3,
-					"matcha:warding_3": 1
-				}
+				"minecraft:item_model": "matcha:electrum_sword"
 			},
 			"ignore": null
 		},
@@ -10830,10 +10719,7 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"minecraft:lunge": 3
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
@@ -10932,10 +10818,7 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"matcha:riposte": 2
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
@@ -11038,10 +10921,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1,
-					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
@@ -11125,11 +11004,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_feet": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11213,11 +11087,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_chest": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11324,9 +11193,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11416,11 +11282,6 @@
 						"minecraft:honeycomb_block",
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:max_magic_protection": 1,
-					"matcha:cleanse_armor_maleffect": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11504,11 +11365,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_head": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11605,9 +11461,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11691,11 +11544,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_legs": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11804,9 +11652,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11908,9 +11753,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -12014,9 +11856,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -12101,10 +11940,7 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"matcha:shakudo_weapon": 1
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
@@ -12188,10 +12024,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:sweeping_edge": 1,
-					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
@@ -12284,10 +12116,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:smite": 3,
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -12505,9 +12333,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
@@ -12611,9 +12436,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 4
 				}
 			},
 			"ignore": null
@@ -12965,9 +12787,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
@@ -13154,9 +12973,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 3
 				}
 			},
 			"ignore": null
@@ -13715,9 +13531,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -13810,9 +13623,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -18234,8 +18044,7 @@
 						"amnestic"
 					],
 					"Invisible": true
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18265,8 +18074,7 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.beacon_kindling"
 				},
-				"minecraft:item_model": "matcha:beacon_kindling",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:beacon_kindling"
 			},
 			"ignore": null
 		},
@@ -18295,8 +18103,7 @@
 					"translate": "item.kleispack.bedrock_buster"
 				},
 				"minecraft:rarity": "rare",
-				"minecraft:item_model": "matcha:bedrock_buster",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:bedrock_buster"
 			},
 			"ignore": null
 		},
@@ -18310,8 +18117,7 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {},
-				"minecraft:enchantments": null
+				"!minecraft:entity_data": {}
 			},
 			"ignore": null
 		},
@@ -18327,8 +18133,7 @@
 			"components": {
 				"minecraft:block_state": {
 					"lit": "false"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18342,8 +18147,7 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {},
-				"minecraft:enchantments": null
+				"!minecraft:entity_data": {}
 			},
 			"ignore": null
 		},
@@ -18365,8 +18169,7 @@
 				"minecraft:item_model": "matcha:copper_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.copper_compass"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18392,8 +18195,7 @@
 				"minecraft:item_model": "matcha:copper_shears",
 				"minecraft:repairable": {
 					"items": "minecraft:copper_ingot"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18444,8 +18246,7 @@
 							]
 						}
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18501,8 +18302,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18539,8 +18339,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 800
 			},
 			"ignore": null
 		},
@@ -18577,8 +18376,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 800
 			},
 			"ignore": null
 		},
@@ -18669,8 +18467,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -18707,8 +18504,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 800
 			},
 			"ignore": null
 		},
@@ -18764,8 +18560,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -18802,8 +18597,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 800
 			},
 			"ignore": null
 		},
@@ -18889,8 +18683,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -18951,8 +18744,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -19008,8 +18800,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -19046,8 +18837,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 2500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 2500
 			},
 			"ignore": null
 		},
@@ -19084,8 +18874,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 2500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 2500
 			},
 			"ignore": null
 		},
@@ -19100,8 +18889,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:rarity": "rare",
-				"minecraft:enchantments": null
+				"minecraft:rarity": "rare"
 			},
 			"ignore": null
 		},
@@ -19114,9 +18902,7 @@
 			"id": "minecraft:exposed_chiseled_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"exposed_copper_from_patina": {
@@ -19128,9 +18914,7 @@
 			"id": "minecraft:exposed_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"exposed_copper_grate_from_patina": {
@@ -19142,9 +18926,7 @@
 			"id": "minecraft:exposed_copper_grate",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"exposed_cut_copper_from_patina": {
@@ -19156,9 +18938,7 @@
 			"id": "",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"exposed_cut_copper_slab_from_patina": {
@@ -19170,9 +18950,7 @@
 			"id": "minecraft:exposed_cut_copper_slab",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"exposed_cut_copper_stairs_from_patina": {
@@ -19184,9 +18962,7 @@
 			"id": "minecraft:exposed_cut_copper_stairs",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"golden_axe": {
@@ -19205,7 +18981,6 @@
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null,
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -19260,7 +19035,6 @@
 			"type": "boots",
 			"processed": true,
 			"components": {
-				"minecraft:enchantments": null,
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19309,7 +19083,6 @@
 			"type": "chestplate",
 			"processed": true,
 			"components": {
-				"minecraft:enchantments": null,
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19352,8 +19125,7 @@
 				"minecraft:item_model": "matcha:golden_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.golden_compass"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -19373,7 +19145,6 @@
 			"type": "helmet",
 			"processed": true,
 			"components": {
-				"minecraft:enchantments": null,
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19414,7 +19185,6 @@
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null,
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -19469,7 +19239,6 @@
 			"type": "leggings",
 			"processed": true,
 			"components": {
-				"minecraft:enchantments": null,
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19510,7 +19279,6 @@
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null,
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -19582,7 +19350,6 @@
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null,
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -19672,7 +19439,6 @@
 					]
 				},
 				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": null,
 				"minecraft:max_damage": 350,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_spear",
@@ -19697,7 +19463,6 @@
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null,
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.attack_damage",
@@ -19751,8 +19516,7 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.invisible_item_frame"
 				},
-				"minecraft:item_model": "matcha:invisible_item_frame",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:invisible_item_frame"
 			},
 			"ignore": null
 		},
@@ -19766,8 +19530,7 @@
 			"type": "tool",
 			"processed": true,
 			"components": {
-				"minecraft:max_damage": 500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 500
 			},
 			"ignore": null
 		},
@@ -19831,7 +19594,6 @@
 						"slot": "feet"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_boots",
 					"color": "white"
@@ -19903,8 +19665,7 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_chestplate",
 					"color": "white"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -19972,8 +19733,7 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_helmet",
 					"color": "white"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -20040,8 +19800,7 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_leggings",
 					"color": "white"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -20075,8 +19834,7 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:iron_ingot"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -20090,8 +19848,7 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:max_stack_size": 2,
-				"minecraft:enchantments": null
+				"minecraft:max_stack_size": 2
 			},
 			"ignore": null
 		},
@@ -20106,8 +19863,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:crete",
-				"minecraft:item_model": "matcha:music_disc_crete",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:music_disc_crete"
 			},
 			"ignore": null
 		},
@@ -20122,8 +19878,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:golden",
-				"minecraft:item_model": "matcha:music_disc_golden",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:music_disc_golden"
 			},
 			"ignore": null
 		},
@@ -20138,8 +19893,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:labyrinthine",
-				"minecraft:item_model": "matcha:music_disc_labyrinthine",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:music_disc_labyrinthine"
 			},
 			"ignore": null
 		},
@@ -20154,8 +19908,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:malachite",
-				"minecraft:item_model": "matcha:music_disc_malachite",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:music_disc_malachite"
 			},
 			"ignore": null
 		},
@@ -20169,7 +19922,6 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:enchantments": null,
 				"!minecraft:entity_data": {}
 			},
 			"ignore": null
@@ -20183,9 +19935,7 @@
 			"id": "minecraft:oxidized_chiseled_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"oxidized_copper_from_patina": {
@@ -20197,9 +19947,7 @@
 			"id": "minecraft:oxidized_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"oxidized_copper_grate_from_patina": {
@@ -20211,9 +19959,7 @@
 			"id": "minecraft:oxidized_copper_grate",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"oxidized_cut_copper_from_patina": {
@@ -20225,9 +19971,7 @@
 			"id": "",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"oxidized_cut_copper_slab_from_patina": {
@@ -20239,9 +19983,7 @@
 			"id": "minecraft:oxidized_cut_copper_slab",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"oxidized_cut_copper_stairs_from_patina": {
@@ -20253,9 +19995,7 @@
 			"id": "minecraft:oxidized_cut_copper_stairs",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"phosphor_rod": {
@@ -20267,9 +20007,7 @@
 			"id": "minecraft:end_rod",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"snow_shovel": {
@@ -20326,8 +20064,7 @@
 						}
 					]
 				},
-				"minecraft:item_model": "matcha:snow_shovel",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:snow_shovel"
 			},
 			"ignore": null
 		},
@@ -20343,8 +20080,7 @@
 			"components": {
 				"minecraft:block_state": {
 					"lit": "false"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -20357,9 +20093,7 @@
 			"id": "minecraft:soul_torch",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"stabilised_estus": {
@@ -20373,8 +20107,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:rarity": "uncommon",
-				"minecraft:enchantments": null
+				"minecraft:rarity": "uncommon"
 			},
 			"ignore": null
 		},
@@ -20466,7 +20199,6 @@
 						"slot": "feet"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_model": "matcha:sturdy_leather_boots",
 				"minecraft:equippable": {
 					"slot": "feet",
@@ -20553,7 +20285,6 @@
 						"slot": "chest"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_model": "matcha:sturdy_leather_chestplate",
 				"minecraft:equippable": {
 					"slot": "chest",
@@ -20640,7 +20371,6 @@
 						"slot": "head"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_model": "matcha:sturdy_leather_helmet",
 				"minecraft:equippable": {
 					"slot": "head",
@@ -20727,7 +20457,6 @@
 						"slot": "legs"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_model": "matcha:sturdy_leather_leggings",
 				"minecraft:equippable": {
 					"slot": "legs",
@@ -20762,8 +20491,7 @@
 				"minecraft:item_model": "matcha:tinder",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.tinder"
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -20794,8 +20522,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -20826,8 +20553,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -20858,8 +20584,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -20890,8 +20615,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -20922,8 +20646,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -20954,8 +20677,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -20986,8 +20708,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21018,8 +20739,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21050,8 +20770,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21082,8 +20801,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21114,8 +20832,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21146,8 +20863,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21178,8 +20894,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21214,8 +20929,7 @@
 					"translate": "item.kleispack.warding_stone",
 					"color": "aqua"
 				},
-				"minecraft:item_model": "matcha:warding_stone",
-				"minecraft:enchantments": null
+				"minecraft:item_model": "matcha:warding_stone"
 			},
 			"ignore": null
 		},
@@ -21228,9 +20942,7 @@
 			"id": "minecraft:weathered_chiseled_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"weathered_copper_from_patina": {
@@ -21242,9 +20954,7 @@
 			"id": "minecraft:weathered_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"weathered_copper_grate_from_patina": {
@@ -21256,9 +20966,7 @@
 			"id": "minecraft:weathered_copper_grate",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"weathered_cut_copper_from_patina": {
@@ -21270,9 +20978,7 @@
 			"id": "",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"weathered_cut_copper_slab_from_patina": {
@@ -21284,9 +20990,7 @@
 			"id": "minecraft:weathered_cut_copper_slab",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"weathered_cut_copper_stairs_from_patina": {
@@ -21298,9 +21002,7 @@
 			"id": "minecraft:weathered_cut_copper_stairs",
 			"type": "generic",
 			"processed": true,
-			"components": {
-				"minecraft:enchantments": null
-			},
+			"components": {},
 			"ignore": null
 		},
 		"wooden_axe": {
@@ -21335,8 +21037,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -21362,7 +21063,6 @@
 					"translate": "item.kleispack.wooden_cross",
 					"color": "white"
 				},
-				"minecraft:enchantments": null,
 				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
@@ -21399,8 +21099,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -21436,8 +21135,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -21467,8 +21165,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -21499,8 +21196,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -21557,7 +21253,6 @@
 						"slot": "feet"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_boots",
 					"color": "white"
@@ -21606,7 +21301,6 @@
 						"slot": "chest"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_chestplate",
 					"color": "white"
@@ -21655,7 +21349,6 @@
 						"slot": "head"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_helmet",
 					"color": "white"
@@ -21704,7 +21397,6 @@
 						"slot": "legs"
 					}
 				],
-				"minecraft:enchantments": null,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_leggings",
 					"color": "white"
@@ -21765,8 +21457,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -21795,8 +21486,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 200
 			},
 			"ignore": null
 		},
@@ -21825,8 +21515,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 200
 			},
 			"ignore": null
 		},
@@ -21925,8 +21614,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": null
+				]
 			},
 			"ignore": null
 		},
@@ -21955,8 +21643,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 200
 			},
 			"ignore": null
 		},
@@ -22018,8 +21705,7 @@
 					"items": [
 						"minecraft:copper_ingot"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22048,8 +21734,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 200
 			},
 			"ignore": null
 		},
@@ -22119,8 +21804,7 @@
 					]
 				},
 				"minecraft:item_model": "matcha:copper_mattock",
-				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 350
 			},
 			"ignore": null
 		},
@@ -22182,8 +21866,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22240,8 +21923,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22277,8 +21959,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22316,8 +21997,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22372,8 +22052,7 @@
 						"italic": false
 					}
 				],
-				"minecraft:max_damage": 500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 500
 			},
 			"ignore": null
 		},
@@ -22402,8 +22081,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 350
 			},
 			"ignore": null
 		},
@@ -22432,8 +22110,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 350
 			},
 			"ignore": null
 		},
@@ -22518,8 +22195,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22548,8 +22224,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 350
 			},
 			"ignore": null
 		},
@@ -22604,8 +22279,7 @@
 						"italic": false
 					}
 				],
-				"minecraft:max_damage": 500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 500
 			},
 			"ignore": null
 		},
@@ -22634,8 +22308,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 350
 			},
 			"ignore": null
 		},
@@ -22713,8 +22386,7 @@
 						"operation": "add_value"
 					}
 				],
-				"minecraft:max_damage": 500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 500
 			},
 			"ignore": null
 		},
@@ -22775,8 +22447,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22832,8 +22503,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 500
 			},
 			"ignore": null
 		},
@@ -22870,8 +22540,7 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 500,
-				"minecraft:enchantments": null
+				"minecraft:max_damage": 500
 			},
 			"ignore": null
 		},
@@ -22924,8 +22593,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		},
@@ -22986,8 +22654,7 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
-				},
-				"minecraft:enchantments": null
+				}
 			},
 			"ignore": null
 		}

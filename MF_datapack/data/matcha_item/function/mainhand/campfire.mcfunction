@@ -1,1 +1,1 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:block_state': {'lit': 'false'}, 'minecraft:enchantments': None}}
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:block_state': {'lit': 'false'}}}

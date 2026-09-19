@@ -1,1 +1,1 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}, 'minecraft:enchantments': None}}
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}}}

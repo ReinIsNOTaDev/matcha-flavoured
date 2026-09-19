@@ -281,6 +281,7 @@ def creationHelper(obj, item):
     if stored_enchs != None:
         item_modifier["components"]["minecraft:enchantments"] = stored_enchs
     else:
+        item_modifier["components"].pop("minecraft:enchantments",None)
         pass
     item_modifier["components"]["minecraft:custom_data"].pop("has_intrinsic_enchants", None) if item_modifier["components"].get("minecraft:custom_date") != None else None
 # defining item predicates

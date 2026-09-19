@@ -1,1 +1,1 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:copper_compass', 'minecraft:item_name': {'translate': 'item.kleispack.copper_compass'}, 'minecraft:enchantments': None}}
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:copper_compass', 'minecraft:item_name': {'translate': 'item.kleispack.copper_compass'}}}

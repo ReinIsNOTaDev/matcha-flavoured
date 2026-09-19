@@ -1,1 +1,1 @@
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': True, 'minecraft:rarity': 'uncommon', 'minecraft:enchantments': None}}
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': True, 'minecraft:rarity': 'uncommon'}}

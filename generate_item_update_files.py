@@ -315,37 +315,37 @@ def creationHelper(obj, item):
     else:
         pass
 # defining trigger advancement
-    trigger_advancement = {"criteria": {item: {"conditions": {"player": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+    trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
     if names != []:
         for i in range(len(names_predicates)):
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i])
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
     else:
         pass
     if id_ != "":
         for id_predicate in id_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(id_predicate)
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicate)
     else:
         pass
     if len(version_predicates) == 1:
-        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"].append(version_predicates[0])
+        trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append(version_predicates[0])
     else:
-        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"].append({"condition": "minecraft:any_of", "terms": []})
+        trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append({"condition": "minecraft:any_of", "terms": []})
         for i in range(len(version_predicates)):
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"][0]["terms"].append(version_predicates[i])
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"][0]["terms"].append(version_predicates[i])
 # defining update function
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
             update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "tool":
-            update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item+"\n"
+            update_function = "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case "generic":
-            update_function = "execute if predicate matcha_item:mainhand/"+item+" run matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run matcha_item:offhand/"+item+"\n"
+            update_function = "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)

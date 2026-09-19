@@ -297,26 +297,25 @@ def creationHelper(obj, item):
     version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).createDict
 # defining main predicates
     if len(slots) == 2:
-        mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": {"condition": "minecraft:any_of", "terms": []}}]}
-        offhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": {"condition": "minecraft:any_of", "terms": []}}]}
+        mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
+        offhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
         i = 0
-        for names_predicate in names_predicates:
+        for i in range(len(names_predicates)):
             if (i % 2) == 0:
                 mainhand_predicate["terms"][0]["terms"].append(names_predicates[i])
             else:
                 offhand_predicate["terms"][0]["terms"].append(names_predicates[i])
-            i += 1
         if id_ != "":
             mainhand_predicate["terms"][0]["terms"].append(id_predicates[0])
             offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
         else:
             pass
-        mainhand_predicate["terms"][1]["terms"]["terms"].append(version_predicates[0])
-        offhand_predicate["terms"][1]["terms"]["terms"].append(version_predicates[1])
+        mainhand_predicate["terms"][1].update({"term": version_predicates[0]})
+        offhand_predicate["terms"][1].update({"term": version_predicates[1]})
     else:
         pass
 # defining trigger advancement
-    trigger_advancement = {"criteria": {item: {"conditions": {"player": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "terms": []}]}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+    trigger_advancement = {"criteria": {item: {"conditions": {"player": {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
     if names != []:
         for i in range(len(names_predicates)):
             trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i])
@@ -328,11 +327,11 @@ def creationHelper(obj, item):
     else:
         pass
     if len(version_predicates) == 1:
-        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append(version_predicates[0])
+        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"].append(version_predicates[0])
     else:
-        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"].append({"condition": "minecraft:any_of", "terms": []})
+        trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"].append({"condition": "minecraft:any_of", "terms": []})
         for i in range(len(version_predicates)):
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["terms"][0]["terms"].append(version_predicates[i])
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"][0]["terms"].append(version_predicates[i])
 # defining update function
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":

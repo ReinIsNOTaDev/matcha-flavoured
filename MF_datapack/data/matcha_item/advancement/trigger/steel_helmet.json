@@ -52,7 +52,7 @@
 						},
 						{
 							"condition": "minecraft:inverted",
-							"terms": [
+							"term": [
 								{
 									"condition": "minecraft:entity_properties",
 									"entity": "this",

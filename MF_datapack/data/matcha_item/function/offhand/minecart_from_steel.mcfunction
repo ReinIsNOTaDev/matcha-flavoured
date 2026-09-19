@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 2, 'minecraft:enchantments': None}}

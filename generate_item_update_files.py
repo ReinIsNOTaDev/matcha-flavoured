@@ -278,7 +278,10 @@ def creationHelper(obj, item):
 # defining item modifier
     item_modifier = {"function": "set_components", "components": components}
     stored_enchs = item_modifier["components"].pop("minecraft:stored_enchantments", None)
-    item_modifier["components"]["minecraft:enchantments"] = stored_enchs if stored_enchs != None else None
+    if stored_enchs != None:
+        item_modifier["components"]["minecraft:enchantments"] = stored_enchs
+    else:
+        pass
     item_modifier["components"]["minecraft:custom_data"].pop("has_intrinsic_enchants", None) if item_modifier["components"].get("minecraft:custom_date") != None else None
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict

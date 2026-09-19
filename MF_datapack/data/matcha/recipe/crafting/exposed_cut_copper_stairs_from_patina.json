@@ -7,11 +7,7 @@
 		"minecraft:potion"
 	],
 	"result": {
-		"components": {
-			"minecraft:custom_data": {
-				"version": 1
-			}
-		},
+		"components": {},
 		"count": 1,
 		"id": "minecraft:exposed_cut_copper_stairs"
 	}

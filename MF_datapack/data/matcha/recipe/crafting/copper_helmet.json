@@ -12,7 +12,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\ud83d\udee1 2",
+					"text": "🛡 2",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -22,10 +22,7 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 200,
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:max_damage": 200
 		},
 		"count": 1,
 		"id": "minecraft:copper_helmet"

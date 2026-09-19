@@ -1,2 +1,0 @@
-item modify entity @s armor.legs {'function': 'set_components', 'components': {'minecraft:enchantments': None, 'minecraft:enchantment_glint_override': False, 'minecraft:max_damage': 200, 'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['3'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:item_name': {'translate': 'item.minecraft.golden_leggings', 'color': 'white'}}}
-advancement revoke @s only matcha_item:trigger/golden_leggings

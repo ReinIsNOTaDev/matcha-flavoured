@@ -31,6 +31,17 @@
 							}
 						}
 					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"items": "minecraft:shears"
+							}
+						}
+					}
 				}
 			]
 		},
@@ -44,7 +55,7 @@
 						"weapon.offhand": {
 							"predicates": {
 								"minecraft:custom_data": {
-									"version": "1"
+									"version": 1
 								}
 							}
 						}

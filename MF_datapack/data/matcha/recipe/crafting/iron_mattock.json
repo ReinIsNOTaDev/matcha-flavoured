@@ -39,17 +39,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\u26cf 6",
+					"text": "⛏ 6",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "\ud83d\udde1 4",
+					"text": "🗡 4",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\ud83d\udd52 3",
+					"text": "🕒 3",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -62,10 +62,7 @@
 					"operation": "add_value"
 				}
 			],
-			"minecraft:max_damage": 500,
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:max_damage": 500
 		},
 		"count": 1,
 		"id": "minecraft:iron_hoe"

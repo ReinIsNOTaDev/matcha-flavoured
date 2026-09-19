@@ -13,7 +13,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\ud83d\udee1 5",
+					"text": "🛡 5",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -23,10 +23,7 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 350,
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:max_damage": 350
 		},
 		"count": 1,
 		"id": "minecraft:iron_leggings"

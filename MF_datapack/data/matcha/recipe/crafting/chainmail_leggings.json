@@ -14,7 +14,7 @@
 			"minecraft:max_damage": 300,
 			"minecraft:lore": [
 				{
-					"text": "\ud83d\udee1 5",
+					"text": "🛡 5",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -40,9 +40,6 @@
 			"minecraft:item_name": {
 				"translate": "item.minecraft.chainmail_leggings",
 				"color": "white"
-			},
-			"minecraft:custom_data": {
-				"version": 1
 			}
 		},
 		"count": 1,

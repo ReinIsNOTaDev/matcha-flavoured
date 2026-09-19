@@ -1,1 +1,0 @@
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'!minecraft:consumable': {}, 'minecraft:item_model': 'matcha:wooden_cross', 'minecraft:item_name': {'translate': 'item.kleispack.wooden_cross', 'color': 'white'}, 'minecraft:enchantments': None, 'minecraft:enchantment_glint_override': False}}

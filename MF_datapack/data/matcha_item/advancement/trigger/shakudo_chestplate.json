@@ -37,6 +37,17 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"items": "minecraft:copper_chestplate"
+												}
+											}
+										}
 									}
 								]
 							},
@@ -51,7 +62,7 @@
 												"armor.chest": {
 													"predicates": {
 														"minecraft:custom_data": {
-															"version": "1"
+															"version": 1
 														}
 													}
 												}

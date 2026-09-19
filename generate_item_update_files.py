@@ -51,7 +51,7 @@ def discover(override):
     chest = re.compile("chestplate")
     legs = re.compile("leggings")
     feet = re.compile("boots")
-    tools = re.compile("sword|axe|pickaxe|shovel|hoe|spear|shield|shears")
+    tools = re.compile("sword|axe|pickaxe|shovel|hoe|spear|shield")
     print("Overriding Files!") if override else None
     for folder in DB["folders"]:
         path = os.path.join(Matcha, DB["folders"][folder][0])
@@ -61,7 +61,14 @@ def discover(override):
                 name = filename.match(file_).group(1)
                 print("[D] processing now: "+name) if debug else None
                 item = DB["files"].get(name)
-                if override == "True" or name not in DB["files"]:
+                if item:
+                    item_folders = DB["files"][name]["folder"]
+                    if folder in item_folders:
+                        pass
+                    else:
+                        item_folders.append(folder)
+                        DB["files"][name]["processed"] = False
+                elif override == True or not name in DB["files"]:
                     filepath = os.path.join(path, file_)
                     opened = open(filepath, 'r')
                     read = json.load(opened)
@@ -102,19 +109,21 @@ def discover(override):
                     DB["files"][name] = {}
                     DB["files"][name] = {"version": version, "folder": [folder], "names": names, "id": id_, "type": type_, "processed": False, "components": components, "ignore": ignore}
                     print("[D] output for item <"+name+">: "+str(DB["files"][name])) if debug else None
-                elif item:
-                    item_folders = DB["files"][name]["folder"]
-                    if folder in item_folders:
-                        pass
-                    else:
-                        item_folders.append(folder)
-                        DB["files"][name]["processed"] = False
                 else:
-                    print("[D] skipping item") if debug else None
+                    pass
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
-    with open(DBpath, 'w') as f:
-        json.dump(DB, f, indent="\t")
+    if debug:
+        print(json.dumps(DB, indent=1))
+        cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+        if cont == "y":
+            with open(DBpath, 'w') as f:
+                json.dump(DB, f, indent="\t")
+        else:
+            pass
+    else:
+        with open(DBpath, 'w') as f:
+            json.dump(DB, f, indent="\t")
 
 # destructive mode: go through recipe(/lt?) folders and add 1 version custom data
 def destructive():
@@ -277,9 +286,6 @@ def creationHelper(obj, item):
             raise ValueError("So there isn't supposed to be this many item types...")
 # defining item modifier
     item_modifier = {"function": "set_components", "components": components}
-    stored_enchs = item_modifier["components"].pop("minecraft:stored_enchantments", None)
-    item_modifier["components"]["minecraft:enchantments"] = stored_enchs if stored_enchs != None else None
-    item_modifier["components"]["minecraft:custom_data"].pop("has_intrinsic_enchants", None) if item_modifier["components"].get("minecraft:custom_date") != None else None
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict
     temp_names_predicates = []
@@ -332,10 +338,8 @@ def creationHelper(obj, item):
             update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "tool":
-            # detect specific slot
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
-            # revoke advancement
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
@@ -343,7 +347,6 @@ def creationHelper(obj, item):
             update_function = "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-            # modify item
             mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case _:
@@ -369,9 +372,9 @@ def creationHelper(obj, item):
     for path in paths:
         if debug and DB["options"]["askForConfirmation"] == "True":
             if path[2] != "function":
-                print("[D] "+json.dumps(path[1], indent=1))
+                print(json.dumps(path[1], indent=1))
             else:
-                print("[D] "+path[1])
+                print(path[1])
             cont = input("[D] Confirm if this is the correct <"+path[2]+"> definition [y/N]: ")
             if cont == "y":
                 if path[2] != "function":
@@ -465,7 +468,6 @@ This script is used with command line arguments, eg. py [script] [arguments]. Th
     D - Go through configured folders and add 1 version custom data
     u (file) - Update item updater for items with new version
     c (file) - Create new item updater for items with version custom data
-    e - Create new processing functions for item
     C (option) - Configure a stored option
 (file): optionally, name of the file excluding file extension
 (override): [boolean] optionally,  override existing item entries

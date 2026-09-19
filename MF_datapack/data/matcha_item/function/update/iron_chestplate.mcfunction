@@ -1,2 +1,0 @@
-item modify entity @s armor.chest {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '🛡 6', 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 350, 'minecraft:enchantments': None}}
-advancement revoke @s only matcha_item:trigger/iron_chestplate

@@ -37,6 +37,17 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"items": "minecraft:copper_leggings"
+												}
+											}
+										}
 									}
 								]
 							},
@@ -51,7 +62,7 @@
 												"armor.legs": {
 													"predicates": {
 														"minecraft:custom_data": {
-															"version": "1"
+															"version": 1
 														}
 													}
 												}

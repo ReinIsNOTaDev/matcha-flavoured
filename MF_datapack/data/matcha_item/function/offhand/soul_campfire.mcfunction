@@ -1,1 +1,0 @@
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:block_state': {'lit': 'false'}, 'minecraft:enchantments': None}}

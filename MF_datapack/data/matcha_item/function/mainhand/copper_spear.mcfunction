@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '🗡 2', 'color': 'dark_green', 'italic': False}, {'text': '🕒 1.18', 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:enchantments': None}}

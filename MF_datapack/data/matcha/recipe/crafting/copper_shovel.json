@@ -27,17 +27,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\u26cf 6",
+					"text": "⛏ 6",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "\ud83d\udde1 3.5",
+					"text": "🗡 3.5",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\ud83d\udd52 1",
+					"text": "🕒 1",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -46,9 +46,6 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
-			},
-			"minecraft:custom_data": {
-				"version": 1
 			}
 		},
 		"count": 1,

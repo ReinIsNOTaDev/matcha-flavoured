@@ -17,10 +17,7 @@
 			"minecraft:enchantments": {
 				"matcha:warding_2": 1
 			},
-			"!minecraft:entity_data": {},
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"!minecraft:entity_data": {}
 		},
 		"count": 1,
 		"id": "minecraft:blaze_spawn_egg"

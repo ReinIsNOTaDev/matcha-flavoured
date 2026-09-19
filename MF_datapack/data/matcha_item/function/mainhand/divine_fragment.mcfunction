@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': True, 'minecraft:rarity': 'rare', 'minecraft:enchantments': None}}

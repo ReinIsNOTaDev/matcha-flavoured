@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:labyrinthine', 'minecraft:item_model': 'matcha:music_disc_labyrinthine', 'minecraft:enchantments': None}}

@@ -1,1 +1,0 @@
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:max_damage': 500, 'minecraft:enchantments': None}}

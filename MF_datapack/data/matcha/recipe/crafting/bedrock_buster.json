@@ -23,10 +23,7 @@
 				"translate": "item.kleispack.bedrock_buster"
 			},
 			"minecraft:rarity": "rare",
-			"minecraft:item_model": "matcha:bedrock_buster",
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:item_model": "matcha:bedrock_buster"
 		}
 	}
 }

@@ -14,12 +14,12 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\ud83d\udde1 3",
+					"text": "🗡 3",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\ud83d\udd52 1.05",
+					"text": "🕒 1.05",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -29,10 +29,7 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 500,
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:max_damage": 500
 		},
 		"count": 1,
 		"id": "minecraft:iron_spear"

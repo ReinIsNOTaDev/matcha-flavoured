@@ -87,6 +87,7 @@ def discover(override):
                         components = result["components"]
                     else:
                         ignore = True
+                        version = None
                         components = {}
                     try:
                         names = DB["files"][name]["names"]

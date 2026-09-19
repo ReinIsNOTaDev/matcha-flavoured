@@ -11,22 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.ramen"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
-									"minecraft:item_name": "Tonkotsu Ramen"
+									"minecraft:item_name": "Ramen"
 								}
 							}
 						}

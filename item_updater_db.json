@@ -33,7 +33,6 @@
 		"baked_apple": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -94,7 +93,6 @@
 		"baked_golden_apple": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -179,7 +177,6 @@
 		"baked_potato": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -227,7 +224,6 @@
 		"baked_pumpkin": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -290,7 +286,6 @@
 		"braised_brown_mushroom": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -337,7 +332,6 @@
 		"braised_crimson_fungus": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -410,7 +404,6 @@
 		"braised_red_mushroom": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -480,7 +473,6 @@
 		"brasied_warped_fungus": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -553,7 +545,6 @@
 		"bread": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -622,7 +613,6 @@
 		"chocolate": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -685,7 +675,6 @@
 		"cooked_beef": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -732,7 +721,6 @@
 		"cooked_chicken": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -779,7 +767,6 @@
 		"cooked_cod": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -826,7 +813,6 @@
 		"cooked_mutton": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -873,7 +859,6 @@
 		"cooked_pork": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -920,7 +905,6 @@
 		"cooked_pufferfish": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -990,7 +974,6 @@
 		"cooked_rabbit": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -1037,7 +1020,6 @@
 		"cooked_salmon": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -1084,7 +1066,6 @@
 		"cooked_tropical_fish": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -1131,7 +1112,6 @@
 		"fried_egg": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1187,7 +1167,6 @@
 		"glow_mash": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -1243,7 +1222,6 @@
 		"golden_steamed_carrots": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1317,7 +1295,6 @@
 		"green_curry": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1391,7 +1368,6 @@
 		"grilled_melon": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1461,7 +1437,6 @@
 		"grilled_tomatoes": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1532,7 +1507,6 @@
 		"honey_ginger_tea": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1627,7 +1601,6 @@
 		"japanese_curry": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1702,7 +1675,6 @@
 		"molasses": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -1720,7 +1692,6 @@
 		"nopales": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1777,7 +1748,6 @@
 		"paneer_makhani": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -1853,75 +1823,36 @@
 		"ramen": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
-				"food_oven",
 				"crafting"
 			],
 			"names": [
-				{
-					"translate": "item.kleispack.ramen"
-				},
-				"Tonkotsu Ramen"
+				"Ramen"
 			],
 			"id": "",
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:lore": [
-					{
-						"text": "\u2764\u2764\u2764\u2764\u2764\u2764\u2764\u2764\u2764\u2764",
-						"color": "red",
-						"italic": false
-					},
-					{
-						"translate": "effect.kleispack.haste_2",
-						"with": [
-							"30:00"
-						],
-						"color": "yellow",
-						"italic": false
-					}
-				],
 				"minecraft:consumable": {
-					"consume_seconds": 3,
-					"animation": "drink",
-					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
 							"type": "minecraft:apply_effects",
 							"effects": [
 								{
 									"id": "minecraft:regeneration",
-									"amplifier": 2,
-									"duration": 240,
-									"show_particles": false,
-									"show_icon": false
-								},
-								{
-									"id": "minecraft:haste",
-									"amplifier": 1,
-									"duration": 36000,
-									"show_particles": false,
-									"show_icon": true
+									"duration": 600,
+									"show_particles": false
 								}
-							],
-							"probability": 1
+							]
 						}
 					]
 				},
-				"minecraft:item_model": "matcha:ramen",
-				"minecraft:item_name": {
-					"translate": "item.kleispack.ramen"
+				"minecraft:max_stack_size": 16,
+				"minecraft:custom_model_data": {
+					"strings": [
+						"matcha:ramen"
+					]
 				},
-				"minecraft:food": {
-					"nutrition": 0,
-					"saturation": 0,
-					"can_always_eat": true
-				},
-				"minecraft:use_remainder": {
-					"id": "minecraft:bowl"
-				},
-				"minecraft:max_stack_size": 64,
+				"minecraft:item_name": "Ramen",
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -1931,7 +1862,6 @@
 		"steamed_carrots": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [
@@ -2003,7 +1933,6 @@
 		"sweet_berry_mash": {
 			"version": "1",
 			"folder": [
-				"food_campfire",
 				"food_oven"
 			],
 			"names": [],
@@ -6973,6 +6902,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"minecraft:efficiency": 2,
+					"matcha:adamant_tool": 1,
+					"matcha:adamant_weapon": 1,
+					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -7068,6 +7003,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7163,6 +7103,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7305,7 +7250,12 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:enchantments": {
+					"minecraft:unbreaking": 2,
+					"matcha:adamant_weapon": 1,
+					"minecraft:sharpness": 1
+				}
 			},
 			"ignore": null
 		},
@@ -7429,7 +7379,12 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:enchantments": {
+					"minecraft:unbreaking": 2,
+					"matcha:adamant_tool": 1,
+					"minecraft:efficiency": 1
+				}
 			},
 			"ignore": null
 		},
@@ -7524,6 +7479,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7621,6 +7581,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"matcha:adamant_tool": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:efficiency": 2
 				}
 			},
 			"ignore": null
@@ -7716,6 +7681,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7819,7 +7789,12 @@
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
 				},
-				"minecraft:item_model": "matcha:adamant_mattock"
+				"minecraft:item_model": "matcha:adamant_mattock",
+				"minecraft:enchantments": {
+					"minecraft:efficiency": 1,
+					"matcha:adamant_tool": 1,
+					"minecraft:unbreaking": 2
+				}
 			},
 			"ignore": null
 		},
@@ -7931,6 +7906,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"minecraft:efficiency": 2,
+					"matcha:adamant_tool": 1,
+					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -8028,6 +8008,11 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
+				},
+				"minecraft:enchantments": {
+					"matcha:adamant_tool": 1,
+					"minecraft:efficiency": 2,
+					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -8105,6 +8090,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:enchantments": {
+					"minecraft:sharpness": 1,
+					"minecraft:unbreaking": 2,
+					"matcha:adamant_weapon": 1
 				}
 			},
 			"ignore": null
@@ -8197,7 +8187,12 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:enchantments": {
+					"minecraft:sharpness": 1,
+					"matcha:adamant_weapon": 1,
+					"minecraft:unbreaking": 2
+				}
 			},
 			"ignore": null
 		},
@@ -8305,6 +8300,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_tool": 3,
+					"minecraft:looting": 2,
+					"minecraft:smite": 3,
+					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
@@ -8418,6 +8419,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8531,6 +8535,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8649,6 +8656,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -8762,6 +8772,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8870,6 +8883,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -8983,6 +8999,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -9096,6 +9115,10 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_tool": 2,
+					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -9209,6 +9232,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9317,6 +9343,9 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9397,6 +9426,11 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:smite": 4,
+					"minecraft:looting": 2,
+					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
@@ -9484,7 +9518,12 @@
 						"minecraft:diamond_block"
 					]
 				},
-				"minecraft:item_model": "matcha:electrum_sword"
+				"minecraft:item_model": "matcha:electrum_sword",
+				"minecraft:enchantments": {
+					"minecraft:looting": 2,
+					"minecraft:smite": 3,
+					"matcha:warding_3": 1
+				}
 			},
 			"ignore": null
 		},
@@ -10719,7 +10758,10 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:enchantments": {
+					"minecraft:lunge": 3
+				}
 			},
 			"ignore": null
 		},
@@ -10818,7 +10860,10 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:enchantments": {
+					"matcha:riposte": 2
+				}
 			},
 			"ignore": null
 		},
@@ -10921,6 +10966,10 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:silk_touch": 1,
+					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
@@ -11004,6 +11053,11 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:cleanse_armor_feet": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11087,6 +11141,11 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:cleanse_armor_chest": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11193,6 +11252,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11282,6 +11344,11 @@
 						"minecraft:honeycomb_block",
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:max_magic_protection": 1,
+					"matcha:cleanse_armor_maleffect": 1,
+					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11365,6 +11432,11 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:cleanse_armor_head": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11461,6 +11533,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11544,6 +11619,11 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:cleanse_armor_legs": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11652,6 +11732,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11753,6 +11836,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11856,6 +11942,9 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11940,7 +12029,10 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
-				"minecraft:enchantment_glint_override": false
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:enchantments": {
+					"matcha:shakudo_weapon": 1
+				}
 			},
 			"ignore": null
 		},
@@ -12024,6 +12116,10 @@
 					"items": [
 						"minecraft:copper_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:sweeping_edge": 1,
+					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
@@ -12116,6 +12212,10 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:smite": 3,
+					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -12326,13 +12426,16 @@
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:equippable": {
 					"slot": "feet",
-					"asset_id": "minecraft:steel"
+					"asset_id": "matcha:steel"
 				},
 				"minecraft:item_model": "matcha:steel_boots",
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
@@ -12429,13 +12532,16 @@
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:equippable": {
 					"slot": "chest",
-					"asset_id": "minecraft:steel"
+					"asset_id": "matcha:steel"
 				},
 				"minecraft:item_model": "matcha:steel_chestplate",
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:blast_protection": 4
 				}
 			},
 			"ignore": null
@@ -12781,12 +12887,15 @@
 				"minecraft:item_model": "matcha:steel_helmet",
 				"minecraft:equippable": {
 					"slot": "head",
-					"asset_id": "minecraft:steel"
+					"asset_id": "matcha:steel"
 				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
@@ -12967,12 +13076,15 @@
 				"minecraft:item_model": "matcha:steel_leggings",
 				"minecraft:equippable": {
 					"slot": "legs",
-					"asset_id": "minecraft:steel"
+					"asset_id": "matcha:steel"
 				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:iron_ingot"
 					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:blast_protection": 3
 				}
 			},
 			"ignore": null
@@ -13155,7 +13267,7 @@
 				"Steel Shears"
 			],
 			"id": "minecraft:shears",
-			"type": "generic",
+			"type": "tool",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13531,6 +13643,9 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -13623,6 +13738,9 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
+				},
+				"minecraft:enchantments": {
+					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -18044,6 +18162,9 @@
 						"amnestic"
 					],
 					"Invisible": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18074,7 +18195,10 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.beacon_kindling"
 				},
-				"minecraft:item_model": "matcha:beacon_kindling"
+				"minecraft:item_model": "matcha:beacon_kindling",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18103,7 +18227,10 @@
 					"translate": "item.kleispack.bedrock_buster"
 				},
 				"minecraft:rarity": "rare",
-				"minecraft:item_model": "matcha:bedrock_buster"
+				"minecraft:item_model": "matcha:bedrock_buster",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18117,7 +18244,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18133,6 +18263,9 @@
 			"components": {
 				"minecraft:block_state": {
 					"lit": "false"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18147,7 +18280,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18169,6 +18305,9 @@
 				"minecraft:item_model": "matcha:copper_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.copper_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18195,6 +18334,9 @@
 				"minecraft:item_model": "matcha:copper_shears",
 				"minecraft:repairable": {
 					"items": "minecraft:copper_ingot"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18246,6 +18388,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18302,6 +18447,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18339,7 +18487,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800
+				"minecraft:max_damage": 800,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18376,7 +18527,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800
+				"minecraft:max_damage": 800,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18467,7 +18621,10 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18504,7 +18661,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800
+				"minecraft:max_damage": 800,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18560,6 +18720,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18597,7 +18760,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 800
+				"minecraft:max_damage": 800,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18683,7 +18849,10 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18744,6 +18913,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18800,6 +18972,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -18837,7 +19012,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 2500
+				"minecraft:max_damage": 2500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18874,7 +19052,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 2500
+				"minecraft:max_damage": 2500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18889,7 +19070,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:rarity": "rare"
+				"minecraft:rarity": "rare",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -18902,7 +19086,11 @@
 			"id": "minecraft:exposed_chiseled_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"exposed_copper_from_patina": {
@@ -18914,7 +19102,11 @@
 			"id": "minecraft:exposed_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"exposed_copper_grate_from_patina": {
@@ -18926,7 +19118,11 @@
 			"id": "minecraft:exposed_copper_grate",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"exposed_cut_copper_from_patina": {
@@ -18938,7 +19134,11 @@
 			"id": "",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"exposed_cut_copper_slab_from_patina": {
@@ -18950,7 +19150,11 @@
 			"id": "minecraft:exposed_cut_copper_slab",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"exposed_cut_copper_stairs_from_patina": {
@@ -18962,7 +19166,11 @@
 			"id": "minecraft:exposed_cut_copper_stairs",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"golden_axe": {
@@ -19016,6 +19224,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_axe",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19064,6 +19275,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_boots",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19103,6 +19317,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_chestplate",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19125,6 +19342,9 @@
 				"minecraft:item_model": "matcha:golden_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.golden_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19165,6 +19385,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_helmet",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19220,6 +19443,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_hoe",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19259,6 +19485,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_leggings",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19330,6 +19559,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_pickaxe",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19396,6 +19628,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_shovel",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19443,6 +19678,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_spear",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19490,6 +19728,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_sword",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19516,7 +19757,10 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.invisible_item_frame"
 				},
-				"minecraft:item_model": "matcha:invisible_item_frame"
+				"minecraft:item_model": "matcha:invisible_item_frame",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19530,7 +19774,10 @@
 			"type": "tool",
 			"processed": true,
 			"components": {
-				"minecraft:max_damage": 500
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19597,6 +19844,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_boots",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19665,6 +19915,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_chestplate",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19733,6 +19986,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_helmet",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19800,6 +20056,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_leggings",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19834,6 +20093,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:iron_ingot"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -19848,7 +20110,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:max_stack_size": 2
+				"minecraft:max_stack_size": 2,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19863,7 +20128,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:crete",
-				"minecraft:item_model": "matcha:music_disc_crete"
+				"minecraft:item_model": "matcha:music_disc_crete",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19878,7 +20146,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:golden",
-				"minecraft:item_model": "matcha:music_disc_golden"
+				"minecraft:item_model": "matcha:music_disc_golden",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19893,7 +20164,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:labyrinthine",
-				"minecraft:item_model": "matcha:music_disc_labyrinthine"
+				"minecraft:item_model": "matcha:music_disc_labyrinthine",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19908,7 +20182,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:malachite",
-				"minecraft:item_model": "matcha:music_disc_malachite"
+				"minecraft:item_model": "matcha:music_disc_malachite",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19922,7 +20199,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -19935,7 +20215,11 @@
 			"id": "minecraft:oxidized_chiseled_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"oxidized_copper_from_patina": {
@@ -19947,7 +20231,11 @@
 			"id": "minecraft:oxidized_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"oxidized_copper_grate_from_patina": {
@@ -19959,7 +20247,11 @@
 			"id": "minecraft:oxidized_copper_grate",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"oxidized_cut_copper_from_patina": {
@@ -19971,7 +20263,11 @@
 			"id": "",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"oxidized_cut_copper_slab_from_patina": {
@@ -19983,7 +20279,11 @@
 			"id": "minecraft:oxidized_cut_copper_slab",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"oxidized_cut_copper_stairs_from_patina": {
@@ -19995,7 +20295,11 @@
 			"id": "minecraft:oxidized_cut_copper_stairs",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"phosphor_rod": {
@@ -20007,7 +20311,11 @@
 			"id": "minecraft:end_rod",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"snow_shovel": {
@@ -20064,7 +20372,10 @@
 						}
 					]
 				},
-				"minecraft:item_model": "matcha:snow_shovel"
+				"minecraft:item_model": "matcha:snow_shovel",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20080,6 +20391,9 @@
 			"components": {
 				"minecraft:block_state": {
 					"lit": "false"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -20093,7 +20407,11 @@
 			"id": "minecraft:soul_torch",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"stabilised_estus": {
@@ -20107,7 +20425,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:rarity": "uncommon"
+				"minecraft:rarity": "uncommon",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20210,6 +20531,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:rabbit_hide"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -20296,6 +20620,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:rabbit_hide"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -20382,6 +20709,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:rabbit_hide"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -20468,6 +20798,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:rabbit_hide"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -20491,6 +20824,9 @@
 				"minecraft:item_model": "matcha:tinder",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.tinder"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -20522,7 +20858,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20553,7 +20892,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20584,7 +20926,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20615,7 +20960,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20646,7 +20994,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20677,7 +21028,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20708,7 +21062,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20739,7 +21096,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20770,7 +21130,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20801,7 +21164,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20832,7 +21198,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20863,7 +21232,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20894,7 +21266,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20929,7 +21304,10 @@
 					"translate": "item.kleispack.warding_stone",
 					"color": "aqua"
 				},
-				"minecraft:item_model": "matcha:warding_stone"
+				"minecraft:item_model": "matcha:warding_stone",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -20942,7 +21320,11 @@
 			"id": "minecraft:weathered_chiseled_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"weathered_copper_from_patina": {
@@ -20954,7 +21336,11 @@
 			"id": "minecraft:weathered_copper",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"weathered_copper_grate_from_patina": {
@@ -20966,7 +21352,11 @@
 			"id": "minecraft:weathered_copper_grate",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"weathered_cut_copper_from_patina": {
@@ -20978,7 +21368,11 @@
 			"id": "",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"weathered_cut_copper_slab_from_patina": {
@@ -20990,7 +21384,11 @@
 			"id": "minecraft:weathered_cut_copper_slab",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"weathered_cut_copper_stairs_from_patina": {
@@ -21002,7 +21400,11 @@
 			"id": "minecraft:weathered_cut_copper_stairs",
 			"type": "generic",
 			"processed": true,
-			"components": {},
+			"components": {
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
 			"ignore": null
 		},
 		"wooden_axe": {
@@ -21037,6 +21439,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21063,7 +21468,10 @@
 					"translate": "item.kleispack.wooden_cross",
 					"color": "white"
 				},
-				"minecraft:enchantment_glint_override": false
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21099,6 +21507,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21135,6 +21546,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21165,6 +21579,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21196,6 +21613,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21256,6 +21676,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_boots",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21304,6 +21727,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_chestplate",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21352,6 +21778,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_helmet",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21400,6 +21829,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_leggings",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21457,6 +21889,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21486,7 +21921,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200
+				"minecraft:max_damage": 200,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21515,7 +21953,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200
+				"minecraft:max_damage": 200,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21614,7 +22055,10 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21643,7 +22087,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200
+				"minecraft:max_damage": 200,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21705,6 +22152,9 @@
 					"items": [
 						"minecraft:copper_ingot"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21734,7 +22184,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 200
+				"minecraft:max_damage": 200,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21804,7 +22257,10 @@
 					]
 				},
 				"minecraft:item_model": "matcha:copper_mattock",
-				"minecraft:max_damage": 350
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -21866,6 +22322,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21923,6 +22382,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21959,6 +22421,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -21997,6 +22462,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -22052,7 +22520,10 @@
 						"italic": false
 					}
 				],
-				"minecraft:max_damage": 500
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22081,7 +22552,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22110,7 +22584,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22195,6 +22672,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -22224,7 +22704,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22279,7 +22762,10 @@
 						"italic": false
 					}
 				],
-				"minecraft:max_damage": 500
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22308,7 +22794,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 350
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22386,7 +22875,10 @@
 						"operation": "add_value"
 					}
 				],
-				"minecraft:max_damage": 500
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22447,6 +22939,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -22503,7 +22998,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 500
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22540,7 +23038,10 @@
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:max_damage": 500
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -22593,6 +23094,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -22654,6 +23158,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null

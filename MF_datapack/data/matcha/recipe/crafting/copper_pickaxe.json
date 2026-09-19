@@ -15,20 +15,7 @@
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "#minecraft:emerald_ores",
-						"correct_for_drops": true
-					},
-					{
-						"blocks": "#minecraft:redstone_ores",
-						"correct_for_drops": false
-					},
-					{
-						"blocks": "#minecraft:diamond_ores",
-						"speed": 4,
-						"correct_for_drops": false
-					},
-					{
-						"blocks": "minecraft:obsidian",
+						"blocks": "#matcha:non_mineable/copper",
 						"speed": 3,
 						"correct_for_drops": false
 					},
@@ -43,17 +30,20 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 6",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["6"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 3",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["3"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.2",
+					"translate": "desc.kleispack.cooldown",
+					"with": [ "1.2"],
 					"color": "dark_green",
 					"italic": false
 				}

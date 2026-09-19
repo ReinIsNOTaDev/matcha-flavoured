@@ -38,6 +38,6 @@
     ]
   ],
 	"rewards": {
-		"function": "matcha:mechanic/heart_container/decrease_minimum_hearts"
+		"function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
 	}
 }

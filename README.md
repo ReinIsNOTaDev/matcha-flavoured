@@ -2,11 +2,7 @@
 
 Matcha Flavoured is a datapack designed to reward casual and non-technical players who don't enjoy making mob farms, or engaging in the technical aspects of minecraft. The goal being for casual players, who like to play slowly, to be able to gather the same amount of resources technical players do in the same amount of time. 
 
-If you want something chill, use Easy mode, and if you'd prefer a challenge, stick to Normal
-
-If you enjoy making mob farms, you probably won't enjoy playing this pack
-
-**THERE IS NO OFFICAL WIKI/WEBSITE/SERVER FOR THIS PACK** These people are trying to scam you, don't buy into it
+This Github repo is for a more developer-facing community. If you'd like to help, you're in the right place! Otherwise, you may find it better to go check out the Modrinth page: [Modrinth](https://modrinth.com/datapack/matcha-flavoured)
 
 
 ## Contents

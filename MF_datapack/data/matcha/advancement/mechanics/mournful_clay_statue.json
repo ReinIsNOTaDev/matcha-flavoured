@@ -19,6 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanic/mournful_clay_statue"
+		"function": "matcha:mechanics/mournful_clay_statue"
 	}
 }

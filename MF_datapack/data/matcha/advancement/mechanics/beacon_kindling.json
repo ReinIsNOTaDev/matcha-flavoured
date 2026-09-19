@@ -22,6 +22,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/wandering_trader/beacon_kindling_placed"
+		"function": "matcha:mechanics/wandering_trader/beacon_kindling_placed"
 	}
 }

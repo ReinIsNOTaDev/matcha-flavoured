@@ -23,6 +23,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/mob_behaviours/wither_skeleton/break_block"
+		"function": "matcha:mechanics/mob_behaviours/wither_skeleton/break_block"
 	}
 }

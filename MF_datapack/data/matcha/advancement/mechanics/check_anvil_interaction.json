@@ -13,6 +13,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanic/anvil_xp/check_anvil_interaction"
+		"function": "matcha:mechanics/anvil_xp/check_anvil_interaction"
 	}
 }

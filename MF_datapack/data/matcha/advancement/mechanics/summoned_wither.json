@@ -15,6 +15,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/wither/schedule_check"
+		"function": "matcha:mechanics/wither/schedule_check"
 	}
 }

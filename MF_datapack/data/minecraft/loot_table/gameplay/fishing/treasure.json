@@ -46,6 +46,12 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:goat_horn",
+					"functions": [
+						{
+							"function": "minecraft:set_instrument",
+							"options": "#minecraft:regular_goat_horns"
+						}
+					],
 					"weight": 5,
 					"quality": -1
 				},
@@ -75,7 +81,7 @@
 							"entries": [
 								{
 									"type": "minecraft:loot_table",
-									"value": "minecraft:chests/fishing_buried_treasure"
+									"value": "matcha:chests/fishing/treasure"
 								}
 							]
 						}
@@ -83,7 +89,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/crystal_heart",
+					"value": "matcha:treasure/crystal_heart",
 					"weight": 2,
 					"quality": 2
 				}

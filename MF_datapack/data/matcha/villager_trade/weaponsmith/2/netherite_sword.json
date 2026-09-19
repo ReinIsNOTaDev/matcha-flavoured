@@ -1,6 +1,9 @@
 {
 	"wants": {
 		"id": "minecraft:netherite_sword",
+		"components": {
+			"minecraft:item_model": "minecraft:netherite_sword"
+		},
 		"count": 1
 	},
 	"gives": {

@@ -2,13 +2,18 @@
 	"parent": "matcha:tutorial/obtain_obol",
 	"criteria": {
 		"placed_beacon": {
-			"trigger": "minecraft:consume_item",
+			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:item_model": "matcha:beacon_kindling"
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"components": {
+								"minecraft:item_model": "matcha:beacon_kindling"
+							}
+						}
 					}
-				}
+				]
 			}
 		}
 	},

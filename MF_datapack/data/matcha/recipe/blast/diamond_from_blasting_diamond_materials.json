@@ -16,7 +16,8 @@
 		"minecraft:diamond_leggings",
 		"minecraft:diamond_boots",
 		"minecraft:diamond_horse_armor",
-		"minecraft:diamond_nautilus_armor"
+		"minecraft:diamond_nautilus_armor",
+		"minecraft:vindicator_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:diamond"

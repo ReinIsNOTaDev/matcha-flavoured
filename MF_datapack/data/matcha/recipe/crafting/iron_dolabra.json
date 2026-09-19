@@ -35,17 +35,20 @@
 			"minecraft:item_model": "matcha:iron_dolabra",
 			"minecraft:lore": [
 				{
-					"text": "⛏ 6",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["6"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 6",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["6"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.9",
+					"translate": "desc.kleispack.cooldown",
+					"with": [ "0.9"],
 					"color": "dark_green",
 					"italic": false
 				}

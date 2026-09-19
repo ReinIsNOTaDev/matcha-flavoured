@@ -83,7 +83,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:food/golden_apple",
+					"value": "matcha:food/golden_apple",
 					"weight": 1
 				},
 				{
@@ -115,21 +115,13 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:kleis_items/divine_fragment",
+					"value": "matcha:treasure/divine_fragment",
 					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_otherside",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:jukebox_playable": "matcha:labyrinthine",
-								"minecraft:item_model": "matcha:music_disc_labyrinthine"
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "matcha:music_disc/labyrinthine",
+					"weight": 1
 				},
 				{
 					"type": "minecraft:item",

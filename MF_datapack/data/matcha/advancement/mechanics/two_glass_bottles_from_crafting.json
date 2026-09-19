@@ -28,7 +28,7 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/advancement_two_glass_bottles_from_crafting",
+		"function": "matcha:mechanics/advancement_two_glass_bottles_from_crafting",
 		"loot": [],
 		"recipes": []
 	}

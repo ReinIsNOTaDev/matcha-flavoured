@@ -39,7 +39,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:chests/equipment/special_compass",
+					"value": "matcha:equipment/compass/any_weighted",
 					"weight": 1
 				},
 				{

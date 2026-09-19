@@ -11,18 +11,30 @@
 			}
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"minecraft:location": {
-					"position": {
-						"y": {
-							"min": 63,
-							"max": 350
+			"condition": "minecraft:all_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:location": {
+							"position": {
+								"y": {
+									"min": 63,
+									"max": 350
+								}
+							}
 						}
 					}
+				},
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:reference",
+						"name": "matcha:in_dungeon"
+					}
 				}
-			}
+			]
 		}
 	]
 }

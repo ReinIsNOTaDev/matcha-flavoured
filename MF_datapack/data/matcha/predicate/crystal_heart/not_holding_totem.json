@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"minecraft:slots": {
+				"weapon.mainhand": {
+					"items": "minecraft:totem_of_undying"
+				}
+			}
+		}
+	}
+}

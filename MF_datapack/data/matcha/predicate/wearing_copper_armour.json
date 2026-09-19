@@ -22,11 +22,7 @@
 							"chest": {
 								"items": "minecraft:copper_chestplate",
 								"components": {
-									"minecraft:custom_model_data": {
-										"flags": [
-											false
-										]
-									}
+									"minecraft:item_model": "minecraft:copper_chestplate"
 								}
 							}
 						}
@@ -40,11 +36,7 @@
 							"head": {
 								"items": "minecraft:copper_helmet",
 								"components": {
-									"minecraft:custom_model_data": {
-										"flags": [
-											false
-										]
-									}
+									"minecraft:item_model": "minecraft:copper_helmet"
 								}
 							}
 						}
@@ -58,11 +50,7 @@
 							"legs": {
 								"items": "minecraft:copper_leggings",
 								"components": {
-									"minecraft:custom_model_data": {
-										"flags": [
-											false
-										]
-									}
+									"minecraft:item_model": "minecraft:copper_leggings"
 								}
 							}
 						}
@@ -76,11 +64,7 @@
 							"feet": {
 								"items": "minecraft:copper_boots",
 								"components": {
-									"minecraft:custom_model_data": {
-										"flags": [
-											false
-										]
-									}
+									"minecraft:item_model": "minecraft:copper_boots"
 								}
 							}
 						}

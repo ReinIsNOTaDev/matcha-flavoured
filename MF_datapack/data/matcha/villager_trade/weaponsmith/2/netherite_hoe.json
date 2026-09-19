@@ -1,6 +1,9 @@
 {
 	"wants": {
 		"id": "minecraft:netherite_hoe",
+		"components": {
+			"minecraft:item_model": "minecraft:netherite_hoe"
+		},
 		"count": 1
 	},
 	"gives": {

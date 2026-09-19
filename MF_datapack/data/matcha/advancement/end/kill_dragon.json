@@ -45,6 +45,6 @@
         "loot": [
 			"matcha:advancement/obol_3"
 		],
-        "function": "matcha:mechanic/first_dragon_killed_reward"
+        "function": "matcha:mechanics/first_dragon_killed_reward"
     }
 }

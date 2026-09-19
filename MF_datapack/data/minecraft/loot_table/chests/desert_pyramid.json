@@ -5,7 +5,8 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/raw_diamond",
 					"functions": [
 						{
 							"add": false,
@@ -33,7 +34,7 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:iron_ingot",
+					"name": "minecraft:raw_iron",
 					"weight": 15
 				},
 				{
@@ -49,7 +50,7 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:gold_ingot",
+					"name": "minecraft:raw_gold",
 					"weight": 15
 				},
 				{
@@ -117,12 +118,12 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:food/golden_apple",
+					"value": "matcha:food/golden_apple",
 					"weight": 20
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:food/enchanted_golden_apple",
+					"value": "matcha:food/enchanted_golden_apple",
 					"weight": 2
 				},
 				{

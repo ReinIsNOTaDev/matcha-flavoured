@@ -1,6 +1,6 @@
 {
 	"wants": {
-		"id": "minecraft:diamond_boots",
+		"id": "minecraft:netherite_boots",
 		"components": {
 			"minecraft:item_model": "matcha:electrum_boots"
 		},

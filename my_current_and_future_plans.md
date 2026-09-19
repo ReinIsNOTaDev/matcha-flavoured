@@ -11,9 +11,9 @@ This includes/included(✅) things like:
 - ✅ Wither removing hearts on hit
 - ✅ Wither Skeletons being a bit nastier
 - ✅ Wither spawn reqs
-- Paradise Lost and Divine Comedy no longer giving Hearts
-- Abbey LTs no longer giving as many hearts, instead giving more shards
-- Heart loss being dynamic (ie increases with difficulty and hearts)
+- ✅ Paradise Lost and Divine Comedy no longer giving Hearts
+- ![unchanged, but leaving it that way] Abbey LTs no longer giving as many hearts, instead giving more shards
+- [pushed to next update] Heart loss being dynamic (ie increases with difficulty and hearts)
 While none of these features seem too important, they will be for the goal of the update: UX
 
 I've since also shunted most of the less important things to the next update, things like Aspects (the post-end enchanting), low-priority bugs, and neat things like enchantments, advs, structures etc. 
@@ -26,6 +26,8 @@ During this break, I want to work on videos, my art, and the new Abbey. Ill prob
 
 
 ## Future Plans (For posterity)
+
+
 
 I am slowly working my way from early-game to late-game
 
@@ -42,3 +44,10 @@ OR make it so he is only summonable if exposed to the sky, and above a certain y
 
 
 The Nether will be locked behind a structure, maybe the revamped abbey, and once found all portals anwyhere will become usable. I want to try and slow down progression. I think the nether is too short? Players don't spend a lot of time there, just hit up a fortress and leave. Maybe we could do something with it to make it worth sticking around longer. who knows. But since Adamant is so end-game, it feels weird for it to be accessible so early. But I don't think im interested in adding an end-based armour set (isn't that already the elytra?). 
+
+
+### Enchantments
+- Remove Prot and Sharpness
+    * Replace them with specific things Ie. Smite but for X y z, and make them all compatible with each other
+    * Maybe protective armour doesn't get all compats, but instead must decide between Melee Prot, proj, fire, etc
+- Add Unbreaking Enchant crafted with Wither Heart

@@ -120,6 +120,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/no_egg_on_spawner"
+		"function": "matcha:mechanics/no_egg_on_spawner"
 	}
 }

@@ -726,7 +726,7 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/advancement_glass_bottle_from_crafting",
+		"function": "matcha:mechanics/advancement_glass_bottle_from_crafting",
 		"loot": [],
 		"recipes": []
 	}

@@ -13,6 +13,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/wither_effect/has_wither"
+		"function": "matcha:mechanics/wither_effect/has_wither"
 	}
 }

@@ -21,6 +21,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/estus/estus_flask_particles"
+		"function": "matcha:mechanics/estus/estus_flask_particles"
 	}
 }

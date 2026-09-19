@@ -10,6 +10,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/sleeping/on_player_sleep"
+		"function": "matcha:mechanics/sleeping/on_player_sleep"
 	}
 }

@@ -1,1 +1,0 @@
-advancement revoke @a only matcha:mechanics/crystal_heart_used

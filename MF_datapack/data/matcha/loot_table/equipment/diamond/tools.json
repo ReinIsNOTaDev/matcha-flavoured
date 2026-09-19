@@ -10,10 +10,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:equipment/diamond/axe"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"value": "matcha:equipment/diamond/shovel"
 				},
 				{

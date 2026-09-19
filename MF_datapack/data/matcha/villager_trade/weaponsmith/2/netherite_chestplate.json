@@ -1,6 +1,9 @@
 {
 	"wants": {
 		"id": "minecraft:netherite_chestplate",
+		"components": {
+			"minecraft:item_model": "minecraft:netherite_chestplate"
+		},
 		"count": 1
 	},
 	"gives": {

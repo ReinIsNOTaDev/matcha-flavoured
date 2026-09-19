@@ -19,7 +19,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"matcha:kiln/gold_ingot_from_smoking_raw_gold"
+			"matcha:blast/gold_ingot_from_blasting_gold_materials"
 		]
 	}
 }

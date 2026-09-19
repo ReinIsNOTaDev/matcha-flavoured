@@ -17,6 +17,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/heart_container/use_crystal_heart"
+		"function": "matcha:mechanics/heart_container/use_crystal_heart"
 	}
 }

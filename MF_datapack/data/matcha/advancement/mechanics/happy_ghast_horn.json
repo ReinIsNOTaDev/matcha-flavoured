@@ -19,6 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanic/happy_ghast_horn"
+		"function": "matcha:mechanics/happy_ghast_horn"
 	}
 }

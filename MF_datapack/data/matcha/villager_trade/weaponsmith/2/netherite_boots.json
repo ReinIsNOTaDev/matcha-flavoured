@@ -1,6 +1,9 @@
 {
 	"wants": {
 		"id": "minecraft:netherite_boots",
+		"components": {
+			"minecraft:item_model": "minecraft:netherite_boots"
+		},
 		"count": 1
 	},
 	"gives": {

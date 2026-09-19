@@ -1,6 +1,9 @@
 {
 	"wants": {
 		"id": "minecraft:netherite_pickaxe",
+		"components": {
+			"minecraft:item_model": "minecraft:netherite_pickaxe"
+		},
 		"count": 1
 	},
 	"gives": {

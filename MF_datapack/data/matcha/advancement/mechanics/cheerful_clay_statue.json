@@ -19,6 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanic/cheerful_clay_statue"
+		"function": "matcha:mechanics/cheerful_clay_statue"
 	}
 }

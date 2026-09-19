@@ -22,6 +22,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanic/amnestic_wrapped"
+		"function": "matcha:mechanics/amnestic_wrapped"
 	}
 }

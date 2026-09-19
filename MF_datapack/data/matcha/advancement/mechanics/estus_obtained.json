@@ -1,5 +1,5 @@
 {
-	"parent": "main:mechanics/root",
+	"parent": "matcha:mechanics/root",
 	"criteria": {
 		"has_estus": {
 			"trigger": "minecraft:inventory_changed",
@@ -12,12 +12,7 @@
 			}
 		}
 	},
-	"requirements": [
-		[
-			"has_estus"
-		]
-	],
 	"rewards": {
-		"function": "matcha:mechanic/estus/check_if_estus_should_be_processed"
+		"function": "matcha:mechanics/estus/check_if_estus_should_be_processed"
 	}
 }

@@ -28,7 +28,8 @@
 							"name": "minecraft:deepslate_diamond_ore"
 						},
 						{
-							"type": "minecraft:item",
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/raw_diamond",
 							"functions": [
 								{
 									"enchantment": "minecraft:fortune",
@@ -40,8 +41,7 @@
 									"formula": "minecraft:ore_drops",
 									"function": "minecraft:apply_bonus"
 								}
-							],
-							"name": "minecraft:diamond"
+							]
 						}
 					]
 				}

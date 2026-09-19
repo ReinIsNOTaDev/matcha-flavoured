@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "#": "minecraft:smooth_stone",
-    "I": "minecraft:stone_bricks",
+    "I": "minecraft:polished_deepslate",
     "C": "minecraft:campfire"
   },
   "pattern": [

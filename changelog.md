@@ -4,9 +4,18 @@
 - Nat: Translation project lead, and other stuff
 - Imtlx: New Angler's Almanac, Fishing Sounds, Translation, and Github help
 - Vee Vaicekauskas: Background musics (Check out their bandcamp!: https://par4.bandcamp.com/)
-- DeBlezyBestie: Music Discs (Check out their YT!: https://www.youtube.com/@deblezyboi)
+- DeBlezyBestie: Music Discs
 - Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
 - HapppySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers
+- Linkershim: Optimisations, Multiplayer Support and various other coding things
+- Pepurion: Optimisaitons, Rose Models
+- Fayranchia: Bug fixes
+- ReinIsNOTaDev: Optimisations, and Github Workflow nonsese
+- Fpekal: Bug fixes, optimisations, and working on 26.3 port
+- FloofShade: Item update trigger
+- EastMonster: Bug fixes
+- Voxybuns: Custom emojis and their implimentation
+- milo256: Dyanmic Multiplayer Sleep
 - All of the translation volunteers
 - Thank you so much everyone!
 
@@ -17,6 +26,20 @@ This symbol (💻) means the feature was changed/added by community code contrib
 
 This symbol (🖌️) means the art was added by community artists (music is art)
 
+
+## **Everything is Broken!!**
+- ITS OKAY! I promise
+- Hold the broken item in your hand and run:
+    * /trigger update_item
+- The broken item should update. If it doesn't please report that to the github. But, if you'd like a quick fix and want to throw away the broken item use
+    * /loot give @s loot 
+    * And start to type in the name of the broken item and it should autofill. Ex. The Divine Comedy is called matcha:treasure/divine_comedy
+#### WHY!?
+- In order to make the pack easier to use for other devlopers, and to maintain its own consistency, a TON of items had to move around. This meant namespace changes for almost everything. So the previous models either minecraft:x or main:x have been moved to matcha:x
+#### But I don't care and I dont want to deal with it
+- Fair. Just have both the most recent RP and the old RP on at the same time, with the most recent one being placed on top. This will cover up any broken items and make them seem normal. Just know that enchants will still be broken unless you use the trigger
+
+## Changelog
 ### Major Additions and Changes 
 * Electrum & Adamant Reworks (See Below)
 - New Intrinsic/Effect Icons! (They look awesome, 💻/🖌️, Voxybuns)
@@ -26,6 +49,18 @@ This symbol (🖌️) means the art was added by community artists (music is art
     * Wither skeleton feet stabbies won't work anymore, but you should try to do it anyways ;)
 - Crystal hearts are now "used" instead of "forced" on players, since the new death system provides enough incentive
     * They also double as cheap totems (at max hearts), and great healing items when < max health, so have fun with them
+- Progression Polish
+    * Blast furnace recipe tweaked, Raw Diamonds now exist, and require blast furnaces to smelt
+    * So no more naturally-occuring free diamonds should appear on surface structures
+    * This should extend the copper and iron age a bit more, and when you finally have a blast furnace, feel good to finally be able to USE the diamonds you collected
+- Trigger Update system (💻, FloofShade)
+### New Death System
+- I am moving forward with the experimental death system. There has been so much postitive feedback for it, that it is staying. If you don't like it, I have some tips:
+    * Try to slow down. Make sure you're equiped enough, with enough food, tools, and weapons at your disposal before you go trying to progress. Progressing fast will make you loose hearts faster than progressing slow.
+    * Play on Easy. In easy mode, you won't go below 10 hearts
+    * Dont play on Hard! Hard is meant to be unfair. Its only for people like me who enjoy getting one-tapped by husks. I except to die at LEAST 3 times at the final boss of any game before I beat it. Anything less than that is cheap to me
+### Where is 26.3??
+- 26.3 is a major data-pack-breaking update. Its taking a long time to get things sorted out with the new syntax. Especially beucase matcha is so big. It will take time to come out. But trust me we are working on it. No one is more excited about yellow leaves than me, trust.
 ### Tweaks & Small Additions 
 - Enderman can only pick up melon, pumpkins, and TNT (💻, Linkershim)
 - Multiplayer support improvements! (💻, Linkershim)
@@ -38,21 +73,37 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Feather Falling is better now (base damage reduction 12% -> 24%; max damage reduction 48% -> 72%)
 - Heart Decrementing is now only local not global (Per player not per world, I made this imagining a small group of friends playing together. Not large servers, this change was made to help with that, difficulty is still set at 5 hearts, but since this can be changed I dont think its a big issue)
 - Opal Earrings now only give Conduit Power when in water (quick patch job probably needs optimisation)
-- Zephyr enchantment reworked so that its 3 levels (👥💻, freshdoktor)
+- Zephyr enchantment reworked so that its 3 levels (👥, freshdoktor) (💻, Imtlx)
 - Elegy of the Abbey and Crete updated to their new versions
+- Bulk Blocks now unpack directly into your inventory (💻, Linkershim)
+- All Mason trades are now Bulk Blocks (💻, Linkershim)
 - Bulk Dirt added to Mason Trade
 - Bulk Blocks now have distinct models
 - Diamond, Amethyst, and Lapis Earrings (They don't do anything but they ARE very cute) (👥)
-- Emeralds are not found in deepdarks (sculk covers most of them, so why not?) (👥)
+- Silver is now found in deepdarks (sculk covers most of them, so why not?) (👥)
 - Hard mode husks are slightly slower (But still faster than normal mode) (👥)
 - Lily pads can now be cloned (👥)
 - Chains can now be climbed
 - Taiga Grass colour slightly changed to be a little less ugly
 - Mobs spawned from spawners no longer drop anything (💻, HapppySpud)
 - Withers can now only be spawned on the surface of the overworld
-
-
-
+- Silver added to ominous vault loot
+- Trash removed from trial spawners and vaults
+- Many LTs re-buffed! Because diamonds are now raw, it allows me to give more rewards without worrying about progression breaking so badly that people end up not having fun c:
+    * ALL Loottables will be rebalanced, cleaned up, and made more unique for each one, however, I don't have the time to do that right now
+- Silver can now be found in Ancient City Chests
+- Ruined portal LT nerfed, to prevent gold from being obtainable pre-iron (tech. pre-copper).
+    * This may be nerfed more depending on how many people I see use this to skip iron 
+    * If some people do it? Its fine, fun little shortcut you can do
+    * If a lot of people do it? Something's gone wrong
+- The Quran and Tanakh added to trial chamber loot (Temp fix)
+- Post-dragon, Abbeys can still spawn mobs
+- Ofuda trades now require Crystal hearts
+- Cyan and Normal Rose can now be placed in item frame with their own models (💻/🖌️, pepurion)
+- Day/Night extender now uses timelines (💻, ReinIsNOTaDev)
+- Trims now supported on custom armours (💻, Tralomine)
+- Sleeping at night will wake you up in morning, but sleeping in the day still skips 12 hours (💻, milo256)
+- Amnestics no longer reset villager XP BUT beucase of how villager trading work, they won't re-unlock the new items until you trade with them for each level at least once (Best I can do rn)
 
 #### Cooking Changes & Additions 
 
@@ -70,6 +121,10 @@ This symbol (🖌️) means the art was added by community artists (music is art
     * ✟ 3 & 4 - effect/0.5s
 - Warding removed from Electrum Tools, the focus should be on their Fortune properties
 - Warding Shield nerfed from ✟ 2 -> ✟ 1 since warding now stacks
+- Warding will prioritise certain things in-order (💻, Linkershim)
+    * Copper-wearing mobs will be targeted first, included armour stand, they act as a magic lightning rod, nullifing its effects
+    * Secondarily, the Wither
+    * Lastly, the closest undead mob
 
 #### Adamant & DOOM!
 - Adamant's intrinisc has been reworked into DOOM! (👥, CHECK WHO SUGGESTED THIS, AND EMAIL IF ITS OKAY TO CREDIT)
@@ -87,9 +142,6 @@ This symbol (🖌️) means the art was added by community artists (music is art
 
 
 ### Bugs
-#### Multiplayer Bugs
-- 
-#### General
 - "Ophaned" villagers can only be children (💻, HapppySpud)
 - Fortune now works on: Tomatoes, Glow berry vines, Chorus Plant (I think some of this was vanilla-intended, but I added it in regardless)
 - Warding's (✟ x) effects were inconsistent at various levels, this was fixed
@@ -99,26 +151,38 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Water bottles no longer dupe in creative
 - Oak and Dark Oak leaf LT updated to include electrum fortune
 - Lily pad item Texture fixed
-- Wither removed from warding stone targets
 - Warding stone particles updated to match new warding ones
 - Spawners no logner kill you when you place a block on them, only when you try to use a spawn egg on it (💻, HapppySpud)
 - Copper torches now consistent with soul torches (💻, MrHatsy)
-#### Lang
-- Warding Shield, Sword, Silver Sword now uses translate
-#### Recipe Unlocks Fixed
-
-
+- Allays did not spawn in The Abbey, they now spawn on generation instead
+- "Bonfire Lit" Advancement works now
+- Post-dragon, abbey mobs would vanish, this is no longer true
+- Snowballs and Enderpearls sometimes didn't stack to 64 (💻, HapppySpud)
+- Massive lag spikes after ender dragon is killed, this bug was identified and...fixed? (💻, HapppySpud)
+    * Happpy IDed the bug and I assume it is fixed, but we still need testing to make sure
+- Many bugs for Crystal hearts, Doom, etc, more and more (💻, Linkershim)
+- Removed Beacon kindling from rooted dirt group (💻, fpekal)
+- fix another fishing typo that makes the advancement not unlockable (💻, Tralomine) 
+- Pride Banners and shields REfixed (💻, Fayranchia)
 
 #### Texture Changes
 - Removed Redstone Particles
 - Poplar Leaves, Log & Plank textures added
 - All Vertical Slab textures added (👥, specifically barce & fwhip's video)
 - Chisleled Sandstone Texture (🖌️, MrHatsy)
+- Nether Portal is now Purple (🖌️, LambS0up) (👥, Cosmoxnautica)
+- Skeletons (for Lore)
 
 #### Removed 
+- Estus Flask, I want food to be most important, encourage players to actually make farms and ranches
 
 ### Technical Changes 
 - Moved all assets and data into "matcha" namespace. Main no longer exists (Technically it does for enchantment updates but it will be removed entirely soon)
+
+Many suggestions I have taken note of but have not added yet, EX. craftable fortune III, but this is being pushed back to the next update (scope creep is real)
+
+There are also plenty of changes I forgot here. Beucase this move from main was so chaotic, a lot got lost in the crossfire. If a bug was fixed from the previous alpha, or fixed from the internal moving of things around, it was really hard to tell when all was said and done. Hopefully this won't happen again.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -132,48 +196,14 @@ This symbol (🖌️) means the art was added by community artists (music is art
 
 
 # DOCKET (MUST be done before next release)
-- Make scoreboard only run on loaddd
-- Imtlx' fish doesn't list Lukewarm oceans (I think I messed something up)
-    - Plus texture!!
-- Change Paradise Lost and Divine Comedy to be ofuda instead of hearts
-- Change some enchant recipes to use crystal hearts instead of just fragments
-- Make hard loose two hearts per death instead of 1, or make hearts lost scale with current amoutn of hearts, at max health you can loose ~4 hearts, high-mid you loose 2 in normal, 3 in hard, at high you loose 3 in normal, 5 in hard
-- Rough/Raw Diamonds (do a wikipedia) and replace all ingots in overworld structures with raw equivilents
-- Blast furnace to be made from Deepslate not stone, make deepslate only mineable with copper
-- Make gold only mineable with iron
-- Remove Gold pickaxes (maybe other stuff) from ruined portals
-
-## Before Release
-- Add All of Imtlx' biome sprites
-   - Pale Garden
-   - Deep Dark
-   - Sulfur Caves
-
-## Abbey Rework
-- Replace abbey boon rooms with shard instead of crystal hearts
-- Abbey LT should also focus more on shards (since Hearts are now used/new death system the over-abundance is no longer necessary)
-
-## Scoreboards to be removed (in the update function thing)
-- apotropaic
-- scoreboard players add copper_age Hearts 0
-- scoreboard players add iron_age Hearts 0
-- scoreboard players add diamond_age Hearts 0
-- scoreboard players add nether_age Hearts 0
-- scoreboard players add electrum_age Hearts 0
-- scoreboard players add netherite_age Hearts 0
-- scoreboard players add end_age Hearts 0
-- scoreboard players set 1 deaths 1
-- scoreboard players add current_minimum_hearts Hearts 0
-- scoreboard players set minimum_normal_hearts Hearts 12
-- scoreboard players set minimum_hard_hearts Hearts 6
-- scoreboard players set maximum_hearts Hearts 60
   
 ## BUGS
-- Update Abbey LT to have the good Abbey disc
-- The Advancements for the special elytras currently dont trigger on intem in inventory/wearing the item nor crafting either of the items?
-  
+- Steel was NOT added to LTs
+
+
 ## 26.3
 - Poplar leaves crafting needs to be added to adv
+- Poplar Leaves LTs need to be added
 - All concrete and wool needs to be in stonecutter
 
 
@@ -191,6 +221,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Netherite -> Smelting
 - Shakudo -> Silk Touch/Life Steal
 - ??? -> Protection?? NOTHING...maybe, I just think it should be something only sweats get. But maybe as a replacement we can offer different protections. Ie. Undead protection, PVP protection, and just remove protection entirely
+- Unbreakable Enchant from Wither Heart
 
 ## Copper Intrinsic
 - Lightning Rod/Conductive: redirects all "aura"-based nonsense to itsself, and nullifies it
@@ -198,7 +229,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 
 ## Worldgen
 - Make Diamonds more rare
-- Add in Linkershim's dope ass portal things
+- Add in TankyAibem & Linkershim's dope ass portal things
 - Polish-up villages
 - Abbey, but better c:
 
@@ -207,6 +238,13 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - When running on mud brick slabs with traversal boots, when I jump I get the speed boost, but when I just run on it normally I don't get the speed boost
 - Villager Gift LT (Toolsmith give stone tools, laaame)
 
+## Difficulty scaling
+- Use current_difficulty scoreboard to track individual difficulty, this changes as the amount of hearts does
+- This difficulty setting is only (so far) to be used to track how many hearts a player looses on death
+- Max -> 3
+- 20+ -> 2
+- 10+ -> 1
+- Hard mode adds +1 to n
 
 ## Langs
 "options.difficulty.peaceful.info"
@@ -265,15 +303,16 @@ While much advamcement has been made toward making the learning process of the p
 
 ## Textures
 - All beds are gone :c
-- Cactus Pot
-- Azalea Pot
 - Chest on boat texture n boat texture
 - Change Ender chest to be Eye
+- Add All of Imtlx' biome sprites
+   - Pale Garden
+   - Deep Dark
+   - Sulfur Caves
 
 ## Misc
 - Variant Villages to match with villager stories
 - Knowledge books??
-- Fishing Index (advancemnet only obtained by fisherman villager, with its own subtab with all the fish)
 - Sherds for Enchants?? From Archaeologist
 - Maps from Archaeologist based on books (I think Paradise Lost going to Abbey makes sense)
 - Upgraded horns for different mobs
@@ -286,7 +325,3 @@ While much advamcement has been made toward making the learning process of the p
 - Coal high in swamps
 - Sulfur high in sulfur caves
 - Iron high in Cold Biomes
-
-
-## Wither Rework
-- An attack that makes you loose a crystal heart

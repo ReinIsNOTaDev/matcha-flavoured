@@ -29,22 +29,25 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 7",
+					"text": "\u26cf 7",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 9",
+					"text": "\ud83d\udde1 9",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.9",
+					"text": "\ud83d\udd52 0.9",
 					"color": "dark_green",
 					"italic": false
 				}
 			],
-			"minecraft:max_damage": 500
+			"minecraft:max_damage": 500,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_axe"

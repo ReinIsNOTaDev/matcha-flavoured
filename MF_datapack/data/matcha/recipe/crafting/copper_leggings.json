@@ -13,7 +13,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "🛡 3",
+					"text": "\ud83d\udee1 3",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -23,7 +23,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 200
+			"minecraft:max_damage": 200,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:copper_leggings"

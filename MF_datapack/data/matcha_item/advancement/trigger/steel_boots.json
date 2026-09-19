@@ -37,17 +37,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"items": "minecraft:iron_boots"
-												}
-											}
-										}
 									}
 								]
 							},
@@ -62,7 +51,7 @@
 												"armor.feet": {
 													"predicates": {
 														"minecraft:custom_data": {
-															"version": 1
+															"version": "1"
 														}
 													}
 												}

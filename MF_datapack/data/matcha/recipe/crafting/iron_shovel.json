@@ -25,17 +25,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 8",
+					"text": "\u26cf 8",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 4.5",
+					"text": "\ud83d\udde1 4.5",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"text": "\ud83d\udd52 1",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -45,7 +45,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 500
+			"minecraft:max_damage": 500,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_shovel"

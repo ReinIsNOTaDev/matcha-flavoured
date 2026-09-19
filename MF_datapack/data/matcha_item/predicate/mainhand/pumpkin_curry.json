@@ -31,17 +31,6 @@
 							}
 						}
 					}
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.mainhand": {
-								"items": "minecraft:poisonous_potato"
-							}
-						}
-					}
 				}
 			]
 		},
@@ -55,7 +44,7 @@
 						"weapon.mainhand": {
 							"predicates": {
 								"minecraft:custom_data": {
-									"version": 1
+									"version": "1"
 								}
 							}
 						}

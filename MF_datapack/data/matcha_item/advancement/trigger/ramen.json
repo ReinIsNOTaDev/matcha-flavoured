@@ -16,9 +16,7 @@
 											"minecraft:slots": {
 												"weapon.mainhand": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.ramen"
-														}
+														"minecraft:item_name": "Ramen"
 													}
 												}
 											}
@@ -31,35 +29,7 @@
 											"minecraft:slots": {
 												"weapon.offhand": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.ramen"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.mainhand": {
-													"components": {
-														"minecraft:item_name": "Tonkotsu Ramen"
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.offhand": {
-													"components": {
-														"minecraft:item_name": "Tonkotsu Ramen"
+														"minecraft:item_name": "Ramen"
 													}
 												}
 											}
@@ -81,7 +51,7 @@
 														"weapon.mainhand": {
 															"predicates": {
 																"minecraft:custom_data": {
-																	"version": 1
+																	"version": "1"
 																}
 															}
 														}
@@ -96,7 +66,7 @@
 														"weapon.offhand": {
 															"predicates": {
 																"minecraft:custom_data": {
-																	"version": 1
+																	"version": "1"
 																}
 															}
 														}

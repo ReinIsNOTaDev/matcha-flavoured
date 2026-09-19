@@ -33,17 +33,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 5",
+					"text": "\u26cf 5",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 1",
+					"text": "\ud83d\udde1 1",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 2",
+					"text": "\ud83d\udd52 2",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -54,7 +54,10 @@
 				]
 			},
 			"minecraft:item_model": "matcha:copper_mattock",
-			"minecraft:max_damage": 350
+			"minecraft:max_damage": 350,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:copper_hoe"

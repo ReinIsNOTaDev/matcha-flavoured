@@ -35,17 +35,17 @@
 			"minecraft:item_model": "matcha:iron_dolabra",
 			"minecraft:lore": [
 				{
-					"text": "⛏ 6",
+					"text": "\u26cf 6",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 6",
+					"text": "\ud83d\udde1 6",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.9",
+					"text": "\ud83d\udd52 0.9",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -69,6 +69,9 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

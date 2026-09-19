@@ -13,7 +13,7 @@
 			"minecraft:max_damage": 300,
 			"minecraft:lore": [
 				{
-					"text": "🛡 2",
+					"text": "\ud83d\udee1 2",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -39,6 +39,9 @@
 			"minecraft:item_name": {
 				"translate": "item.minecraft.chainmail_helmet",
 				"color": "white"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

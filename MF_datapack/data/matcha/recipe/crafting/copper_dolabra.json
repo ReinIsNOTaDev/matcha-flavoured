@@ -46,17 +46,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 5",
+					"text": "\u26cf 5",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 5",
+					"text": "\ud83d\udde1 5",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.8",
+					"text": "\ud83d\udd52 0.8",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -83,7 +83,10 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:copper_axe"

@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '🗡 3', 'color': 'dark_green', 'italic': False}, {'text': '🕒 1.05', 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 500, 'minecraft:enchantments': None}}

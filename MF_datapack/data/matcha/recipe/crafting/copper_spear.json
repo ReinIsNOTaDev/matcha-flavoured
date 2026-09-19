@@ -14,12 +14,12 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "🗡 2",
+					"text": "\ud83d\udde1 2",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.18",
+					"text": "\ud83d\udd52 1.18",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -28,6 +28,9 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

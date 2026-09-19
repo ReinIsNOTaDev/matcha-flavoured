@@ -16,12 +16,12 @@
 			"minecraft:item_model": "minecraft:copper_sword",
 			"minecraft:lore": [
 				{
-					"text": "🗡 5",
+					"text": "\ud83d\udde1 5",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.6",
+					"text": "\ud83d\udd52 1.6",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -30,6 +30,9 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

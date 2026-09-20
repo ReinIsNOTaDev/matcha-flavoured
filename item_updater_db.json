@@ -24,6 +24,10 @@
 			"matcha/recipe/crafting",
 			"recipe"
 		],
+		"jeweler": [
+			"matcha/villager_trade/toolsmith",
+			"villager_trade"
+		],
 		"mob_drops": [
 			"minecraft/loot_table/entities",
 			"loot_table"
@@ -33,7 +37,9 @@
 		"baked_apple": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:fermented_spider_eye",
@@ -94,7 +100,9 @@
 		"baked_golden_apple": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -178,7 +186,9 @@
 		"baked_potato": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:baked_potato",
@@ -226,7 +236,9 @@
 		"baked_pumpkin": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:breeze_rod",
@@ -289,7 +301,9 @@
 		"braised_brown_mushroom": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:rabbit_foot",
@@ -336,7 +350,9 @@
 		"braised_crimson_fungus": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -408,7 +424,9 @@
 		"braised_red_mushroom": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -477,7 +495,9 @@
 		"brasied_warped_fungus": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -549,7 +569,9 @@
 		"bread": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bread",
@@ -618,7 +640,9 @@
 		"chocolate": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mushroom_stew",
@@ -681,7 +705,9 @@
 		"cooked_beef": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_beef",
@@ -728,7 +754,9 @@
 		"cooked_chicken": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_chicken",
@@ -775,7 +803,9 @@
 		"cooked_cod": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_cod",
@@ -822,7 +852,9 @@
 		"cooked_mutton": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_mutton",
@@ -869,7 +901,9 @@
 		"cooked_pork": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_porkchop",
@@ -916,7 +950,9 @@
 		"cooked_pufferfish": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -985,7 +1021,9 @@
 		"cooked_rabbit": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_rabbit",
@@ -1032,7 +1070,9 @@
 		"cooked_salmon": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_salmon",
@@ -1079,7 +1119,9 @@
 		"cooked_tropical_fish": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cooked_cod",
@@ -1126,7 +1168,9 @@
 		"fried_egg": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1181,7 +1225,9 @@
 		"glow_mash": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:rotten_flesh",
@@ -1237,7 +1283,9 @@
 		"golden_steamed_carrots": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1310,7 +1358,9 @@
 		"green_curry": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1383,7 +1433,9 @@
 		"grilled_melon": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1452,7 +1504,9 @@
 		"grilled_tomatoes": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1522,7 +1576,9 @@
 		"honey_ginger_tea": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1616,7 +1672,9 @@
 		"japanese_curry": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1690,7 +1748,9 @@
 		"molasses": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:piglin_spawn_egg",
@@ -1708,7 +1768,9 @@
 		"nopales": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1764,7 +1826,9 @@
 		"paneer_makhani": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1839,7 +1903,9 @@
 		"ramen": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				"Ramen"
@@ -1879,7 +1945,9 @@
 		"steamed_carrots": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -1950,7 +2018,9 @@
 		"sweet_berry_mash": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magma_cream",
@@ -2010,7 +2080,9 @@
 		"sugar_from_honey_bottle": {
 			"version": null,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sugar",
@@ -2023,7 +2095,9 @@
 		"sugar_from_molasses": {
 			"version": null,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sugar",
@@ -2036,7 +2110,9 @@
 		"apple_empanada": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2105,7 +2181,9 @@
 		"bokguk": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2178,7 +2256,9 @@
 		"brachio_chicken_nugget": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2233,7 +2313,9 @@
 		"brownie": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2303,7 +2385,9 @@
 		"bruschetta": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2373,7 +2457,9 @@
 		"bubbling_mead": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:splash_potion",
@@ -2424,7 +2510,9 @@
 		"bunuelo": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2494,7 +2582,9 @@
 		"cake": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cake",
@@ -2523,7 +2613,9 @@
 		"canned_apples": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2595,7 +2687,9 @@
 		"canned_golden_apples": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2682,7 +2776,9 @@
 		"carrot_cupcake": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2750,7 +2846,9 @@
 		"cheese": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cookie",
@@ -2796,7 +2894,9 @@
 		"cheese_pizza": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2866,7 +2966,9 @@
 		"chocolate_chip_cookie": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -2936,7 +3038,9 @@
 		"chorus_mochi": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3008,7 +3112,9 @@
 		"crimson_stroganoff": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3083,7 +3189,9 @@
 		"dough": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:shulker_spawn_egg",
@@ -3101,7 +3209,9 @@
 		"dough_from_water": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:shulker_spawn_egg",
@@ -3119,7 +3229,9 @@
 		"dried_kelp": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dried_kelp",
@@ -3182,7 +3294,9 @@
 		"dried_kelp_from_dried_kelp_block": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dried_kelp",
@@ -3245,7 +3359,9 @@
 		"fish_and_chips": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3301,7 +3417,9 @@
 		"flour": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:enderman_spawn_egg",
@@ -3319,7 +3437,9 @@
 		"flour_bag": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magma_cube_spawn_egg",
@@ -3337,7 +3457,9 @@
 		"flour_from_flour_bag": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:enderman_spawn_egg",
@@ -3355,7 +3477,9 @@
 		"french_toast": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3410,7 +3534,9 @@
 		"gimmari": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3480,7 +3606,9 @@
 		"glow_berry_crumble": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3543,7 +3671,9 @@
 		"glow_jam": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3611,7 +3741,9 @@
 		"gnocchi": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3670,7 +3802,9 @@
 		"golden_apple": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:golden_apple",
@@ -3745,7 +3879,9 @@
 		"golden_apple_empanada": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3827,7 +3963,9 @@
 		"golden_carrot": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:golden_carrot",
@@ -3890,7 +4028,9 @@
 		"golden_carrot_cupcake": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -3960,7 +4100,9 @@
 		"golden_pickled_carrots": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4034,7 +4176,9 @@
 		"honied_french_toast": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4101,7 +4245,9 @@
 		"ice_cream": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4181,7 +4327,9 @@
 		"kontomire_stew": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4270,7 +4418,9 @@
 		"latke": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4326,7 +4476,9 @@
 		"lumpia": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4410,7 +4562,9 @@
 		"mead": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4486,7 +4640,9 @@
 		"meat_pizza": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4556,7 +4712,9 @@
 		"melon_slice": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:melon_slice",
@@ -4596,7 +4754,9 @@
 		"melon_sorbet": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4671,7 +4831,9 @@
 		"milk_bottle": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:beetroot_soup",
@@ -4716,7 +4878,9 @@
 		"mushroom_pizza": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4786,7 +4950,9 @@
 		"oatmeal": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4871,7 +5037,9 @@
 		"oil": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:happy_ghast_spawn_egg",
@@ -4889,7 +5057,9 @@
 		"pad_thai": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -4963,7 +5133,9 @@
 		"pickled_carrots": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5035,7 +5207,9 @@
 		"pickled_crimson_fungus": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:splash_potion",
@@ -5090,7 +5264,9 @@
 		"pickled_mushrooms": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5148,7 +5324,9 @@
 		"pickled_potatoes": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5206,7 +5384,9 @@
 		"pickled_red_mushrooms": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:splash_potion",
@@ -5260,7 +5440,9 @@
 		"pickled_tomatoes": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5332,7 +5514,9 @@
 		"pickled_warped_fungus": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:splash_potion",
@@ -5388,7 +5572,9 @@
 		"popped_chorus_fruit": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:popped_chorus_fruit",
@@ -5451,7 +5637,9 @@
 		"ptero_chicken_nugget": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5506,7 +5694,9 @@
 		"puerquito": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5575,7 +5765,9 @@
 		"pumpkin_empanada": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5645,7 +5837,9 @@
 		"pumpkin_jam": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5719,7 +5913,9 @@
 		"pupusa": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5774,7 +5970,9 @@
 		"red_mushroom_stroganoff": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5847,7 +6045,9 @@
 		"rind_jam": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5919,7 +6119,9 @@
 		"seitan": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:hoglin_spawn_egg",
@@ -5937,7 +6139,9 @@
 		"stego_chicken_nugget": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -5992,7 +6196,9 @@
 		"stroganoff": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6050,7 +6256,9 @@
 		"sweet_berry_danish": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6117,7 +6325,9 @@
 		"sweet_berry_jam": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6189,7 +6399,9 @@
 		"sweet_berry_toast": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6258,7 +6470,9 @@
 		"tricero_chicken_nugget": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6313,7 +6527,9 @@
 		"uncooked_curry": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:strider_spawn_egg",
@@ -6331,7 +6547,9 @@
 		"uncooked_green_curry": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:zombified_piglin_spawn_egg",
@@ -6349,7 +6567,9 @@
 		"uncooked_paneer_makhani": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:zoglin_spawn_egg",
@@ -6367,7 +6587,9 @@
 		"uncooked_pumpkin_curry": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ghast_spawn_egg",
@@ -6385,7 +6607,9 @@
 		"uncooked_ramen": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wither_skeleton_spawn_egg",
@@ -6403,7 +6627,9 @@
 		"warped_pizza": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6490,7 +6716,9 @@
 		"warped_stroganoff": {
 			"version": 1,
 			"folder": [
-				"food_crafting"
+				[
+					"food_crafting"
+				]
 			],
 			"names": [
 				{
@@ -6565,7 +6793,9 @@
 		"charred_fish": {
 			"version": 1,
 			"folder": [
-				"food_kiln"
+				[
+					"food_kiln"
+				]
 			],
 			"names": [
 				{
@@ -6619,7 +6849,9 @@
 		"charred_meat": {
 			"version": 1,
 			"folder": [
-				"food_kiln"
+				[
+					"food_kiln"
+				]
 			],
 			"names": [
 				{
@@ -6673,7 +6905,9 @@
 		"charred_potato": {
 			"version": 1,
 			"folder": [
-				"food_kiln"
+				[
+					"food_kiln"
+				]
 			],
 			"names": [
 				{
@@ -6727,7 +6961,9 @@
 		"naan": {
 			"version": 1,
 			"folder": [
-				"food_kiln"
+				[
+					"food_kiln"
+				]
 			],
 			"names": [
 				{
@@ -6781,7 +7017,9 @@
 		"pumpkin_curry": {
 			"version": 1,
 			"folder": [
-				"food_oven"
+				[
+					"food_oven"
+				]
 			],
 			"names": [
 				{
@@ -6857,7 +7095,9 @@
 		"adamant_axe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -6960,7 +7200,9 @@
 		"adamant_boots": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7060,7 +7302,9 @@
 		"adamant_chestplate": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7160,7 +7404,9 @@
 		"adamant_claymore": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7307,7 +7553,9 @@
 		"adamant_dolabra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7436,7 +7684,9 @@
 		"adamant_helmet": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7536,7 +7786,9 @@
 		"adamant_hoe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7638,7 +7890,9 @@
 		"adamant_leggings": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7738,7 +7992,9 @@
 		"adamant_mattock": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7846,7 +8102,9 @@
 		"adamant_pickaxe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -7963,7 +8221,9 @@
 		"adamant_shovel": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8065,7 +8325,9 @@
 		"adamant_spear": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8147,7 +8409,9 @@
 		"adamant_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8244,7 +8508,9 @@
 		"electrum_axe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8358,7 +8624,9 @@
 		"electrum_boots": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8474,7 +8742,9 @@
 		"electrum_chestplate": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8590,7 +8860,9 @@
 		"electrum_dolabra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8711,7 +8983,9 @@
 		"electrum_helmet": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8827,7 +9101,9 @@
 		"electrum_hoe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -8938,7 +9214,9 @@
 		"electrum_leggings": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9054,7 +9332,9 @@
 		"electrum_mattock": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9171,7 +9451,9 @@
 		"electrum_pickaxe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9287,7 +9569,9 @@
 		"electrum_shovel": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9398,7 +9682,9 @@
 		"electrum_spear": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9483,7 +9769,9 @@
 		"electrum_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9575,7 +9863,9 @@
 		"hepatizon_axe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9690,7 +9980,9 @@
 		"hepatizon_boots": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9777,7 +10069,9 @@
 		"hepatizon_chestplate": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9864,7 +10158,9 @@
 		"hepatizon_dolabra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -9985,7 +10281,9 @@
 		"hepatizon_elytra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10078,7 +10376,9 @@
 		"hepatizon_helmet": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10165,7 +10465,9 @@
 		"hepatizon_hoe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10267,7 +10569,9 @@
 		"hepatizon_leggings": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10354,7 +10658,9 @@
 		"hepatizon_mattock": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10475,7 +10781,9 @@
 		"hepatizon_pickaxe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10596,7 +10904,9 @@
 		"hepatizon_shovel": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10712,7 +11022,9 @@
 		"hepatizon_spear": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10814,7 +11126,9 @@
 		"hepatizon_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -10916,7 +11230,9 @@
 		"shakudo_axe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11023,7 +11339,9 @@
 		"shakudo_boots": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11111,7 +11429,9 @@
 		"shakudo_chestplate": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11199,7 +11519,9 @@
 		"shakudo_dolabra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11308,7 +11630,9 @@
 		"shakudo_elytra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11402,7 +11726,9 @@
 		"shakudo_helmet": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11490,7 +11816,9 @@
 		"shakudo_hoe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11589,7 +11917,9 @@
 		"shakudo_leggings": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11677,7 +12007,9 @@
 		"shakudo_mattock": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11788,7 +12120,9 @@
 		"shakudo_pickaxe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11892,7 +12226,9 @@
 		"shakudo_shovel": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -11998,7 +12334,9 @@
 		"shakudo_spear": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12085,7 +12423,9 @@
 		"shakudo_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12173,7 +12513,9 @@
 		"silver_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12269,7 +12611,9 @@
 		"steel_axe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12383,7 +12727,9 @@
 		"steel_boots": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12489,7 +12835,9 @@
 		"steel_chestplate": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12595,7 +12943,9 @@
 		"steel_claymore": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12739,7 +13089,9 @@
 		"steel_dolabra": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12843,7 +13195,9 @@
 		"steel_helmet": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -12949,7 +13303,9 @@
 		"steel_hoe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13032,7 +13388,9 @@
 		"steel_leggings": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13138,7 +13496,9 @@
 		"steel_mattock": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13226,7 +13586,9 @@
 		"steel_pickaxe": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13304,7 +13666,9 @@
 		"steel_shears": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13347,7 +13711,9 @@
 		"steel_shovel": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13425,7 +13791,9 @@
 		"steel_spear": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13521,7 +13889,9 @@
 		"steel_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13617,7 +13987,9 @@
 		"warding_shield": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13699,7 +14071,9 @@
 		"warding_sword": {
 			"version": 1,
 			"folder": [
-				"smithing"
+				[
+					"smithing"
+				]
 			],
 			"names": [
 				{
@@ -13794,7 +14168,9 @@
 		"acacia_planks_from_acacia_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:acacia_planks",
@@ -13807,7 +14183,9 @@
 		"acacia_sapling_from_acacia_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:acacia_sapling",
@@ -13820,7 +14198,9 @@
 		"activator_rail_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:activator_rail",
@@ -13833,7 +14213,9 @@
 		"activator_rail_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:activator_rail",
@@ -13846,7 +14228,9 @@
 		"adamant": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:netherite_ingot",
@@ -13859,7 +14243,9 @@
 		"amethyst_shard_from_amethyst_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:amethyst_shard",
@@ -13872,7 +14258,9 @@
 		"andesite_from_andesite_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:andesite",
@@ -13885,7 +14273,9 @@
 		"anvil": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:anvil",
@@ -13898,7 +14288,9 @@
 		"arrow": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:arrow",
@@ -13911,7 +14303,9 @@
 		"azalea_sapling_from_azalea_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:azalea",
@@ -13924,7 +14318,9 @@
 		"bamboo_from_bamboo_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bamboo",
@@ -13937,7 +14333,9 @@
 		"bamboo_mosaic": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bamboo_mosaic",
@@ -13950,7 +14348,9 @@
 		"bamboo_mosaic_from_bamboo_mosaic_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bamboo_mosaic",
@@ -13963,7 +14363,9 @@
 		"bamboo_planks_from_bamboo_blocks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bamboo_planks",
@@ -13976,7 +14378,9 @@
 		"bamboo_planks_from_bamboo_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bamboo_planks",
@@ -13989,7 +14393,9 @@
 		"bell": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bell",
@@ -14002,7 +14408,9 @@
 		"birch_planks_from_birch_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:birch_planks",
@@ -14015,7 +14423,9 @@
 		"birch_sapling_from_birch_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:birch_sapling",
@@ -14028,7 +14438,9 @@
 		"black_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:black_banner",
@@ -14041,7 +14453,9 @@
 		"black_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:black_carpet",
@@ -14054,7 +14468,9 @@
 		"black_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:black_concrete",
@@ -14067,7 +14483,9 @@
 		"black_dye": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:black_dye",
@@ -14080,7 +14498,9 @@
 		"black_dye_from_coals": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:black_dye",
@@ -14093,7 +14513,9 @@
 		"black_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:black_wool",
@@ -14106,7 +14528,9 @@
 		"blackstone_from_blackstone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blackstone",
@@ -14119,7 +14543,9 @@
 		"blue_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blue_banner",
@@ -14132,7 +14558,9 @@
 		"blue_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blue_carpet",
@@ -14145,7 +14573,9 @@
 		"blue_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blue_concrete",
@@ -14158,7 +14588,9 @@
 		"blue_dye": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blue_dye",
@@ -14171,7 +14603,9 @@
 		"blue_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blue_wool",
@@ -14184,7 +14618,9 @@
 		"bookshelf": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bookshelf",
@@ -14197,7 +14633,9 @@
 		"bowl": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bowl",
@@ -14210,7 +14648,9 @@
 		"brick_from_bricks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brick",
@@ -14223,7 +14663,9 @@
 		"brick_from_terracottas": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brick",
@@ -14236,7 +14678,9 @@
 		"bricks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bricks",
@@ -14249,7 +14693,9 @@
 		"bricks_from_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bricks",
@@ -14262,7 +14708,9 @@
 		"bronze_alloy": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:phantom_membrane",
@@ -14275,7 +14723,9 @@
 		"brown_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brown_banner",
@@ -14288,7 +14738,9 @@
 		"brown_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brown_carpet",
@@ -14301,7 +14753,9 @@
 		"brown_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brown_concrete",
@@ -14314,7 +14768,9 @@
 		"brown_mushroom_from_mushroom_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brown_mushroom",
@@ -14327,7 +14783,9 @@
 		"brown_sandstone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:end_stone_bricks",
@@ -14340,7 +14798,9 @@
 		"brown_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brown_wool",
@@ -14353,7 +14813,9 @@
 		"bucket_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bucket",
@@ -14366,7 +14828,9 @@
 		"bucket_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bucket",
@@ -14379,7 +14843,9 @@
 		"bundle": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:bundle",
@@ -14392,7 +14858,9 @@
 		"cauldron_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cauldron",
@@ -14405,7 +14873,9 @@
 		"cauldron_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cauldron",
@@ -14418,7 +14888,9 @@
 		"chemistry_stand": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:brewing_stand",
@@ -14431,7 +14903,9 @@
 		"cherry_planks_from_cherry_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cherry_planks",
@@ -14444,7 +14918,9 @@
 		"cherry_sapling_from_cherry_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cherry_sapling",
@@ -14457,7 +14933,9 @@
 		"chest_from_logs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:chest",
@@ -14470,7 +14948,9 @@
 		"chiseled_cinnabar": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:chiseled_cinnabar",
@@ -14483,7 +14963,9 @@
 		"chiseled_sulfur": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:chiseled_sulfur",
@@ -14496,7 +14978,9 @@
 		"chiseled_tuff_bricks_from_chiseled_tuff_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tuff_bricks",
@@ -14509,7 +14993,9 @@
 		"cinnabar_bricks_from_cinnabar_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cinnabar_bricks",
@@ -14522,7 +15008,9 @@
 		"cinnabar_from_cinnabar_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cinnabar",
@@ -14535,7 +15023,9 @@
 		"clay_ball_from_clay": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:clay_ball",
@@ -14548,7 +15038,9 @@
 		"clay_from_mud_and_potion": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:clay",
@@ -14561,7 +15053,9 @@
 		"clock": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:clock",
@@ -14574,7 +15068,9 @@
 		"clone_allium": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:allium",
@@ -14587,7 +15083,9 @@
 		"clone_azure_bluet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:azure_bluet",
@@ -14600,7 +15098,9 @@
 		"clone_big_dripleaf": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:big_dripleaf",
@@ -14613,7 +15113,9 @@
 		"clone_blue_orchid": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blue_orchid",
@@ -14626,7 +15128,9 @@
 		"clone_closed_eyeblossom": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:closed_eyeblossom",
@@ -14639,7 +15143,9 @@
 		"clone_cornflower": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cornflower",
@@ -14652,7 +15158,9 @@
 		"clone_dandelion": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dandelion",
@@ -14665,7 +15173,9 @@
 		"clone_lily_of_the_valley": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lily_of_the_valley",
@@ -14678,7 +15188,9 @@
 		"clone_open_eyeblossom": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:open_eyeblossom",
@@ -14691,7 +15203,9 @@
 		"clone_orange_tulip": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:orange_tulip",
@@ -14704,7 +15218,9 @@
 		"clone_oxeye_daisy": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxeye_daisy",
@@ -14717,7 +15233,9 @@
 		"clone_pink_tulip": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pink_tulip",
@@ -14730,7 +15248,9 @@
 		"clone_poppy": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:poppy",
@@ -14743,7 +15263,9 @@
 		"clone_red_tulip": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_tulip",
@@ -14756,7 +15278,9 @@
 		"clone_small_dripleaf": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:small_dripleaf",
@@ -14769,7 +15293,9 @@
 		"clone_spore_blossom": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:spore_blossom",
@@ -14782,7 +15308,9 @@
 		"clone_white_tulip": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_tulip",
@@ -14795,7 +15323,9 @@
 		"clone_wither_rose": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wither_rose",
@@ -14808,7 +15338,9 @@
 		"coal_alternate": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:coal_block",
@@ -14821,7 +15353,9 @@
 		"coarse_dirt": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:coarse_dirt",
@@ -14834,7 +15368,9 @@
 		"cobbled_deepslate": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cobbled_deepslate",
@@ -14847,7 +15383,9 @@
 		"cobblestone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cobblestone",
@@ -14860,7 +15398,9 @@
 		"cobblestone_from_cobblestone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cobblestone",
@@ -14873,7 +15413,9 @@
 		"conduit": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:conduit",
@@ -14886,7 +15428,9 @@
 		"copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_bulb",
@@ -14899,7 +15443,9 @@
 		"copper_chain": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_chain",
@@ -14912,7 +15458,9 @@
 		"copper_ingot_from_copper_wire": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_ingot",
@@ -14925,7 +15473,9 @@
 		"copper_lantern": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_lantern",
@@ -14938,7 +15488,9 @@
 		"copper_wire": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:redstone",
@@ -14951,7 +15503,9 @@
 		"crimson_planks_from_crimson_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:crimson_planks",
@@ -14964,7 +15518,9 @@
 		"crying_obsidian": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:crying_obsidian",
@@ -14977,7 +15533,9 @@
 		"cut_copper_from_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cut_copper",
@@ -14990,7 +15548,9 @@
 		"cut_red_sandstone_from_cut_red_sandstone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cut_red_sandstone",
@@ -15003,7 +15563,9 @@
 		"cut_sandstone_from_cut_sandstone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cut_sandstone",
@@ -15016,7 +15578,9 @@
 		"cyan_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cyan_banner",
@@ -15029,7 +15593,9 @@
 		"cyan_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cyan_carpet",
@@ -15042,7 +15608,9 @@
 		"cyan_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cyan_concrete",
@@ -15055,7 +15623,9 @@
 		"cyan_dye_from_warped_fungus": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cyan_dye",
@@ -15068,7 +15638,9 @@
 		"cyan_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:cyan_wool",
@@ -15081,7 +15653,9 @@
 		"dark_oak_planks_from_dark_oak_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dark_oak_planks",
@@ -15094,7 +15668,9 @@
 		"dark_oak_sapling_from_dark_oak_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dark_oak_sapling",
@@ -15107,7 +15683,9 @@
 		"dark_prismarine": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dark_prismarine",
@@ -15120,7 +15698,9 @@
 		"dark_prismarine_from_dark_prismarine_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dark_prismarine",
@@ -15133,7 +15713,9 @@
 		"deepslate_bricks_from_deepslate_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:deepslate_bricks",
@@ -15146,7 +15728,9 @@
 		"deepslate_tiles_from_deepslate_tile_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:deepslate_tiles",
@@ -15159,7 +15743,9 @@
 		"detector_rail_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:detector_rail",
@@ -15172,7 +15758,9 @@
 		"detector_rail_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:detector_rail",
@@ -15185,7 +15773,9 @@
 		"diorite": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diorite",
@@ -15198,7 +15788,9 @@
 		"diorite_from_diorite_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diorite",
@@ -15211,7 +15803,9 @@
 		"dirt_from_dirt_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:dirt",
@@ -15224,7 +15818,9 @@
 		"dirt_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:petrified_oak_slab",
@@ -15237,7 +15833,9 @@
 		"disc_fragment_from_disc": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:disc_fragment_5",
@@ -15250,7 +15848,9 @@
 		"disc_fragment_from_tears": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:disc_fragment_5",
@@ -15263,7 +15863,9 @@
 		"divine_favour": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:nether_star",
@@ -15276,7 +15878,9 @@
 		"electrum_alloy": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:heart_of_the_sea",
@@ -15289,7 +15893,9 @@
 		"end_stone_bricks_from_end_stone_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:end_stone_bricks",
@@ -15302,7 +15908,9 @@
 		"ender_chest": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ender_chest",
@@ -15315,7 +15923,9 @@
 		"ender_eye": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ender_eye",
@@ -15328,7 +15938,9 @@
 		"exposed_copper_bars_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_bars",
@@ -15341,7 +15953,9 @@
 		"exposed_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_bulb",
@@ -15354,7 +15968,9 @@
 		"exposed_copper_chain_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_chain",
@@ -15367,7 +15983,9 @@
 		"exposed_copper_door_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_door",
@@ -15380,7 +15998,9 @@
 		"exposed_copper_golem_statue_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_golem_statue",
@@ -15393,7 +16013,9 @@
 		"exposed_cut_copper_from_exposed_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper",
@@ -15406,7 +16028,9 @@
 		"fire_charge": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:fire_charge",
@@ -15419,7 +16043,9 @@
 		"fire_starter": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:flint_and_steel",
@@ -15432,7 +16058,9 @@
 		"flint_and_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:flint_and_steel",
@@ -15445,7 +16073,9 @@
 		"flow_armor_trim_smithing_template": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:flow_armor_trim_smithing_template",
@@ -15458,7 +16088,9 @@
 		"flowering_azalea_sapling_from_flowering_azalea_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:flowering_azalea",
@@ -15471,7 +16103,9 @@
 		"glass_bottle": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:glass_bottle",
@@ -15484,7 +16118,9 @@
 		"glass_bottle_alternate": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:glass_bottle",
@@ -15497,7 +16133,9 @@
 		"globe_banner_pattern": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:globe_banner_pattern",
@@ -15510,7 +16148,9 @@
 		"granite_from_granite_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:granite",
@@ -15523,7 +16163,9 @@
 		"gravel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gravel",
@@ -15536,7 +16178,9 @@
 		"gray_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gray_banner",
@@ -15549,7 +16193,9 @@
 		"gray_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gray_carpet",
@@ -15562,7 +16208,9 @@
 		"gray_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gray_concrete",
@@ -15575,7 +16223,9 @@
 		"gray_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gray_wool",
@@ -15588,7 +16238,9 @@
 		"green_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:green_banner",
@@ -15601,7 +16253,9 @@
 		"green_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:green_carpet",
@@ -15614,7 +16268,9 @@
 		"green_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:green_concrete",
@@ -15627,7 +16283,9 @@
 		"green_dye_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:green_dye",
@@ -15640,7 +16298,9 @@
 		"green_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:green_wool",
@@ -15653,7 +16313,9 @@
 		"hay_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:hay_block",
@@ -15666,7 +16328,9 @@
 		"honey_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:honey_block",
@@ -15679,7 +16343,9 @@
 		"honey_block_from_molasses": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:honey_block",
@@ -15692,7 +16358,9 @@
 		"honeycomb_from_honeycomb_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:honeycomb",
@@ -15705,7 +16373,9 @@
 		"hopper_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:hopper",
@@ -15718,7 +16388,9 @@
 		"hopper_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:hopper",
@@ -15731,7 +16403,9 @@
 		"ice_from_packed_ice": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ice",
@@ -15744,7 +16418,9 @@
 		"ice_from_snow_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ice",
@@ -15757,7 +16433,9 @@
 		"incandescent_lamp": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:redstone_lamp",
@@ -15770,7 +16448,9 @@
 		"iron_bars": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_bars",
@@ -15783,7 +16463,9 @@
 		"iron_bars_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_bars",
@@ -15796,7 +16478,9 @@
 		"iron_chain": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_chain",
@@ -15809,7 +16493,9 @@
 		"iron_chain_from_ingot": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_chain",
@@ -15822,7 +16508,9 @@
 		"iron_chain_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_chain",
@@ -15835,7 +16523,9 @@
 		"iron_door_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_door",
@@ -15848,7 +16538,9 @@
 		"iron_door_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_door",
@@ -15861,7 +16553,9 @@
 		"iron_trapdoor_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_trapdoor",
@@ -15874,7 +16568,9 @@
 		"iron_trapdoor_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_trapdoor",
@@ -15887,7 +16583,9 @@
 		"item_frame": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:item_frame",
@@ -15900,7 +16598,9 @@
 		"jukebox": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:jukebox",
@@ -15913,7 +16613,9 @@
 		"jungle_planks_from_jungle_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:jungle_planks",
@@ -15926,7 +16628,9 @@
 		"jungle_sapling_from_jungle_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:jungle_sapling",
@@ -15939,7 +16643,9 @@
 		"ladder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ladder",
@@ -15952,7 +16658,9 @@
 		"lantern": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lantern",
@@ -15965,7 +16673,9 @@
 		"large_fern": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:large_fern",
@@ -15978,7 +16688,9 @@
 		"leather_from_leather_materials": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:leather",
@@ -15991,7 +16703,9 @@
 		"light_blue_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_blue_banner",
@@ -16004,7 +16718,9 @@
 		"light_blue_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_blue_carpet",
@@ -16017,7 +16733,9 @@
 		"light_blue_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_blue_concrete",
@@ -16030,7 +16748,9 @@
 		"light_blue_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_blue_wool",
@@ -16043,7 +16763,9 @@
 		"light_gray_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_gray_carpet",
@@ -16056,7 +16778,9 @@
 		"light_gray_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_gray_concrete",
@@ -16069,7 +16793,9 @@
 		"light_gray_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_gray_wool",
@@ -16082,7 +16808,9 @@
 		"light_grey_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_gray_banner",
@@ -16095,7 +16823,9 @@
 		"light_grey_dye_from_peony": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:light_gray_dye",
@@ -16108,7 +16838,9 @@
 		"lime_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lime_banner",
@@ -16121,7 +16853,9 @@
 		"lime_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lime_carpet",
@@ -16134,7 +16868,9 @@
 		"lime_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lime_concrete",
@@ -16147,7 +16883,9 @@
 		"lime_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lime_wool",
@@ -16160,7 +16898,9 @@
 		"magenta_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magenta_banner",
@@ -16173,7 +16913,9 @@
 		"magenta_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magenta_carpet",
@@ -16186,7 +16928,9 @@
 		"magenta_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magenta_concrete",
@@ -16199,7 +16943,9 @@
 		"magenta_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magenta_wool",
@@ -16212,7 +16958,9 @@
 		"magma_block_from_lava_and_stone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:magma_block",
@@ -16225,7 +16973,9 @@
 		"mangrove_planks_from_mangrove_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mangrove_planks",
@@ -16238,7 +16988,9 @@
 		"mangrove_propagule_from_mangrove_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mangrove_propagule",
@@ -16251,7 +17003,9 @@
 		"minecart_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:minecart",
@@ -16264,7 +17018,9 @@
 		"moss_block_from_moss_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:moss_block",
@@ -16277,7 +17033,9 @@
 		"moss_carpet_generous": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:moss_carpet",
@@ -16290,7 +17048,9 @@
 		"mossy_cobblestone_from_mossy_cobblestone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mossy_cobblestone",
@@ -16303,7 +17063,9 @@
 		"mossy_stone_bricks_from_mossy_stone_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mossy_stone_bricks",
@@ -16316,7 +17078,9 @@
 		"mud": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mud",
@@ -16329,7 +17093,9 @@
 		"mud_bricks_from_mud_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mud_bricks",
@@ -16342,7 +17108,9 @@
 		"mudkiln": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:smoker",
@@ -16355,7 +17123,9 @@
 		"music_disc_11": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_11",
@@ -16368,7 +17138,9 @@
 		"music_disc_13": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_13",
@@ -16381,7 +17153,9 @@
 		"music_disc_5": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_5",
@@ -16394,7 +17168,9 @@
 		"music_disc_blocks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_blocks",
@@ -16407,7 +17183,9 @@
 		"music_disc_cat": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_cat",
@@ -16420,7 +17198,9 @@
 		"music_disc_chirp": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_chirp",
@@ -16433,7 +17213,9 @@
 		"music_disc_far": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_far",
@@ -16446,7 +17228,9 @@
 		"music_disc_mall": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_mall",
@@ -16459,7 +17243,9 @@
 		"music_disc_mellohi": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_mellohi",
@@ -16472,7 +17258,9 @@
 		"music_disc_stal": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_stal",
@@ -16485,7 +17273,9 @@
 		"music_disc_strad": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_strad",
@@ -16498,7 +17288,9 @@
 		"music_disc_wait": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_wait",
@@ -16511,7 +17303,9 @@
 		"music_disc_ward": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_ward",
@@ -16524,7 +17318,9 @@
 		"nether_bricks_from_nether_brick_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:nether_bricks",
@@ -16537,7 +17333,9 @@
 		"nether_bricks_from_smelting_netherrack": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:nether_bricks",
@@ -16550,7 +17348,9 @@
 		"oak_planks_from_oak_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oak_planks",
@@ -16563,7 +17363,9 @@
 		"oak_sapling_from_oak_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oak_sapling",
@@ -16576,7 +17378,9 @@
 		"ochre_froglight": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ochre_froglight",
@@ -16589,7 +17393,9 @@
 		"ominous_bottle": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ominous_bottle",
@@ -16602,7 +17408,9 @@
 		"ominous_trial_key": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:ominous_trial_key",
@@ -16615,7 +17423,9 @@
 		"orange_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:orange_banner",
@@ -16628,7 +17438,9 @@
 		"orange_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:orange_carpet",
@@ -16641,7 +17453,9 @@
 		"orange_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:orange_concrete",
@@ -16654,7 +17468,9 @@
 		"orange_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:orange_wool",
@@ -16667,7 +17483,9 @@
 		"oven": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:furnace",
@@ -16680,7 +17498,9 @@
 		"oxidized_copper_bars_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_bars",
@@ -16693,7 +17513,9 @@
 		"oxidized_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_bulb",
@@ -16706,7 +17528,9 @@
 		"oxidized_copper_chain_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_chain",
@@ -16719,7 +17543,9 @@
 		"oxidized_copper_door_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_door",
@@ -16732,7 +17558,9 @@
 		"oxidized_copper_golem_statue_from_statue": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_golem_statue",
@@ -16745,7 +17573,9 @@
 		"oxidized_cut_copper_from_oxidized_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper",
@@ -16758,7 +17588,9 @@
 		"packed_ice_from_blue_ice": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:packed_ice",
@@ -16771,7 +17603,9 @@
 		"packed_mud_from_dirt": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:packed_mud",
@@ -16784,7 +17618,9 @@
 		"packed_mud_from_wheat": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:packed_mud",
@@ -16797,7 +17633,9 @@
 		"pale_moss_carpet_generous": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pale_moss_carpet",
@@ -16810,7 +17648,9 @@
 		"pale_moss_from_pale_moss_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pale_moss_block",
@@ -16823,7 +17663,9 @@
 		"pale_oak_planks_from_pale_oak_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pale_oak_planks",
@@ -16836,7 +17678,9 @@
 		"pale_oak_sapling_from_pale_oak_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pale_oak_sapling",
@@ -16849,7 +17693,9 @@
 		"pearlescent_froglight": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pearlescent_froglight",
@@ -16862,7 +17708,9 @@
 		"phosphor": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:glow_ink_sac",
@@ -16875,7 +17723,9 @@
 		"pink_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pink_banner",
@@ -16888,7 +17738,9 @@
 		"pink_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pink_carpet",
@@ -16901,7 +17753,9 @@
 		"pink_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pink_concrete",
@@ -16914,7 +17768,9 @@
 		"pink_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:pink_wool",
@@ -16927,7 +17783,9 @@
 		"polished_andesite_from_polished_andesite_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_andesite",
@@ -16940,7 +17798,9 @@
 		"polished_blackstone_bricks_from_polished_blackstone_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_blackstone_bricks",
@@ -16953,7 +17813,9 @@
 		"polished_blackstone_from_polished_blackstone_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_blackstone",
@@ -16966,7 +17828,9 @@
 		"polished_cinnabar_from_polished_cinnabar_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_cinnabar",
@@ -16979,7 +17843,9 @@
 		"polished_deepslate_from_polished_deepslate_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_deepslate",
@@ -16992,7 +17858,9 @@
 		"polished_diorite_from_polished_diorite_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_diorite",
@@ -17005,7 +17873,9 @@
 		"polished_granite_from_polished_granite_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_granite",
@@ -17018,7 +17888,9 @@
 		"polished_sulfur_from_polished_sulfur_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_sulfur",
@@ -17031,7 +17903,9 @@
 		"polished_tuff_from_polished_tuff_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:polished_tuff",
@@ -17044,7 +17918,9 @@
 		"potent_sulfur": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:potent_sulfur",
@@ -17057,7 +17933,9 @@
 		"powered_rail_from_copper": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:powered_rail",
@@ -17070,7 +17948,9 @@
 		"powered_rail_from_gold": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:powered_rail",
@@ -17083,7 +17963,9 @@
 		"prismarine": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:prismarine",
@@ -17096,7 +17978,9 @@
 		"prismarine_bricks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:prismarine_bricks",
@@ -17109,7 +17993,9 @@
 		"prismarine_bricks_from_prismarine_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:prismarine_bricks",
@@ -17122,7 +18008,9 @@
 		"prismarine_from_prismarine_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:prismarine",
@@ -17135,7 +18023,9 @@
 		"purple_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:purple_banner",
@@ -17148,7 +18038,9 @@
 		"purple_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:purple_carpet",
@@ -17161,7 +18053,9 @@
 		"purple_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:purple_concrete",
@@ -17174,7 +18068,9 @@
 		"purple_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:purple_wool",
@@ -17187,7 +18083,9 @@
 		"purpur_block_from_purpur_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:purpur_block",
@@ -17200,7 +18098,9 @@
 		"quartz_from_quartz_blocks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:quartz",
@@ -17213,7 +18113,9 @@
 		"quartz_from_quartz_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:quartz_block",
@@ -17226,7 +18128,9 @@
 		"rabbit_hide_from_leather": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:rabbit_hide",
@@ -17239,7 +18143,9 @@
 		"rail_from_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:rail",
@@ -17252,7 +18158,9 @@
 		"rail_from_steel": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:rail",
@@ -17265,7 +18173,9 @@
 		"red_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_banner",
@@ -17278,7 +18188,9 @@
 		"red_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_carpet",
@@ -17291,7 +18203,9 @@
 		"red_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_concrete",
@@ -17304,7 +18218,9 @@
 		"red_dye_from_crimson_fungus": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_dye",
@@ -17317,7 +18233,9 @@
 		"red_dye_from_tomato": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_dye",
@@ -17330,7 +18248,9 @@
 		"red_mushroom_from_mushroom_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_mushroom",
@@ -17343,7 +18263,9 @@
 		"red_mushroom_from_red_mushroom_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_mushroom",
@@ -17356,7 +18278,9 @@
 		"red_nether_brick_from_red_nether_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_nether_bricks",
@@ -17369,7 +18293,9 @@
 		"red_sand": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_sand",
@@ -17382,7 +18308,9 @@
 		"red_sand_from_sand_and_iron": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_sand",
@@ -17395,7 +18323,9 @@
 		"red_sandstone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_sandstone",
@@ -17408,7 +18338,9 @@
 		"red_sandstone_from_red_sandstone_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_sandstone",
@@ -17421,7 +18353,9 @@
 		"red_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:red_wool",
@@ -17434,7 +18368,9 @@
 		"redstone_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:redstone_block",
@@ -17447,7 +18383,9 @@
 		"redstone_torch": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:redstone_torch",
@@ -17460,7 +18398,9 @@
 		"resin_bricks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:resin_bricks",
@@ -17473,7 +18413,9 @@
 		"resin_bricks_from_resin_brick_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:resin_bricks",
@@ -17486,7 +18428,9 @@
 		"rooted_dirt": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:rooted_dirt",
@@ -17499,7 +18443,9 @@
 		"sack": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:shulker_box",
@@ -17512,7 +18458,9 @@
 		"sand_from_sandstone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sand",
@@ -17525,7 +18473,9 @@
 		"sandstone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sandstone",
@@ -17538,7 +18488,9 @@
 		"sandstone_from_brown_sandstone": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sandstone",
@@ -17551,7 +18503,9 @@
 		"sandstone_from_sandstone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sandstone",
@@ -17564,7 +18518,9 @@
 		"sculk": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sculk",
@@ -17577,7 +18533,9 @@
 		"sculk_sensor": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sculk_sensor",
@@ -17590,7 +18548,9 @@
 		"sculk_shrieker": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sculk_shrieker",
@@ -17603,7 +18563,9 @@
 		"sea_lantern": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sea_lantern",
@@ -17616,7 +18578,9 @@
 		"shakudo_alloy": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:shulker_shell",
@@ -17629,7 +18593,9 @@
 		"short_dry_grass_from_tall_dry_grass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:short_dry_grass",
@@ -17642,7 +18608,9 @@
 		"slime_ball_from_dough": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:slime_ball",
@@ -17655,7 +18623,9 @@
 		"smithing_table": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:smithing_table",
@@ -17668,7 +18638,9 @@
 		"smithing_template": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:netherite_upgrade_smithing_template",
@@ -17681,7 +18653,9 @@
 		"smooth_quartz_from_smooth_quartz_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:smooth_quartz",
@@ -17694,7 +18668,9 @@
 		"smooth_red_sanstone_from_smooth_red_sandstone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:smooth_red_sandstone",
@@ -17707,7 +18683,9 @@
 		"smooth_sandstone_from_smooth_sandstone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:smooth_sandstone",
@@ -17720,7 +18698,9 @@
 		"smooth_stone_from_smooth_stone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:smooth_stone",
@@ -17733,7 +18713,9 @@
 		"snow_block_from_ice": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:snow_block",
@@ -17746,7 +18728,9 @@
 		"snow_block_from_snow_layer": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:snow_block",
@@ -17759,7 +18743,9 @@
 		"snow_layer_from_snow_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:snow",
@@ -17772,7 +18758,9 @@
 		"soul_lantern": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:soul_lantern",
@@ -17785,7 +18773,9 @@
 		"spruce_planks_from_spruce_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:spruce_planks",
@@ -17798,7 +18788,9 @@
 		"spruce_sapling_from_spruce_leaves": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:spruce_sapling",
@@ -17811,7 +18803,9 @@
 		"spyglass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:spyglass",
@@ -17824,7 +18818,9 @@
 		"sticks_from_logs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:stick",
@@ -17837,7 +18833,9 @@
 		"stone_bricks_from_stone_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:stone_bricks",
@@ -17850,7 +18848,9 @@
 		"stone_from_stone_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:stone",
@@ -17863,7 +18863,9 @@
 		"string_from_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:string",
@@ -17876,7 +18878,9 @@
 		"sulfur_bricks_from_sulfur_brick_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sulfur_bricks",
@@ -17889,7 +18893,9 @@
 		"sulfur_chunk_from_potent_sulfur": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gunpowder",
@@ -17902,7 +18908,9 @@
 		"sulfur_chunk_from_sulfur": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:gunpowder",
@@ -17915,7 +18923,9 @@
 		"sulfur_from_sulfur_chunk": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sulfur",
@@ -17928,7 +18938,9 @@
 		"sulfur_from_sulfur_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:sulfur",
@@ -17941,7 +18953,9 @@
 		"tall_dry_grass_from_short_dry_grass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tall_dry_grass",
@@ -17954,7 +18968,9 @@
 		"tall_dry_grass_from_wheat": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tall_dry_grass",
@@ -17967,7 +18983,9 @@
 		"tall_grass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tall_grass",
@@ -17980,7 +18998,9 @@
 		"target": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:target",
@@ -17993,7 +19013,9 @@
 		"tinted_glass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tinted_glass",
@@ -18006,7 +19028,9 @@
 		"tnt": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tnt",
@@ -18019,7 +19043,9 @@
 		"tomato_seeds_from_tomato": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:beetroot_seeds",
@@ -18032,7 +19058,9 @@
 		"torch": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:torch",
@@ -18045,7 +19073,9 @@
 		"torch_from_short_dry_grass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:torch",
@@ -18058,7 +19088,9 @@
 		"trapped_chest": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:trapped_chest",
@@ -18071,7 +19103,9 @@
 		"tuff_from_tuff_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:tuff",
@@ -18084,7 +19118,9 @@
 		"vanilla_chest_from_planks": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:chest",
@@ -18097,7 +19133,9 @@
 		"vanilla_slime_ball": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:slime_ball",
@@ -18110,7 +19148,9 @@
 		"verdant_froglight": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:verdant_froglight",
@@ -18123,7 +19163,9 @@
 		"warped_planks_from_warped_slabs": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:warped_planks",
@@ -18136,7 +19178,9 @@
 		"waxed_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_copper_bulb",
@@ -18149,7 +19193,9 @@
 		"waxed_cut_copper_from_waxed_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_cut_copper",
@@ -18162,7 +19208,9 @@
 		"waxed_exposed_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_exposed_copper_bulb",
@@ -18175,7 +19223,9 @@
 		"waxed_exposed_cut_copper_from_waxed_exposed_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_exposed_cut_copper",
@@ -18188,7 +19238,9 @@
 		"waxed_oxidized_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_oxidized_copper_bulb",
@@ -18201,7 +19253,9 @@
 		"waxed_oxidized_cut_copper_from_waxed_oxidized_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_oxidized_cut_copper",
@@ -18214,7 +19268,9 @@
 		"waxed_oxidized_lightning_rod_from_waxed_oxidized_copper": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_oxidized_lightning_rod",
@@ -18227,7 +19283,9 @@
 		"waxed_weathered_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_weathered_copper_bulb",
@@ -18240,7 +19298,9 @@
 		"waxed_weathered_cut_copper_from_waxed_weathered_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_weathered_cut_copper",
@@ -18253,7 +19313,9 @@
 		"waxed_weathered_lightning_rod_from_stoncutting_waxed_weathered_copper": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:waxed_weathered_lightning_rod",
@@ -18266,7 +19328,9 @@
 		"weathered_copper_bars_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_bars",
@@ -18279,7 +19343,9 @@
 		"weathered_copper_bulb": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_bulb",
@@ -18292,7 +19358,9 @@
 		"weathered_copper_chain_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_chain",
@@ -18305,7 +19373,9 @@
 		"weathered_copper_door_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_door",
@@ -18318,7 +19388,9 @@
 		"weathered_copper_golem_statue_from_patina": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_golem_statue",
@@ -18331,7 +19403,9 @@
 		"weathered_copper_trapdoor_from_weathered_copper": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_trapdoor",
@@ -18344,7 +19418,9 @@
 		"weathered_cut_copper_from_weathered_cut_copper_slab": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper",
@@ -18357,7 +19433,9 @@
 		"wheat_from_hay_block": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wheat",
@@ -18370,7 +19448,9 @@
 		"wheat_from_tall_dry_grass": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wheat",
@@ -18383,7 +19463,9 @@
 		"white_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_banner",
@@ -18396,7 +19478,9 @@
 		"white_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_carpet",
@@ -18409,7 +19493,9 @@
 		"white_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_concrete",
@@ -18422,7 +19508,9 @@
 		"white_dye_from_bonemeal": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_dye",
@@ -18435,7 +19523,9 @@
 		"white_dye_from_calcite": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_dye",
@@ -18448,7 +19538,9 @@
 		"white_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:white_wool",
@@ -18461,7 +19553,9 @@
 		"yellow_banner": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:yellow_banner",
@@ -18474,7 +19568,9 @@
 		"yellow_carpet": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:yellow_carpet",
@@ -18487,7 +19583,9 @@
 		"yellow_concrete_from_concrete_powder": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:yellow_concrete",
@@ -18500,7 +19598,9 @@
 		"yellow_wool": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:yellow_wool",
@@ -18513,7 +19613,9 @@
 		"clone_lily_pad": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:lily_pad",
@@ -18526,7 +19628,9 @@
 		"copper_torch": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_torch",
@@ -18539,7 +19643,9 @@
 		"amnestic": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:chicken_spawn_egg",
@@ -18584,7 +19690,9 @@
 		"beacon_kindling": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -18617,7 +19725,9 @@
 		"bedrock_buster": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -18649,7 +19759,9 @@
 		"benzene": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:endermite_spawn_egg",
@@ -18667,7 +19779,9 @@
 		"campfire": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:campfire",
@@ -18687,7 +19801,9 @@
 		"carbon_rich_iron": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:piglin_brute_spawn_egg",
@@ -18705,7 +19821,9 @@
 		"copper_compass": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -18730,7 +19848,9 @@
 		"copper_shears": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -18759,7 +19879,9 @@
 		"crystal_heart": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -18813,7 +19935,9 @@
 		"diamond_axe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_axe",
@@ -18873,7 +19997,9 @@
 		"diamond_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_boots",
@@ -18914,7 +20040,9 @@
 		"diamond_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_chestplate",
@@ -18955,7 +20083,9 @@
 		"diamond_dolabra": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19049,7 +20179,9 @@
 		"diamond_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_helmet",
@@ -19090,7 +20222,9 @@
 		"diamond_hoe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_hoe",
@@ -19150,7 +20284,9 @@
 		"diamond_leggings": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_leggings",
@@ -19191,7 +20327,9 @@
 		"diamond_mattock": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19280,7 +20418,9 @@
 		"diamond_pickaxe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_pickaxe",
@@ -19345,7 +20485,9 @@
 		"diamond_shovel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_shovel",
@@ -19405,7 +20547,9 @@
 		"diamond_spear": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_spear",
@@ -19446,7 +20590,9 @@
 		"diamond_sword": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:diamond_sword",
@@ -19487,7 +20633,9 @@
 		"divine_fragment": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:turtle_scute",
@@ -19506,7 +20654,9 @@
 		"exposed_chiseled_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_chiseled_copper",
@@ -19523,7 +20673,9 @@
 		"exposed_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper",
@@ -19540,7 +20692,9 @@
 		"exposed_copper_grate_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_grate",
@@ -19557,7 +20711,9 @@
 		"exposed_cut_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper",
@@ -19574,7 +20730,9 @@
 		"exposed_cut_copper_slab_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper_slab",
@@ -19591,7 +20749,9 @@
 		"exposed_cut_copper_stairs_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper_stairs",
@@ -19608,7 +20768,9 @@
 		"golden_axe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19671,7 +20833,9 @@
 		"golden_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19726,7 +20890,9 @@
 		"golden_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19772,7 +20938,9 @@
 		"golden_compass": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19797,7 +20965,9 @@
 		"golden_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19843,7 +21013,9 @@
 		"golden_hoe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19905,7 +21077,9 @@
 		"golden_leggings": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -19951,7 +21125,9 @@
 		"golden_pickaxe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20029,7 +21205,9 @@
 		"golden_shovel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20102,7 +21280,9 @@
 		"golden_spear": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20156,7 +21336,9 @@
 		"golden_sword": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20210,7 +21392,9 @@
 		"invisible_item_frame": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20239,7 +21423,9 @@
 		"iron_shears": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:shears",
@@ -20257,7 +21443,9 @@
 		"leather_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20331,7 +21519,9 @@
 		"leather_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20402,7 +21592,9 @@
 		"leather_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20473,7 +21665,9 @@
 		"leather_pants": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20544,7 +21738,9 @@
 		"mace": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:mace",
@@ -20582,7 +21778,9 @@
 		"minecart_from_steel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:minecart",
@@ -20600,7 +21798,9 @@
 		"music_disc_crete": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_11",
@@ -20619,7 +21819,9 @@
 		"music_disc_golden": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_11",
@@ -20638,7 +21840,9 @@
 		"music_disc_labyrinthine": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_cat",
@@ -20657,7 +21861,9 @@
 		"music_disc_malachite": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:music_disc_11",
@@ -20676,7 +21882,9 @@
 		"nazar": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blaze_spawn_egg",
@@ -20697,7 +21905,9 @@
 		"oxidized_chiseled_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_chiseled_copper",
@@ -20714,7 +21924,9 @@
 		"oxidized_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper",
@@ -20731,7 +21943,9 @@
 		"oxidized_copper_grate_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_grate",
@@ -20748,7 +21962,9 @@
 		"oxidized_cut_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper",
@@ -20765,7 +21981,9 @@
 		"oxidized_cut_copper_slab_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper_slab",
@@ -20782,7 +22000,9 @@
 		"oxidized_cut_copper_stairs_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper_stairs",
@@ -20799,7 +22019,9 @@
 		"phosphor_rod": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:end_rod",
@@ -20816,7 +22038,9 @@
 		"snow_shovel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -20877,7 +22101,9 @@
 		"soul_campfire": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:soul_campfire",
@@ -20897,7 +22123,9 @@
 		"soul_torch": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:soul_torch",
@@ -20914,7 +22142,9 @@
 		"stabilised_estus": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blaze_rod",
@@ -20933,7 +22163,9 @@
 		"sturdy_leather_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21044,7 +22276,9 @@
 		"sturdy_leather_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21136,7 +22370,9 @@
 		"sturdy_leather_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21228,7 +22464,9 @@
 		"sturdy_leather_pants": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21320,7 +22558,9 @@
 		"tinder": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21346,7 +22586,9 @@
 		"trim_colour_amethyst": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21380,7 +22622,9 @@
 		"trim_colour_cinnabar": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21414,7 +22658,9 @@
 		"trim_colour_diamond": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21448,7 +22694,9 @@
 		"trim_colour_electrum": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21482,7 +22730,9 @@
 		"trim_colour_gold": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21516,7 +22766,9 @@
 		"trim_colour_hepatizon": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21550,7 +22802,9 @@
 		"trim_colour_iron": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21584,7 +22838,9 @@
 		"trim_colour_lapis": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21618,7 +22874,9 @@
 		"trim_colour_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21652,7 +22910,9 @@
 		"trim_colour_quartz": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21686,7 +22946,9 @@
 		"trim_colour_resin": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21720,7 +22982,9 @@
 		"trim_colour_shakudo": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21754,7 +23018,9 @@
 		"trim_colour_steel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21788,7 +23054,9 @@
 		"warding_stone": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -21826,7 +23094,9 @@
 		"weathered_chiseled_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_chiseled_copper",
@@ -21843,7 +23113,9 @@
 		"weathered_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper",
@@ -21860,7 +23132,9 @@
 		"weathered_copper_grate_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_grate",
@@ -21877,7 +23151,9 @@
 		"weathered_cut_copper_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper",
@@ -21894,7 +23170,9 @@
 		"weathered_cut_copper_slab_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper_slab",
@@ -21911,7 +23189,9 @@
 		"weathered_cut_copper_stairs_from_patina": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper_stairs",
@@ -21928,7 +23208,9 @@
 		"wooden_axe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wooden_axe",
@@ -21968,7 +23250,9 @@
 		"wooden_cross": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22000,7 +23284,9 @@
 		"wooden_hoe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wooden_hoe",
@@ -22040,7 +23326,9 @@
 		"wooden_shovel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wooden_shovel",
@@ -22080,7 +23368,9 @@
 		"wooden_spear": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wooden_spear",
@@ -22114,7 +23404,9 @@
 		"wooden_sword": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wooden_sword",
@@ -22149,7 +23441,9 @@
 		"blast_furnace": {
 			"version": null,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:blast_furnace",
@@ -22162,7 +23456,9 @@
 		"chainmail_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22217,7 +23513,9 @@
 		"chainmail_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22272,7 +23570,9 @@
 		"chainmail_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22327,7 +23627,9 @@
 		"chainmail_leggings": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22382,7 +23684,9 @@
 		"copper_axe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_axe",
@@ -22443,7 +23747,9 @@
 		"copper_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_boots",
@@ -22476,7 +23782,9 @@
 		"copper_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_chestplate",
@@ -22509,7 +23817,9 @@
 		"copper_dolabra": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22611,7 +23921,9 @@
 		"copper_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_helmet",
@@ -22644,7 +23956,9 @@
 		"copper_hoe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_hoe",
@@ -22710,7 +24024,9 @@
 		"copper_leggings": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_leggings",
@@ -22743,7 +24059,9 @@
 		"copper_mattock": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -22816,7 +24134,9 @@
 		"copper_pickaxe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_pickaxe",
@@ -22882,7 +24202,9 @@
 		"copper_shovel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_shovel",
@@ -22943,7 +24265,9 @@
 		"copper_spear": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_spear",
@@ -22983,7 +24307,9 @@
 		"copper_sword": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:copper_sword",
@@ -23025,7 +24351,9 @@
 		"iron_axe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_axe",
@@ -23084,7 +24412,9 @@
 		"iron_boots": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_boots",
@@ -23117,7 +24447,9 @@
 		"iron_chestplate": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_chestplate",
@@ -23150,7 +24482,9 @@
 		"iron_dolabra": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -23238,7 +24572,9 @@
 		"iron_helmet": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_helmet",
@@ -23271,7 +24607,9 @@
 		"iron_hoe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_hoe",
@@ -23330,7 +24668,9 @@
 		"iron_leggings": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_leggings",
@@ -23363,7 +24703,9 @@
 		"iron_mattock": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [
 				{
@@ -23444,7 +24786,9 @@
 		"iron_pickaxe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_pickaxe",
@@ -23509,7 +24853,9 @@
 		"iron_shovel": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_shovel",
@@ -23569,7 +24915,9 @@
 		"iron_spear": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_spear",
@@ -23610,7 +24958,9 @@
 		"iron_sword": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:iron_sword",
@@ -23667,7 +25017,9 @@
 		"wooden_pickaxe": {
 			"version": 1,
 			"folder": [
-				"crafting"
+				[
+					"crafting"
+				]
 			],
 			"names": [],
 			"id": "minecraft:wooden_pickaxe",
@@ -23728,6 +25080,609 @@
 				}
 			},
 			"ignore": null
+		},
+		"opal_earrings": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.opal_earrings",
+					"color": "#ab85ad"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.opal_earrings",
+					"color": "#ab85ad"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:opal_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:opal_earrings"
+				},
+				"minecraft:enchantments": {
+					"matcha:conduit_power": 1
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"amethyst_earrings": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.amethyst_earrings",
+					"color": "#b38ef3"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.amethyst_earrings",
+					"color": "#b38ef3"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:amethyst_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:amethyst_earrings"
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"diamond_earrings": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.diamond_earrings",
+					"color": "aqua"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.diamond_earrings",
+					"color": "aqua"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:diamond_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:diamond_earrings"
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"lapis_earrings": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.lapis_earrings",
+					"color": "#325caa"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.lapis_earrings",
+					"color": "#325caa"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:lapis_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:lapis_earrings"
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"ruby_circlet": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.ruby_circlet",
+					"color": "#e63d5f"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.ruby_circlet",
+					"color": "#e63d5f"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:ruby_circlet",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:ruby_circlet"
+				},
+				"minecraft:enchantments": {
+					"matcha:fire_proof": 1
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"amber_earrings": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.amber_earrings",
+					"color": "#e58904"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.amber_earrings",
+					"color": "#e58904"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:amber_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:amber_earrings"
+				},
+				"minecraft:enchantments": {
+					"matcha:regeneration": 1
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"hepatizon_laurel": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"4"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.hepatizon_laurel",
+					"color": "#ac7b5c"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.speed_attribute",
+						"with": [
+							"+0.1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.hepatizon_laurel",
+					"color": "#ac7b5c"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:movement_speed",
+						"id": "bronze_helmet",
+						"amount": 0.1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:hepatizon_laurel",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:hepatizon_laurel"
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"topaz_earrings": {
+			"version": 1,
+			"folder": [
+				[
+					"jeweler",
+					"4"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.topaz_earrings",
+					"color": "yellow"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.topaz_earrings",
+					"color": "yellow"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:topaz_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:topaz_earrings"
+				},
+				"minecraft:enchantments": {
+					"matcha:haste": 1
+				},
+				"minecraft:unbreakable": {}
+			},
+			"ignore": null
+		},
+		"sell_amber": {
+			"version": null,
+			"folder": [
+				[
+					"jeweler",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"sell_opal": {
+			"version": null,
+			"folder": [
+				[
+					"jeweler",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"sell_ruby": {
+			"version": null,
+			"folder": [
+				[
+					"jeweler",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"sell_topaz": {
+			"version": null,
+			"folder": [
+				[
+					"jeweler",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
 		}
 	},
 	"options": {

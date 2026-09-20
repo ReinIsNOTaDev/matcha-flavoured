@@ -55,11 +55,12 @@ def discover(override):
     print("Overriding Files!") if override else None
     for folder in DB["folders"]:
         path = os.path.join(Matcha, DB["folders"][folder][0])
-        files = os.listdir(path)
+        print("[D] folder processing now: "+folder) if debug else None
         if DB["folders"][folder][1] == "recipe":
+            files = os.listdir(path)
             for file_ in files:
                 name = filename.match(file_).group(1)
-                print("[D] processing now: "+name) if debug else None
+                print("[D] file processing now: "+file_) if debug else None
                 item = DB["files"].get(name)
                 if override == "True" or name not in DB["files"]:
                     type_ = ""
@@ -102,16 +103,66 @@ def discover(override):
                     id_ = result["id"]
                     useid = None
                     DB["files"][name] = {}
-                    DB["files"][name] = {"version": version, "folder": [folder], "names": names, "id": id_, "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
+                    DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_, "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
                 elif item:
                     item_folders = DB["files"][name]["folder"]
                     if folder in item_folders:
                         pass
                     else:
-                        item_folders.append(folder)
+                        item_folders.append([folder])
                         DB["files"][name]["processed"] = False
                 else:
                     print("[D] skipping item") if debug else None
+        elif DB["folders"][folder][1] == "villager_trade":
+            for directory in os.listdir(path):
+                directory_path = os.path.join(path,directory)
+                files = os.listdir(directory_path)
+                for file_ in files:
+                    name = filename.match(file_).group(1)
+                    print("[D] file processing now: "+file_) if debug else None
+                    item = DB["files"].get(name)
+                    if override == "True" or name not in DB["files"]:
+                        type_ = ""
+                        filepath = os.path.join(directory_path, file_)
+                        opened = open(filepath, 'r')
+                        read = json.load(opened)
+                        gives = read["gives"]
+                        try:
+                            version = gives["components"]["minecraft:custom_data"]["version"]
+                        except:
+                            version = None
+                        if head.search(gives.get("id")):
+                            type_ = "helmet"
+                        elif chest.search(gives.get("id")):
+                            type_ = "chestplate"
+                        elif legs.search(gives.get("id")):
+                            type_ = "leggings"
+                        elif feet.search(gives.get("id")):
+                            type_ = "boots"
+                        elif gives.get("components") != None:
+                            if gives["components"].get("minecraft:provides_trim_material") != None:
+                                type_ = "trim_colour"
+                            elif gives["components"].get("minecraft:stored_enchantments") != None:
+                                type_ = "enchanted"
+                            else:
+                                type_ = "generic"
+                        else:
+                            type_ = "generic"
+                        if "components" in gives:
+                            ignore = None
+                            components = gives["components"]
+                        else:
+                            ignore = True
+                            version = None
+                            components = {}
+                        try:
+                            names = [gives["components"]["minecraft:item_name"]]
+                        except:
+                            names = []
+                        id_ = gives["id"]
+                        useid = None
+                        DB["files"][name] = {}
+                        DB["files"][name] = {"version": version, "folder": [[folder,directory]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
     print("Finishing touches!")
@@ -144,16 +195,39 @@ def destructive():
             print("[D] processing now: "+item) if debug else None
             folder = files[item]["folder"]
             for i in folder:
-                path = os.path.join(Matcha,folders[i][0],item+".json")
-                read = open(path, 'r')
-                json_ = json.load(read)
-                if folders[i][1] == "recipe":
+                if folders[i[0]][1] == "recipe":
+                    path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
                     if "components" in json_["result"]:
                         if "minecraft:custom_data" in json_["result"]["components"]:
                             json_["result"]["components"]["minecraft:custom_data"].update({"version": 1})
                         else:
                             json_["result"]["components"]["minecraft:custom_data"] = {"version": 1}
-                        if debug:
+                        if debug and DB["options"]["askForConfirmation"] == "True":
+                            print(json.dumps(json_, indent=1))
+                            cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+                            if cont == "y":
+                                with open(path, 'w') as f:
+                                    json.dump(json_, f, indent="\t")
+                            else:
+                                pass
+                        else:
+                            with open(path, 'w') as f:
+                                json.dump(json_, f, indent="\t")
+                        files[item]["version"] = 1
+                    else:
+                        files[item]["ignore"] = True
+                elif folders[i[0]][1] == "villager_trade":
+                    path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    if "components" in json_["gives"]:
+                        if "minecraft:custom_data" in json_["gives"]["components"]:
+                            json_["gives"]["components"]["minecraft:custom_data"].update({"version": 1})
+                        else:
+                            json_["gives"]["components"]["minecraft:custom_data"] = {"version": 1}
+                        if debug and DB["options"]["askForConfirmation"] == "True":
                             print(json.dumps(json_, indent=1))
                             cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
                             if cont == "y":

@@ -1,1 +1,2 @@
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:enchantments': {'matcha:warding_2': 1}, '!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}
+say <D> Updating mainhand for nazar
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}

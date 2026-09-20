@@ -1,3 +1,4 @@
+say <D> Updating mainhand for electrum_sword
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:looting
 execute store result score enchantsLvl minecraft:looting run data get matcha_item:enchants held.minecraft:looting

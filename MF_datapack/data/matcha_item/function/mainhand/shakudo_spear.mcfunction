@@ -1,3 +1,4 @@
+say <D> Updating mainhand for shakudo_spear
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:shakudo_weapon
 execute store result score enchantsLvl matcha:shakudo_weapon run data get matcha_item:enchants held.matcha:shakudo_weapon

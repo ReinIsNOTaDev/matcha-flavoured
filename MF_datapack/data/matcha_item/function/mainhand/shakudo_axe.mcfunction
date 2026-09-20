@@ -1,3 +1,4 @@
+say <D> Updating mainhand for shakudo_axe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:silk_touch
 execute store result score enchantsLvl minecraft:silk_touch run data get matcha_item:enchants held.minecraft:silk_touch

@@ -279,8 +279,9 @@ def creationHelper(obj, item):
         case _:
             raise ValueError("So there isn't supposed to be this many item types...")
 # defining item modifier
-    item_modifier = {"function": "set_components", "components": components}
-    stored_enchs = item_modifier["components"].pop("minecraft:stored_enchantments", None)
+    item_modifier = {"function": "set_components", "components": components.copy()}
+    enchantments = item_modifier["components"].pop("minecraft:stored_enchantments", {})
+    enchantments.update(item_modifier["components"].pop("minecraft:enchantments", {}))
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict
     temp_names_predicates = []
@@ -367,10 +368,10 @@ def creationHelper(obj, item):
             # process enchantments (for this example, use SelectedItem/mainhand)
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
-            for stored_ench,value in stored_enchs.items():
-                mainhand_function += "# processing enchantment "+stored_ench+"\n"
-                mainhand_function += "execute store result score enchantsLvl "+stored_ench+" run data get matcha_item:enchants held."+stored_ench+"\n"
-                mainhand_function += "execute unless score enchantsLvl "+stored_ench+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+stored_ench+":"+str(value)+"}\n"
+            for enchantment,value in enchantments.items():
+                mainhand_function += "# processing enchantment "+enchantment+"\n"
+                mainhand_function += "execute store result score enchantsLvl "+enchantment+" run data get matcha_item:enchants held."+enchantment+"\n"
+                mainhand_function += "execute unless score enchantsLvl "+enchantment+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+enchantment+":"+str(value)+"}\n"
             # modify item
             mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)

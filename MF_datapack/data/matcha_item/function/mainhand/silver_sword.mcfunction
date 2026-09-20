@@ -1,3 +1,4 @@
+say <D> Updating mainhand for silver_sword
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:smite
 execute store result score enchantsLvl minecraft:smite run data get matcha_item:enchants held.minecraft:smite

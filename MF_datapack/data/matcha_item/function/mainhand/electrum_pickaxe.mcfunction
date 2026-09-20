@@ -1,3 +1,4 @@
+say <D> Updating mainhand for electrum_pickaxe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:electrum_tool
 execute store result score enchantsLvl matcha:electrum_tool run data get matcha_item:enchants held.matcha:electrum_tool

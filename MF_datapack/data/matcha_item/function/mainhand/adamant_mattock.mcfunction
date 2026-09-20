@@ -1,3 +1,4 @@
+say <D> Updating mainhand for adamant_mattock
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:efficiency
 execute store result score enchantsLvl minecraft:efficiency run data get matcha_item:enchants held.minecraft:efficiency

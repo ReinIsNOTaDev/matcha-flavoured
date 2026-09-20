@@ -1,3 +1,4 @@
+say <D> Updating mainhand for hepatizon_sword
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:riposte
 execute store result score enchantsLvl matcha:riposte run data get matcha_item:enchants held.matcha:riposte

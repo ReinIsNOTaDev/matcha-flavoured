@@ -1,3 +1,4 @@
+say <D> Updating mainhand for adamant_hoe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:adamant_tool
 execute store result score enchantsLvl matcha:adamant_tool run data get matcha_item:enchants held.matcha:adamant_tool

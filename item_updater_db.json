@@ -6886,6 +6886,12 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:efficiency": 2,
+					"matcha:adamant_tool": 1,
+					"matcha:adamant_weapon": 1,
+					"minecraft:unbreaking": 2
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -6971,6 +6977,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				},
 				"minecraft:lore": [
 					{
@@ -7066,6 +7077,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				},
 				"minecraft:lore": [
 					{
@@ -7166,6 +7182,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:unbreaking": 2,
+					"matcha:adamant_weapon": 1,
+					"minecraft:sharpness": 1
 				},
 				"minecraft:lore": [
 					{
@@ -7325,6 +7346,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:unbreaking": 2,
+					"matcha:adamant_tool": 1,
+					"minecraft:efficiency": 1
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -7427,6 +7453,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				},
 				"minecraft:lore": [
 					{
@@ -7534,6 +7565,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:adamant_tool": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:efficiency": 2
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -7619,6 +7655,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:adamant_armour": 1,
+					"minecraft:unbreaking": 2,
+					"minecraft:protection": 1
 				},
 				"minecraft:lore": [
 					{
@@ -7731,6 +7772,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:efficiency": 1,
+					"matcha:adamant_tool": 1,
+					"minecraft:unbreaking": 2
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -7833,6 +7879,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:efficiency": 2,
+					"matcha:adamant_tool": 1,
+					"minecraft:unbreaking": 2
 				},
 				"minecraft:lore": [
 					{
@@ -7940,6 +7991,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:adamant_tool": 1,
+					"minecraft:efficiency": 2,
+					"minecraft:unbreaking": 2
 				},
 				"minecraft:lore": [
 					{
@@ -8079,6 +8135,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:sharpness": 1,
+					"minecraft:unbreaking": 2,
+					"matcha:adamant_weapon": 1
 				}
 			},
 			"ignore": null
@@ -8107,6 +8168,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:sharpness": 1,
+					"matcha:adamant_weapon": 1,
+					"minecraft:unbreaking": 2
 				},
 				"minecraft:lore": [
 					{
@@ -8275,6 +8341,12 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_tool": 3,
+					"minecraft:looting": 2,
+					"minecraft:smite": 3,
+					"matcha:warding_2": 1
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:diamond_block"
@@ -8382,6 +8454,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_armour": 1
 				},
 				"minecraft:item_model": "matcha:electrum_boots",
 				"minecraft:equippable": {
@@ -8495,6 +8570,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_armour": 1
 				},
 				"minecraft:item_model": "matcha:electrum_chestplate",
 				"minecraft:equippable": {
@@ -8619,6 +8697,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_tool": 3
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:diamond_block"
@@ -8726,6 +8807,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_armour": 1
 				},
 				"minecraft:item_model": "matcha:electrum_helmet",
 				"minecraft:equippable": {
@@ -8840,6 +8924,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_tool": 3
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:diamond_block"
@@ -8947,6 +9034,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_armour": 1
 				},
 				"minecraft:item_model": "matcha:electrum_leggings",
 				"minecraft:equippable": {
@@ -9066,6 +9156,10 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_tool": 2,
+					"matcha:warding_1": 1
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:diamond_block"
@@ -9179,6 +9273,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_tool": 3
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:diamond_block"
@@ -9287,6 +9384,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:electrum_tool": 3
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:diamond_block"
@@ -9366,6 +9466,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:smite": 4,
+					"minecraft:looting": 2,
+					"matcha:warding_2": 1
 				},
 				"minecraft:repairable": {
 					"items": [
@@ -9452,6 +9557,11 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:looting": 2,
+					"minecraft:smite": 3,
+					"matcha:warding_3": 1
 				},
 				"minecraft:repairable": {
 					"items": [
@@ -10689,6 +10799,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:lunge": 3
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:copper_block"
@@ -10788,6 +10901,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:riposte": 2
+				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:copper_block"
@@ -10833,6 +10949,10 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1,
+					"matcha:shakudo_weapon": 1
 				},
 				"minecraft:lore": [
 					{
@@ -10969,6 +11089,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:cleanse_armor_feet": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:shakudo_boots",
 				"minecraft:equippable": {
@@ -11052,6 +11177,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:cleanse_armor_chest": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:shakudo_chestplate",
 				"minecraft:equippable": {
@@ -11107,6 +11237,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1
 				},
 				"minecraft:lore": [
 					{
@@ -11246,6 +11379,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:max_magic_protection": 1,
+					"matcha:cleanse_armor_maleffect": 1,
+					"matcha:shakudo_armour": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:shakudo_elytra",
 				"minecraft:equippable": {
@@ -11330,6 +11468,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:cleanse_armor_head": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:shakudo_helmet",
 				"minecraft:equippable": {
@@ -11380,6 +11523,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1
 				},
 				"minecraft:lore": [
 					{
@@ -11509,6 +11655,11 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:cleanse_armor_legs": 1,
+					"matcha:magic_protection": 1,
+					"matcha:shakudo_armour": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:shakudo_leggings",
 				"minecraft:equippable": {
@@ -11601,6 +11752,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:tooltip_display": {
 					"hidden_components": [
@@ -11672,6 +11826,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1
 				},
 				"minecraft:lore": [
 					{
@@ -11768,6 +11925,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1
 				},
 				"minecraft:lore": [
 					{
@@ -11915,6 +12075,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:shakudo_weapon": 1
+				},
 				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
@@ -11960,6 +12123,10 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:sweeping_edge": 1,
+					"matcha:shakudo_weapon": 1
 				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:lore": [
@@ -12083,6 +12250,10 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:smite": 3,
+					"matcha:warding_1": 1
 				},
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:item_model": "matcha:silver_sword",
@@ -12298,6 +12469,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:blast_protection": 2
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:equippable": {
 					"slot": "feet",
@@ -12400,6 +12574,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:blast_protection": 4
 				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:equippable": {
@@ -12752,6 +12929,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"minecraft:blast_protection": 2
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:steel_helmet",
 				"minecraft:equippable": {
@@ -12937,6 +13117,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:blast_protection": 3
 				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:item_model": "matcha:steel_leggings",
@@ -13498,6 +13681,9 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
+				"minecraft:stored_enchantments": {
+					"matcha:warding_1": 1
+				},
 				"minecraft:item_name": {
 					"translate": "item.kleispack.warding_shield"
 				},
@@ -13590,6 +13776,9 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:warding_1": 1
 				},
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:item_model": "matcha:warding_sword",

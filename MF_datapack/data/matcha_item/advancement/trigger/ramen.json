@@ -34,6 +34,28 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.mainhand": {
+													"items": "minecraft:rabbit_stew"
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.offhand": {
+													"items": "minecraft:rabbit_stew"
+												}
+											}
+										}
 									}
 								]
 							},

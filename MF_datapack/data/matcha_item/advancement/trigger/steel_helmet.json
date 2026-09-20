@@ -37,17 +37,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"items": "minecraft:iron_helmet"
-												}
-											}
-										}
 									}
 								]
 							},

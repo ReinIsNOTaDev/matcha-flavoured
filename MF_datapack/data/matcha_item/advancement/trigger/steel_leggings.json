@@ -37,17 +37,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.legs": {
-													"items": "minecraft:iron_leggings"
-												}
-											}
-										}
 									}
 								]
 							},

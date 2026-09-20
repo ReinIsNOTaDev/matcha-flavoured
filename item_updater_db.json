@@ -37,6 +37,7 @@
 			],
 			"names": [],
 			"id": "minecraft:fermented_spider_eye",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -103,6 +104,7 @@
 				"Baked Golden Apple"
 			],
 			"id": "minecraft:glistering_melon_slice",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -181,6 +183,7 @@
 			],
 			"names": [],
 			"id": "minecraft:baked_potato",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -228,6 +231,7 @@
 			],
 			"names": [],
 			"id": "minecraft:breeze_rod",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -290,6 +294,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rabbit_foot",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -342,6 +347,7 @@
 				"Braised Crimson Fungus"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -413,6 +419,7 @@
 				"Braised Toadstool"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -483,6 +490,7 @@
 				"Braised Warped Fungus"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -549,6 +557,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -617,6 +626,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mushroom_stew",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -679,6 +689,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_beef",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -725,6 +736,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_chicken",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -771,6 +783,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -817,6 +830,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_mutton",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -863,6 +877,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_porkchop",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -914,6 +929,7 @@
 				"Cooked Pufferfish"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -978,6 +994,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_rabbit",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1024,6 +1041,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_salmon",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1070,6 +1088,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_cod",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1121,6 +1140,7 @@
 				"Fried Egg"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1171,6 +1191,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rotten_flesh",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1232,6 +1253,7 @@
 				"Steamed Golden Carrots"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1304,6 +1326,7 @@
 				"Green Curry"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1377,6 +1400,7 @@
 				"Grilled Melon"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1446,6 +1470,7 @@
 				"Grilled Tomatoes"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1516,6 +1541,7 @@
 				"Honey Ginger Tea"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1610,6 +1636,7 @@
 				"Japanese Curry"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1679,6 +1706,7 @@
 			],
 			"names": [],
 			"id": "minecraft:piglin_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1701,6 +1729,7 @@
 				"Nopales"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1757,6 +1786,7 @@
 				"Paneer Makhani"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1828,7 +1858,8 @@
 			"names": [
 				"Ramen"
 			],
-			"id": "",
+			"id": "minecraft:rabbit_stew",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1871,6 +1902,7 @@
 				"Steamed Carrots"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1937,6 +1969,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magma_cream",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -1996,6 +2029,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sugar",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -2008,6 +2042,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sugar",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -2025,6 +2060,7 @@
 				"Apple Empanada"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2094,6 +2130,7 @@
 				"Bokguk"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2167,6 +2204,7 @@
 				"Brachio Chicken Nugget"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2222,6 +2260,7 @@
 				"Brownie"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2292,6 +2331,7 @@
 				"Bruschetta"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2357,6 +2397,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2412,6 +2453,7 @@
 				"Bu\u00f1uelo"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2477,6 +2519,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cake",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2510,6 +2553,7 @@
 				"Canned Apples"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2583,6 +2627,7 @@
 				"Canned Golden Apples"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2669,6 +2714,7 @@
 				"Carrot Cupcake"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2732,6 +2778,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cookie",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2782,6 +2829,7 @@
 				"Cheese Pizza"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2852,6 +2900,7 @@
 				"Chocolate Chip Cookie"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2923,6 +2972,7 @@
 				"Chorus Mochi"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2995,6 +3045,7 @@
 				"Crimson Stroganoff"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3064,6 +3115,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3081,6 +3133,7 @@
 			],
 			"names": [],
 			"id": "minecraft:shulker_spawn_egg",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3098,6 +3151,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3160,6 +3214,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dried_kelp",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3227,6 +3282,7 @@
 				"Fish and Chips"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3278,6 +3334,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3295,6 +3352,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magma_cube_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3312,6 +3370,7 @@
 			],
 			"names": [],
 			"id": "minecraft:enderman_spawn_egg",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3334,6 +3393,7 @@
 				"French Toast"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3389,6 +3449,7 @@
 				"Gimmari"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3459,6 +3520,7 @@
 				"Glow Berry Crumble"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3522,6 +3584,7 @@
 				"Glow Berry Jam"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3591,6 +3654,7 @@
 				"Gnocchi"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3644,6 +3708,7 @@
 			],
 			"names": [],
 			"id": "minecraft:golden_apple",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3724,6 +3789,7 @@
 				"Gilded Empanada"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3800,6 +3866,7 @@
 			],
 			"names": [],
 			"id": "minecraft:golden_carrot",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3868,6 +3935,7 @@
 				"Golden Carrot Cupcake"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3938,6 +4006,7 @@
 				"Golden Pickled Carrots"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4011,6 +4080,7 @@
 				"Honied French Toast"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4078,6 +4148,7 @@
 				"Ice Cream"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4158,6 +4229,7 @@
 				"Kontomire-Dandelion Stew"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4247,6 +4319,7 @@
 				"Latke"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4303,6 +4376,7 @@
 				"Lumpia"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4387,6 +4461,7 @@
 				"Mead"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4463,6 +4538,7 @@
 				"Meat Pizza"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4528,6 +4604,7 @@
 			],
 			"names": [],
 			"id": "minecraft:melon_slice",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4572,6 +4649,7 @@
 				"Melon Sorbet"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4642,6 +4720,7 @@
 			],
 			"names": [],
 			"id": "minecraft:beetroot_soup",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4691,6 +4770,7 @@
 				"Mushroom Pizza"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4761,6 +4841,7 @@
 				"Apple Cinnamon Oatmeal"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4841,6 +4922,7 @@
 			],
 			"names": [],
 			"id": "minecraft:happy_ghast_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4863,6 +4945,7 @@
 				"Pad Thai"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -4937,6 +5020,7 @@
 				"Pickled Carrots"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5004,6 +5088,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5063,6 +5148,7 @@
 				"Pickled Mushrooms"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5121,6 +5207,7 @@
 				"Pickled Potatoes"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5174,6 +5261,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5232,6 +5320,7 @@
 				"Sun-dried Tomatoes"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5299,6 +5388,7 @@
 			],
 			"names": [],
 			"id": "minecraft:splash_potion",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5354,6 +5444,7 @@
 			],
 			"names": [],
 			"id": "minecraft:popped_chorus_fruit",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5421,6 +5512,7 @@
 				"Ptero Chicken Nugget"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5476,6 +5568,7 @@
 				"Puerquito"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5545,6 +5638,7 @@
 				"Pumpkin Empanada"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5615,6 +5709,7 @@
 				"Pumpkin Jam"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5689,6 +5784,7 @@
 				"Pupusa"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5744,6 +5840,7 @@
 				"Toadstool Stroganoff"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5817,6 +5914,7 @@
 				"Rind Jam"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5884,6 +5982,7 @@
 			],
 			"names": [],
 			"id": "minecraft:hoglin_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5906,6 +6005,7 @@
 				"Stego Chicken Nugget"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -5961,6 +6061,7 @@
 				"Stroganoff"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6019,6 +6120,7 @@
 				"Sweet Berry Danish"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6086,6 +6188,7 @@
 				"Sweet Berry Jam"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6159,6 +6262,7 @@
 				"Sweet Berry Toast"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6227,6 +6331,7 @@
 				"Tricero Chicken Nugget"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6277,6 +6382,7 @@
 			],
 			"names": [],
 			"id": "minecraft:strider_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6294,6 +6400,7 @@
 			],
 			"names": [],
 			"id": "minecraft:zombified_piglin_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6311,6 +6418,7 @@
 			],
 			"names": [],
 			"id": "minecraft:zoglin_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6328,6 +6436,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ghast_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6345,6 +6454,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wither_skeleton_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6368,6 +6478,7 @@
 				"Warped Pizza"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6455,6 +6566,7 @@
 				"Warped Stroganoff"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6529,6 +6641,7 @@
 				"Charred Fish"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6583,6 +6696,7 @@
 				"Charred Meat"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6637,6 +6751,7 @@
 				"Charred Potato"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6691,6 +6806,7 @@
 				"Naan"
 			],
 			"id": "minecraft:bread",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6744,7 +6860,8 @@
 				},
 				"Pumpkin Curry"
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6822,6 +6939,7 @@
 				"Adamant Axe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -6919,6 +7037,7 @@
 				"Adamant Boots"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -7014,6 +7133,7 @@
 				"Adamant Chestplate"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -7109,6 +7229,7 @@
 				"Adamant Claymore"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -7251,6 +7372,7 @@
 				"Adamant Dolabra"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -7375,6 +7497,7 @@
 				"Adamant Helmet"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -7470,6 +7593,7 @@
 				"Adamant Hoe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -7567,6 +7691,7 @@
 				"Adamant Leggings"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -7662,6 +7787,7 @@
 				"Adamant Mattock"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -7765,6 +7891,7 @@
 				"Adamant Pickaxe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -7877,6 +8004,7 @@
 				"Adamant Shovel"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -7974,6 +8102,7 @@
 				"Adamant Spear"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -8051,6 +8180,7 @@
 				"Adamant Sword"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -8143,6 +8273,7 @@
 				"Electrum Axe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -8251,6 +8382,7 @@
 				"Electrum Boots"
 			],
 			"id": "minecraft:netherite_boots",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -8364,6 +8496,7 @@
 				"Electrum Chestplate"
 			],
 			"id": "minecraft:netherite_chestplate",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -8477,6 +8610,7 @@
 				"Electrum Dolabra"
 			],
 			"id": "minecraft:netherite_axe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -8595,6 +8729,7 @@
 				"Electrum Helmet"
 			],
 			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -8708,6 +8843,7 @@
 				"Electrum Hoe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -8816,6 +8952,7 @@
 				"Electrum Leggings"
 			],
 			"id": "minecraft:netherite_leggings",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -8929,6 +9066,7 @@
 				"Electrum Mattock"
 			],
 			"id": "minecraft:netherite_hoe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9042,6 +9180,7 @@
 				"Electrum Pickaxe"
 			],
 			"id": "minecraft:netherite_pickaxe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9155,6 +9294,7 @@
 				"Electrum Shovel"
 			],
 			"id": "minecraft:netherite_shovel",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9263,6 +9403,7 @@
 				"Electrum Spear"
 			],
 			"id": "minecraft:netherite_spear",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9343,6 +9484,7 @@
 				"Electrum Sword"
 			],
 			"id": "minecraft:netherite_sword",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9430,6 +9572,7 @@
 				"Hepatizon Axe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9545,6 +9688,7 @@
 				"Hepatizon Boots"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -9632,6 +9776,7 @@
 				"Hepatizon Chestplate"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -9719,6 +9864,7 @@
 				"Hepatizon Dolabra"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -9839,6 +9985,7 @@
 				}
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -9932,6 +10079,7 @@
 				"Hepatizon Helmet"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -10019,6 +10167,7 @@
 				"Hepatizon Hoe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10121,6 +10270,7 @@
 				"Hepatizon Leggings"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -10208,6 +10358,7 @@
 				"Hepatizon Mattock"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10329,6 +10480,7 @@
 				"Hepatizon Pickaxe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10450,6 +10602,7 @@
 				"Hepatizon Shovel"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10566,6 +10719,7 @@
 				"Hepatizon Spear"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10665,6 +10819,7 @@
 				"Hepatizon Sword"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10764,6 +10919,7 @@
 				"Shakudo Axe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -10866,7 +11022,8 @@
 				},
 				"Shakudo Boots"
 			],
-			"id": "minecraft:copper_boots",
+			"id": "",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -10949,7 +11106,8 @@
 				},
 				"Shakudo Chestplate"
 			],
-			"id": "minecraft:copper_chestplate",
+			"id": "",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -11033,6 +11191,7 @@
 				"Shakudo Dolabra"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11139,6 +11298,7 @@
 				"Shakudo Elytra"
 			],
 			"id": "minecraft:elytra",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -11227,7 +11387,8 @@
 				},
 				"Shakudo Helmet"
 			],
-			"id": "minecraft:copper_helmet",
+			"id": "",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -11311,6 +11472,7 @@
 				"Shakudo Hoe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11406,7 +11568,8 @@
 				},
 				"Shakudo Leggings"
 			],
-			"id": "minecraft:copper_leggings",
+			"id": "",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -11490,6 +11653,7 @@
 				"Shakudo Mattock"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11598,6 +11762,7 @@
 				"Shakudo Pickaxe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11699,6 +11864,7 @@
 				"Shakudo Shovel"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11802,6 +11968,7 @@
 				"Shakudo Spear"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11886,6 +12053,7 @@
 				"Shakudo Sword"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -11969,6 +12137,7 @@
 				"Silver Sword"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -12061,6 +12230,7 @@
 				"Steel Axe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -12175,7 +12345,8 @@
 				},
 				"Steel Boots"
 			],
-			"id": "minecraft:iron_boots",
+			"id": "",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -12278,7 +12449,8 @@
 				},
 				"Steel Chestplate"
 			],
-			"id": "minecraft:iron_chestplate",
+			"id": "",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -12381,6 +12553,7 @@
 				"Steel Claymore"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -12525,6 +12698,7 @@
 				"Steel Dolabra"
 			],
 			"id": "minecraft:stone_axe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -12629,7 +12803,8 @@
 				},
 				"Steel Helmet"
 			],
-			"id": "minecraft:iron_helmet",
+			"id": "",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -12732,6 +12907,7 @@
 				"Steel Hoe"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -12815,7 +12991,8 @@
 				},
 				"Steel Leggings"
 			],
-			"id": "minecraft:iron_leggings",
+			"id": "",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -12918,6 +13095,7 @@
 				"Steel Mattock"
 			],
 			"id": "minecraft:stone_hoe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13006,6 +13184,7 @@
 				"Steel Pickaxe"
 			],
 			"id": "minecraft:stone_pickaxe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13083,7 +13262,8 @@
 				},
 				"Steel Shears"
 			],
-			"id": "minecraft:shears",
+			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13127,6 +13307,7 @@
 				"Steel Shovel"
 			],
 			"id": "minecraft:stone_shovel",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13205,6 +13386,7 @@
 				"Steel Spear"
 			],
 			"id": "minecraft:stone_spear",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13301,6 +13483,7 @@
 				"Steel Sword"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13397,6 +13580,7 @@
 				"Warding Shield"
 			],
 			"id": "minecraft:shield",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13476,6 +13660,7 @@
 				"Warding Sword"
 			],
 			"id": "minecraft:stone_sword",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -13563,6 +13748,7 @@
 			],
 			"names": [],
 			"id": "minecraft:acacia_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13575,6 +13761,7 @@
 			],
 			"names": [],
 			"id": "minecraft:acacia_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13587,6 +13774,7 @@
 			],
 			"names": [],
 			"id": "minecraft:activator_rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13599,6 +13787,7 @@
 			],
 			"names": [],
 			"id": "minecraft:activator_rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13611,6 +13800,7 @@
 			],
 			"names": [],
 			"id": "minecraft:netherite_ingot",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13623,6 +13813,7 @@
 			],
 			"names": [],
 			"id": "minecraft:amethyst_shard",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13635,6 +13826,7 @@
 			],
 			"names": [],
 			"id": "minecraft:andesite",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13647,6 +13839,7 @@
 			],
 			"names": [],
 			"id": "minecraft:anvil",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13659,6 +13852,7 @@
 			],
 			"names": [],
 			"id": "minecraft:arrow",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13671,6 +13865,7 @@
 			],
 			"names": [],
 			"id": "minecraft:azalea",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13683,6 +13878,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bamboo",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13695,6 +13891,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bamboo_mosaic",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13707,6 +13904,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bamboo_mosaic",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13719,6 +13917,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bamboo_planks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13731,6 +13930,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bamboo_planks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13743,6 +13943,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bell",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13755,6 +13956,7 @@
 			],
 			"names": [],
 			"id": "minecraft:birch_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13767,6 +13969,7 @@
 			],
 			"names": [],
 			"id": "minecraft:birch_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13779,6 +13982,7 @@
 			],
 			"names": [],
 			"id": "minecraft:black_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13791,6 +13995,7 @@
 			],
 			"names": [],
 			"id": "minecraft:black_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13803,6 +14008,7 @@
 			],
 			"names": [],
 			"id": "minecraft:black_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13815,6 +14021,7 @@
 			],
 			"names": [],
 			"id": "minecraft:black_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13827,6 +14034,7 @@
 			],
 			"names": [],
 			"id": "minecraft:black_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13839,6 +14047,7 @@
 			],
 			"names": [],
 			"id": "minecraft:black_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13851,6 +14060,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blackstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13863,6 +14073,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blue_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13875,6 +14086,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blue_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13887,6 +14099,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blue_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13899,6 +14112,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blue_dye",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13911,6 +14125,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blue_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13923,6 +14138,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bookshelf",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13935,6 +14151,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bowl",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13947,6 +14164,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brick",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13959,6 +14177,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brick",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13971,6 +14190,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13983,6 +14203,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -13995,6 +14216,7 @@
 			],
 			"names": [],
 			"id": "minecraft:phantom_membrane",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14007,6 +14229,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brown_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14019,6 +14242,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brown_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14031,6 +14255,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brown_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14043,6 +14268,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brown_mushroom",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14055,6 +14281,7 @@
 			],
 			"names": [],
 			"id": "minecraft:end_stone_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14067,6 +14294,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brown_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14079,6 +14307,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bucket",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14091,6 +14320,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bucket",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14103,6 +14333,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bundle",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14115,6 +14346,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cauldron",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14127,6 +14359,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cauldron",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14139,6 +14372,7 @@
 			],
 			"names": [],
 			"id": "minecraft:brewing_stand",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14151,6 +14385,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cherry_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14163,6 +14398,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cherry_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14175,6 +14411,7 @@
 			],
 			"names": [],
 			"id": "minecraft:chest",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14187,6 +14424,7 @@
 			],
 			"names": [],
 			"id": "minecraft:chiseled_cinnabar",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14199,6 +14437,7 @@
 			],
 			"names": [],
 			"id": "minecraft:chiseled_sulfur",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14211,6 +14450,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tuff_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14223,6 +14463,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cinnabar_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14235,6 +14476,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cinnabar",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14247,6 +14489,7 @@
 			],
 			"names": [],
 			"id": "minecraft:clay_ball",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14259,6 +14502,7 @@
 			],
 			"names": [],
 			"id": "minecraft:clay",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14271,6 +14515,7 @@
 			],
 			"names": [],
 			"id": "minecraft:clock",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14283,6 +14528,7 @@
 			],
 			"names": [],
 			"id": "minecraft:allium",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14295,6 +14541,7 @@
 			],
 			"names": [],
 			"id": "minecraft:azure_bluet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14307,6 +14554,7 @@
 			],
 			"names": [],
 			"id": "minecraft:big_dripleaf",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14319,6 +14567,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blue_orchid",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14331,6 +14580,7 @@
 			],
 			"names": [],
 			"id": "minecraft:closed_eyeblossom",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14343,6 +14593,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cornflower",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14355,6 +14606,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dandelion",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14367,6 +14619,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lily_of_the_valley",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14379,6 +14632,7 @@
 			],
 			"names": [],
 			"id": "minecraft:open_eyeblossom",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14391,6 +14645,7 @@
 			],
 			"names": [],
 			"id": "minecraft:orange_tulip",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14403,6 +14658,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxeye_daisy",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14415,6 +14671,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pink_tulip",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14427,6 +14684,7 @@
 			],
 			"names": [],
 			"id": "minecraft:poppy",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14439,6 +14697,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_tulip",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14451,6 +14710,7 @@
 			],
 			"names": [],
 			"id": "minecraft:small_dripleaf",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14463,6 +14723,7 @@
 			],
 			"names": [],
 			"id": "minecraft:spore_blossom",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14475,6 +14736,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_tulip",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14487,6 +14749,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wither_rose",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14499,6 +14762,7 @@
 			],
 			"names": [],
 			"id": "minecraft:coal_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14511,6 +14775,7 @@
 			],
 			"names": [],
 			"id": "minecraft:coarse_dirt",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14523,6 +14788,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cobbled_deepslate",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14535,6 +14801,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cobblestone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14547,6 +14814,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cobblestone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14559,6 +14827,7 @@
 			],
 			"names": [],
 			"id": "minecraft:conduit",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14571,6 +14840,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_bulb",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14583,6 +14853,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_chain",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14595,6 +14866,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_ingot",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14607,6 +14879,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_lantern",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14619,6 +14892,7 @@
 			],
 			"names": [],
 			"id": "minecraft:redstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14631,6 +14905,7 @@
 			],
 			"names": [],
 			"id": "minecraft:crimson_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14643,6 +14918,7 @@
 			],
 			"names": [],
 			"id": "minecraft:crying_obsidian",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14655,6 +14931,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cut_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14667,6 +14944,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cut_red_sandstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14679,6 +14957,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cut_sandstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14691,6 +14970,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cyan_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14703,6 +14983,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cyan_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14715,6 +14996,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cyan_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14727,6 +15009,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cyan_dye",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14739,6 +15022,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cyan_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14751,6 +15035,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dark_oak_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14763,6 +15048,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dark_oak_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14775,6 +15061,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dark_prismarine",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14787,6 +15074,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dark_prismarine",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14799,6 +15087,7 @@
 			],
 			"names": [],
 			"id": "minecraft:deepslate_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14811,6 +15100,7 @@
 			],
 			"names": [],
 			"id": "minecraft:deepslate_tiles",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14823,6 +15113,7 @@
 			],
 			"names": [],
 			"id": "minecraft:detector_rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14835,6 +15126,7 @@
 			],
 			"names": [],
 			"id": "minecraft:detector_rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14847,6 +15139,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diorite",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14859,6 +15152,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diorite",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14871,6 +15165,7 @@
 			],
 			"names": [],
 			"id": "minecraft:dirt",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14883,6 +15178,7 @@
 			],
 			"names": [],
 			"id": "minecraft:petrified_oak_slab",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14895,6 +15191,7 @@
 			],
 			"names": [],
 			"id": "minecraft:disc_fragment_5",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14907,6 +15204,7 @@
 			],
 			"names": [],
 			"id": "minecraft:disc_fragment_5",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14919,6 +15217,7 @@
 			],
 			"names": [],
 			"id": "minecraft:nether_star",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14931,6 +15230,7 @@
 			],
 			"names": [],
 			"id": "minecraft:heart_of_the_sea",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14943,6 +15243,7 @@
 			],
 			"names": [],
 			"id": "minecraft:end_stone_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14955,6 +15256,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ender_chest",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14967,6 +15269,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ender_eye",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14979,6 +15282,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_bars",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -14991,6 +15295,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_bulb",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15003,6 +15308,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_chain",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15015,6 +15321,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_door",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15027,6 +15334,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_golem_statue",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15039,6 +15347,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15051,6 +15360,7 @@
 			],
 			"names": [],
 			"id": "minecraft:fire_charge",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15063,6 +15373,7 @@
 			],
 			"names": [],
 			"id": "minecraft:flint_and_steel",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15075,6 +15386,7 @@
 			],
 			"names": [],
 			"id": "minecraft:flint_and_steel",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15087,6 +15399,7 @@
 			],
 			"names": [],
 			"id": "minecraft:flow_armor_trim_smithing_template",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15099,6 +15412,7 @@
 			],
 			"names": [],
 			"id": "minecraft:flowering_azalea",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15111,6 +15425,7 @@
 			],
 			"names": [],
 			"id": "minecraft:glass_bottle",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15123,6 +15438,7 @@
 			],
 			"names": [],
 			"id": "minecraft:glass_bottle",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15135,6 +15451,7 @@
 			],
 			"names": [],
 			"id": "minecraft:globe_banner_pattern",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15147,6 +15464,7 @@
 			],
 			"names": [],
 			"id": "minecraft:granite",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15159,6 +15477,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gravel",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15171,6 +15490,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gray_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15183,6 +15503,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gray_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15195,6 +15516,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gray_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15207,6 +15529,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gray_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15219,6 +15542,7 @@
 			],
 			"names": [],
 			"id": "minecraft:green_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15231,6 +15555,7 @@
 			],
 			"names": [],
 			"id": "minecraft:green_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15243,6 +15568,7 @@
 			],
 			"names": [],
 			"id": "minecraft:green_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15255,6 +15581,7 @@
 			],
 			"names": [],
 			"id": "minecraft:green_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15267,6 +15594,7 @@
 			],
 			"names": [],
 			"id": "minecraft:green_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15279,6 +15607,7 @@
 			],
 			"names": [],
 			"id": "minecraft:hay_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15291,6 +15620,7 @@
 			],
 			"names": [],
 			"id": "minecraft:honey_block",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15303,6 +15633,7 @@
 			],
 			"names": [],
 			"id": "minecraft:honey_block",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15315,6 +15646,7 @@
 			],
 			"names": [],
 			"id": "minecraft:honeycomb",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15327,6 +15659,7 @@
 			],
 			"names": [],
 			"id": "minecraft:hopper",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15339,6 +15672,7 @@
 			],
 			"names": [],
 			"id": "minecraft:hopper",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15351,6 +15685,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ice",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15363,6 +15698,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ice",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15375,6 +15711,7 @@
 			],
 			"names": [],
 			"id": "minecraft:redstone_lamp",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15387,6 +15724,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_bars",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15399,6 +15737,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_bars",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15411,6 +15750,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_chain",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15423,6 +15763,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_chain",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15435,6 +15776,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_chain",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15447,6 +15789,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_door",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15459,6 +15802,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_door",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15471,6 +15815,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_trapdoor",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15483,6 +15828,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_trapdoor",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15495,6 +15841,7 @@
 			],
 			"names": [],
 			"id": "minecraft:item_frame",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15507,6 +15854,7 @@
 			],
 			"names": [],
 			"id": "minecraft:jukebox",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15519,6 +15867,7 @@
 			],
 			"names": [],
 			"id": "minecraft:jungle_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15531,6 +15880,7 @@
 			],
 			"names": [],
 			"id": "minecraft:jungle_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15543,6 +15893,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ladder",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15555,6 +15906,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lantern",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15567,6 +15919,7 @@
 			],
 			"names": [],
 			"id": "minecraft:large_fern",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15579,6 +15932,7 @@
 			],
 			"names": [],
 			"id": "minecraft:leather",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15591,6 +15945,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_blue_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15603,6 +15958,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_blue_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15615,6 +15971,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_blue_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15627,6 +15984,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_blue_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15639,6 +15997,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_gray_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15651,6 +16010,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_gray_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15663,6 +16023,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_gray_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15675,6 +16036,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_gray_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15687,6 +16049,7 @@
 			],
 			"names": [],
 			"id": "minecraft:light_gray_dye",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15699,6 +16062,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lime_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15711,6 +16075,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lime_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15723,6 +16088,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lime_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15735,6 +16101,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lime_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15747,6 +16114,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magenta_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15759,6 +16127,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magenta_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15771,6 +16140,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magenta_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15783,6 +16153,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magenta_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15795,6 +16166,7 @@
 			],
 			"names": [],
 			"id": "minecraft:magma_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15807,6 +16179,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mangrove_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15819,6 +16192,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mangrove_propagule",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15831,6 +16205,7 @@
 			],
 			"names": [],
 			"id": "minecraft:minecart",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15843,6 +16218,7 @@
 			],
 			"names": [],
 			"id": "minecraft:moss_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15855,6 +16231,7 @@
 			],
 			"names": [],
 			"id": "minecraft:moss_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15867,6 +16244,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mossy_cobblestone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15879,6 +16257,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mossy_stone_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15891,6 +16270,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mud",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15903,6 +16283,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mud_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15915,6 +16296,7 @@
 			],
 			"names": [],
 			"id": "minecraft:smoker",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15927,6 +16309,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_11",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15939,6 +16322,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_13",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15951,6 +16335,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_5",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15963,6 +16348,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_blocks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15975,6 +16361,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_cat",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15987,6 +16374,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_chirp",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15999,6 +16387,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_far",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16011,6 +16400,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_mall",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16023,6 +16413,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_mellohi",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16035,6 +16426,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_stal",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16047,6 +16439,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_strad",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16059,6 +16452,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_wait",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16071,6 +16465,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_ward",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16083,6 +16478,7 @@
 			],
 			"names": [],
 			"id": "minecraft:nether_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16095,6 +16491,7 @@
 			],
 			"names": [],
 			"id": "minecraft:nether_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16107,6 +16504,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oak_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16119,6 +16517,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oak_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16131,6 +16530,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ochre_froglight",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16143,6 +16543,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ominous_bottle",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16155,6 +16556,7 @@
 			],
 			"names": [],
 			"id": "minecraft:ominous_trial_key",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16167,6 +16569,7 @@
 			],
 			"names": [],
 			"id": "minecraft:orange_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16179,6 +16582,7 @@
 			],
 			"names": [],
 			"id": "minecraft:orange_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16191,6 +16595,7 @@
 			],
 			"names": [],
 			"id": "minecraft:orange_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16203,6 +16608,7 @@
 			],
 			"names": [],
 			"id": "minecraft:orange_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16215,6 +16621,7 @@
 			],
 			"names": [],
 			"id": "minecraft:furnace",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16227,6 +16634,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_bars",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16239,6 +16647,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_bulb",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16251,6 +16660,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_chain",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16263,6 +16673,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_door",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16275,6 +16686,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_golem_statue",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16287,6 +16699,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16299,6 +16712,7 @@
 			],
 			"names": [],
 			"id": "minecraft:packed_ice",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16311,6 +16725,7 @@
 			],
 			"names": [],
 			"id": "minecraft:packed_mud",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16323,6 +16738,7 @@
 			],
 			"names": [],
 			"id": "minecraft:packed_mud",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16335,6 +16751,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pale_moss_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16347,6 +16764,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pale_moss_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16359,6 +16777,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pale_oak_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16371,6 +16790,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pale_oak_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16383,6 +16803,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pearlescent_froglight",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16395,6 +16816,7 @@
 			],
 			"names": [],
 			"id": "minecraft:glow_ink_sac",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16407,6 +16829,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pink_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16419,6 +16842,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pink_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16431,6 +16855,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pink_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16443,6 +16868,7 @@
 			],
 			"names": [],
 			"id": "minecraft:pink_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16455,6 +16881,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_andesite",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16467,6 +16894,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_blackstone_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16479,6 +16907,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_blackstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16491,6 +16920,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_cinnabar",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16503,6 +16933,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_deepslate",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16515,6 +16946,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_diorite",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16527,6 +16959,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_granite",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16539,6 +16972,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_sulfur",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16551,6 +16985,7 @@
 			],
 			"names": [],
 			"id": "minecraft:polished_tuff",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16563,6 +16998,7 @@
 			],
 			"names": [],
 			"id": "minecraft:potent_sulfur",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16575,6 +17011,7 @@
 			],
 			"names": [],
 			"id": "minecraft:powered_rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16587,6 +17024,7 @@
 			],
 			"names": [],
 			"id": "minecraft:powered_rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16599,6 +17037,7 @@
 			],
 			"names": [],
 			"id": "minecraft:prismarine",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16611,6 +17050,7 @@
 			],
 			"names": [],
 			"id": "minecraft:prismarine_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16623,6 +17063,7 @@
 			],
 			"names": [],
 			"id": "minecraft:prismarine_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16635,6 +17076,7 @@
 			],
 			"names": [],
 			"id": "minecraft:prismarine",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16647,6 +17089,7 @@
 			],
 			"names": [],
 			"id": "minecraft:purple_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16659,6 +17102,7 @@
 			],
 			"names": [],
 			"id": "minecraft:purple_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16671,6 +17115,7 @@
 			],
 			"names": [],
 			"id": "minecraft:purple_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16683,6 +17128,7 @@
 			],
 			"names": [],
 			"id": "minecraft:purple_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16695,6 +17141,7 @@
 			],
 			"names": [],
 			"id": "minecraft:purpur_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16707,6 +17154,7 @@
 			],
 			"names": [],
 			"id": "minecraft:quartz",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16719,6 +17167,7 @@
 			],
 			"names": [],
 			"id": "minecraft:quartz_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16731,6 +17180,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rabbit_hide",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16743,6 +17193,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16755,6 +17206,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rail",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16767,6 +17219,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16779,6 +17232,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16791,6 +17245,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16803,6 +17258,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16815,6 +17271,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16827,6 +17284,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_mushroom",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16839,6 +17297,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_mushroom",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16851,6 +17310,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_nether_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16863,6 +17323,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_sand",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16875,6 +17336,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_sand",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16887,6 +17349,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_sandstone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16899,6 +17362,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_sandstone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16911,6 +17375,7 @@
 			],
 			"names": [],
 			"id": "minecraft:red_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16923,6 +17388,7 @@
 			],
 			"names": [],
 			"id": "minecraft:redstone_block",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16935,6 +17401,7 @@
 			],
 			"names": [],
 			"id": "minecraft:redstone_torch",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16947,6 +17414,7 @@
 			],
 			"names": [],
 			"id": "minecraft:resin_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16959,6 +17427,7 @@
 			],
 			"names": [],
 			"id": "minecraft:resin_bricks",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16971,6 +17440,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rooted_dirt",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16983,6 +17453,7 @@
 			],
 			"names": [],
 			"id": "minecraft:shulker_box",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16995,6 +17466,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sand",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17007,6 +17479,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sandstone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17019,6 +17492,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sandstone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17031,6 +17505,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sandstone",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17043,6 +17518,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sculk",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17055,6 +17531,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sculk_sensor",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17067,6 +17544,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sculk_shrieker",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17079,6 +17557,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sea_lantern",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17091,6 +17570,7 @@
 			],
 			"names": [],
 			"id": "minecraft:shulker_shell",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17103,6 +17583,7 @@
 			],
 			"names": [],
 			"id": "minecraft:short_dry_grass",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17115,6 +17596,7 @@
 			],
 			"names": [],
 			"id": "minecraft:slime_ball",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17127,6 +17609,7 @@
 			],
 			"names": [],
 			"id": "minecraft:smithing_table",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17139,6 +17622,7 @@
 			],
 			"names": [],
 			"id": "minecraft:netherite_upgrade_smithing_template",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17151,6 +17635,7 @@
 			],
 			"names": [],
 			"id": "minecraft:smooth_quartz",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17163,6 +17648,7 @@
 			],
 			"names": [],
 			"id": "minecraft:smooth_red_sandstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17175,6 +17661,7 @@
 			],
 			"names": [],
 			"id": "minecraft:smooth_sandstone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17187,6 +17674,7 @@
 			],
 			"names": [],
 			"id": "minecraft:smooth_stone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17199,6 +17687,7 @@
 			],
 			"names": [],
 			"id": "minecraft:snow_block",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17211,6 +17700,7 @@
 			],
 			"names": [],
 			"id": "minecraft:snow_block",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17223,6 +17713,7 @@
 			],
 			"names": [],
 			"id": "minecraft:snow",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17235,6 +17726,7 @@
 			],
 			"names": [],
 			"id": "minecraft:soul_lantern",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17247,6 +17739,7 @@
 			],
 			"names": [],
 			"id": "minecraft:spruce_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17259,6 +17752,7 @@
 			],
 			"names": [],
 			"id": "minecraft:spruce_sapling",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17271,6 +17765,7 @@
 			],
 			"names": [],
 			"id": "minecraft:spyglass",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17283,6 +17778,7 @@
 			],
 			"names": [],
 			"id": "minecraft:stick",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17295,6 +17791,7 @@
 			],
 			"names": [],
 			"id": "minecraft:stone_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17307,6 +17804,7 @@
 			],
 			"names": [],
 			"id": "minecraft:stone",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17319,6 +17817,7 @@
 			],
 			"names": [],
 			"id": "minecraft:string",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17331,6 +17830,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sulfur_bricks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17343,6 +17843,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gunpowder",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17355,6 +17856,7 @@
 			],
 			"names": [],
 			"id": "minecraft:gunpowder",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17367,6 +17869,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sulfur",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17379,6 +17882,7 @@
 			],
 			"names": [],
 			"id": "minecraft:sulfur",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17391,6 +17895,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tall_dry_grass",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17403,6 +17908,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tall_dry_grass",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17415,6 +17921,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tall_grass",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17427,6 +17934,7 @@
 			],
 			"names": [],
 			"id": "minecraft:target",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17439,6 +17947,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tinted_glass",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17451,6 +17960,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tnt",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17463,6 +17973,7 @@
 			],
 			"names": [],
 			"id": "minecraft:beetroot_seeds",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17475,6 +17986,7 @@
 			],
 			"names": [],
 			"id": "minecraft:torch",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17487,6 +17999,7 @@
 			],
 			"names": [],
 			"id": "minecraft:torch",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17499,6 +18012,7 @@
 			],
 			"names": [],
 			"id": "minecraft:trapped_chest",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17511,6 +18025,7 @@
 			],
 			"names": [],
 			"id": "minecraft:tuff",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17523,6 +18038,7 @@
 			],
 			"names": [],
 			"id": "minecraft:chest",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17535,6 +18051,7 @@
 			],
 			"names": [],
 			"id": "minecraft:slime_ball",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17547,6 +18064,7 @@
 			],
 			"names": [],
 			"id": "minecraft:verdant_froglight",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17559,6 +18077,7 @@
 			],
 			"names": [],
 			"id": "minecraft:warped_planks",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17571,6 +18090,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_copper_bulb",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17583,6 +18103,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_cut_copper",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17595,6 +18116,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_exposed_copper_bulb",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17607,6 +18129,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_exposed_cut_copper",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17619,6 +18142,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_oxidized_copper_bulb",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17631,6 +18155,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_oxidized_cut_copper",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17643,6 +18168,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_oxidized_lightning_rod",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17655,6 +18181,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_weathered_copper_bulb",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17667,6 +18194,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_weathered_cut_copper",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17679,6 +18207,7 @@
 			],
 			"names": [],
 			"id": "minecraft:waxed_weathered_lightning_rod",
+			"use_id": 1,
 			"type": "tool",
 			"processed": false,
 			"components": {},
@@ -17691,6 +18220,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_bars",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17703,6 +18233,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_bulb",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17715,6 +18246,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_chain",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17727,6 +18259,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_door",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17739,6 +18272,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_golem_statue",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17751,6 +18285,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_trapdoor",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17763,6 +18298,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17775,6 +18311,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wheat",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17787,6 +18324,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wheat",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17799,6 +18337,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17811,6 +18350,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17823,6 +18363,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17835,6 +18376,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17847,6 +18389,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_dye",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17859,6 +18402,7 @@
 			],
 			"names": [],
 			"id": "minecraft:white_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17871,6 +18415,7 @@
 			],
 			"names": [],
 			"id": "minecraft:yellow_banner",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17883,6 +18428,7 @@
 			],
 			"names": [],
 			"id": "minecraft:yellow_carpet",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17895,6 +18441,7 @@
 			],
 			"names": [],
 			"id": "minecraft:yellow_concrete",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17907,6 +18454,7 @@
 			],
 			"names": [],
 			"id": "minecraft:yellow_wool",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17919,6 +18467,7 @@
 			],
 			"names": [],
 			"id": "minecraft:lily_pad",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17931,6 +18480,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_torch",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17943,6 +18493,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -17992,6 +18543,7 @@
 				"Beacon Kindling"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18025,6 +18577,7 @@
 				"Bedrock Buster"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18052,6 +18605,7 @@
 			],
 			"names": [],
 			"id": "minecraft:endermite_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18069,6 +18623,7 @@
 			],
 			"names": [],
 			"id": "minecraft:campfire",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18088,6 +18643,7 @@
 			],
 			"names": [],
 			"id": "minecraft:piglin_brute_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18110,6 +18666,7 @@
 				"Copper Compass"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18135,6 +18692,7 @@
 				"Copper Shears"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18164,6 +18722,7 @@
 				"Crystal Heart"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18213,6 +18772,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18272,6 +18832,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_boots",
+			"use_id": 1,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -18312,6 +18873,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_chestplate",
+			"use_id": 1,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -18357,6 +18919,7 @@
 				"Diamond Dolabra"
 			],
 			"id": "minecraft:diamond_axe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18446,6 +19009,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_helmet",
+			"use_id": 1,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -18486,6 +19050,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18545,6 +19110,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_leggings",
+			"use_id": 1,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -18590,6 +19156,7 @@
 				"Diamond Mattock"
 			],
 			"id": "minecraft:diamond_hoe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18674,6 +19241,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_pickaxe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18738,6 +19306,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_shovel",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18797,6 +19366,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_spear",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18837,6 +19407,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diamond_sword",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -18877,6 +19448,7 @@
 			],
 			"names": [],
 			"id": "minecraft:turtle_scute",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18895,6 +19467,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_chiseled_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18911,6 +19484,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18927,6 +19501,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_copper_grate",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18943,6 +19518,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18959,6 +19535,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper_slab",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18975,6 +19552,7 @@
 			],
 			"names": [],
 			"id": "minecraft:exposed_cut_copper_stairs",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -18996,6 +19574,7 @@
 				}
 			],
 			"id": "minecraft:golden_axe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19054,6 +19633,7 @@
 				}
 			],
 			"id": "minecraft:golden_boots",
+			"use_id": 1,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -19105,6 +19685,7 @@
 				}
 			],
 			"id": "minecraft:golden_chestplate",
+			"use_id": 1,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -19147,6 +19728,7 @@
 				"Golden Compass"
 			],
 			"id": "minecraft:compass",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19173,6 +19755,7 @@
 				"Golden Crown"
 			],
 			"id": "minecraft:golden_helmet",
+			"use_id": 1,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -19215,6 +19798,7 @@
 				}
 			],
 			"id": "minecraft:golden_hoe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19273,6 +19857,7 @@
 				}
 			],
 			"id": "minecraft:golden_leggings",
+			"use_id": 1,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -19315,6 +19900,7 @@
 				}
 			],
 			"id": "minecraft:golden_pickaxe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19389,6 +19975,7 @@
 				}
 			],
 			"id": "minecraft:golden_shovel",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19458,6 +20045,7 @@
 				}
 			],
 			"id": "minecraft:golden_spear",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19508,6 +20096,7 @@
 				}
 			],
 			"id": "minecraft:golden_sword",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19558,6 +20147,7 @@
 				"Invisible Item Frame"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19581,7 +20171,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:shears",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -19604,6 +20195,7 @@
 				}
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -19675,6 +20267,7 @@
 				"Leather Pauldron"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -19746,6 +20339,7 @@
 				"Leather Hood"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -19816,6 +20410,7 @@
 				}
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -19881,6 +20476,7 @@
 			],
 			"names": [],
 			"id": "minecraft:mace",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19918,6 +20514,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19935,6 +20532,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19953,6 +20551,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19971,6 +20570,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -19989,6 +20589,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20007,6 +20608,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blaze_spawn_egg",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20024,6 +20626,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_chiseled_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20040,6 +20643,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20056,6 +20660,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_copper_grate",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20072,6 +20677,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20088,6 +20694,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper_slab",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20104,6 +20711,7 @@
 			],
 			"names": [],
 			"id": "minecraft:oxidized_cut_copper_stairs",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20120,6 +20728,7 @@
 			],
 			"names": [],
 			"id": "minecraft:end_rod",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20141,6 +20750,7 @@
 				"Snow Shovel"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -20197,6 +20807,7 @@
 			],
 			"names": [],
 			"id": "minecraft:soul_campfire",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20216,6 +20827,7 @@
 			],
 			"names": [],
 			"id": "minecraft:soul_torch",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20232,6 +20844,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blaze_rod",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20256,6 +20869,7 @@
 				"Sturdy Leather Boots"
 			],
 			"id": "minecraft:leather_boots",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -20362,6 +20976,7 @@
 				"Sturdy Leather Gambeson"
 			],
 			"id": "minecraft:leather_chestplate",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -20451,6 +21066,7 @@
 				"Sturdy Leather Helmet"
 			],
 			"id": "minecraft:leather_helmet",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -20540,6 +21156,7 @@
 				"Sturdy Leather Leggings"
 			],
 			"id": "minecraft:leather_leggings",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -20628,6 +21245,7 @@
 				"Tinder"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20654,6 +21272,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20688,6 +21307,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20722,6 +21342,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20756,6 +21377,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20790,6 +21412,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20824,6 +21447,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20858,6 +21482,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20892,6 +21517,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20926,6 +21552,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20960,6 +21587,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -20994,6 +21622,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21028,6 +21657,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21062,6 +21692,7 @@
 				"Smithing Trim Color"
 			],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21097,6 +21728,7 @@
 				"Warding Stone"
 			],
 			"id": "minecraft:chicken_spawn_egg",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21129,6 +21761,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_chiseled_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21145,6 +21778,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21161,6 +21795,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_copper_grate",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21177,6 +21812,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21193,6 +21829,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper_slab",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21209,6 +21846,7 @@
 			],
 			"names": [],
 			"id": "minecraft:weathered_cut_copper_stairs",
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21225,6 +21863,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_axe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21269,7 +21908,8 @@
 				},
 				"Wooden Cross"
 			],
-			"id": "",
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21293,6 +21933,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_hoe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21332,6 +21973,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_shovel",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21371,6 +22013,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_spear",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21404,6 +22047,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_sword",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21438,6 +22082,7 @@
 			],
 			"names": [],
 			"id": "minecraft:blast_furnace",
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -21455,6 +22100,7 @@
 				}
 			],
 			"id": "minecraft:chainmail_boots",
+			"use_id": 1,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -21506,6 +22152,7 @@
 				}
 			],
 			"id": "minecraft:chainmail_chestplate",
+			"use_id": 1,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -21557,6 +22204,7 @@
 				}
 			],
 			"id": "minecraft:chainmail_helmet",
+			"use_id": 1,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -21608,6 +22256,7 @@
 				}
 			],
 			"id": "minecraft:chainmail_leggings",
+			"use_id": 1,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -21654,6 +22303,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21713,7 +22363,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:copper_boots",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -21745,7 +22396,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:copper_chestplate",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -21783,6 +22435,7 @@
 				"Copper Dolabra"
 			],
 			"id": "minecraft:copper_axe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21879,7 +22532,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:copper_helmet",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -21912,6 +22566,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -21976,7 +22631,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:copper_leggings",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -22014,6 +22670,7 @@
 				"Copper Mattock"
 			],
 			"id": "minecraft:copper_hoe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22082,6 +22739,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_pickaxe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22147,6 +22805,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_shovel",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22207,6 +22866,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_spear",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22246,6 +22906,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_sword",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22287,6 +22948,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22344,7 +23006,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:iron_boots",
+			"use_id": 0,
 			"type": "boots",
 			"processed": true,
 			"components": {
@@ -22376,7 +23039,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:iron_chestplate",
+			"use_id": 0,
 			"type": "chestplate",
 			"processed": true,
 			"components": {
@@ -22414,6 +23078,7 @@
 				"Iron Dolabra"
 			],
 			"id": "minecraft:iron_axe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22496,7 +23161,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:iron_helmet",
+			"use_id": 0,
 			"type": "helmet",
 			"processed": true,
 			"components": {
@@ -22529,6 +23195,7 @@
 			],
 			"names": [],
 			"id": "",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22586,7 +23253,8 @@
 				"crafting"
 			],
 			"names": [],
-			"id": "",
+			"id": "minecraft:iron_leggings",
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -22624,6 +23292,7 @@
 				"Iron Mattock"
 			],
 			"id": "minecraft:iron_hoe",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22700,6 +23369,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_pickaxe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22764,6 +23434,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_shovel",
+			"use_id": 0,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22823,6 +23494,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_spear",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22863,6 +23535,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_sword",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {
@@ -22919,6 +23592,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_pickaxe",
+			"use_id": 1,
 			"type": "tool",
 			"processed": true,
 			"components": {

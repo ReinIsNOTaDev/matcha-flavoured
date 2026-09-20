@@ -90,19 +90,13 @@ def discover(override):
                         version = None
                         components = {}
                     try:
-                        names = DB["files"][name]["names"]
+                        names = [result["components"]["minecraft:item_name"]]
                     except:
-                        try:
-                            names = [result["components"]["minecraft:item_name"]]
-                        except:
-                            names = []
-                    try:
-                        id_ = DB["files"][name]["id"]
-                    except:
-                        id_ = result["id"]
+                        names = []
+                    id_ = result["id"]
+                    useid = None
                     DB["files"][name] = {}
-                    DB["files"][name] = {"version": version, "folder": [folder], "names": names, "id": id_, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                    print("[D] output for item <"+name+">: "+str(DB["files"][name])) if debug else None
+                    DB["files"][name] = {"version": version, "folder": [folder], "names": names, "id": id_, "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
                 elif item:
                     item_folders = DB["files"][name]["folder"]
                     if folder in item_folders:
@@ -114,6 +108,21 @@ def discover(override):
                     print("[D] skipping item") if debug else None
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
+    print("Finishing touches!")
+    item_ids = []
+    for item in DB["files"]:
+        item_ids.append(DB["files"][item]["id"])
+    for item in DB["files"]:
+        i = 0
+        for item_id in item_ids:
+            if DB["files"][item]["id"] == item_id:
+                i += 1
+            else:
+                pass
+        if i >= 2:
+            DB["files"][item]["use_id"] = 0
+        else:
+            DB["files"][item]["use_id"] = 1
     with open(DBpath, 'w') as f:
         json.dump(DB, f, indent="\t")
 
@@ -175,15 +184,10 @@ def create(item):
     if item:
         obj = files[item]
         if obj["ignore"] == True:
-            print("[D] ignored processing: "+item) if debug else None
-        elif obj["processed"] == True:
-            if debug == False:
-                print("[D] item already processed: "+item) if debug else None
-            elif DB["options"]["askForConfirmation"] == "True":
-                cont = input("[D] reprocess file <"+item+">? [y/N] ")
-                obj = creationHelper(obj, item) if cont == "y" else None
-            else:
-                obj = creationHelper(obj, item)
+            print("Ignored processing item "+item)
+        elif obj["processed"] == True and DB["options"]["askForConfirmation"] == "True" and debug:
+            cont = input("[D] reprocess file <"+item+">? [y/N] ")
+            obj = creationHelper(obj, item) if cont == "y" else None
         else:
             obj = creationHelper(obj, item)
     else:
@@ -191,14 +195,9 @@ def create(item):
             obj = files[item]
             if obj["ignore"] == True:
                 print("[D] ignored processing: "+item) if debug else None
-            elif obj["processed"] == True:
-                if debug == False:
-                    print("Item already processed: "+item)
-                elif DB["options"]["askForConfirmation"] == "True":
-                    cont = input("[D] reprocess file <"+item+">? [y/N] ")
-                    obj = creationHelper(obj, item) if cont == "y" else None
-                else:
-                    obj = creationHelper(obj, item)
+            elif obj["processed"] == True and DB["options"]["askForConfirmation"] == "True" and debug:
+                cont = input("[D] reprocess file <"+item+">? [y/N] ")
+                obj = creationHelper(obj, item) if cont == "y" else None
             else:
                 obj = creationHelper(obj, item)
     if debug and DB["options"]["askForConfirmation"] == True:
@@ -224,9 +223,9 @@ def creationHelper(obj, item):
     if DB["options"]["createHelpDiag"] == "True":
         use_id = input("Please define if you want to use item id <"+obj["id"]+"> for item <"+item+"> [y/n] ")
         if use_id == "y":
-            pass
+            obj["use_id"] = 1
         else:
-            obj["id"] = ""
+            obj["use_id"] = 0
         print("Names: "+str(obj["names"]))
         raw_names = input("Please provide additional names for this item <"+item+">, separated by commas. ")
         if raw_names == "":
@@ -239,14 +238,6 @@ def creationHelper(obj, item):
         obj["names"] = []
         duplications = -1
         files = DB["files"]
-        if obj["id"] != "":
-            for item_ in files:
-                if files[item_]["id"] == obj["id"]:
-                    duplications += 1
-            if duplications >= 1:
-                obj["id"] = ""
-        else:
-            pass
         lang_path = os.path.join("MF_resourcepack/assets/minecraft/lang/en_us.json")
         lang_json = json.load(open(lang_path, 'r'))
         try:
@@ -258,6 +249,7 @@ def creationHelper(obj, item):
     print("[D] names: "+str(obj["names"])) if debug else None
     names = obj["names"]
     id_ = obj["id"]
+    use_id = obj["use_id"]
     version = obj["version"]
     type_ = obj["type"]
     components = obj["components"]
@@ -304,7 +296,7 @@ def creationHelper(obj, item):
                 mainhand_predicate["terms"][0]["terms"].append(names_predicates[i])
             else:
                 offhand_predicate["terms"][0]["terms"].append(names_predicates[i])
-        if id_ != "":
+        if use_id == 1:
             mainhand_predicate["terms"][0]["terms"].append(id_predicates[0])
             offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
         else:

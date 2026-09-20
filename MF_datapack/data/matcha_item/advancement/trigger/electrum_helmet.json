@@ -24,30 +24,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
-														"minecraft:item_name": "Electrum Helmet"
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"items": "minecraft:netherite_helmet"
-												}
-											}
-										}
 									}
 								]
 							},

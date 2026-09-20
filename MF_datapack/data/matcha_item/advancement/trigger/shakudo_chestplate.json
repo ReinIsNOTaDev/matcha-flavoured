@@ -24,19 +24,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.chest": {
-													"components": {
-														"minecraft:item_name": "Shakudo Chestplate"
-													}
-												}
-											}
-										}
 									}
 								]
 							},

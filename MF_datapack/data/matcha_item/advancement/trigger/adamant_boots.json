@@ -24,19 +24,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"components": {
-														"minecraft:item_name": "Adamant Boots"
-													}
-												}
-											}
-										}
 									}
 								]
 							},

@@ -62,6 +62,7 @@ def discover(override):
                 print("[D] processing now: "+name) if debug else None
                 item = DB["files"].get(name)
                 if override == "True" or name not in DB["files"]:
+                    type_ = ""
                     filepath = os.path.join(path, file_)
                     opened = open(filepath, 'r')
                     read = json.load(opened)
@@ -80,6 +81,11 @@ def discover(override):
                         type_ = "leggings"
                     elif feet.search(result.get("id")):
                         type_ = "boots"
+                    elif result.get("components") != None:
+                        if result["components"].get("minecraft:provides_trim_material") != None:
+                            type_ = "trim_colour"
+                        else:
+                            type_ = "generic"
                     else:
                         type_ = "generic"
                     if "components" in result:
@@ -234,7 +240,7 @@ def creationHelper(obj, item):
             for raw_name in raw_names.split(", "):
                 obj["names"].append(raw_name)
             print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
-    else:
+    elif DB["options"]["assumeNamesArePopulated"] == "False":
         obj["names"] = []
         duplications = -1
         files = DB["files"]
@@ -245,6 +251,8 @@ def creationHelper(obj, item):
             obj["names"].append(lang_json[obj["components"]["minecraft:item_name"].get("translate")]) if obj["components"].get("minecraft:item_name") != None else None
         except:
             print("[D] name appending fail caused by: "+item) if debug else None
+    else:
+        pass
 # defining variables
     print("[D] names: "+str(obj["names"])) if debug else None
     names = obj["names"]
@@ -263,6 +271,8 @@ def creationHelper(obj, item):
         case "boots":
             slots = ["armor.feet"]
         case "tool":
+            slots = ["weapon.mainhand","weapon.offhand"]
+        case "trim_colour":
             slots = ["weapon.mainhand","weapon.offhand"]
         case "generic":
             slots = ["weapon.mainhand","weapon.offhand"]
@@ -286,6 +296,11 @@ def creationHelper(obj, item):
         for i2 in range(len(temp_names_predicates[i])):
             names_predicates.append(temp_names_predicates[i][i2])
     version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).createDict
+    trim_colour_predicates = []
+    if type_ == "trim_colour":
+        trim_colour_predicates = item_predicate({"components": {"minecraft:provides_trim_material": obj["components"]["minecraft:provides_trim_material"]}}, slots).createDict
+    else:
+        pass
 # defining main predicates
     if len(slots) == 2:
         mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
@@ -301,6 +316,11 @@ def creationHelper(obj, item):
             offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
         else:
             pass
+        if type_ == "trim_colour":
+            mainhand_predicate["terms"].append(trim_colour_predicates[0])
+            offhand_predicate["terms"].append(trim_colour_predicates[1])
+        else:
+            pass
         mainhand_predicate["terms"][1].update({"term": version_predicates[0]})
         offhand_predicate["terms"][1].update({"term": version_predicates[1]})
     else:
@@ -312,9 +332,15 @@ def creationHelper(obj, item):
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
     else:
         pass
-    if id_ != "":
+    if use_id == 1:
         for id_predicate in id_predicates:
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicate)
+    else:
+        pass
+    if type_ == "trim_colour":
+        trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append({"condition": "minecraft:any_of", "terms": []})
+        for trim_colour_predicate in trim_colour_predicates:
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][2]["terms"].append(trim_colour_predicate)
     else:
         pass
     if len(version_predicates) == 1:
@@ -362,7 +388,7 @@ def creationHelper(obj, item):
         case "helmet" | "leggings" | "boots" | "chestplate":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"]]
             needed_yesses = 2
-        case "tool" | "generic":
+        case "tool" | "generic" | "trim_colour":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
             needed_yesses = 6
         case _:

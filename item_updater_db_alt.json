@@ -20,6 +20,10 @@
 			"matcha/recipe/smithing",
 			"recipe"
 		],
+		"crafting": [
+			"matcha/recipe/crafting",
+			"recipe"
+		],
 		"mob_drops": [
 			"minecraft/loot_table/entities",
 			"loot_table"
@@ -28,6 +32,7 @@
 	"files": {},
 	"options": {
 		"createHelpDiag": "False",
-		"askForConfirmation": "False"
+		"askForConfirmation": "False",
+		"assumeNamesArePopulated": "True"
 	}
 }

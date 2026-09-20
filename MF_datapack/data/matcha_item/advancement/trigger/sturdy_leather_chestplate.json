@@ -24,30 +24,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.chest": {
-													"components": {
-														"minecraft:item_name": "Sturdy Leather Gambeson"
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.chest": {
-													"items": "minecraft:leather_chestplate"
-												}
-											}
-										}
 									}
 								]
 							},

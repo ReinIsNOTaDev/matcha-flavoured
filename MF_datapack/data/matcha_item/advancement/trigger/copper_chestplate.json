@@ -8,19 +8,7 @@
 						"terms": [
 							{
 								"condition": "minecraft:any_of",
-								"terms": [
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.chest": {
-													"items": "minecraft:copper_chestplate"
-												}
-											}
-										}
-									}
-								]
+								"terms": []
 							},
 							{
 								"condition": "minecraft:inverted",

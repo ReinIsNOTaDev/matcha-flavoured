@@ -24,30 +24,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.legs": {
-													"components": {
-														"minecraft:item_name": "Sturdy Leather Leggings"
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.legs": {
-													"items": "minecraft:leather_leggings"
-												}
-											}
-										}
 									}
 								]
 							},

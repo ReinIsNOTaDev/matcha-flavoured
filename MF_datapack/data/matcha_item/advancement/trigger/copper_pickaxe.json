@@ -47,7 +47,7 @@
 														"weapon.mainhand": {
 															"predicates": {
 																"minecraft:custom_data": {
-																	"version": "1"
+																	"version": 1
 																}
 															}
 														}
@@ -62,7 +62,7 @@
 														"weapon.offhand": {
 															"predicates": {
 																"minecraft:custom_data": {
-																	"version": "1"
+																	"version": 1
 																}
 															}
 														}

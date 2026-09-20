@@ -1,2 +1,1 @@
-say <D> Updating offhand for nazar
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:enchantments': {'matcha:warding_2': 1}, '!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}

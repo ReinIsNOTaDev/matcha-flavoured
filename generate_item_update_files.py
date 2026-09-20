@@ -71,9 +71,7 @@ def discover(override):
                         version = result["components"]["minecraft:custom_data"]["version"]
                     except:
                         version = None
-                    if tools.search(result.get("id")):
-                        type_ = "tool"
-                    elif head.search(result.get("id")):
+                    if head.search(result.get("id")):
                         type_ = "helmet"
                     elif chest.search(result.get("id")):
                         type_ = "chestplate"
@@ -84,6 +82,8 @@ def discover(override):
                     elif result.get("components") != None:
                         if result["components"].get("minecraft:provides_trim_material") != None:
                             type_ = "trim_colour"
+                        elif result["components"].get("minecraft:stored_enchantments") != None:
+                            type_ = "enchanted"
                         else:
                             type_ = "generic"
                     else:
@@ -164,7 +164,7 @@ def destructive():
                         else:
                             with open(path, 'w') as f:
                                 json.dump(json_, f, indent="\t")
-                        files[item]["version"] = "1"
+                        files[item]["version"] = 1
                     else:
                         files[item]["ignore"] = True
                 else:
@@ -270,7 +270,7 @@ def creationHelper(obj, item):
             slots = ["armor.legs"]
         case "boots":
             slots = ["armor.feet"]
-        case "tool":
+        case "enchanted":
             slots = ["weapon.mainhand","weapon.offhand"]
         case "trim_colour":
             slots = ["weapon.mainhand","weapon.offhand"]
@@ -281,12 +281,6 @@ def creationHelper(obj, item):
 # defining item modifier
     item_modifier = {"function": "set_components", "components": components}
     stored_enchs = item_modifier["components"].pop("minecraft:stored_enchantments", None)
-    if stored_enchs != None:
-        item_modifier["components"]["minecraft:enchantments"] = stored_enchs
-    else:
-        item_modifier["components"].pop("minecraft:enchantments",None)
-        pass
-    item_modifier["components"]["minecraft:custom_data"].pop("has_intrinsic_enchants", None) if item_modifier["components"].get("minecraft:custom_date") != None else None
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict
     temp_names_predicates = []
@@ -349,26 +343,43 @@ def creationHelper(obj, item):
         trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append({"condition": "minecraft:any_of", "terms": []})
         for i in range(len(version_predicates)):
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"][0]["terms"].append(version_predicates[i])
-# defining update function
+# defining update functions
     update_function = ""
     mainhand_function = ""
     offhand_function = ""
-    update_function += "say <D> Triggered update function for "+item+"\n" if debug else None
-    mainhand_function += "say <D> Updating mainhand for "+item+"\n" if debug else None
-    offhand_function += "say <D> Updating offhand for "+item+"\n" if debug else None
+    mainhand_enchants_function = ""
+    offhand_enchants_function = ""
+    if debug:
+        update_function += "say <D> Triggered update function for "+item+"\n"
+        mainhand_function += "say <D> Updating mainhand for "+item+"\n"
+        offhand_function += "say <D> Updating offhand for "+item+"\n"
+    else: pass
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
             update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-        case "tool":
+        case "enchanted":
             # detect specific slot
-            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
+            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:enchants/"+item+"\n"
+            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:enchants/"+item+"\n"
             # revoke advancement
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
+            # process enchantments (for this example, use SelectedItem/mainhand)
+            mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
+            # process individual enchantments (for this example, enchantment {enchant} has value 1)
+            for stored_ench,value in stored_enchs.items():
+                mainhand_function += "# processing enchantment "+stored_ench+"\n"
+                mainhand_function += "execute store result score enchantsLvl "+stored_ench+" run data get matcha_item:enchants held."+stored_ench+"\n"
+                mainhand_function += "execute unless score enchantsLvl "+stored_ench+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+stored_ench+":"+str(value)+"}\n"
             # modify item
             mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
+            # run special item modifier for enchants
+            mainhand_function += "function matcha_item:enchants/mainhand/"+item+" with matcha_item:enchants"
+            mainhand_function += "function matcha_item:enchants/offhand/"+item+" with matcha_item:enchants"
+            enchants_item_modifier = {"function": "set_components", "components": {"minecraft:enchantments": "${{held}}"}}
+            mainhand_enchants_function += "$item modify entity @s "+slots[0]+" "+str(enchants_item_modifier)
+            offhand_enchants_function += "$item modify entity @s "+slots[0]+" "+str(enchants_item_modifier)
         case "generic":
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
@@ -382,13 +393,18 @@ def creationHelper(obj, item):
     update_function_path = os.path.join(Updater,"function/update",item+".mcfunction")
     mainhand_function_path = os.path.join(Updater,"function/mainhand",item+".mcfunction")
     offhand_function_path = os.path.join(Updater,"function/offhand",item+".mcfunction")
+    mainhand_enchants_function_path = os.path.join(Updater,"function/enchants/mainhand",item+".mcfunction")
+    offhand_enchants_function_path = os.path.join(Updater,"function/enchants/offhand",item+".mcfunction")
     mainhand_predicate_path = os.path.join(Updater,"predicate/mainhand",item+".json")
     offhand_predicate_path = os.path.join(Updater,"predicate/offhand",item+".json")
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"]]
             needed_yesses = 2
-        case "tool" | "generic" | "trim_colour":
+        case "enchanted":
+            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_enchants_function_path, mainhand_enchants_function, "function"], [offhand_enchants_function_path, offhand_enchants_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
+            needed_yesses = 8
+        case "generic" | "trim_colour":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
             needed_yesses = 6
         case _:

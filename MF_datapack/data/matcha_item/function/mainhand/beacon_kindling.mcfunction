@@ -1,2 +1,1 @@
-say <D> Updating mainhand for beacon_kindling
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:marker', 'NoGravity': True, 'Invulnerable': True, 'Tags': ['beacon_kindling']}, 'minecraft:item_name': {'translate': 'item.kleispack.beacon_kindling'}, 'minecraft:item_model': 'matcha:beacon_kindling', 'minecraft:custom_data': {'version': 1}}}

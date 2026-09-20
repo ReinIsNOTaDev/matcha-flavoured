@@ -31,7 +31,7 @@
 	},
 	"files": {
 		"baked_apple": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -92,7 +92,7 @@
 			"ignore": null
 		},
 		"baked_golden_apple": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -176,7 +176,7 @@
 			"ignore": null
 		},
 		"baked_potato": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -224,7 +224,7 @@
 			"ignore": null
 		},
 		"baked_pumpkin": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -287,7 +287,7 @@
 			"ignore": null
 		},
 		"braised_brown_mushroom": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -334,7 +334,7 @@
 			"ignore": null
 		},
 		"braised_crimson_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -406,7 +406,7 @@
 			"ignore": null
 		},
 		"braised_red_mushroom": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -475,7 +475,7 @@
 			"ignore": null
 		},
 		"brasied_warped_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -547,7 +547,7 @@
 			"ignore": null
 		},
 		"bread": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -616,7 +616,7 @@
 			"ignore": null
 		},
 		"chocolate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -679,7 +679,7 @@
 			"ignore": null
 		},
 		"cooked_beef": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -726,7 +726,7 @@
 			"ignore": null
 		},
 		"cooked_chicken": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -773,7 +773,7 @@
 			"ignore": null
 		},
 		"cooked_cod": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -820,7 +820,7 @@
 			"ignore": null
 		},
 		"cooked_mutton": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -867,7 +867,7 @@
 			"ignore": null
 		},
 		"cooked_pork": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -914,7 +914,7 @@
 			"ignore": null
 		},
 		"cooked_pufferfish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -983,7 +983,7 @@
 			"ignore": null
 		},
 		"cooked_rabbit": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1030,7 +1030,7 @@
 			"ignore": null
 		},
 		"cooked_salmon": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1077,7 +1077,7 @@
 			"ignore": null
 		},
 		"cooked_tropical_fish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1124,7 +1124,7 @@
 			"ignore": null
 		},
 		"fried_egg": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1179,7 +1179,7 @@
 			"ignore": null
 		},
 		"glow_mash": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1235,7 +1235,7 @@
 			"ignore": null
 		},
 		"golden_steamed_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1308,7 +1308,7 @@
 			"ignore": null
 		},
 		"green_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1381,7 +1381,7 @@
 			"ignore": null
 		},
 		"grilled_melon": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1450,7 +1450,7 @@
 			"ignore": null
 		},
 		"grilled_tomatoes": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1520,7 +1520,7 @@
 			"ignore": null
 		},
 		"honey_ginger_tea": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1614,7 +1614,7 @@
 			"ignore": null
 		},
 		"japanese_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1688,7 +1688,7 @@
 			"ignore": null
 		},
 		"molasses": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1706,7 +1706,7 @@
 			"ignore": null
 		},
 		"nopales": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1762,7 +1762,7 @@
 			"ignore": null
 		},
 		"paneer_makhani": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1837,7 +1837,7 @@
 			"ignore": null
 		},
 		"ramen": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -1877,7 +1877,7 @@
 			"ignore": null
 		},
 		"steamed_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -1948,7 +1948,7 @@
 			"ignore": null
 		},
 		"sweet_berry_mash": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -2034,7 +2034,7 @@
 			"ignore": true
 		},
 		"apple_empanada": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2103,7 +2103,7 @@
 			"ignore": null
 		},
 		"bokguk": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2176,7 +2176,7 @@
 			"ignore": null
 		},
 		"brachio_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2231,7 +2231,7 @@
 			"ignore": null
 		},
 		"brownie": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2301,7 +2301,7 @@
 			"ignore": null
 		},
 		"bruschetta": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2371,7 +2371,7 @@
 			"ignore": null
 		},
 		"bubbling_mead": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2422,7 +2422,7 @@
 			"ignore": null
 		},
 		"bunuelo": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2492,7 +2492,7 @@
 			"ignore": null
 		},
 		"cake": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2521,7 +2521,7 @@
 			"ignore": null
 		},
 		"canned_apples": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2593,7 +2593,7 @@
 			"ignore": null
 		},
 		"canned_golden_apples": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2680,7 +2680,7 @@
 			"ignore": null
 		},
 		"carrot_cupcake": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2748,7 +2748,7 @@
 			"ignore": null
 		},
 		"cheese": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2794,7 +2794,7 @@
 			"ignore": null
 		},
 		"cheese_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2864,7 +2864,7 @@
 			"ignore": null
 		},
 		"chocolate_chip_cookie": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -2934,7 +2934,7 @@
 			"ignore": null
 		},
 		"chorus_mochi": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3006,7 +3006,7 @@
 			"ignore": null
 		},
 		"crimson_stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3081,7 +3081,7 @@
 			"ignore": null
 		},
 		"dough": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3099,7 +3099,7 @@
 			"ignore": null
 		},
 		"dough_from_water": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3117,7 +3117,7 @@
 			"ignore": null
 		},
 		"dried_kelp": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3180,7 +3180,7 @@
 			"ignore": null
 		},
 		"dried_kelp_from_dried_kelp_block": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3243,7 +3243,7 @@
 			"ignore": null
 		},
 		"fish_and_chips": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3299,7 +3299,7 @@
 			"ignore": null
 		},
 		"flour": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3317,7 +3317,7 @@
 			"ignore": null
 		},
 		"flour_bag": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3335,7 +3335,7 @@
 			"ignore": null
 		},
 		"flour_from_flour_bag": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3353,7 +3353,7 @@
 			"ignore": null
 		},
 		"french_toast": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3408,7 +3408,7 @@
 			"ignore": null
 		},
 		"gimmari": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3478,7 +3478,7 @@
 			"ignore": null
 		},
 		"glow_berry_crumble": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3541,7 +3541,7 @@
 			"ignore": null
 		},
 		"glow_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3609,7 +3609,7 @@
 			"ignore": null
 		},
 		"gnocchi": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3668,7 +3668,7 @@
 			"ignore": null
 		},
 		"golden_apple": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3743,7 +3743,7 @@
 			"ignore": null
 		},
 		"golden_apple_empanada": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3825,7 +3825,7 @@
 			"ignore": null
 		},
 		"golden_carrot": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3888,7 +3888,7 @@
 			"ignore": null
 		},
 		"golden_carrot_cupcake": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -3958,7 +3958,7 @@
 			"ignore": null
 		},
 		"golden_pickled_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4032,7 +4032,7 @@
 			"ignore": null
 		},
 		"honied_french_toast": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4099,7 +4099,7 @@
 			"ignore": null
 		},
 		"ice_cream": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4179,7 +4179,7 @@
 			"ignore": null
 		},
 		"kontomire_stew": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4268,7 +4268,7 @@
 			"ignore": null
 		},
 		"latke": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4324,7 +4324,7 @@
 			"ignore": null
 		},
 		"lumpia": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4408,7 +4408,7 @@
 			"ignore": null
 		},
 		"mead": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4484,7 +4484,7 @@
 			"ignore": null
 		},
 		"meat_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4554,7 +4554,7 @@
 			"ignore": null
 		},
 		"melon_slice": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4594,7 +4594,7 @@
 			"ignore": null
 		},
 		"melon_sorbet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4669,7 +4669,7 @@
 			"ignore": null
 		},
 		"milk_bottle": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4714,7 +4714,7 @@
 			"ignore": null
 		},
 		"mushroom_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4784,7 +4784,7 @@
 			"ignore": null
 		},
 		"oatmeal": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4869,7 +4869,7 @@
 			"ignore": null
 		},
 		"oil": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4887,7 +4887,7 @@
 			"ignore": null
 		},
 		"pad_thai": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -4961,7 +4961,7 @@
 			"ignore": null
 		},
 		"pickled_carrots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5033,7 +5033,7 @@
 			"ignore": null
 		},
 		"pickled_crimson_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5088,7 +5088,7 @@
 			"ignore": null
 		},
 		"pickled_mushrooms": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5146,7 +5146,7 @@
 			"ignore": null
 		},
 		"pickled_potatoes": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5204,7 +5204,7 @@
 			"ignore": null
 		},
 		"pickled_red_mushrooms": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5258,7 +5258,7 @@
 			"ignore": null
 		},
 		"pickled_tomatoes": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5330,7 +5330,7 @@
 			"ignore": null
 		},
 		"pickled_warped_fungus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5386,7 +5386,7 @@
 			"ignore": null
 		},
 		"popped_chorus_fruit": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5449,7 +5449,7 @@
 			"ignore": null
 		},
 		"ptero_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5504,7 +5504,7 @@
 			"ignore": null
 		},
 		"puerquito": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5573,7 +5573,7 @@
 			"ignore": null
 		},
 		"pumpkin_empanada": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5643,7 +5643,7 @@
 			"ignore": null
 		},
 		"pumpkin_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5717,7 +5717,7 @@
 			"ignore": null
 		},
 		"pupusa": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5772,7 +5772,7 @@
 			"ignore": null
 		},
 		"red_mushroom_stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5845,7 +5845,7 @@
 			"ignore": null
 		},
 		"rind_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5917,7 +5917,7 @@
 			"ignore": null
 		},
 		"seitan": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5935,7 +5935,7 @@
 			"ignore": null
 		},
 		"stego_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -5990,7 +5990,7 @@
 			"ignore": null
 		},
 		"stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6048,7 +6048,7 @@
 			"ignore": null
 		},
 		"sweet_berry_danish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6115,7 +6115,7 @@
 			"ignore": null
 		},
 		"sweet_berry_jam": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6187,7 +6187,7 @@
 			"ignore": null
 		},
 		"sweet_berry_toast": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6256,7 +6256,7 @@
 			"ignore": null
 		},
 		"tricero_chicken_nugget": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6311,7 +6311,7 @@
 			"ignore": null
 		},
 		"uncooked_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6329,7 +6329,7 @@
 			"ignore": null
 		},
 		"uncooked_green_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6347,7 +6347,7 @@
 			"ignore": null
 		},
 		"uncooked_paneer_makhani": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6365,7 +6365,7 @@
 			"ignore": null
 		},
 		"uncooked_pumpkin_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6383,7 +6383,7 @@
 			"ignore": null
 		},
 		"uncooked_ramen": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6401,7 +6401,7 @@
 			"ignore": null
 		},
 		"warped_pizza": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6488,7 +6488,7 @@
 			"ignore": null
 		},
 		"warped_stroganoff": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_crafting"
 			],
@@ -6563,7 +6563,7 @@
 			"ignore": null
 		},
 		"charred_fish": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6617,7 +6617,7 @@
 			"ignore": null
 		},
 		"charred_meat": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6671,7 +6671,7 @@
 			"ignore": null
 		},
 		"charred_potato": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6725,7 +6725,7 @@
 			"ignore": null
 		},
 		"naan": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_kiln"
 			],
@@ -6779,7 +6779,7 @@
 			"ignore": null
 		},
 		"pumpkin_curry": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"food_oven"
 			],
@@ -6855,7 +6855,7 @@
 			"ignore": null
 		},
 		"adamant_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -6867,7 +6867,7 @@
 			],
 			"id": "minecraft:netherite_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -6947,18 +6947,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 2,
-					"matcha:adamant_tool": 1,
-					"matcha:adamant_weapon": 1,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
 		},
 		"adamant_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7048,17 +7042,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
 		},
 		"adamant_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7148,17 +7137,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
 		},
 		"adamant_claymore": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7170,7 +7154,7 @@
 			],
 			"id": "minecraft:netherite_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -7295,17 +7279,12 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_weapon": 1,
-					"minecraft:sharpness": 1
-				}
+				]
 			},
 			"ignore": null
 		},
 		"adamant_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7317,7 +7296,7 @@
 			],
 			"id": "minecraft:netherite_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -7424,17 +7403,12 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_tool": 1,
-					"minecraft:efficiency": 1
-				}
+				]
 			},
 			"ignore": null
 		},
 		"adamant_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7524,17 +7498,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
 		},
 		"adamant_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7546,7 +7515,7 @@
 			],
 			"id": "minecraft:netherite_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -7626,17 +7595,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:efficiency": 2
 				}
 			},
 			"ignore": null
 		},
 		"adamant_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7726,17 +7690,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
 		},
 		"adamant_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7748,7 +7707,7 @@
 			],
 			"id": "minecraft:netherite_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -7834,17 +7793,12 @@
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
 				},
-				"minecraft:item_model": "matcha:adamant_mattock",
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 1,
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2
-				}
+				"minecraft:item_model": "matcha:adamant_mattock"
 			},
 			"ignore": null
 		},
 		"adamant_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7856,7 +7810,7 @@
 			],
 			"id": "minecraft:netherite_pickaxe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -7951,17 +7905,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 2,
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
 		},
 		"adamant_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -7973,7 +7922,7 @@
 			],
 			"id": "minecraft:netherite_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -8053,17 +8002,12 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_tool": 1,
-					"minecraft:efficiency": 2,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
 		},
 		"adamant_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8075,7 +8019,7 @@
 			],
 			"id": "minecraft:netherite_spear",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
@@ -8135,17 +8079,12 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
-				},
-				"minecraft:enchantments": {
-					"minecraft:sharpness": 1,
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_weapon": 1
 				}
 			},
 			"ignore": null
 		},
 		"adamant_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8157,7 +8096,7 @@
 			],
 			"id": "minecraft:netherite_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -8232,17 +8171,12 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:sharpness": 1,
-					"matcha:adamant_weapon": 1,
-					"minecraft:unbreaking": 2
-				}
+				]
 			},
 			"ignore": null
 		},
 		"electrum_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8254,7 +8188,7 @@
 			],
 			"id": "minecraft:netherite_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -8345,18 +8279,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3,
-					"minecraft:looting": 2,
-					"minecraft:smite": 3,
-					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8464,15 +8392,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8580,15 +8505,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8600,7 +8522,7 @@
 			],
 			"id": "minecraft:netherite_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -8701,15 +8623,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
 		},
 		"electrum_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8817,15 +8736,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -8837,7 +8753,7 @@
 			],
 			"id": "minecraft:netherite_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -8928,15 +8844,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
 		},
 		"electrum_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9044,15 +8957,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9064,7 +8974,7 @@
 			],
 			"id": "minecraft:netherite_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -9160,16 +9070,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 2,
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9181,7 +9087,7 @@
 			],
 			"id": "minecraft:netherite_pickaxe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -9277,15 +9183,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
 		},
 		"electrum_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9297,7 +9200,7 @@
 			],
 			"id": "minecraft:netherite_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -9388,15 +9291,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
 		},
 		"electrum_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9408,7 +9308,7 @@
 			],
 			"id": "minecraft:netherite_spear",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -9471,17 +9371,12 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:smite": 4,
-					"minecraft:looting": 2,
-					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
 		},
 		"electrum_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9493,7 +9388,7 @@
 			],
 			"id": "minecraft:netherite_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -9563,17 +9458,12 @@
 						"minecraft:diamond_block"
 					]
 				},
-				"minecraft:item_model": "matcha:electrum_sword",
-				"minecraft:enchantments": {
-					"minecraft:looting": 2,
-					"minecraft:smite": 3,
-					"matcha:warding_3": 1
-				}
+				"minecraft:item_model": "matcha:electrum_sword"
 			},
 			"ignore": null
 		},
 		"hepatizon_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9585,7 +9475,7 @@
 			],
 			"id": "minecraft:stone_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -9688,7 +9578,7 @@
 			"ignore": null
 		},
 		"hepatizon_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9775,7 +9665,7 @@
 			"ignore": null
 		},
 		"hepatizon_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9862,7 +9752,7 @@
 			"ignore": null
 		},
 		"hepatizon_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -9874,7 +9764,7 @@
 			],
 			"id": "minecraft:stone_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -9983,7 +9873,7 @@
 			"ignore": null
 		},
 		"hepatizon_elytra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10076,7 +9966,7 @@
 			"ignore": null
 		},
 		"hepatizon_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10163,7 +10053,7 @@
 			"ignore": null
 		},
 		"hepatizon_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10175,7 +10065,7 @@
 			],
 			"id": "minecraft:stone_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -10265,7 +10155,7 @@
 			"ignore": null
 		},
 		"hepatizon_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10352,7 +10242,7 @@
 			"ignore": null
 		},
 		"hepatizon_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10364,7 +10254,7 @@
 			],
 			"id": "minecraft:stone_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -10473,7 +10363,7 @@
 			"ignore": null
 		},
 		"hepatizon_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10485,7 +10375,7 @@
 			],
 			"id": "minecraft:stone_pickaxe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -10594,7 +10484,7 @@
 			"ignore": null
 		},
 		"hepatizon_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10606,7 +10496,7 @@
 			],
 			"id": "minecraft:stone_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -10710,7 +10600,7 @@
 			"ignore": null
 		},
 		"hepatizon_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10722,7 +10612,7 @@
 			],
 			"id": "minecraft:stone_spear",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -10804,15 +10694,12 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"minecraft:lunge": 3
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
 		"hepatizon_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10824,7 +10711,7 @@
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -10906,15 +10793,12 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"matcha:riposte": 2
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
 		"shakudo_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -10926,7 +10810,7 @@
 			],
 			"id": "minecraft:stone_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -11012,16 +10896,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1,
-					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11099,17 +10979,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_feet": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11187,17 +11062,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_chest": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11209,7 +11079,7 @@
 			],
 			"id": "minecraft:stone_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -11298,15 +11168,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_elytra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11318,7 +11185,7 @@
 			],
 			"id": "minecraft:elytra",
 			"use_id": 0,
-			"type": "generic",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 800,
@@ -11390,17 +11257,12 @@
 						"minecraft:honeycomb_block",
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:max_magic_protection": 1,
-					"matcha:cleanse_armor_maleffect": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11478,17 +11340,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_head": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11500,7 +11357,7 @@
 			],
 			"id": "minecraft:stone_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -11579,15 +11436,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11665,17 +11519,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_legs": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11687,7 +11536,7 @@
 			],
 			"id": "minecraft:stone_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -11778,15 +11627,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11798,7 +11644,7 @@
 			],
 			"id": "minecraft:stone_pickaxe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -11882,15 +11728,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -11902,7 +11745,7 @@
 			],
 			"id": "minecraft:stone_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -11988,15 +11831,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
 		},
 		"shakudo_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12008,7 +11848,7 @@
 			],
 			"id": "minecraft:stone_spear",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -12075,15 +11915,12 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"matcha:shakudo_weapon": 1
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
 		"shakudo_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12095,7 +11932,7 @@
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
@@ -12162,16 +11999,12 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:sweeping_edge": 1,
-					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
 		},
 		"silver_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12182,7 +12015,7 @@
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 400,
@@ -12258,16 +12091,12 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:smite": 3,
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
 		},
 		"steel_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12278,7 +12107,7 @@
 			],
 			"id": "minecraft:stone_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -12381,7 +12210,7 @@
 			"ignore": null
 		},
 		"steel_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12479,15 +12308,12 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
 		},
 		"steel_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12585,15 +12411,12 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 4
 				}
 			},
 			"ignore": null
 		},
 		"steel_claymore": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12604,7 +12427,7 @@
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1500,
@@ -12737,7 +12560,7 @@
 			"ignore": null
 		},
 		"steel_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12748,7 +12571,7 @@
 			],
 			"id": "minecraft:stone_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -12841,7 +12664,7 @@
 			"ignore": null
 		},
 		"steel_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12939,15 +12762,12 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
 		},
 		"steel_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -12958,7 +12778,7 @@
 			],
 			"id": "minecraft:stone_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13030,7 +12850,7 @@
 			"ignore": null
 		},
 		"steel_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13128,15 +12948,12 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 3
 				}
 			},
 			"ignore": null
 		},
 		"steel_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13147,7 +12964,7 @@
 			],
 			"id": "minecraft:stone_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13224,7 +13041,7 @@
 			"ignore": null
 		},
 		"steel_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13235,7 +13052,7 @@
 			],
 			"id": "minecraft:stone_pickaxe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13302,7 +13119,7 @@
 			"ignore": null
 		},
 		"steel_shears": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13313,7 +13130,7 @@
 			],
 			"id": "minecraft:shears",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13345,7 +13162,7 @@
 			"ignore": null
 		},
 		"steel_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13356,7 +13173,7 @@
 			],
 			"id": "minecraft:stone_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13423,7 +13240,7 @@
 			"ignore": null
 		},
 		"steel_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13434,7 +13251,7 @@
 			],
 			"id": "minecraft:stone_spear",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
@@ -13519,7 +13336,7 @@
 			"ignore": null
 		},
 		"steel_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13530,7 +13347,7 @@
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -13615,7 +13432,7 @@
 			"ignore": null
 		},
 		"warding_shield": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13626,7 +13443,7 @@
 			],
 			"id": "minecraft:shield",
 			"use_id": 1,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -13689,15 +13506,12 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
 		},
 		"warding_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"smithing"
 			],
@@ -13708,7 +13522,7 @@
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
-			"type": "tool",
+			"type": "enchanted",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
@@ -13784,9 +13598,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -18141,7 +17952,7 @@
 			"names": [],
 			"id": "minecraft:waxed_copper_bulb",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18154,7 +17965,7 @@
 			"names": [],
 			"id": "minecraft:waxed_cut_copper",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18167,7 +17978,7 @@
 			"names": [],
 			"id": "minecraft:waxed_exposed_copper_bulb",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18180,7 +17991,7 @@
 			"names": [],
 			"id": "minecraft:waxed_exposed_cut_copper",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18193,7 +18004,7 @@
 			"names": [],
 			"id": "minecraft:waxed_oxidized_copper_bulb",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18206,7 +18017,7 @@
 			"names": [],
 			"id": "minecraft:waxed_oxidized_cut_copper",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18219,7 +18030,7 @@
 			"names": [],
 			"id": "minecraft:waxed_oxidized_lightning_rod",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18232,7 +18043,7 @@
 			"names": [],
 			"id": "minecraft:waxed_weathered_copper_bulb",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18245,7 +18056,7 @@
 			"names": [],
 			"id": "minecraft:waxed_weathered_cut_copper",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18258,7 +18069,7 @@
 			"names": [],
 			"id": "minecraft:waxed_weathered_lightning_rod",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": false,
 			"components": {},
 			"ignore": true
@@ -18537,7 +18348,7 @@
 			"ignore": true
 		},
 		"amnestic": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18582,7 +18393,7 @@
 			"ignore": null
 		},
 		"beacon_kindling": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18615,7 +18426,7 @@
 			"ignore": null
 		},
 		"bedrock_buster": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18647,7 +18458,7 @@
 			"ignore": null
 		},
 		"benzene": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18665,7 +18476,7 @@
 			"ignore": null
 		},
 		"campfire": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18685,7 +18496,7 @@
 			"ignore": null
 		},
 		"carbon_rich_iron": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18703,7 +18514,7 @@
 			"ignore": null
 		},
 		"copper_compass": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18728,7 +18539,7 @@
 			"ignore": null
 		},
 		"copper_shears": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18739,7 +18550,7 @@
 			],
 			"id": "minecraft:shears",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 300,
@@ -18757,7 +18568,7 @@
 			"ignore": null
 		},
 		"crystal_heart": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18811,14 +18622,14 @@
 			"ignore": null
 		},
 		"diamond_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:diamond_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -18871,7 +18682,7 @@
 			"ignore": null
 		},
 		"diamond_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18912,7 +18723,7 @@
 			"ignore": null
 		},
 		"diamond_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18953,7 +18764,7 @@
 			"ignore": null
 		},
 		"diamond_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -18964,7 +18775,7 @@
 			],
 			"id": "minecraft:diamond_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -19047,7 +18858,7 @@
 			"ignore": null
 		},
 		"diamond_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19088,14 +18899,14 @@
 			"ignore": null
 		},
 		"diamond_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:diamond_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -19148,7 +18959,7 @@
 			"ignore": null
 		},
 		"diamond_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19189,7 +19000,7 @@
 			"ignore": null
 		},
 		"diamond_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19200,7 +19011,7 @@
 			],
 			"id": "minecraft:diamond_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -19278,14 +19089,14 @@
 			"ignore": null
 		},
 		"diamond_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:diamond_pickaxe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -19343,14 +19154,14 @@
 			"ignore": null
 		},
 		"diamond_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:diamond_shovel",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -19403,14 +19214,14 @@
 			"ignore": null
 		},
 		"diamond_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:diamond_spear",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -19444,14 +19255,14 @@
 			"ignore": null
 		},
 		"diamond_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:diamond_sword",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -19485,7 +19296,7 @@
 			"ignore": null
 		},
 		"divine_fragment": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19504,7 +19315,7 @@
 			"ignore": null
 		},
 		"exposed_chiseled_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19521,7 +19332,7 @@
 			"ignore": null
 		},
 		"exposed_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19538,7 +19349,7 @@
 			"ignore": null
 		},
 		"exposed_copper_grate_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19555,7 +19366,7 @@
 			"ignore": null
 		},
 		"exposed_cut_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19572,7 +19383,7 @@
 			"ignore": null
 		},
 		"exposed_cut_copper_slab_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19589,7 +19400,7 @@
 			"ignore": null
 		},
 		"exposed_cut_copper_stairs_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19606,7 +19417,7 @@
 			"ignore": null
 		},
 		"golden_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19618,10 +19429,14 @@
 			],
 			"id": "minecraft:golden_axe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1,
+					"minecraft:looting": 1
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -19665,7 +19480,7 @@
 			"ignore": null
 		},
 		"golden_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19680,6 +19495,9 @@
 			"type": "boots",
 			"processed": true,
 			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 2
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19717,7 +19535,7 @@
 			"ignore": null
 		},
 		"golden_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19732,6 +19550,9 @@
 			"type": "chestplate",
 			"processed": true,
 			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 3
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19760,7 +19581,7 @@
 			"ignore": null
 		},
 		"golden_compass": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19785,7 +19606,7 @@
 			"ignore": null
 		},
 		"golden_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19800,6 +19621,9 @@
 			"type": "helmet",
 			"processed": true,
 			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 2
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19828,7 +19652,7 @@
 			"ignore": null
 		},
 		"golden_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19840,10 +19664,13 @@
 			],
 			"id": "minecraft:golden_hoe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -19887,7 +19714,7 @@
 			"ignore": null
 		},
 		"golden_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19902,6 +19729,9 @@
 			"type": "leggings",
 			"processed": true,
 			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 2
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -19930,7 +19760,7 @@
 			"ignore": null
 		},
 		"golden_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -19942,10 +19772,13 @@
 			],
 			"id": "minecraft:golden_pickaxe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -20005,7 +19838,7 @@
 			"ignore": null
 		},
 		"golden_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20017,10 +19850,13 @@
 			],
 			"id": "minecraft:golden_shovel",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.mining_speed",
@@ -20075,7 +19911,7 @@
 			"ignore": null
 		},
 		"golden_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20087,7 +19923,7 @@
 			],
 			"id": "minecraft:golden_spear",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -20114,6 +19950,9 @@
 					]
 				},
 				"minecraft:enchantment_glint_override": false,
+				"minecraft:enchantments": {
+					"minecraft:looting": 2
+				},
 				"minecraft:max_damage": 350,
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_spear",
@@ -20126,7 +19965,7 @@
 			"ignore": null
 		},
 		"golden_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20138,10 +19977,13 @@
 			],
 			"id": "minecraft:golden_sword",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:looting": 1
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.attack_damage",
@@ -20177,7 +20019,7 @@
 			"ignore": null
 		},
 		"invisible_item_frame": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20206,14 +20048,14 @@
 			"ignore": null
 		},
 		"iron_shears": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:shears",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
@@ -20224,7 +20066,7 @@
 			"ignore": null
 		},
 		"leather_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20284,6 +20126,9 @@
 						"slot": "feet"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:feather_falling": 2
+				},
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_boots",
 					"color": "white"
@@ -20295,7 +20140,7 @@
 			"ignore": null
 		},
 		"leather_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20366,7 +20211,7 @@
 			"ignore": null
 		},
 		"leather_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20437,7 +20282,7 @@
 			"ignore": null
 		},
 		"leather_pants": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20508,7 +20353,7 @@
 			"ignore": null
 		},
 		"mace": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20546,7 +20391,7 @@
 			"ignore": null
 		},
 		"minecart_from_steel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20564,7 +20409,7 @@
 			"ignore": null
 		},
 		"music_disc_crete": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20583,7 +20428,7 @@
 			"ignore": null
 		},
 		"music_disc_golden": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20602,7 +20447,7 @@
 			"ignore": null
 		},
 		"music_disc_labyrinthine": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20621,7 +20466,7 @@
 			"ignore": null
 		},
 		"music_disc_malachite": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20640,7 +20485,7 @@
 			"ignore": null
 		},
 		"nazar": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20650,6 +20495,9 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
+				"minecraft:enchantments": {
+					"matcha:warding_2": 1
+				},
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
 					"version": 1
@@ -20658,7 +20506,7 @@
 			"ignore": null
 		},
 		"oxidized_chiseled_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20675,7 +20523,7 @@
 			"ignore": null
 		},
 		"oxidized_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20692,7 +20540,7 @@
 			"ignore": null
 		},
 		"oxidized_copper_grate_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20709,7 +20557,7 @@
 			"ignore": null
 		},
 		"oxidized_cut_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20726,7 +20574,7 @@
 			"ignore": null
 		},
 		"oxidized_cut_copper_slab_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20743,7 +20591,7 @@
 			"ignore": null
 		},
 		"oxidized_cut_copper_stairs_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20760,7 +20608,7 @@
 			"ignore": null
 		},
 		"phosphor_rod": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20777,7 +20625,7 @@
 			"ignore": null
 		},
 		"snow_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20788,7 +20636,7 @@
 			],
 			"id": "minecraft:iron_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -20838,7 +20686,7 @@
 			"ignore": null
 		},
 		"soul_campfire": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20858,7 +20706,7 @@
 			"ignore": null
 		},
 		"soul_torch": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20875,7 +20723,7 @@
 			"ignore": null
 		},
 		"stabilised_estus": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20894,7 +20742,7 @@
 			"ignore": null
 		},
 		"sturdy_leather_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -20981,6 +20829,11 @@
 						"slot": "feet"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:projectile_protection": 2,
+					"minecraft:feather_falling": 2,
+					"matcha:traversal": 1
+				},
 				"minecraft:item_model": "matcha:sturdy_leather_boots",
 				"minecraft:equippable": {
 					"slot": "feet",
@@ -21000,7 +20853,7 @@
 			"ignore": null
 		},
 		"sturdy_leather_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21070,6 +20923,9 @@
 						"slot": "chest"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:projectile_protection": 4
+				},
 				"minecraft:item_model": "matcha:sturdy_leather_chestplate",
 				"minecraft:equippable": {
 					"slot": "chest",
@@ -21089,7 +20945,7 @@
 			"ignore": null
 		},
 		"sturdy_leather_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21159,6 +21015,9 @@
 						"slot": "head"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:projectile_protection": 3
+				},
 				"minecraft:item_model": "matcha:sturdy_leather_helmet",
 				"minecraft:equippable": {
 					"slot": "head",
@@ -21178,7 +21037,7 @@
 			"ignore": null
 		},
 		"sturdy_leather_pants": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21248,6 +21107,9 @@
 						"slot": "legs"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:projectile_protection": 3
+				},
 				"minecraft:item_model": "matcha:sturdy_leather_leggings",
 				"minecraft:equippable": {
 					"slot": "legs",
@@ -21267,7 +21129,7 @@
 			"ignore": null
 		},
 		"tinder": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21293,7 +21155,7 @@
 			"ignore": null
 		},
 		"trim_colour_amethyst": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21327,7 +21189,7 @@
 			"ignore": null
 		},
 		"trim_colour_cinnabar": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21361,7 +21223,7 @@
 			"ignore": null
 		},
 		"trim_colour_diamond": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21395,7 +21257,7 @@
 			"ignore": null
 		},
 		"trim_colour_electrum": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21429,7 +21291,7 @@
 			"ignore": null
 		},
 		"trim_colour_gold": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21463,7 +21325,7 @@
 			"ignore": null
 		},
 		"trim_colour_hepatizon": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21497,7 +21359,7 @@
 			"ignore": null
 		},
 		"trim_colour_iron": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21531,7 +21393,7 @@
 			"ignore": null
 		},
 		"trim_colour_lapis": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21565,7 +21427,7 @@
 			"ignore": null
 		},
 		"trim_colour_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21599,7 +21461,7 @@
 			"ignore": null
 		},
 		"trim_colour_quartz": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21633,7 +21495,7 @@
 			"ignore": null
 		},
 		"trim_colour_resin": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21667,7 +21529,7 @@
 			"ignore": null
 		},
 		"trim_colour_shakudo": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21701,7 +21563,7 @@
 			"ignore": null
 		},
 		"trim_colour_steel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21735,7 +21597,7 @@
 			"ignore": null
 		},
 		"warding_stone": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21773,7 +21635,7 @@
 			"ignore": null
 		},
 		"weathered_chiseled_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21790,7 +21652,7 @@
 			"ignore": null
 		},
 		"weathered_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21807,7 +21669,7 @@
 			"ignore": null
 		},
 		"weathered_copper_grate_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21824,7 +21686,7 @@
 			"ignore": null
 		},
 		"weathered_cut_copper_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21841,7 +21703,7 @@
 			"ignore": null
 		},
 		"weathered_cut_copper_slab_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21858,7 +21720,7 @@
 			"ignore": null
 		},
 		"weathered_cut_copper_stairs_from_patina": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21875,14 +21737,14 @@
 			"ignore": null
 		},
 		"wooden_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:wooden_axe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
@@ -21915,7 +21777,7 @@
 			"ignore": null
 		},
 		"wooden_cross": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -21936,6 +21798,9 @@
 					"translate": "item.kleispack.wooden_cross",
 					"color": "white"
 				},
+				"minecraft:enchantments": {
+					"matcha:warding_1": 1
+				},
 				"minecraft:enchantment_glint_override": false,
 				"minecraft:custom_data": {
 					"version": 1
@@ -21944,14 +21809,14 @@
 			"ignore": null
 		},
 		"wooden_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:wooden_hoe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
@@ -21984,14 +21849,14 @@
 			"ignore": null
 		},
 		"wooden_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:wooden_shovel",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
@@ -22024,14 +21889,14 @@
 			"ignore": null
 		},
 		"wooden_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:wooden_spear",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -22058,14 +21923,14 @@
 			"ignore": null
 		},
 		"wooden_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:wooden_sword",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
@@ -22106,7 +21971,7 @@
 			"ignore": true
 		},
 		"chainmail_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22147,6 +22012,9 @@
 						"slot": "feet"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:thorns": 3
+				},
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_boots",
 					"color": "white"
@@ -22158,7 +22026,7 @@
 			"ignore": null
 		},
 		"chainmail_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22199,6 +22067,9 @@
 						"slot": "chest"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:thorns": 3
+				},
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_chestplate",
 					"color": "white"
@@ -22210,7 +22081,7 @@
 			"ignore": null
 		},
 		"chainmail_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22251,6 +22122,9 @@
 						"slot": "head"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:thorns": 3
+				},
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_helmet",
 					"color": "white"
@@ -22262,7 +22136,7 @@
 			"ignore": null
 		},
 		"chainmail_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22303,6 +22177,9 @@
 						"slot": "legs"
 					}
 				],
+				"minecraft:enchantments": {
+					"minecraft:thorns": 3
+				},
 				"minecraft:item_name": {
 					"translate": "item.minecraft.chainmail_leggings",
 					"color": "white"
@@ -22314,14 +22191,14 @@
 			"ignore": null
 		},
 		"copper_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:copper_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:copper_axe",
@@ -22375,7 +22252,7 @@
 			"ignore": null
 		},
 		"copper_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22408,7 +22285,7 @@
 			"ignore": null
 		},
 		"copper_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22441,7 +22318,7 @@
 			"ignore": null
 		},
 		"copper_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22452,7 +22329,7 @@
 			],
 			"id": "minecraft:copper_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -22543,7 +22420,7 @@
 			"ignore": null
 		},
 		"copper_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22576,14 +22453,14 @@
 			"ignore": null
 		},
 		"copper_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:copper_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "copper_hoe",
@@ -22642,7 +22519,7 @@
 			"ignore": null
 		},
 		"copper_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22675,7 +22552,7 @@
 			"ignore": null
 		},
 		"copper_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -22686,7 +22563,7 @@
 			],
 			"id": "minecraft:copper_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -22748,14 +22625,14 @@
 			"ignore": null
 		},
 		"copper_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:copper_pickaxe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -22814,14 +22691,14 @@
 			"ignore": null
 		},
 		"copper_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:copper_shovel",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:copper_shovel",
@@ -22875,14 +22752,14 @@
 			"ignore": null
 		},
 		"copper_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:copper_spear",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -22915,14 +22792,14 @@
 			"ignore": null
 		},
 		"copper_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:copper_sword",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
@@ -22957,14 +22834,14 @@
 			"ignore": null
 		},
 		"iron_axe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:iron_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -23016,7 +22893,7 @@
 			"ignore": null
 		},
 		"iron_boots": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -23049,7 +22926,7 @@
 			"ignore": null
 		},
 		"iron_chestplate": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -23082,7 +22959,7 @@
 			"ignore": null
 		},
 		"iron_dolabra": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -23093,7 +22970,7 @@
 			],
 			"id": "minecraft:iron_axe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -23170,7 +23047,7 @@
 			"ignore": null
 		},
 		"iron_helmet": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -23203,14 +23080,14 @@
 			"ignore": null
 		},
 		"iron_hoe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:iron_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -23262,7 +23139,7 @@
 			"ignore": null
 		},
 		"iron_leggings": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -23295,7 +23172,7 @@
 			"ignore": null
 		},
 		"iron_mattock": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
@@ -23306,7 +23183,7 @@
 			],
 			"id": "minecraft:iron_hoe",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
@@ -23376,14 +23253,14 @@
 			"ignore": null
 		},
 		"iron_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:iron_pickaxe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -23441,14 +23318,14 @@
 			"ignore": null
 		},
 		"iron_shovel": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:iron_shovel",
 			"use_id": 0,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -23501,14 +23378,14 @@
 			"ignore": null
 		},
 		"iron_spear": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:iron_spear",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -23542,14 +23419,14 @@
 			"ignore": null
 		},
 		"iron_sword": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:iron_sword",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:attribute_modifiers": [
@@ -23599,14 +23476,14 @@
 			"ignore": null
 		},
 		"wooden_pickaxe": {
-			"version": "1",
+			"version": 1,
 			"folder": [
 				"crafting"
 			],
 			"names": [],
 			"id": "minecraft:wooden_pickaxe",
 			"use_id": 1,
-			"type": "tool",
+			"type": "generic",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {

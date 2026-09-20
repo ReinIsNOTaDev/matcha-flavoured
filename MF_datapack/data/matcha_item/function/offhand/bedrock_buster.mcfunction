@@ -1,2 +1,1 @@
-say <D> Updating offhand for bedrock_buster
 item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:tnt', 'Glowing': True, 'fuse': 80, 'explosion_power': 4}, 'minecraft:item_name': {'translate': 'item.kleispack.bedrock_buster'}, 'minecraft:rarity': 'rare', 'minecraft:item_model': 'matcha:bedrock_buster', 'minecraft:custom_data': {'version': 1}}}

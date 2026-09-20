@@ -1,2 +1,1 @@
-say <D> Updating offhand for molasses
 item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}

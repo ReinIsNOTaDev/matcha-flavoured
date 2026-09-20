@@ -1,2 +1,1 @@
-say <D> Updating mainhand for stabilised_estus
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': True, 'minecraft:rarity': 'uncommon', 'minecraft:custom_data': {'version': 1}}}

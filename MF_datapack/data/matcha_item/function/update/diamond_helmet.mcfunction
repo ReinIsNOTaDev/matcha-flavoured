@@ -1,3 +1,2 @@
-say <D> Triggered update function for diamond_helmet
 item modify entity @s armor.head {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['3'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.armour_toughness', 'with': ['2'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 800, 'minecraft:custom_data': {'version': 1}}}
 advancement revoke @s only matcha_item:trigger/diamond_helmet

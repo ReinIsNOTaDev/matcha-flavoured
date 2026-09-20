@@ -1,2 +1,1 @@
-say <D> Updating offhand for golden_compass
 item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:golden_compass', 'minecraft:item_name': {'translate': 'item.kleispack.golden_compass'}, 'minecraft:custom_data': {'version': 1}}}

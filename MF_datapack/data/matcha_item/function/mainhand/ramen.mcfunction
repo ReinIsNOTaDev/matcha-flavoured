@@ -1,1 +1,2 @@
+say <D> Updating mainhand for ramen
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:consumable': {'on_consume_effects': [{'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'duration': 600, 'show_particles': False}]}]}, 'minecraft:max_stack_size': 16, 'minecraft:custom_model_data': {'strings': ['matcha:ramen']}, 'minecraft:item_name': 'Ramen', 'minecraft:custom_data': {'version': 1}}}

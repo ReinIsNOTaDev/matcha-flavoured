@@ -1,2 +1,3 @@
+say <D> Triggered update function for golden_boots
 item modify entity @s armor.feet {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': False, 'minecraft:max_damage': 200, 'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['2'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:attribute_modifiers': [{'type': 'minecraft:armor', 'id': 'minecraft:armor.boots', 'amount': 2, 'operation': 'add_value', 'slot': 'feet'}], 'minecraft:item_name': {'translate': 'item.minecraft.golden_boots', 'color': 'white'}, 'minecraft:custom_data': {'version': 1}}}
 advancement revoke @s only matcha_item:trigger/golden_boots

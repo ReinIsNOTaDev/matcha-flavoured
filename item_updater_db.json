@@ -6902,12 +6902,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_axe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 2,
-					"matcha:adamant_tool": 1,
-					"matcha:adamant_weapon": 1,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -7003,11 +6997,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_boots",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7103,11 +7092,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_chestplate",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7250,12 +7234,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_weapon": 1,
-					"minecraft:sharpness": 1
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -7379,12 +7358,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_tool": 1,
-					"minecraft:efficiency": 1
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -7479,11 +7453,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_helmet",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7581,11 +7550,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_hoe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:efficiency": 2
 				}
 			},
 			"ignore": null
@@ -7681,11 +7645,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_leggings",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_armour": 1,
-					"minecraft:unbreaking": 2,
-					"minecraft:protection": 1
 				}
 			},
 			"ignore": null
@@ -7789,12 +7748,7 @@
 					"translate": "item.kleispack.adamant_mattock",
 					"color": "gold"
 				},
-				"minecraft:item_model": "matcha:adamant_mattock",
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 1,
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2
-				}
+				"minecraft:item_model": "matcha:adamant_mattock"
 			},
 			"ignore": null
 		},
@@ -7906,11 +7860,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_pickaxe",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"minecraft:efficiency": 2,
-					"matcha:adamant_tool": 1,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -8008,11 +7957,6 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.netherite_shovel",
 					"color": "gold"
-				},
-				"minecraft:enchantments": {
-					"matcha:adamant_tool": 1,
-					"minecraft:efficiency": 2,
-					"minecraft:unbreaking": 2
 				}
 			},
 			"ignore": null
@@ -8090,11 +8034,6 @@
 				"minecraft:custom_data": {
 					"has_intrinsic_enchants": 1,
 					"version": 1
-				},
-				"minecraft:enchantments": {
-					"minecraft:sharpness": 1,
-					"minecraft:unbreaking": 2,
-					"matcha:adamant_weapon": 1
 				}
 			},
 			"ignore": null
@@ -8187,12 +8126,7 @@
 						"operation": "add_value",
 						"slot": "mainhand"
 					}
-				],
-				"minecraft:enchantments": {
-					"minecraft:sharpness": 1,
-					"matcha:adamant_weapon": 1,
-					"minecraft:unbreaking": 2
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -8300,12 +8234,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3,
-					"minecraft:looting": 2,
-					"minecraft:smite": 3,
-					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
@@ -8419,9 +8347,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8535,9 +8460,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8656,9 +8578,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -8772,9 +8691,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -8883,9 +8799,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -8999,9 +8912,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_armour": 1
 				}
 			},
 			"ignore": null
@@ -9115,10 +9025,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 2,
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -9232,9 +9138,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9343,9 +9246,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:electrum_tool": 3
 				}
 			},
 			"ignore": null
@@ -9426,11 +9326,6 @@
 					"items": [
 						"minecraft:diamond_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:smite": 4,
-					"minecraft:looting": 2,
-					"matcha:warding_2": 1
 				}
 			},
 			"ignore": null
@@ -9518,12 +9413,7 @@
 						"minecraft:diamond_block"
 					]
 				},
-				"minecraft:item_model": "matcha:electrum_sword",
-				"minecraft:enchantments": {
-					"minecraft:looting": 2,
-					"minecraft:smite": 3,
-					"matcha:warding_3": 1
-				}
+				"minecraft:item_model": "matcha:electrum_sword"
 			},
 			"ignore": null
 		},
@@ -10758,10 +10648,7 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"minecraft:lunge": 3
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
@@ -10860,10 +10747,7 @@
 						"minecraft:copper_block"
 					]
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"matcha:riposte": 2
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
@@ -10966,10 +10850,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1,
-					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
@@ -11053,11 +10933,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_feet": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11141,11 +11016,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_chest": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11252,9 +11122,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11344,11 +11211,6 @@
 						"minecraft:honeycomb_block",
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:max_magic_protection": 1,
-					"matcha:cleanse_armor_maleffect": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11432,11 +11294,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_head": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11533,9 +11390,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11619,11 +11473,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:cleanse_armor_legs": 1,
-					"matcha:magic_protection": 1,
-					"matcha:shakudo_armour": 1
 				}
 			},
 			"ignore": null
@@ -11732,9 +11581,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11836,9 +11682,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -11942,9 +11785,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:silk_touch": 1
 				}
 			},
 			"ignore": null
@@ -12029,10 +11869,7 @@
 					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
-				"minecraft:enchantment_glint_override": false,
-				"minecraft:enchantments": {
-					"matcha:shakudo_weapon": 1
-				}
+				"minecraft:enchantment_glint_override": false
 			},
 			"ignore": null
 		},
@@ -12116,10 +11953,6 @@
 					"items": [
 						"minecraft:copper_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:sweeping_edge": 1,
-					"matcha:shakudo_weapon": 1
 				}
 			},
 			"ignore": null
@@ -12212,10 +12045,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:smite": 3,
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -12433,9 +12262,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
@@ -12539,9 +12365,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 4
 				}
 			},
 			"ignore": null
@@ -12893,9 +12716,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 2
 				}
 			},
 			"ignore": null
@@ -13082,9 +12902,6 @@
 					"items": [
 						"minecraft:iron_ingot"
 					]
-				},
-				"minecraft:enchantments": {
-					"minecraft:blast_protection": 3
 				}
 			},
 			"ignore": null
@@ -13643,9 +13460,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null
@@ -13738,9 +13552,6 @@
 						"minecraft:blaze_spawn_egg",
 						"minecraft:lapis_block"
 					]
-				},
-				"minecraft:enchantments": {
-					"matcha:warding_1": 1
 				}
 			},
 			"ignore": null

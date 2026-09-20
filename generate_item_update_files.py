@@ -201,7 +201,7 @@ def create(item):
                     obj = creationHelper(obj, item)
             else:
                 obj = creationHelper(obj, item)
-    if debug:
+    if debug and DB["options"]["askForConfirmation"] == True:
         print(json.dumps(DB, indent=1))
         cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
         if cont == "y":
@@ -332,25 +332,31 @@ def creationHelper(obj, item):
         for i in range(len(version_predicates)):
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"][0]["terms"].append(version_predicates[i])
 # defining update function
+    update_function = ""
+    mainhand_function = ""
+    offhand_function = ""
+    update_function += "say <D> Triggered update function for "+item+"\n" if debug else None
+    mainhand_function += "say <D> Updating mainhand for "+item+"\n" if debug else None
+    offhand_function += "say <D> Updating offhand for "+item+"\n" if debug else None
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
-            update_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "tool":
             # detect specific slot
-            update_function = "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             # revoke advancement
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-            mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
-            offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
+            # modify item
+            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
+            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case "generic":
-            update_function = "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-            # modify item
-            mainhand_function = "item modify entity @s "+slots[0]+" "+str(item_modifier)
-            offhand_function = "item modify entity @s "+slots[1]+" "+str(item_modifier)
+            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
+            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
         case _:
             pass
 # define paths
@@ -394,12 +400,10 @@ def creationHelper(obj, item):
                 with open(path[0], 'w') as f:
                     json.dump(path[1], f, indent="\t")
                     yesses +=1
-                print(path[0])
             else:
                 with open(path[0], 'w') as f:
                     f.write(path[1])
                     yesses +=1
-                print(path[0])
 # return the object
     if yesses == needed_yesses:
         obj["processed"] = True

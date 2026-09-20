@@ -1,1 +1,2 @@
+say <D> Updating mainhand for wooden_cross
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'!minecraft:consumable': {}, 'minecraft:item_model': 'matcha:wooden_cross', 'minecraft:item_name': {'translate': 'item.kleispack.wooden_cross', 'color': 'white'}, 'minecraft:enchantment_glint_override': False, 'minecraft:custom_data': {'version': 1}}}

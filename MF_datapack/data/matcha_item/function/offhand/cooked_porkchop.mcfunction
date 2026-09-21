@@ -1,0 +1,2 @@
+say <D> Updating offhand for cooked_porkchop
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '\ue030\ue030', 'color': 'red', 'italic': False}], 'minecraft:consumable': {'on_consume_effects': [{'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'amplifier': 2, 'duration': 48, 'show_particles': False, 'show_icon': False}]}]}, 'minecraft:custom_data': {'version': 1}}}

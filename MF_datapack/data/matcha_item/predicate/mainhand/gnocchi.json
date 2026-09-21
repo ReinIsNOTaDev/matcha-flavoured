@@ -12,10 +12,20 @@
 							"weapon.mainhand": {
 								"components": {
 									"minecraft:item_name": {
-										"translate": "item.kleispack.gnocchi",
-										"color": "#e1bc62"
+										"translate": "item.kleispack.cooking_recipe"
 									}
 								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.mainhand": {
+								"items": "minecraft:paper"
 							}
 						}
 					}

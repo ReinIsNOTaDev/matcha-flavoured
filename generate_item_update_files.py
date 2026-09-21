@@ -173,7 +173,6 @@ def discover(override):
                     else:
                         print("[D] skipping item") if debug else None
         elif DB["folders"][folder][1] == "loot_table":
-            print("listdir "+str(os.listdir(path)))
             for item_ in os.listdir(path):
                 item_path = os.path.join(path,item_)
                 if os.path.isdir(item_path):
@@ -230,7 +229,7 @@ def discover(override):
                                 names = [components["minecraft:item_name"]]
                             except:
                                 names = []
-                            id_ = gives["id"]
+                            id_ = entry["name"]
                             useid = None
                             DB["files"][name] = {}
                             DB["files"][name] = {"version": version, "folder": [[folder,directory]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
@@ -295,8 +294,9 @@ def discover(override):
                             names = [components["minecraft:item_name"]]
                         except:
                             names = []
-                        id_ = gives["id"]
+                        id_ = entry["name"]
                         useid = None
+                        ignore = None
                         DB["files"][name] = {}
                         DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
                     elif item != None:
@@ -407,8 +407,12 @@ def destructive():
                     if has_set_components_function == True:
                         if "minecraft:custom_data" in functions[set_components_function]["components"]:
                             functions[set_components_function]["components"]["minecraft:custom_data"].update({"version": 1})
+                            files[item]["components"].update({"minecraft:custom_data": {}})
+                            files[item]["components"]["minecraft:custom_data"].update({"version": 1})
                         else:
                             functions[set_components_function]["components"]["minecraft:custom_data"] = {"version": 1}
+                            files[item]["components"].update({"minecraft:custom_data": {}})
+                            files[item]["components"]["minecraft:custom_data"] = {"version": 1}
                         if debug and DB["options"]["askForConfirmation"] == "True":
                             print(json.dumps(json_, indent=1))
                             cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")

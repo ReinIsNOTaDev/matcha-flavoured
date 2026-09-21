@@ -1,0 +1,2 @@
+say <D> Updating mainhand for chorus_fruit
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '\ue032', 'color': 'red', 'italic': False}, {'translate': 'effect.kleispack.warping', 'color': '#a945b0', 'italic': False}], 'minecraft:consumable': {'on_consume_effects': [{'type': 'minecraft:teleport_randomly'}, {'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'amplifier': 2, 'duration': 12, 'show_particles': False, 'show_icon': False}]}]}, 'minecraft:custom_data': {'version': 1}}}

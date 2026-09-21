@@ -184,17 +184,17 @@
 			"ignore": null
 		},
 		"baked_potato": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:baked_potato",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -226,9 +226,12 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"baked_pumpkin": {
 			"version": 1,
@@ -564,17 +567,17 @@
 			"ignore": null
 		},
 		"bread": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:bread",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -627,9 +630,12 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"chocolate": {
 			"version": 1,
@@ -901,7 +907,7 @@
 			],
 			"names": [],
 			"id": "minecraft:cooked_porkchop",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -2102,7 +2108,7 @@
 			"ignore": true
 		},
 		"apple_empanada": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
@@ -2113,10 +2119,10 @@
 					"translate": "item.kleispack.apple_empanada"
 				}
 			],
-			"id": "minecraft:emerald",
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:apple_empanada",
 				"minecraft:item_name": {
@@ -2165,9 +2171,12 @@
 						"color": "#e85e8f",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"bokguk": {
 			"version": 1,
@@ -2374,7 +2383,7 @@
 			"ignore": null
 		},
 		"bruschetta": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
@@ -2385,10 +2394,10 @@
 					"translate": "item.kleispack.bruschetta"
 				}
 			],
-			"id": "minecraft:emerald",
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bruschetta",
 				"minecraft:item_name": {
@@ -2438,9 +2447,12 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"bubbling_mead": {
 			"version": 1,
@@ -3657,7 +3669,7 @@
 			"ignore": null
 		},
 		"glow_jam": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
@@ -3668,10 +3680,10 @@
 					"translate": "item.kleispack.glow_berry_jam"
 				}
 			],
-			"id": "minecraft:emerald",
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:glow_jam",
 				"minecraft:item_name": {
@@ -3719,12 +3731,15 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"gnocchi": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food",
@@ -3736,10 +3751,10 @@
 					"translate": "item.kleispack.cooking_recipe"
 				}
 			],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:paper",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:gnocchi_recipe",
 				"minecraft:item_name": {
@@ -3751,22 +3766,25 @@
 						"color": "#e1bc62",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"golden_apple": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:golden_apple",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3825,9 +3843,12 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"golden_apple_empanada": {
 			"version": 1,
@@ -3914,17 +3935,17 @@
 			"ignore": null
 		},
 		"golden_carrot": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:golden_carrot",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3971,9 +3992,12 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"golden_carrot_cupcake": {
 			"version": 1,
@@ -4510,7 +4534,7 @@
 			"ignore": null
 		},
 		"mead": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
@@ -4521,10 +4545,10 @@
 					"translate": "item.kleispack.mead"
 				}
 			],
-			"id": "minecraft:emerald",
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mead",
 				"minecraft:item_name": {
@@ -4580,9 +4604,12 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"meat_pizza": {
 			"version": 1,
@@ -4657,17 +4684,17 @@
 			"ignore": null
 		},
 		"melon_slice": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:melon_slice",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4691,9 +4718,12 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"melon_sorbet": {
 			"version": 1,
@@ -4773,17 +4803,17 @@
 			"ignore": null
 		},
 		"milk_bottle": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:beetroot_soup",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4812,9 +4842,12 @@
 							"type": "minecraft:clear_all_effects"
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"mushroom_pizza": {
 			"version": 1,
@@ -5072,7 +5105,7 @@
 			"ignore": null
 		},
 		"pickled_carrots": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
@@ -5083,10 +5116,10 @@
 					"translate": "item.kleispack.pickled_carrots"
 				}
 			],
-			"id": "minecraft:emerald",
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_carrots",
 				"minecraft:item_name": {
@@ -5138,9 +5171,12 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"pickled_crimson_fungus": {
 			"version": 1,
@@ -5701,7 +5737,7 @@
 			"ignore": null
 		},
 		"pumpkin_empanada": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
@@ -5712,10 +5748,10 @@
 					"translate": "item.kleispack.pumpkin_empanada"
 				}
 			],
-			"id": "minecraft:emerald",
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_empanada",
 				"minecraft:item_name": {
@@ -5765,9 +5801,12 @@
 						"color": "blue",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"pumpkin_jam": {
 			"version": 1,
@@ -6906,7 +6945,7 @@
 				}
 			],
 			"id": "minecraft:bread",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -25644,17 +25683,17 @@
 			"ignore": true
 		},
 		"apple": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:apple",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25678,22 +25717,25 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"carrot": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:carrot",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25717,22 +25759,25 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"chorus_fruit": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:chorus_fruit",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25764,22 +25809,25 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"enchanted_golden_apple": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:golden_apple",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25864,22 +25912,25 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"glow_berries": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:glow_berries",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25903,22 +25954,25 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"sweet_berries": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:sweet_berries",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25942,22 +25996,25 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"tomato": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
-			"use_id": 0,
+			"id": "minecraft:beetroot",
+			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25981,22 +26038,25 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		},
 		"cooked_porkchop": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
 					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:cooked_porkchop",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -26020,9 +26080,12 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
-			"ignore": true
+			"ignore": null
 		}
 	},
 	"options": {

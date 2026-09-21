@@ -27,6 +27,10 @@
 		"mob_drops": [
 			"minecraft/loot_table/entities",
 			"loot_table"
+		],
+		"food": [
+			"matcha/loot_table/food",
+			"loot_table"
 		]
 	},
 	"files": {},

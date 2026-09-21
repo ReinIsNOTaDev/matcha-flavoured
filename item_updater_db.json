@@ -28,8 +28,8 @@
 			"matcha/villager_trade/toolsmith",
 			"villager_trade"
 		],
-		"mob_drops": [
-			"minecraft/loot_table/entities",
+		"food": [
+			"matcha/loot_table/food",
 			"loot_table"
 		]
 	},
@@ -184,17 +184,17 @@
 			"ignore": null
 		},
 		"baked_potato": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_oven"
+					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:baked_potato",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -226,12 +226,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"baked_pumpkin": {
 			"version": 1,
@@ -567,17 +564,17 @@
 			"ignore": null
 		},
 		"bread": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_oven"
+					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:bread",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -630,12 +627,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"chocolate": {
 			"version": 1,
@@ -2108,10 +2102,10 @@
 			"ignore": true
 		},
 		"apple_empanada": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [
@@ -2119,10 +2113,10 @@
 					"translate": "item.kleispack.apple_empanada"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_model": "matcha:apple_empanada",
 				"minecraft:item_name": {
@@ -2171,12 +2165,9 @@
 						"color": "#e85e8f",
 						"italic": false
 					}
-				],
-				"minecraft:custom_data": {
-					"version": 1
-				}
+				]
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"bokguk": {
 			"version": 1,
@@ -2383,10 +2374,10 @@
 			"ignore": null
 		},
 		"bruschetta": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [
@@ -2394,10 +2385,10 @@
 					"translate": "item.kleispack.bruschetta"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_model": "matcha:bruschetta",
 				"minecraft:item_name": {
@@ -2447,12 +2438,9 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				],
-				"minecraft:custom_data": {
-					"version": 1
-				}
+				]
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"bubbling_mead": {
 			"version": 1,
@@ -3669,10 +3657,10 @@
 			"ignore": null
 		},
 		"glow_jam": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [
@@ -3680,10 +3668,10 @@
 					"translate": "item.kleispack.glow_berry_jam"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_model": "matcha:glow_jam",
 				"minecraft:item_name": {
@@ -3731,86 +3719,54 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"gnocchi": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food",
+					"recipe"
 				]
 			],
 			"names": [
 				{
-					"translate": "item.kleispack.gnocchi",
-					"color": "#e1bc62"
+					"translate": "item.kleispack.cooking_recipe"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
-				"minecraft:item_model": "matcha:gnocchi",
+				"minecraft:item_model": "matcha:gnocchi_recipe",
 				"minecraft:item_name": {
-					"translate": "item.kleispack.gnocchi",
-					"color": "#e1bc62"
+					"translate": "item.kleispack.cooking_recipe"
 				},
-				"minecraft:food": {
-					"nutrition": 0,
-					"saturation": 0,
-					"can_always_eat": true
-				},
-				"minecraft:consumable": {
-					"on_consume_effects": [
-						{
-							"type": "minecraft:apply_effects",
-							"effects": [
-								{
-									"id": "minecraft:regeneration",
-									"amplifier": 2,
-									"duration": 192,
-									"show_particles": false,
-									"show_icon": false
-								}
-							]
-						}
-					]
-				},
-				"minecraft:max_stack_size": 64,
 				"minecraft:lore": [
 					{
-						"text": "\u2764\u2764\u2764\u2764\u2764\u2764\u2764\u2764",
-						"color": "red",
+						"translate": "item.kleispack.gnocchi",
+						"color": "#e1bc62",
 						"italic": false
 					}
-				],
-				"minecraft:use_remainder": {
-					"id": "minecraft:bowl"
-				},
-				"minecraft:custom_data": {
-					"version": 1
-				}
+				]
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"golden_apple": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:golden_apple",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3869,12 +3825,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"golden_apple_empanada": {
 			"version": 1,
@@ -3961,17 +3914,17 @@
 			"ignore": null
 		},
 		"golden_carrot": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:golden_carrot",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4018,12 +3971,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"golden_carrot_cupcake": {
 			"version": 1,
@@ -4560,10 +4510,10 @@
 			"ignore": null
 		},
 		"mead": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [
@@ -4571,10 +4521,10 @@
 					"translate": "item.kleispack.mead"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_model": "matcha:mead",
 				"minecraft:item_name": {
@@ -4630,12 +4580,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"meat_pizza": {
 			"version": 1,
@@ -4710,21 +4657,21 @@
 			"ignore": null
 		},
 		"melon_slice": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:melon_slice",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
-						"text": "\u2763",
+						"text": "\ue032",
 						"color": "red",
 						"italic": false
 					}
@@ -4737,19 +4684,16 @@
 								{
 									"id": "minecraft:regeneration",
 									"amplifier": 2,
-									"duration": 20,
+									"duration": 12,
 									"show_particles": false,
 									"show_icon": false
 								}
 							]
 						}
 					]
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"melon_sorbet": {
 			"version": 1,
@@ -4829,17 +4773,17 @@
 			"ignore": null
 		},
 		"milk_bottle": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [],
-			"id": "minecraft:beetroot_soup",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4868,12 +4812,9 @@
 							"type": "minecraft:clear_all_effects"
 						}
 					]
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"mushroom_pizza": {
 			"version": 1,
@@ -5131,10 +5072,10 @@
 			"ignore": null
 		},
 		"pickled_carrots": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [
@@ -5142,10 +5083,10 @@
 					"translate": "item.kleispack.pickled_carrots"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_carrots",
 				"minecraft:item_name": {
@@ -5197,12 +5138,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"pickled_crimson_fungus": {
 			"version": 1,
@@ -5763,10 +5701,10 @@
 			"ignore": null
 		},
 		"pumpkin_empanada": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
-					"food_crafting"
+					"food"
 				]
 			],
 			"names": [
@@ -5774,10 +5712,10 @@
 					"translate": "item.kleispack.pumpkin_empanada"
 				}
 			],
-			"id": "minecraft:poisonous_potato",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_empanada",
 				"minecraft:item_name": {
@@ -5827,12 +5765,9 @@
 						"color": "blue",
 						"italic": false
 					}
-				],
-				"minecraft:custom_data": {
-					"version": 1
-				}
+				]
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"pumpkin_jam": {
 			"version": 1,
@@ -6971,7 +6906,7 @@
 				}
 			],
 			"id": "minecraft:bread",
-			"use_id": 0,
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -25144,7 +25079,10 @@
 				"minecraft:enchantments": {
 					"matcha:conduit_power": 1
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25208,7 +25146,10 @@
 					"slot": "head",
 					"asset_id": "matcha:amethyst_earrings"
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25272,7 +25213,10 @@
 					"slot": "head",
 					"asset_id": "matcha:diamond_earrings"
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25336,7 +25280,10 @@
 					"slot": "head",
 					"asset_id": "matcha:lapis_earrings"
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25403,7 +25350,10 @@
 				"minecraft:enchantments": {
 					"matcha:fire_proof": 1
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25470,7 +25420,10 @@
 				"minecraft:enchantments": {
 					"matcha:regeneration": 1
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25549,7 +25502,10 @@
 					"slot": "head",
 					"asset_id": "matcha:hepatizon_laurel"
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25616,7 +25572,10 @@
 				"minecraft:enchantments": {
 					"matcha:haste": 1
 				},
-				"minecraft:unbreakable": {}
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -25682,6 +25641,387 @@
 			"type": "generic",
 			"processed": false,
 			"components": {},
+			"ignore": true
+		},
+		"apple": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue030",
+						"color": "red",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 24,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": true
+		},
+		"carrot": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue032",
+						"color": "red",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 12,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": true
+		},
+		"chorus_fruit": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue032",
+						"color": "red",
+						"italic": false
+					},
+					{
+						"translate": "effect.kleispack.warping",
+						"color": "#a945b0",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:teleport_randomly"
+						},
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 12,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": true
+		},
+		"enchanted_golden_apple": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue030\ue030",
+						"color": "red",
+						"italic": false
+					},
+					{
+						"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030 (2:00)",
+						"color": "aqua",
+						"italic": false
+					},
+					{
+						"translate": "effect.kleispack.regeneration_2",
+						"with": [
+							"0:30"
+						],
+						"color": "#e85e8f",
+						"italic": false
+					},
+					{
+						"translate": "effect.kleispack.fire_resistance",
+						"with": [
+							"5:00"
+						],
+						"color": "gold",
+						"italic": false
+					},
+					{
+						"translate": "effect.kleispack.resistance",
+						"with": [
+							"5:00"
+						],
+						"color": "blue",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"consume_seconds": 1.6,
+					"has_consume_particles": true,
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 48,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 1,
+									"duration": 600,
+									"show_particles": false
+								},
+								{
+									"id": "minecraft:absorption",
+									"amplifier": 3,
+									"duration": 2400,
+									"show_particles": false
+								},
+								{
+									"id": "minecraft:fire_resistance",
+									"amplifier": 0,
+									"duration": 6000,
+									"show_particles": false
+								},
+								{
+									"id": "minecraft:resistance",
+									"amplifier": 0,
+									"duration": 6000,
+									"show_particles": false
+								}
+							],
+							"probability": 1
+						}
+					]
+				},
+				"minecraft:food": {
+					"nutrition": 0,
+					"saturation": 0,
+					"can_always_eat": true
+				}
+			},
+			"ignore": true
+		},
+		"glow_berries": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue032",
+						"color": "red",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 12,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": true
+		},
+		"sweet_berries": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue032",
+						"color": "red",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 12,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": true
+		},
+		"tomato": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue030",
+						"color": "red",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 24,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": true
+		},
+		"cooked_porkchop": {
+			"version": null,
+			"folder": [
+				[
+					"food"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ue030\ue030",
+						"color": "red",
+						"italic": false
+					}
+				],
+				"minecraft:consumable": {
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 48,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
 			"ignore": true
 		}
 	},

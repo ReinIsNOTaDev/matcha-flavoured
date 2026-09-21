@@ -104,9 +104,9 @@ def discover(override):
                     useid = None
                     DB["files"][name] = {}
                     DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_, "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                elif item:
+                elif item != None:
                     item_folders = DB["files"][name]["folder"]
-                    if folder in item_folders:
+                    if [folder] in item_folders:
                         pass
                     else:
                         item_folders.append([folder])
@@ -163,6 +163,151 @@ def discover(override):
                         useid = None
                         DB["files"][name] = {}
                         DB["files"][name] = {"version": version, "folder": [[folder,directory]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
+                    elif item != None:
+                        item_folders = DB["files"][name]["folder"]
+                        if [folder,directory] in item_folders:
+                            pass
+                        else:
+                            item_folders.append([folder,directory])
+                            DB["files"][name]["processed"] = False
+                    else:
+                        print("[D] skipping item") if debug else None
+        elif DB["folders"][folder][1] == "loot_table":
+            print("listdir "+str(os.listdir(path)))
+            for item_ in os.listdir(path):
+                item_path = os.path.join(path,item_)
+                if os.path.isdir(item_path):
+                    files = os.listdir(item_path)
+                    directory = item_
+                    for file_ in files:
+                        name = filename.match(file_).group(1)
+                        print("[D] file processing now: "+file_) if debug else None
+                        item = DB["files"].get(name)
+                        filepath = os.path.join(item_path, file_)
+                        opened = open(filepath, 'r')
+                        read = json.load(opened)
+                        has_set_components_function = False
+                        set_components_function = 0
+                        functions = read["pools"][0]["entries"][0]["functions"]
+                        entry = read["pools"][0]["entries"][0]
+                        for i in range(len(functions)):
+                            if functions[i].get("function") == "minecraft:set_components":
+                                has_set_components_function = True
+                                set_components_function = i
+                            else:
+                                continue
+                        if len(read["pools"]) > 1 or len(read["pools"][0]["entries"]) > 1:
+                            print("Skipping file "+file_+" in loot_table folder "+directory+" due to excessive pool/entry count; don't panic!'")
+                            DB["files"][name] = {}
+                            DB["files"][name] = {"version": None, "folder": [[folder,directory]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
+                        elif has_set_components_function == False:
+                            print("[D] Skipping file "+file_+" in loot_table folder "+directory+" due to lack of components") if debug else None
+                            DB["files"][name] = {}
+                            DB["files"][name] = {"version": None, "folder": [[folder,directory]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
+                        elif override == "True" or name not in DB["files"]:
+                            type_ = ""
+                            entry = read["pools"][0]["entries"][0]
+                            components = entry["functions"][set_components_function]["components"]
+                            try:
+                                version = components["minecraft:custom_data"]["version"]
+                            except:
+                                version = None
+                            if head.search(entry.get("name")):
+                                type_ = "helmet"
+                            elif chest.search(entry.get("name")):
+                                type_ = "chestplate"
+                            elif legs.search(entry.get("name")):
+                                type_ = "leggings"
+                            elif feet.search(entry.get("name")):
+                                type_ = "boots"
+                            elif components.get("minecraft:provides_trim_material") != None:
+                                type_ = "trim_colour"
+                            elif components.get("minecraft:stored_enchantments") != None:
+                                type_ = "enchanted"
+                            else:
+                                type_ = "generic"
+                            try:
+                                names = [components["minecraft:item_name"]]
+                            except:
+                                names = []
+                            id_ = gives["id"]
+                            useid = None
+                            DB["files"][name] = {}
+                            DB["files"][name] = {"version": version, "folder": [[folder,directory]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
+                        elif item != None:
+                            item_folders = DB["files"][name]["folder"]
+                            if [folder,directory] in item_folders:
+                                pass
+                            else:
+                                item_folders.append([folder,directory])
+                                DB["files"][name]["processed"] = False
+                        else:
+                            print("[D] skipping item") if debug else None
+                elif os.path.isfile(item_path):
+                    file_ = item_
+                    name = filename.match(file_).group(1)
+                    print("[D] file processing now: "+file_) if debug else None
+                    item = DB["files"].get(name)
+                    filepath = item_path
+                    opened = open(filepath, 'r')
+                    read = json.load(opened)
+                    has_set_components_function = False
+                    set_components_function = 0
+                    entry = read["pools"][0]["entries"][0]
+                    functions = read["pools"][0]["entries"][0]["functions"]
+                    for i in range(len(functions)):
+                        if functions[i].get("function") == "minecraft:set_components":
+                            has_set_components_function = True
+                            set_components_function = i
+                        else:
+                            continue
+                    if len(read["pools"]) > 1 or len(read["pools"][0]["entries"]) > 1:
+                        print("Skipping file "+file_+" in loot_table folder "+folder+" due to excessive pool/entry count; don't panic!'")
+                        DB["files"][name] = {}
+                        DB["files"][name] = {"version": None, "folder": [[folder]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
+                    elif has_set_components_function == False:
+                        print("[D] Skipping file "+file_+" in loot_table folder "+folder+" due to lack of components") if debug else None
+                        DB["files"][name] = {}
+                        DB["files"][name] = {"version": None, "folder": [[folder]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
+                    elif override == "True" or name not in DB["files"]:
+                        type_ = ""
+                        components = entry["functions"][set_components_function]["components"]
+                        print(components)
+                        try:
+                            version = components["minecraft:custom_data"]["version"]
+                        except:
+                            version = None
+                        if head.search(entry.get("name")):
+                            type_ = "helmet"
+                        elif chest.search(entry.get("name")):
+                            type_ = "chestplate"
+                        elif legs.search(entry.get("name")):
+                            type_ = "leggings"
+                        elif feet.search(entry.get("name")):
+                            type_ = "boots"
+                        elif components.get("minecraft:provides_trim_material") != None:
+                            type_ = "trim_colour"
+                        elif components.get("minecraft:stored_enchantments") != None:
+                            type_ = "enchanted"
+                        else:
+                            type_ = "generic"
+                        try:
+                            names = [components["minecraft:item_name"]]
+                        except:
+                            names = []
+                        id_ = gives["id"]
+                        useid = None
+                        DB["files"][name] = {}
+                        DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
+                    elif item != None:
+                        item_folders = DB["files"][name]["folder"]
+                        if [folder] in item_folders:
+                            pass
+                        else:
+                            item_folders.append([folder])
+                            DB["files"][name]["processed"] = False
+                    else:
+                        print("[D] skipping item") if debug else None
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
     print("Finishing touches!")
@@ -227,6 +372,43 @@ def destructive():
                             json_["gives"]["components"]["minecraft:custom_data"].update({"version": 1})
                         else:
                             json_["gives"]["components"]["minecraft:custom_data"] = {"version": 1}
+                        if debug and DB["options"]["askForConfirmation"] == "True":
+                            print(json.dumps(json_, indent=1))
+                            cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+                            if cont == "y":
+                                with open(path, 'w') as f:
+                                    json.dump(json_, f, indent="\t")
+                            else:
+                                pass
+                        else:
+                            with open(path, 'w') as f:
+                                json.dump(json_, f, indent="\t")
+                        files[item]["version"] = 1
+                    else:
+                        files[item]["ignore"] = True
+                elif folders[i[0]][1] == "loot_table":
+                    path = ""
+                    try:
+                        path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                    except:
+                        path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    entry = json_["pools"][0]["entries"][0]
+                    functions = entry["functions"]
+                    has_set_components_function = False
+                    set_components_function = 0
+                    for i in range(len(functions)):
+                        if functions[i].get("function") == "minecraft:set_components":
+                            has_set_components_function = True
+                            set_components_function = i
+                        else:
+                            continue
+                    if has_set_components_function == True:
+                        if "minecraft:custom_data" in functions[set_components_function]["components"]:
+                            functions[set_components_function]["components"]["minecraft:custom_data"].update({"version": 1})
+                        else:
+                            functions[set_components_function]["components"]["minecraft:custom_data"] = {"version": 1}
                         if debug and DB["options"]["askForConfirmation"] == "True":
                             print(json.dumps(json_, indent=1))
                             cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")

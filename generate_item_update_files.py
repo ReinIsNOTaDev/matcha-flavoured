@@ -638,8 +638,8 @@ def creationHelper(obj, item):
             mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
             # run special item modifier for enchants
-            mainhand_function += "\nfunction matcha_item:enchants/mainhand with matcha_item:enchants"
-            mainhand_function += "\nfunction matcha_item:enchants/offhand with matcha_item:enchants"
+            mainhand_function += "\nfunction matcha_item:enchants/mainhand with storage matcha_item:enchants"
+            mainhand_function += "\nfunction matcha_item:enchants/offhand with storage matcha_item:enchants"
         case "generic":
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"

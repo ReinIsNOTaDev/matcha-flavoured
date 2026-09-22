@@ -51,7 +51,6 @@ def discover(override):
     chest = re.compile("chestplate")
     legs = re.compile("leggings")
     feet = re.compile("boots")
-    tools = re.compile("sword|axe|pickaxe|shovel|hoe|spear|shield|shears")
     print("Overriding Files!") if override else None
     for folder in DB["folders"]:
         path = os.path.join(Matcha, DB["folders"][folder][0])
@@ -84,7 +83,16 @@ def discover(override):
                         if result["components"].get("minecraft:provides_trim_material") != None:
                             type_ = "trim_colour"
                         elif result["components"].get("minecraft:stored_enchantments") != None:
-                            type_ = "enchanted"
+                            if head.search(result.get("id")):
+                                type_ = "enchanted_helmet"
+                            elif chest.search(result.get("id")):
+                                type_ = "enchanted_chestplate"
+                            elif legs.search(result.get("id")):
+                                type_ = "enchanted_leggings"
+                            elif feet.search(result.get("id")):
+                                type_ = "enchanted_boots"
+                            else:
+                                type_ = "enchanted"
                         else:
                             type_ = "generic"
                     else:
@@ -325,6 +333,8 @@ def discover(override):
             DB["files"][item]["use_id"] = 0
         else:
             DB["files"][item]["use_id"] = 1
+        if DB["files"][item]["use_id"] == 0 and DB["files"][item]["names"] == []:
+            ignore = True
     with open(DBpath, 'w') as f:
         json.dump(DB, f, indent="\t")
 
@@ -502,7 +512,7 @@ def creationHelper(obj, item):
             print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
     elif DB["options"]["assumeNamesArePopulated"] == "False":
         obj["names"] = []
-        lang_path = os.path.join("MF_resourcepack/assets/minecraft/lang/en_us.json")
+        lang_path = os.path.join("MF_resourcepack/assets/matcha/lang/en_us.json")
         lang_json = json.load(open(lang_path, 'r'))
         try:
             obj["names"].append(obj["components"].get("minecraft:item_name")) if obj["components"].get("minecraft:item_name") != None else None
@@ -527,6 +537,14 @@ def creationHelper(obj, item):
         case "leggings":
             slots = ["armor.legs"]
         case "boots":
+            slots = ["armor.feet"]
+        case "enchanted_helmet":
+            slots = ["armor.head"]
+        case "enchanted_chestplate":
+            slots = ["armor.chest"]
+        case "enchanted_leggings":
+            slots = ["armor.legs"]
+        case "enchanted_boots":
             slots = ["armor.feet"]
         case "enchanted":
             slots = ["weapon.mainhand","weapon.offhand"]
@@ -612,10 +630,25 @@ def creationHelper(obj, item):
         update_function += "say <D> Triggered update function for "+item+"\n"
         mainhand_function += "say <D> Updating mainhand for "+item+"\n"
         offhand_function += "say <D> Updating offhand for "+item+"\n"
+        mainhand_enchants_function += "say Updating enchants for "+item+"\n"
+        mainhand_enchants_function += "say Updating enchants for "+item+"\n"
     else: pass
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
             update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            update_function += "advancement revoke @s only matcha_item:trigger/"+item
+        case "enchanted_helmet" | "enchanted_chestplate" | "enchanted_leggings" | "enchanted_boots":
+            update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            update_function += "data modify storage matcha_item:enchants held set from entity @s "+slots[0].replace('armor','equipment')+".components.minecraft:enchantments\n"
+            for enchantment,value in enchantments.items():
+                try:
+                    plain = enchantment.split(":")[1]
+                except:
+                    plain = enchantment
+                update_function += "# processing enchantment "+enchantment+" / "+plain+" \n"
+                update_function += "execute store result score enchants_lvl_"+plain+" item_updater run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
+                update_function += "execute unless score enchants_lvl_"+plain+" item_updater matches "+str(value)+".. run data modify storage matcha_item:enchants held merge value {'"+enchantment+"': "+str(value)+"}\n"
+            update_function += "function matcha_item:enchants/"+slots[0].replace('armor.','')+" with storage matcha_item:enchants\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "enchanted":
             # detect specific slot
@@ -623,8 +656,12 @@ def creationHelper(obj, item):
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:enchants/"+item+"\n"
             # revoke advancement
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-            # process enchantments (for this example, use SelectedItem/mainhand)
+            # process enchantments
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
+            offhand_function += "data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments\n"
+            # modify item
+            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
+            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 try:
@@ -632,14 +669,14 @@ def creationHelper(obj, item):
                 except:
                     plain = enchantment
                 mainhand_function += "# processing enchantment "+enchantment+" / "+plain+" \n"
-                mainhand_function += "execute store result score enchantsLvl "+plain+" run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
-                mainhand_function += "execute unless score enchantsLvl "+plain+" matches "+str(value)+".. run data modify storage matcha_item:enchants held merge value {'"+enchantment+"': "+str(value)+"}\n"
-            # modify item
-            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
-            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
+                mainhand_function += "execute store result score enchants_lvl_"+plain+" item_updater run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
+                mainhand_function += "execute unless score enchants_lvl_"+plain+" item_updater matches "+str(value)+".. run data modify storage matcha_item:enchants held merge value {'"+enchantment+"': "+str(value)+"}\n"
+                offhand_function += "# processing enchantment "+enchantment+" / "+plain+" \n"
+                offhand_function += "execute store result score enchants_lvl_"+plain+" item_updater run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
+                offhand_function += "execute unless score enchants_lvl_"+plain+" item_updater matches "+str(value)+".. run data modify storage matcha_item:enchants held merge value {'"+enchantment+"': "+str(value)+"}\n"
             # run special item modifier for enchants
-            mainhand_function += "\nfunction matcha_item:enchants/mainhand with storage matcha_item:enchants"
-            mainhand_function += "\nfunction matcha_item:enchants/offhand with storage matcha_item:enchants"
+            mainhand_function += "function matcha_item:enchants/mainhand with storage matcha_item:enchants"
+            offhand_function += "function matcha_item:enchants/offhand with storage matcha_item:enchants"
         case "generic":
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
@@ -658,7 +695,7 @@ def creationHelper(obj, item):
     mainhand_predicate_path = os.path.join(Updater,"predicate/mainhand",item+".json")
     offhand_predicate_path = os.path.join(Updater,"predicate/offhand",item+".json")
     match type_:
-        case "helmet" | "leggings" | "boots" | "chestplate":
+        case "helmet" | "leggings" | "boots" | "chestplate" | "enchanted_helmet" | "enchanted_leggings" | "enchanted_boots" | "enchanted_chestplate":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"]]
             needed_yesses = 2
         case "enchanted" | "generic" | "trim_colour":

@@ -2,13 +2,13 @@ say <D> Updating mainhand for shakudo_elytra
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:max_magic_protection / max_magic_protection 
 execute store result score enchantsLvl max_magic_protection run data get storage matcha_item:enchants held.'matcha:max_magic_protection'
-execute unless score enchantsLvl max_magic_protection matches 1.. run data modify storage matcha_item:enchants held merge value {matcha:max_magic_protection: 1}
+execute unless score enchantsLvl max_magic_protection matches 1.. run data modify storage matcha_item:enchants held merge value {'matcha:max_magic_protection': 1}
 # processing enchantment matcha:cleanse_armor_maleffect / cleanse_armor_maleffect 
 execute store result score enchantsLvl cleanse_armor_maleffect run data get storage matcha_item:enchants held.'matcha:cleanse_armor_maleffect'
-execute unless score enchantsLvl cleanse_armor_maleffect matches 1.. run data modify storage matcha_item:enchants held merge value {matcha:cleanse_armor_maleffect: 1}
+execute unless score enchantsLvl cleanse_armor_maleffect matches 1.. run data modify storage matcha_item:enchants held merge value {'matcha:cleanse_armor_maleffect': 1}
 # processing enchantment matcha:shakudo_armour / shakudo_armour 
 execute store result score enchantsLvl shakudo_armour run data get storage matcha_item:enchants held.'matcha:shakudo_armour'
-execute unless score enchantsLvl shakudo_armour matches 1.. run data modify storage matcha_item:enchants held merge value {matcha:shakudo_armour: 1}
+execute unless score enchantsLvl shakudo_armour matches 1.. run data modify storage matcha_item:enchants held merge value {'matcha:shakudo_armour': 1}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 800, 'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['1'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.elytra_bonus', 'color': 'dark_gray', 'italic': False}, {'translate': 'enchantment.kleispack.shakudo_elytra', 'color': '#e85e8f', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.honeycomb_block', 'color': 'dark_gray', 'italic': False}, {'translate': 'item.minecraft.copper_block', 'color': 'dark_gray', 'italic': False}], 'minecraft:item_name': {'translate': 'item.kleispack.shakudo_elytra', 'color': '#c96691'}, 'minecraft:attribute_modifiers': [{'type': 'minecraft:armor', 'id': 'minecraft:armor.chestplate', 'amount': 1, 'operation': 'add_value', 'slot': 'chest'}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}, 'minecraft:enchantment_glint_override': False, 'minecraft:item_model': 'matcha:shakudo_elytra', 'minecraft:equippable': {'slot': 'chest', 'asset_id': 'matcha:shakudo_elytra'}, 'minecraft:repairable': {'items': ['minecraft:honeycomb_block', 'minecraft:copper_block']}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants
 function matcha_item:enchants/offhand with matcha_item:enchants

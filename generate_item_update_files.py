@@ -632,7 +632,7 @@ def creationHelper(obj, item):
                 except:
                     pain = enchantment
                 mainhand_function += "# processing enchantment "+enchantment+" / "+plain+" \n"
-                mainhand_function += "execute store result score enchantsLvl "+plain+" run data get matcha_item:enchants held.'"+enchantment+"'\n"
+                mainhand_function += "execute store result score enchantsLvl "+plain+" run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
                 mainhand_function += "execute unless score enchantsLvl "+plain+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+enchantment+": "+str(value)+"}\n"
             # modify item
             mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)

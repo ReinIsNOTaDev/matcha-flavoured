@@ -1,14 +1,14 @@
 say <D> Updating mainhand for adamant_spear
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-# processing enchantment minecraft:sharpness
-execute store result score enchantsLvl minecraft:sharpness run data get matcha_item:enchants held.'minecraft:sharpness'
-execute unless score enchantsLvl minecraft:sharpness matches 1.. run data merge storage matcha_item:enchants held {minecraft:sharpness: 1}
-# processing enchantment minecraft:unbreaking
-execute store result score enchantsLvl minecraft:unbreaking run data get matcha_item:enchants held.'minecraft:unbreaking'
-execute unless score enchantsLvl minecraft:unbreaking matches 2.. run data merge storage matcha_item:enchants held {minecraft:unbreaking: 2}
-# processing enchantment matcha:adamant_weapon
-execute store result score enchantsLvl matcha:adamant_weapon run data get matcha_item:enchants held.'matcha:adamant_weapon'
-execute unless score enchantsLvl matcha:adamant_weapon matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_weapon: 1}
+# processing enchantment minecraft:sharpness / sharpness 
+execute store result score enchantsLvl sharpness run data get matcha_item:enchants held.'minecraft:sharpness'
+execute unless score enchantsLvl sharpness matches 1.. run data merge storage matcha_item:enchants held {minecraft:sharpness: 1}
+# processing enchantment minecraft:unbreaking / unbreaking 
+execute store result score enchantsLvl unbreaking run data get matcha_item:enchants held.'minecraft:unbreaking'
+execute unless score enchantsLvl unbreaking matches 2.. run data merge storage matcha_item:enchants held {minecraft:unbreaking: 2}
+# processing enchantment matcha:adamant_weapon / adamant_weapon 
+execute store result score enchantsLvl adamant_weapon run data get matcha_item:enchants held.'matcha:adamant_weapon'
+execute unless score enchantsLvl adamant_weapon matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_weapon: 1}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 5000, 'minecraft:item_name': {'translate': 'item.minecraft.netherite_spear', 'color': 'gold'}, 'minecraft:lore': [{'translate': 'desc.kleispack.attack_damage', 'with': [{'text': '4'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': [{'text': '0.95'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.diamond_block', 'color': 'dark_gray', 'italic': False}, {'translate': 'item.minecraft.netherite_scrap', 'color': 'dark_gray', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:repairable': {'items': ['minecraft:diamond_block', 'minecraft:netherite_scrap']}, 'minecraft:enchantment_glint_override': False, 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants
 function matcha_item:enchants/offhand with matcha_item:enchants

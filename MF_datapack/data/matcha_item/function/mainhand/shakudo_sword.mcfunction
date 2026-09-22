@@ -1,11 +1,11 @@
 say <D> Updating mainhand for shakudo_sword
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-# processing enchantment minecraft:sweeping_edge
-execute store result score enchantsLvl minecraft:sweeping_edge run data get matcha_item:enchants held.'minecraft:sweeping_edge'
-execute unless score enchantsLvl minecraft:sweeping_edge matches 1.. run data merge storage matcha_item:enchants held {minecraft:sweeping_edge: 1}
-# processing enchantment matcha:shakudo_weapon
-execute store result score enchantsLvl matcha:shakudo_weapon run data get matcha_item:enchants held.'matcha:shakudo_weapon'
-execute unless score enchantsLvl matcha:shakudo_weapon matches 1.. run data merge storage matcha_item:enchants held {matcha:shakudo_weapon: 1}
+# processing enchantment minecraft:sweeping_edge / sweeping_edge 
+execute store result score enchantsLvl sweeping_edge run data get matcha_item:enchants held.'minecraft:sweeping_edge'
+execute unless score enchantsLvl sweeping_edge matches 1.. run data merge storage matcha_item:enchants held {minecraft:sweeping_edge: 1}
+# processing enchantment matcha:shakudo_weapon / shakudo_weapon 
+execute store result score enchantsLvl shakudo_weapon run data get matcha_item:enchants held.'matcha:shakudo_weapon'
+execute unless score enchantsLvl shakudo_weapon matches 1.. run data merge storage matcha_item:enchants held {matcha:shakudo_weapon: 1}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 1000, 'minecraft:item_name': {'translate': 'item.kleispack.shakudo_sword', 'color': '#c96691'}, 'minecraft:item_model': 'matcha:shakudo_sword', 'minecraft:attribute_modifiers': [{'type': 'minecraft:attack_damage', 'id': 'attack_damage', 'amount': 5, 'operation': 'add_value', 'slot': 'mainhand'}, {'type': 'minecraft:attack_speed', 'id': 'attack_speed', 'amount': -2.4, 'operation': 'add_value', 'slot': 'mainhand'}], 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}, 'minecraft:enchantment_glint_override': False, 'minecraft:lore': [{'translate': 'desc.kleispack.attack_damage', 'with': ['6'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': ['1.6'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.copper_block', 'color': 'dark_gray', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:repairable': {'items': ['minecraft:copper_block']}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants
 function matcha_item:enchants/offhand with matcha_item:enchants

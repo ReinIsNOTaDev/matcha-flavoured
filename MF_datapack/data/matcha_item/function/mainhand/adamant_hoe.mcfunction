@@ -1,13 +1,13 @@
 say <D> Updating mainhand for adamant_hoe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:adamant_tool / adamant_tool 
-execute store result score enchantsLvl adamant_tool run data get matcha_item:enchants held.'matcha:adamant_tool'
+execute store result score enchantsLvl adamant_tool run data get storage matcha_item:enchants held.'matcha:adamant_tool'
 execute unless score enchantsLvl adamant_tool matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_tool: 1}
 # processing enchantment minecraft:unbreaking / unbreaking 
-execute store result score enchantsLvl unbreaking run data get matcha_item:enchants held.'minecraft:unbreaking'
+execute store result score enchantsLvl unbreaking run data get storage matcha_item:enchants held.'minecraft:unbreaking'
 execute unless score enchantsLvl unbreaking matches 2.. run data merge storage matcha_item:enchants held {minecraft:unbreaking: 2}
 # processing enchantment minecraft:efficiency / efficiency 
-execute store result score enchantsLvl efficiency run data get matcha_item:enchants held.'minecraft:efficiency'
+execute store result score enchantsLvl efficiency run data get storage matcha_item:enchants held.'minecraft:efficiency'
 execute unless score enchantsLvl efficiency matches 2.. run data merge storage matcha_item:enchants held {minecraft:efficiency: 2}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 5000, 'minecraft:tool': {'rules': [{'blocks': '#minecraft:mineable/hoe', 'speed': 15, 'correct_for_drops': True}], 'default_mining_speed': 1, 'damage_per_block': 1}, 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}, 'minecraft:lore': [{'translate': 'desc.kleispack.mining_speed', 'with': [{'text': '15'}], 'color': 'blue', 'italic': False}, {'translate': 'desc.kleispack.attack_damage', 'with': [{'text': '1'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': [{'text': '4'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.diamond_block', 'color': 'dark_gray', 'italic': False}, {'translate': 'item.minecraft.netherite_scrap', 'color': 'dark_gray', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:repairable': {'items': ['minecraft:diamond_block', 'minecraft:netherite_scrap']}, 'minecraft:item_name': {'translate': 'item.minecraft.netherite_hoe', 'color': 'gold'}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants

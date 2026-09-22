@@ -630,7 +630,7 @@ def creationHelper(obj, item):
                 try:
                     plain = enchantment.split(":")[1]
                 except:
-                    pain = enchantment
+                    plain = enchantment
                 mainhand_function += "# processing enchantment "+enchantment+" / "+plain+" \n"
                 mainhand_function += "execute store result score enchantsLvl "+plain+" run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
                 mainhand_function += "execute unless score enchantsLvl "+plain+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+enchantment+": "+str(value)+"}\n"

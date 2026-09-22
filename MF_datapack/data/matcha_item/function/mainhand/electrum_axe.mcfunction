@@ -1,17 +1,17 @@
 say <D> Updating mainhand for electrum_axe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:electrum_tool
-execute store result score enchantsLvl matcha:electrum_tool run data get matcha_item:enchants held.matcha:electrum_tool
-execute unless score enchantsLvl matcha:electrum_tool matches 3.. run data merge storage matcha_item:enchants held {matcha:electrum_tool:3}
+execute store result score enchantsLvl matcha:electrum_tool run data get matcha_item:enchants held.'matcha:electrum_tool'
+execute unless score enchantsLvl matcha:electrum_tool matches 3.. run data merge storage matcha_item:enchants held {matcha:electrum_tool: 3}
 # processing enchantment minecraft:looting
-execute store result score enchantsLvl minecraft:looting run data get matcha_item:enchants held.minecraft:looting
-execute unless score enchantsLvl minecraft:looting matches 2.. run data merge storage matcha_item:enchants held {minecraft:looting:2}
+execute store result score enchantsLvl minecraft:looting run data get matcha_item:enchants held.'minecraft:looting'
+execute unless score enchantsLvl minecraft:looting matches 2.. run data merge storage matcha_item:enchants held {minecraft:looting: 2}
 # processing enchantment minecraft:smite
-execute store result score enchantsLvl minecraft:smite run data get matcha_item:enchants held.minecraft:smite
-execute unless score enchantsLvl minecraft:smite matches 3.. run data merge storage matcha_item:enchants held {minecraft:smite:3}
+execute store result score enchantsLvl minecraft:smite run data get matcha_item:enchants held.'minecraft:smite'
+execute unless score enchantsLvl minecraft:smite matches 3.. run data merge storage matcha_item:enchants held {minecraft:smite: 3}
 # processing enchantment matcha:warding_2
-execute store result score enchantsLvl matcha:warding_2 run data get matcha_item:enchants held.matcha:warding_2
-execute unless score enchantsLvl matcha:warding_2 matches 1.. run data merge storage matcha_item:enchants held {matcha:warding_2:1}
+execute store result score enchantsLvl matcha:warding_2 run data get matcha_item:enchants held.'matcha:warding_2'
+execute unless score enchantsLvl matcha:warding_2 matches 1.. run data merge storage matcha_item:enchants held {matcha:warding_2: 1}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 3000, 'minecraft:tool': {'rules': [{'blocks': '#minecraft:mineable/axe', 'speed': 12, 'correct_for_drops': True}], 'default_mining_speed': 1, 'damage_per_block': 1}, 'minecraft:lore': [{'translate': 'desc.kleispack.mining_speed', 'with': [{'text': '12'}], 'color': 'blue', 'italic': False}, {'translate': 'desc.kleispack.attack_damage', 'with': [{'text': '9'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': [{'text': '1.2'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.diamond_block', 'color': 'dark_gray', 'italic': False}], 'minecraft:item_name': {'translate': 'item.kleispack.electrum_axe', 'color': 'yellow'}, 'minecraft:item_model': 'matcha:electrum_axe', 'minecraft:attribute_modifiers': [{'type': 'minecraft:attack_damage', 'id': 'attack_damage', 'amount': 8, 'operation': 'add_value', 'slot': 'mainhand'}, {'type': 'minecraft:attack_speed', 'id': 'attack_speed', 'amount': -2.8, 'operation': 'add_value', 'slot': 'mainhand'}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}, 'minecraft:repairable': {'items': ['minecraft:diamond_block']}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants
 function matcha_item:enchants/offhand with matcha_item:enchants

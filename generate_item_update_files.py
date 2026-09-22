@@ -628,8 +628,8 @@ def creationHelper(obj, item):
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 mainhand_function += "# processing enchantment "+enchantment+"\n"
-                mainhand_function += "execute store result score enchantsLvl "+enchantment+" run data get matcha_item:enchants held."+enchantment+"\n"
-                mainhand_function += "execute unless score enchantsLvl "+enchantment+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+enchantment+":"+str(value)+"}\n"
+                mainhand_function += "execute store result score enchantsLvl "+enchantment+" run data get matcha_item:enchants held.'"+enchantment+"'\n"
+                mainhand_function += "execute unless score enchantsLvl "+enchantment+" matches "+str(value)+".. run data merge storage matcha_item:enchants held {"+enchantment+": "+str(value)+"}\n"
             # modify item
             mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)

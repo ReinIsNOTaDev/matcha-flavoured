@@ -1,8 +1,8 @@
 say <D> Updating mainhand for shakudo_hoe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:silk_touch
-execute store result score enchantsLvl minecraft:silk_touch run data get matcha_item:enchants held.minecraft:silk_touch
-execute unless score enchantsLvl minecraft:silk_touch matches 1.. run data merge storage matcha_item:enchants held {minecraft:silk_touch:1}
+execute store result score enchantsLvl minecraft:silk_touch run data get matcha_item:enchants held.'minecraft:silk_touch'
+execute unless score enchantsLvl minecraft:silk_touch matches 1.. run data merge storage matcha_item:enchants held {minecraft:silk_touch: 1}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 1000, 'minecraft:tool': {'rules': [{'blocks': '#minecraft:mineable/hoe', 'speed': 9, 'correct_for_drops': True}], 'default_mining_speed': 1, 'damage_per_block': 1}, 'minecraft:item_name': {'translate': 'item.kleispack.shakudo_hoe', 'color': '#c96691'}, 'minecraft:item_model': 'matcha:shakudo_hoe', 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}, 'minecraft:lore': [{'translate': 'desc.kleispack.mining_speed', 'with': ['9'], 'color': 'blue', 'italic': False}, {'translate': 'desc.kleispack.attack_damage', 'with': ['1'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': ['4'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.copper_block', 'color': 'dark_gray', 'italic': False}], 'minecraft:enchantment_glint_override': False, 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:attribute_modifiers': [{'type': 'minecraft:attack_speed', 'id': 'attack_speed', 'amount': 3, 'operation': 'add_value', 'slot': 'mainhand'}], 'minecraft:repairable': {'items': ['minecraft:copper_block']}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants
 function matcha_item:enchants/offhand with matcha_item:enchants

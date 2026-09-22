@@ -1,17 +1,17 @@
 say <D> Updating mainhand for adamant_axe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:efficiency
-execute store result score enchantsLvl minecraft:efficiency run data get matcha_item:enchants held.minecraft:efficiency
-execute unless score enchantsLvl minecraft:efficiency matches 2.. run data merge storage matcha_item:enchants held {minecraft:efficiency:2}
+execute store result score enchantsLvl minecraft:efficiency run data get matcha_item:enchants held.'minecraft:efficiency'
+execute unless score enchantsLvl minecraft:efficiency matches 2.. run data merge storage matcha_item:enchants held {minecraft:efficiency: 2}
 # processing enchantment matcha:adamant_tool
-execute store result score enchantsLvl matcha:adamant_tool run data get matcha_item:enchants held.matcha:adamant_tool
-execute unless score enchantsLvl matcha:adamant_tool matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_tool:1}
+execute store result score enchantsLvl matcha:adamant_tool run data get matcha_item:enchants held.'matcha:adamant_tool'
+execute unless score enchantsLvl matcha:adamant_tool matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_tool: 1}
 # processing enchantment matcha:adamant_weapon
-execute store result score enchantsLvl matcha:adamant_weapon run data get matcha_item:enchants held.matcha:adamant_weapon
-execute unless score enchantsLvl matcha:adamant_weapon matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_weapon:1}
+execute store result score enchantsLvl matcha:adamant_weapon run data get matcha_item:enchants held.'matcha:adamant_weapon'
+execute unless score enchantsLvl matcha:adamant_weapon matches 1.. run data merge storage matcha_item:enchants held {matcha:adamant_weapon: 1}
 # processing enchantment minecraft:unbreaking
-execute store result score enchantsLvl minecraft:unbreaking run data get matcha_item:enchants held.minecraft:unbreaking
-execute unless score enchantsLvl minecraft:unbreaking matches 2.. run data merge storage matcha_item:enchants held {minecraft:unbreaking:2}
+execute store result score enchantsLvl minecraft:unbreaking run data get matcha_item:enchants held.'minecraft:unbreaking'
+execute unless score enchantsLvl minecraft:unbreaking matches 2.. run data merge storage matcha_item:enchants held {minecraft:unbreaking: 2}
 item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 5000, 'minecraft:tool': {'rules': [{'blocks': '#minecraft:mineable/axe', 'speed': 15, 'correct_for_drops': True}], 'default_mining_speed': 1, 'damage_per_block': 1}, 'minecraft:custom_data': {'has_intrinsic_enchants': 1, 'version': 1}, 'minecraft:lore': [{'translate': 'desc.kleispack.mining_speed', 'with': [{'text': '15'}], 'color': 'blue', 'italic': False}, {'translate': 'desc.kleispack.attack_damage', 'with': [{'text': '10'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': [{'text': '1'}], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.diamond_block', 'color': 'dark_gray', 'italic': False}, {'translate': 'item.minecraft.netherite_scrap', 'color': 'dark_gray', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:repairable': {'items': ['minecraft:diamond_block', 'minecraft:netherite_scrap']}, 'minecraft:item_name': {'translate': 'item.minecraft.netherite_axe', 'color': 'gold'}}}
 function matcha_item:enchants/mainhand with matcha_item:enchants
 function matcha_item:enchants/offhand with matcha_item:enchants

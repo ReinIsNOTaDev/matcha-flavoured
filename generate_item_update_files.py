@@ -638,9 +638,10 @@ def creationHelper(obj, item):
             # run special item modifier for enchants
             mainhand_function += "function matcha_item:enchants/mainhand/"+item+" with matcha_item:enchants"
             mainhand_function += "function matcha_item:enchants/offhand/"+item+" with matcha_item:enchants"
-            enchants_item_modifier = {"function": "set_components", "components": {"minecraft:enchantments": "${{held}}"}}
-            mainhand_enchants_function += "$item modify entity @s "+slots[0]+" "+str(enchants_item_modifier)
-            offhand_enchants_function += "$item modify entity @s "+slots[0]+" "+str(enchants_item_modifier)
+            enchants_item_modifier = {"function": "set_components", "components": {"minecraft:enchantments": "$%$REPLACE%$%THIS$%$"}}
+            enchants_item_modifier_str = str(enchants_item_modifier).replace('"$%$REPLACE%$%THIS$%$"','${{held}}')
+            mainhand_enchants_function += "$item modify entity @s "+slots[0]+" "+enchants_item_modifier_str
+            offhand_enchants_function += "$item modify entity @s "+slots[0]+" "+enchants_item_modifier_str
         case "generic":
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"

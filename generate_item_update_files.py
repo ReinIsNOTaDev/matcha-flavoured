@@ -502,8 +502,6 @@ def creationHelper(obj, item):
             print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
     elif DB["options"]["assumeNamesArePopulated"] == "False":
         obj["names"] = []
-        duplications = -1
-        files = DB["files"]
         lang_path = os.path.join("MF_resourcepack/assets/minecraft/lang/en_us.json")
         lang_json = json.load(open(lang_path, 'r'))
         try:
@@ -636,12 +634,8 @@ def creationHelper(obj, item):
             mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
             offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
             # run special item modifier for enchants
-            mainhand_function += "function matcha_item:enchants/mainhand/"+item+" with matcha_item:enchants"
-            mainhand_function += "function matcha_item:enchants/offhand/"+item+" with matcha_item:enchants"
-            enchants_item_modifier = {"function": "set_components", "components": {"minecraft:enchantments": "$%$REPLACE%$%THIS$%$"}}
-            enchants_item_modifier_str = str(enchants_item_modifier).replace("'$%$REPLACE%$%THIS$%$'",'$(held)')
-            mainhand_enchants_function += "$item modify entity @s "+slots[0]+" "+enchants_item_modifier_str
-            offhand_enchants_function += "$item modify entity @s "+slots[0]+" "+enchants_item_modifier_str
+            mainhand_function += "\nfunction matcha_item:enchants/mainhand with matcha_item:enchants"
+            mainhand_function += "\nfunction matcha_item:enchants/offhand with matcha_item:enchants"
         case "generic":
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
@@ -663,10 +657,7 @@ def creationHelper(obj, item):
         case "helmet" | "leggings" | "boots" | "chestplate":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"]]
             needed_yesses = 2
-        case "enchanted":
-            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_enchants_function_path, mainhand_enchants_function, "function"], [offhand_enchants_function_path, offhand_enchants_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
-            needed_yesses = 8
-        case "generic" | "trim_colour":
+        case "enchanted" | "generic" | "trim_colour":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
             needed_yesses = 6
         case _:

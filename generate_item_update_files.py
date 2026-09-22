@@ -639,7 +639,7 @@ def creationHelper(obj, item):
             mainhand_function += "function matcha_item:enchants/mainhand/"+item+" with matcha_item:enchants"
             mainhand_function += "function matcha_item:enchants/offhand/"+item+" with matcha_item:enchants"
             enchants_item_modifier = {"function": "set_components", "components": {"minecraft:enchantments": "$%$REPLACE%$%THIS$%$"}}
-            enchants_item_modifier_str = str(enchants_item_modifier).replace('"$%$REPLACE%$%THIS$%$"','${{held}}')
+            enchants_item_modifier_str = str(enchants_item_modifier).replace("'$%$REPLACE%$%THIS$%$'",'$(held)')
             mainhand_enchants_function += "$item modify entity @s "+slots[0]+" "+enchants_item_modifier_str
             offhand_enchants_function += "$item modify entity @s "+slots[0]+" "+enchants_item_modifier_str
         case "generic":

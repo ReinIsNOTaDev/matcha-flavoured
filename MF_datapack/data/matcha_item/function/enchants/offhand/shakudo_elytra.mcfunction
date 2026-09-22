@@ -1,1 +1,1 @@
-$item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:enchantments': '$%$REPLACE%$%THIS$%$'}}
+$item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:enchantments': $(held)}}

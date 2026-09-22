@@ -624,14 +624,10 @@ def creationHelper(obj, item):
     update_function = ""
     mainhand_function = ""
     offhand_function = ""
-    mainhand_enchants_function = ""
-    offhand_enchants_function = ""
     if debug:
         update_function += "say <D> Triggered update function for "+item+"\n"
         mainhand_function += "say <D> Updating mainhand for "+item+"\n"
         offhand_function += "say <D> Updating offhand for "+item+"\n"
-        mainhand_enchants_function += "say Updating enchants for "+item+"\n"
-        mainhand_enchants_function += "say Updating enchants for "+item+"\n"
     else: pass
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
@@ -660,8 +656,8 @@ def creationHelper(obj, item):
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
             offhand_function += "data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments\n"
             # modify item
-            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
-            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
+            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)+"\n"
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 try:

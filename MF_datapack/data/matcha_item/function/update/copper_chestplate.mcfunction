@@ -1,3 +1,3 @@
 say <D> Triggered update function for copper_chestplate
-item modify entity @s armor.chest {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['4'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 200, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s armor.chest matcha_item:modify/copper_chestplate
 advancement revoke @s only matcha_item:trigger/copper_chestplate

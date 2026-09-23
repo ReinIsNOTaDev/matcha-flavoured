@@ -1,3 +1,3 @@
 say <D> Triggered update function for iron_leggings
-item modify entity @s armor.legs {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['5'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 350, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s armor.legs matcha_item:modify/iron_leggings
 advancement revoke @s only matcha_item:trigger/iron_leggings

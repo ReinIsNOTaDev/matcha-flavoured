@@ -1,6 +1,7 @@
 say <D> Updating offhand for adamant_claymore
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
-item modify entity @s weapon.offhand matcha_item:modify/adamant_claymore# processing enchantment minecraft:unbreaking / unbreaking 
+item modify entity @s weapon.offhand matcha_item:modify/adamant_claymore
+# processing enchantment minecraft:unbreaking / unbreaking 
 execute store result score enchants_lvl_unbreaking item_updater run data get storage matcha_item:enchants held.'minecraft:unbreaking'
 execute unless score enchants_lvl_unbreaking item_updater matches 2.. run data modify storage matcha_item:enchants held merge value {'minecraft:unbreaking': 2}
 # processing enchantment matcha:adamant_weapon / adamant_weapon 

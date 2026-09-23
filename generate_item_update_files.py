@@ -727,7 +727,7 @@ def creationHelper(obj, item):
     else: pass
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate":
-            update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            update_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "enchanted_helmet" | "enchanted_chestplate" | "enchanted_leggings" | "enchanted_boots":
             update_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
@@ -752,8 +752,8 @@ def creationHelper(obj, item):
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
             offhand_function += "data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments\n"
             # modify item
-            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item
-            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item
+            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
+            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item+"\n"
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 try:

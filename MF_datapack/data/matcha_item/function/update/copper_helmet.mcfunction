@@ -1,3 +1,3 @@
 say <D> Triggered update function for copper_helmet
-item modify entity @s armor.head {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['2'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 200, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s armor.head matcha_item:modify/copper_helmet
 advancement revoke @s only matcha_item:trigger/copper_helmet

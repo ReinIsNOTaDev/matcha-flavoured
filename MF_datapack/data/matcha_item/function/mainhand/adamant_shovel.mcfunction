@@ -1,6 +1,7 @@
 say <D> Updating mainhand for adamant_shovel
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-item modify entity @s weapon.mainhand matcha_item:modify/adamant_shovel# processing enchantment matcha:adamant_tool / adamant_tool 
+item modify entity @s weapon.mainhand matcha_item:modify/adamant_shovel
+# processing enchantment matcha:adamant_tool / adamant_tool 
 execute store result score enchants_lvl_adamant_tool item_updater run data get storage matcha_item:enchants held.'matcha:adamant_tool'
 execute unless score enchants_lvl_adamant_tool item_updater matches 1.. run data modify storage matcha_item:enchants held merge value {'matcha:adamant_tool': 1}
 # processing enchantment minecraft:efficiency / efficiency 

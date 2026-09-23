@@ -1,2 +1,2 @@
 say <D> Updating mainhand for northern_pike
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.northern_pike'}, 'minecraft:item_model': 'matcha:northern_pike', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.3', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifynorthern_pike

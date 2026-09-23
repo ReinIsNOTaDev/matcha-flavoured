@@ -1,2 +1,2 @@
 say <D> Updating offhand for baby_warm_pig
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:pig', 'Age': -24000, 'variant': 'minecraft:warm'}, 'minecraft:item_name': {'translate': 'item.kleispack.baby_warm_pig'}, 'minecraft:max_stack_size': 1, 'minecraft:item_model': 'matcha:crate_warm_pig'}}
+item modify entity @s weapon.offhand matcha_item:modifybaby_warm_pig

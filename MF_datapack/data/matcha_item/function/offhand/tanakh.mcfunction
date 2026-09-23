@@ -1,2 +1,2 @@
 say <D> Updating offhand for tanakh
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.tanakh'}, 'minecraft:rarity': 'rare', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:tanakh', 'minecraft:lore': [{'translate': 'item.kleispack.tanakh.desc', 'color': 'gray', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifytanakh

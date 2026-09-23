@@ -1,2 +1,2 @@
 say <D> Updating offhand for shepherds_shears
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:hepatizon_shears', 'minecraft:item_name': {'translate': 'item.kleispack.shepherds_shears'}, 'minecraft:max_damage': 3000, 'minecraft:repairable': {'items': ['minecraft:iron_nugget', 'minecraft:iron_ingot']}, 'minecraft:enchantment_glint_override': False, 'minecraft:lore': [{'translate': 'desc.kleispack.repaired_with', 'color': 'gray', 'italic': False}, {'translate': 'block.minecraft.copper_block', 'color': 'dark_gray', 'italic': False}]}}
+item modify entity @s weapon.offhand matcha_item:modifyshepherds_shears

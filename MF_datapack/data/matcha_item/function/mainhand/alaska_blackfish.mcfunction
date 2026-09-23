@@ -1,2 +1,2 @@
 say <D> Updating mainhand for alaska_blackfish
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.alaska_blackfish'}, 'minecraft:item_model': 'matcha:alaska_blackfish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyalaska_blackfish

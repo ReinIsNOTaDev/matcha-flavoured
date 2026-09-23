@@ -1,2 +1,2 @@
 say <D> Updating mainhand for sweet_berry_toast_recipe
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:sweet_berry_toast_recipe', 'minecraft:item_name': {'translate': 'item.kleispack.cooking_recipe'}, 'minecraft:lore': [{'translate': 'item.kleispack.sweet_berry_toast', 'color': '#e85e8f', 'italic': False}]}}
+item modify entity @s weapon.mainhand matcha_item:modifysweet_berry_toast_recipe

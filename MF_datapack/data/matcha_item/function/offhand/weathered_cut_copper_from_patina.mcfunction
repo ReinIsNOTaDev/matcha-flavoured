@@ -1,2 +1,2 @@
 say <D> Updating offhand for weathered_cut_copper_from_patina
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyweathered_cut_copper_from_patina

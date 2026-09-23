@@ -1,2 +1,2 @@
 say <D> Updating offhand for ruby
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:ruby', 'minecraft:item_name': {'translate': 'item.kleispack.ruby', 'color': 'red'}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyruby

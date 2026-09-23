@@ -1,2 +1,2 @@
 say <D> Updating mainhand for freshwater_pufferfish
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.freshwater_pufferfish'}, 'minecraft:item_model': 'matcha:freshwater_pufferfish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyfreshwater_pufferfish

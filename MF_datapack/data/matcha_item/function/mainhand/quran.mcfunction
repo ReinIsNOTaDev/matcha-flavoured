@@ -1,2 +1,2 @@
 say <D> Updating mainhand for quran
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.quran'}, 'minecraft:rarity': 'rare', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:quran', 'minecraft:lore': [{'translate': 'item.kleispack.quran.desc', 'color': 'gray', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyquran

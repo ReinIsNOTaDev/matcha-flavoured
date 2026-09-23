@@ -1,2 +1,2 @@
 say <D> Updating mainhand for splash_infested
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 64, 'minecraft:potion_contents': {'custom_effects': [{'id': 'minecraft:infested', 'amplifier': 0, 'duration': 6000}]}, 'minecraft:tooltip_display': {'hidden_components': ['minecraft:potion_contents']}, 'minecraft:lore': [{'translate': 'effect.kleispack.infested', 'with': ['5:00'], 'color': '#9bb0b0', 'italic': False}], 'minecraft:custom_name': {'translate': 'item.minecraft.splash_potion.effect.infested', 'italic': False}}}
+item modify entity @s weapon.mainhand matcha_item:modifysplash_infested

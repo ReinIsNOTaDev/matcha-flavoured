@@ -1,2 +1,2 @@
 say <D> Updating mainhand for flour_from_flour_bag
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyflour_from_flour_bag

@@ -1,2 +1,2 @@
 say <D> Updating offhand for carbon_rich_iron
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'!minecraft:entity_data': {}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifycarbon_rich_iron

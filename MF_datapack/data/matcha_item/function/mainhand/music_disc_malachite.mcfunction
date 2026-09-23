@@ -1,2 +1,2 @@
 say <D> Updating mainhand for music_disc_malachite
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:malachite', 'minecraft:item_model': 'matcha:music_disc_malachite', 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifymusic_disc_malachite

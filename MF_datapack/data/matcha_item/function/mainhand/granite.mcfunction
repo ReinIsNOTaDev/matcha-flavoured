@@ -1,2 +1,2 @@
 say <D> Updating mainhand for granite
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.trade.bulk_granite'}, 'minecraft:item_model': 'minecraft:granite', 'minecraft:lore': [{'translate': 'item.kleispack.trade.bulk_granite.desc', 'color': 'gray', 'italic': False}, {'translate': 'item.kleispack.trade.bulk.desc', 'color': 'dark_gray', 'italic': False}], '!minecraft:food': {}, 'minecraft:consumable': {'consume_seconds': 0, 'sound': 'minecraft:block.stone.fall', 'has_consume_particles': False, '!on_consume_effects': {}}, 'use_remainder': {'id': 'minecraft:granite', 'count': 64}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifygranite

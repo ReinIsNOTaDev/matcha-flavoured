@@ -1,2 +1,2 @@
 say <D> Updating offhand for iron_spear
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'desc.kleispack.attack_damage', 'with': ['3'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': ['1.05'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:max_damage': 500, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyiron_spear

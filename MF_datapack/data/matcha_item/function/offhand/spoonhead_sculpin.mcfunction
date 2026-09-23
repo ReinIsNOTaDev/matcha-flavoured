@@ -1,2 +1,2 @@
 say <D> Updating offhand for spoonhead_sculpin
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.spoonhead_sculpin'}, 'minecraft:item_model': 'matcha:spoonhead_sculpin', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.2', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyspoonhead_sculpin

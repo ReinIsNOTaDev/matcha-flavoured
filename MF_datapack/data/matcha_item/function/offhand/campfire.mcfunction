@@ -1,2 +1,2 @@
 say <D> Updating offhand for campfire
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:block_state': {'lit': 'false'}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifycampfire

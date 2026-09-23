@@ -1,2 +1,2 @@
 say <D> Updating mainhand for rainbow_wrasse
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.rainbow_wrasse'}, 'minecraft:item_model': 'matcha:rainbow_wrasse', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyrainbow_wrasse

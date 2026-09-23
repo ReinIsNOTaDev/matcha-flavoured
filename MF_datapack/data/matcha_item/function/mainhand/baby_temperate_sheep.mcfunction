@@ -1,2 +1,2 @@
 say <D> Updating mainhand for baby_temperate_sheep
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:sheep', 'Age': -24000, 'Color': 0}, 'minecraft:item_name': {'translate': 'item.kleispack.baby_temperate_sheep'}, 'minecraft:max_stack_size': 1, 'minecraft:item_model': 'matcha:crate_sheep_white'}}
+item modify entity @s weapon.mainhand matcha_item:modifybaby_temperate_sheep

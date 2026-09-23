@@ -1,2 +1,2 @@
 say <D> Updating offhand for golden
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:golden', 'minecraft:item_model': 'matcha:music_disc_golden', 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifygolden

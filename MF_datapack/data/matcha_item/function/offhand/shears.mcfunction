@@ -1,2 +1,2 @@
 say <D> Updating offhand for shears
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:max_damage': 300, 'minecraft:item_name': {'translate': 'item.kleispack.copper_shears'}, 'minecraft:item_model': 'matcha:copper_shears', 'minecraft:repairable': {'items': 'minecraft:copper_ingot'}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyshears

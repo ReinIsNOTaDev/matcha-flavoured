@@ -1,2 +1,2 @@
 say <D> Updating offhand for opal
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:opal', 'minecraft:item_name': {'translate': 'item.kleispack.opal', 'color': '#ab85ad'}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyopal

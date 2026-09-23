@@ -1,2 +1,2 @@
 say <D> Updating offhand for minecart_from_steel
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 2, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyminecart_from_steel

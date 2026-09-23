@@ -1,2 +1,2 @@
 say <D> Updating mainhand for mediterranean_killifish
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.mediterranean_killifish'}, 'minecraft:item_model': 'matcha:mediterranean_killifish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifymediterranean_killifish

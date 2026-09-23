@@ -1,2 +1,2 @@
 say <D> Updating offhand for axolotl
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.axolotl'}, 'minecraft:item_model': 'matcha:axolotl', 'minecraft:entity_data': {'id': 'minecraft:axolotl'}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyaxolotl

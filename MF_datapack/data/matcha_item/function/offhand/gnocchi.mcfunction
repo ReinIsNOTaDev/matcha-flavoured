@@ -1,2 +1,2 @@
 say <D> Updating offhand for gnocchi
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:gnocchi_recipe', 'minecraft:item_name': {'translate': 'item.kleispack.cooking_recipe'}, 'minecraft:lore': [{'translate': 'item.kleispack.gnocchi', 'color': '#e1bc62', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifygnocchi

@@ -1,2 +1,2 @@
 say <D> Updating offhand for braised_brown_mushroom
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '❤', 'color': 'red', 'italic': False}], 'minecraft:consumable': {'consume_seconds': 0.8, 'on_consume_effects': [{'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'amplifier': 2, 'duration': 24, 'show_particles': False, 'show_icon': False}], 'probability': 1}]}, 'minecraft:food': {'nutrition': 0, 'saturation': 0, 'can_always_eat': True}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifybraised_brown_mushroom

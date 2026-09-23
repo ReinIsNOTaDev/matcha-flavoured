@@ -1,2 +1,2 @@
 say <D> Updating offhand for copper_spear
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'desc.kleispack.attack_damage', 'with': ['2'], 'color': 'dark_green', 'italic': False}, {'translate': 'desc.kleispack.cooldown', 'with': ['1.18'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifycopper_spear

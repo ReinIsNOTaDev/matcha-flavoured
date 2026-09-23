@@ -1,2 +1,2 @@
 say <D> Updating offhand for andesite
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.trade.bulk_andesite'}, 'minecraft:item_model': 'minecraft:andesite', 'minecraft:lore': [{'translate': 'item.kleispack.trade.bulk_andesite.desc', 'color': 'gray', 'italic': False}, {'translate': 'item.kleispack.trade.bulk.desc', 'color': 'dark_gray', 'italic': False}], '!minecraft:food': {}, 'minecraft:consumable': {'consume_seconds': 0, 'sound': 'minecraft:block.stone.fall', 'has_consume_particles': False, '!on_consume_effects': {}}, 'use_remainder': {'id': 'minecraft:andesite', 'count': 64}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyandesite

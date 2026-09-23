@@ -1,2 +1,2 @@
 say <D> Updating offhand for echo_fish
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.echo_fish'}, 'minecraft:item_model': 'matcha:echo_fish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyecho_fish

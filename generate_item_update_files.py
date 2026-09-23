@@ -752,8 +752,8 @@ def creationHelper(obj, item):
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
             offhand_function += "data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments\n"
             # modify item
-            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
-            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)+"\n"
+            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify"+item
+            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify"+item
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 try:
@@ -773,12 +773,13 @@ def creationHelper(obj, item):
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-            mainhand_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)
-            offhand_function += "item modify entity @s "+slots[1]+" "+str(item_modifier)
+            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify"+item
+            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify"+item
         case _:
             pass
 # define paths
     advancements_path = os.path.join(Updater,"advancement/trigger",item+".json")
+    item_modifiers_path = os.path.join(Updater,"item_modifier/modify",item+".json")
     update_function_path = os.path.join(Updater,"function/update",item+".mcfunction")
     mainhand_function_path = os.path.join(Updater,"function/mainhand",item+".mcfunction")
     offhand_function_path = os.path.join(Updater,"function/offhand",item+".mcfunction")
@@ -788,11 +789,11 @@ def creationHelper(obj, item):
     offhand_predicate_path = os.path.join(Updater,"predicate/offhand",item+".json")
     match type_:
         case "helmet" | "leggings" | "boots" | "chestplate" | "enchanted_helmet" | "enchanted_leggings" | "enchanted_boots" | "enchanted_chestplate":
-            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"]]
-            needed_yesses = 2
+            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [item_modifiers_path, item_modifier, "item_modifier"]]
+            needed_yesses = 3
         case "enchanted" | "generic" | "trim_colour":
-            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"]]
-            needed_yesses = 6
+            paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"], [item_modifiers_path, item_modifier, "item_modifier"]]
+            needed_yesses = 7
         case _:
             pass
 # write it!

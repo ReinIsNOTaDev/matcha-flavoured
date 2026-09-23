@@ -1,2 +1,2 @@
 say <D> Updating mainhand for tinder
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_damage': 1, 'minecraft:item_model': 'matcha:tinder', 'minecraft:item_name': {'translate': 'item.kleispack.tinder'}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifytinder

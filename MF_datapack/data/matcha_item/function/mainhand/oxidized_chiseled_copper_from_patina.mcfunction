@@ -1,2 +1,2 @@
 say <D> Updating mainhand for oxidized_chiseled_copper_from_patina
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyoxidized_chiseled_copper_from_patina

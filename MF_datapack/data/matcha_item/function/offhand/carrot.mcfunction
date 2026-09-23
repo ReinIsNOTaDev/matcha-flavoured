@@ -1,2 +1,2 @@
 say <D> Updating offhand for carrot
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '\ue032', 'color': 'red', 'italic': False}], 'minecraft:consumable': {'on_consume_effects': [{'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'amplifier': 2, 'duration': 12, 'show_particles': False, 'show_icon': False}]}]}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifycarrot

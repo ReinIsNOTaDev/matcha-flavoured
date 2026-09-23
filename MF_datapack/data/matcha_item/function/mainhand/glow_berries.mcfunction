@@ -1,2 +1,2 @@
 say <D> Updating mainhand for glow_berries
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '\ue032', 'color': 'red', 'italic': False}], 'minecraft:consumable': {'on_consume_effects': [{'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'amplifier': 2, 'duration': 12, 'show_particles': False, 'show_icon': False}]}]}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyglow_berries

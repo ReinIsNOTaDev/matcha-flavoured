@@ -1,2 +1,2 @@
 say <D> Updating offhand for splash_slowness
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 64, 'minecraft:potion_contents': {'custom_color': 15058781, 'custom_effects': [{'id': 'minecraft:slowness', 'amplifier': 0, 'duration': 6000}]}, 'minecraft:tooltip_display': {'hidden_components': ['minecraft:potion_contents']}, 'minecraft:lore': [{'translate': 'effect.kleispack.slowness', 'with': ['5:00'], 'color': '#e5c75d', 'italic': False}], 'minecraft:custom_name': {'translate': 'item.minecraft.splash_potion.effect.slowness', 'italic': False}}}
+item modify entity @s weapon.offhand matcha_item:modifysplash_slowness

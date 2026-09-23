@@ -1,2 +1,2 @@
 say <D> Updating mainhand for brush
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:unbreakable': {}, 'minecraft:item_model': 'matcha:archaeologists_brush', 'minecraft:item_name': {'translate': 'item.kleispack.archaeologists_brush'}}}
+item modify entity @s weapon.mainhand matcha_item:modifybrush

@@ -1,2 +1,2 @@
 say <D> Updating mainhand for european_eel
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.european_eel'}, 'minecraft:item_model': 'matcha:european_eel', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyeuropean_eel

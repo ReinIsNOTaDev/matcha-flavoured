@@ -1,2 +1,2 @@
 say <D> Updating mainhand for arapaima
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.arapaima'}, 'minecraft:item_model': 'matcha:arapaima', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyarapaima

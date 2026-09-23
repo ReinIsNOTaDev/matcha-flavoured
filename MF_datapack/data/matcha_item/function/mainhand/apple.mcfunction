@@ -1,2 +1,2 @@
 say <D> Updating mainhand for apple
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:lore': [{'text': '\ue030', 'color': 'red', 'italic': False}], 'minecraft:consumable': {'on_consume_effects': [{'type': 'minecraft:apply_effects', 'effects': [{'id': 'minecraft:regeneration', 'amplifier': 2, 'duration': 24, 'show_particles': False, 'show_icon': False}]}]}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyapple

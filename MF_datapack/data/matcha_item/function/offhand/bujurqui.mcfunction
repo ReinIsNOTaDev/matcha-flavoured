@@ -1,2 +1,2 @@
 say <D> Updating offhand for bujurqui
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.bujurqui'}, 'minecraft:item_model': 'matcha:bujurqui', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifybujurqui

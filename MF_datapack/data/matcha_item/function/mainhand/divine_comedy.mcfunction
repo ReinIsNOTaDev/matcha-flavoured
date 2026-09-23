@@ -1,2 +1,2 @@
 say <D> Updating mainhand for divine_comedy
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.divine_comedy'}, 'minecraft:rarity': 'uncommon', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:divine_comedy', 'minecraft:lore': [{'translate': 'item.kleispack.divine_comedy.desc', 'color': 'gray', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifydivine_comedy

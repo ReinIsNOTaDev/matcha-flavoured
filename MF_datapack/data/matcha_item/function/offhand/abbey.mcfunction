@@ -1,2 +1,2 @@
 say <D> Updating offhand for abbey
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:abbey', 'minecraft:item_model': 'matcha:music_disc_abbey', 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifyabbey

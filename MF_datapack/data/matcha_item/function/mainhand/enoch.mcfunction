@@ -1,2 +1,2 @@
 say <D> Updating mainhand for enoch
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.enoch'}, 'minecraft:rarity': 'rare', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:enoch', 'minecraft:lore': [{'translate': 'item.kleispack.enoch.desc', 'color': 'gray', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.mainhand matcha_item:modifyenoch

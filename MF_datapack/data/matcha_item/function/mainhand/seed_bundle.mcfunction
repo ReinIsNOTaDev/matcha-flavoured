@@ -1,2 +1,2 @@
 say <D> Updating mainhand for seed_bundle
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:seed_bundle', 'minecraft:item_name': {'translate': 'item.kleispack.bundle.seed'}, 'minecraft:bundle_contents': [{'id': 'minecraft:wheat_seeds', 'count': 16}, {'id': 'beetroot_seeds', 'count': 16}, {'id': 'minecraft:carrot', 'count': 4}, {'id': 'minecraft:potato', 'count': 4}]}}
+item modify entity @s weapon.mainhand matcha_item:modifyseed_bundle

@@ -1,2 +1,2 @@
 say <D> Updating offhand for cheerful_clay_statue
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:cheerful_clay_statue', 'minecraft:item_name': {'translate': 'item.kleispack.cheerful_clay_statue'}, 'minecraft:instrument': {'sound_event': 'minecraft:ambient.soul_sand_valley.mood', 'range': 16, 'use_duration': 30, 'description': {'translate': 'item.kleispack.cheerful_clay_statue.desc'}}, 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifycheerful_clay_statue

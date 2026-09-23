@@ -1,2 +1,2 @@
 say <D> Updating offhand for siberian_sturgeon
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.siberian_sturgeon'}, 'minecraft:item_model': 'matcha:siberian_sturgeon', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifysiberian_sturgeon

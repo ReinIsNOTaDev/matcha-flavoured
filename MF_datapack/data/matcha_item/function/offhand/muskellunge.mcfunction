@@ -1,2 +1,2 @@
 say <D> Updating offhand for muskellunge
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.muskellunge'}, 'minecraft:item_model': 'matcha:muskellunge', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}
+item modify entity @s weapon.offhand matcha_item:modifymuskellunge

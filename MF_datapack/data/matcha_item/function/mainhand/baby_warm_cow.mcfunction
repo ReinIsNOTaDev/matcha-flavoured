@@ -1,2 +1,2 @@
 say <D> Updating mainhand for baby_warm_cow
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:cow', 'Age': -24000, 'variant': 'minecraft:warm'}, 'minecraft:item_name': {'translate': 'item.kleispack.baby_warm_cow'}, 'minecraft:max_stack_size': 1, 'minecraft:item_model': 'matcha:crate_warm_cow'}}
+item modify entity @s weapon.mainhand matcha_item:modifybaby_warm_cow

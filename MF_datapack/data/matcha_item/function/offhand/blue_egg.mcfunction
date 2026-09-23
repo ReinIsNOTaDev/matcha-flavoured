@@ -1,2 +1,2 @@
 say <D> Updating offhand for blue_egg
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'minecraft:blue_egg', 'minecraft:entity_data': {'id': 'minecraft:chicken', 'Age': -24000, 'variant': 'minecraft:cold'}, 'minecraft:item_name': {'translate': 'item.kleispack.fertilised_blue_egg'}}}
+item modify entity @s weapon.offhand matcha_item:modifyblue_egg

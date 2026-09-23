@@ -1,2 +1,2 @@
 say <D> Updating offhand for nightshade_arrow
-item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:nightshade_arrow', 'minecraft:potion_contents': {'potion': 'minecraft:strong_poison', 'custom_name': 'nightshade_arrow'}}}
+item modify entity @s weapon.offhand matcha_item:modifynightshade_arrow

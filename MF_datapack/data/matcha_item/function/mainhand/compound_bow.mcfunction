@@ -1,2 +1,2 @@
 say <D> Updating mainhand for compound_bow
-item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': False, 'minecraft:repairable': {'items': ['minecraft:iron_ingot', 'minecraft:iron_nugget', 'minecraft:stick', 'minecraft:string']}, 'minecraft:item_model': 'matcha:compound_bow', 'minecraft:item_name': {'translate': 'item.kleispack.compound_bow', 'color': 'white'}, 'minecraft:max_damage': 600}}
+item modify entity @s weapon.mainhand matcha_item:modifycompound_bow

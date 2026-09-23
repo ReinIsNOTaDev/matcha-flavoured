@@ -1,0 +1,2 @@
+say <D> Updating offhand for solomon
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.key_of_solomon'}, 'minecraft:rarity': 'epic', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:solomon', 'minecraft:lore': [{'translate': 'item.kleispack.key_of_solomon.desc', 'color': 'gray', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

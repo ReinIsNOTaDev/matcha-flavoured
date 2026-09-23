@@ -1,0 +1,2 @@
+say <D> Updating mainhand for anglers_almanac
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'adv.kleispack.anglers_almanac'}, 'minecraft:lore': [{'translate': 'adv.kleispack.anglers_almanac.desc', 'color': 'gray', 'italic': False}], 'minecraft:item_model': 'matcha:anglers_almanac'}}

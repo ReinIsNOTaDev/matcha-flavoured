@@ -1,0 +1,2 @@
+say <D> Updating offhand for baby_warm_sheep
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:sheep', 'Age': -24000, 'Color': 12}, 'minecraft:item_name': {'translate': 'item.kleispack.baby_warm_sheep'}, 'minecraft:max_stack_size': 1, 'minecraft:item_model': 'matcha:crate_sheep_brown'}}

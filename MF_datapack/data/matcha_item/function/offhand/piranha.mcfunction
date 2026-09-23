@@ -1,0 +1,2 @@
+say <D> Updating offhand for piranha
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.piranha'}, 'minecraft:item_model': 'matcha:piranha', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.2', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

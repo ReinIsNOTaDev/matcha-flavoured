@@ -1,0 +1,2 @@
+say <D> Updating offhand for black_seabass
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.black_seabass'}, 'minecraft:item_model': 'matcha:black_seabass', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.2', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

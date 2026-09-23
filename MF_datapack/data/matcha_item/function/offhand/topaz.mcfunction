@@ -1,0 +1,2 @@
+say <D> Updating offhand for topaz
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:topaz', 'minecraft:item_name': {'translate': 'item.kleispack.topaz', 'color': 'yellow'}, 'minecraft:custom_data': {'version': 1}}}

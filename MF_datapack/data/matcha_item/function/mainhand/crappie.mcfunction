@@ -1,0 +1,2 @@
+say <D> Updating mainhand for crappie
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.crappie'}, 'minecraft:item_model': 'matcha:crappie', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

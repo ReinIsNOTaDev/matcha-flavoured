@@ -1,0 +1,2 @@
+say <D> Updating offhand for european_eel
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.european_eel'}, 'minecraft:item_model': 'matcha:european_eel', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

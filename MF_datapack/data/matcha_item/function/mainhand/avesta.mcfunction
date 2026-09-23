@@ -1,0 +1,2 @@
+say <D> Updating mainhand for avesta
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.avesta'}, 'minecraft:rarity': 'rare', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:avesta', 'minecraft:custom_data': {'version': 1}}}

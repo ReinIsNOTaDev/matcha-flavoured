@@ -8,30 +8,7 @@
 						"terms": [
 							{
 								"condition": "minecraft:any_of",
-								"terms": [
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.mainhand": {
-													"items": "minecraft:iron_pickaxe"
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.offhand": {
-													"items": "minecraft:iron_pickaxe"
-												}
-											}
-										}
-									}
-								]
+								"terms": []
 							},
 							{
 								"condition": "minecraft:inverted",

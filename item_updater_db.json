@@ -26,10 +26,82 @@
 		],
 		"jeweler": [
 			"matcha/villager_trade/toolsmith",
-			"villager_trade"
+			"trade_with_levels"
+		],
+		"mouthpiece": [
+			"matcha/villager_trade/librarian",
+			"trade_with_levels"
+		],
+		"mason": [
+			"matcha/villager_trade/mason",
+			"trade_with_levels"
+		],
+		"shepherd": [
+			"matcha/villager_trade/shepherd",
+			"trade_with_levels"
+		],
+		"leatherworker": [
+			"matcha/villager_trade/leatherworker",
+			"trade_with_levels"
+		],
+		"fletcher": [
+			"matcha/villager_trade/fletcher",
+			"trade_with_levels"
+		],
+		"fisherman": [
+			"matcha/villager_trade/fisherman",
+			"trade_with_levels"
+		],
+		"farmer": [
+			"matcha/villager_trade/farmer",
+			"trade_with_levels"
+		],
+		"cleric": [
+			"matcha/villager_trade/cleric",
+			"trade_with_levels"
+		],
+		"cartographer": [
+			"matcha/villager_trade/cartographer",
+			"trade_with_levels"
+		],
+		"cook": [
+			"matcha/villager_trade/butcher",
+			"trade_with_levels"
+		],
+		"electrician": [
+			"matcha/villager_trade/armorer",
+			"trade_with_levels"
+		],
+		"wandering_trader": [
+			"matcha/villager_trade/wandering_trader",
+			"trade_no_levels"
 		],
 		"food": [
 			"matcha/loot_table/food",
+			"loot_table"
+		],
+		"materials": [
+			"matcha/loot_table/materials",
+			"loot_table"
+		],
+		"music_disc": [
+			"matcha/loot_table/music_disc",
+			"loot_table"
+		],
+		"bulk_block": [
+			"matcha/loot_table/bulk_block",
+			"loot_table"
+		],
+		"treasure": [
+			"matcha/loot_table/treasure",
+			"loot_table"
+		],
+		"equipment": [
+			"matcha/loot_table/equipment",
+			"loot_table"
+		],
+		"fish": [
+			"minecraft/loot_table/gameplay/fishing/fish",
 			"loot_table"
 		]
 	},
@@ -43,7 +115,7 @@
 			],
 			"names": [],
 			"id": "minecraft:fermented_spider_eye",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -3039,7 +3111,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_crafting"
+					"cook",
+					"3"
 				]
 			],
 			"names": [
@@ -3102,10 +3175,7 @@
 						"color": "#ae6cbc",
 						"italic": false
 					}
-				],
-				"minecraft:custom_data": {
-					"version": 1
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -3752,7 +3822,7 @@
 				}
 			],
 			"id": "minecraft:paper",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -6374,7 +6444,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_crafting"
+					"cook",
+					"1"
 				]
 			],
 			"names": [
@@ -6434,10 +6505,7 @@
 						"color": "gray",
 						"italic": false
 					}
-				],
-				"minecraft:custom_data": {
-					"version": 1
-				}
+				]
 			},
 			"ignore": null
 		},
@@ -6691,7 +6759,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_crafting"
+					"cook",
+					"2"
 				]
 			],
 			"names": [
@@ -6757,9 +6826,6 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "bowl"
-				},
-				"minecraft:custom_data": {
-					"version": 1
 				}
 			},
 			"ignore": null
@@ -12488,7 +12554,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"smithing"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -12564,7 +12631,6 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
 				"minecraft:stored_enchantments": {
@@ -13962,7 +14028,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"smithing"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -14024,7 +14091,6 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
 				"minecraft:stored_enchantments": {
@@ -14046,7 +14112,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"smithing"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -14122,7 +14189,6 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"has_intrinsic_enchants": 1,
 					"version": 1
 				},
 				"minecraft:stored_enchantments": {
@@ -14260,19 +14326,20 @@
 			"ignore": true
 		},
 		"arrow": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
-					"crafting"
+					"fletcher",
+					"1"
 				]
 			],
 			"names": [],
 			"id": "minecraft:arrow",
 			"use_id": 1,
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {},
-			"ignore": true
+			"ignore": null
 		},
 		"azalea_sapling_from_azalea_leaves": {
 			"version": null,
@@ -14488,7 +14555,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -14578,7 +14646,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -14773,7 +14842,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -14823,7 +14893,7 @@
 			],
 			"names": [],
 			"id": "minecraft:bundle",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -15613,7 +15683,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -15745,19 +15816,54 @@
 			"ignore": true
 		},
 		"diorite": {
-			"version": null,
+			"version": 1,
 			"folder": [
 				[
-					"crafting"
+					"bulk_block"
 				]
 			],
-			"names": [],
-			"id": "minecraft:diorite",
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_diorite"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_diorite"
+				},
+				"minecraft:item_model": "minecraft:diorite",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_diorite.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:diorite",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
 		},
 		"diorite_from_diorite_slabs": {
 			"version": null,
@@ -15768,7 +15874,7 @@
 			],
 			"names": [],
 			"id": "minecraft:diorite",
-			"use_id": 0,
+			"use_id": 1,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16198,7 +16304,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16273,7 +16380,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16413,7 +16521,7 @@
 			],
 			"names": [],
 			"id": "minecraft:redstone_lamp",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -16723,7 +16831,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16768,7 +16877,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16858,7 +16968,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16918,7 +17029,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -17098,11 +17210,11 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_11",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
 			"processed": false,
@@ -17113,12 +17225,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_13",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17128,12 +17240,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_5",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17143,12 +17255,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_blocks",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17158,11 +17270,11 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_cat",
+			"id": "minecraft:emerald",
 			"use_id": 0,
 			"type": "generic",
 			"processed": false,
@@ -17173,12 +17285,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_chirp",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17188,12 +17300,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_far",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17203,12 +17315,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_mall",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17218,12 +17330,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_mellohi",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17233,12 +17345,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_stal",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17248,12 +17360,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_strad",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17263,12 +17375,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_wait",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17278,12 +17390,12 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"wandering_trader"
 				]
 			],
 			"names": [],
-			"id": "minecraft:music_disc_ward",
-			"use_id": 1,
+			"id": "minecraft:emerald",
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -17443,7 +17555,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -17743,7 +17856,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18043,7 +18157,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18328,7 +18443,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18343,7 +18459,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"electrician",
+					"1"
 				]
 			],
 			"names": [],
@@ -18973,7 +19090,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"electrician",
+					"2"
 				]
 			],
 			"names": [],
@@ -19153,7 +19271,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"electrician",
+					"2"
 				]
 			],
 			"names": [],
@@ -19513,7 +19632,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -19573,7 +19693,8 @@
 			"version": null,
 			"folder": [
 				[
-					"crafting"
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -19854,7 +19975,7 @@
 			"version": 1,
 			"folder": [
 				[
-					"crafting"
+					"treasure"
 				]
 			],
 			"names": [
@@ -20608,7 +20729,7 @@
 			"version": 1,
 			"folder": [
 				[
-					"crafting"
+					"treasure"
 				]
 			],
 			"names": [],
@@ -21321,7 +21442,7 @@
 				}
 			],
 			"id": "minecraft:golden_sword",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21820,7 +21941,7 @@
 			],
 			"names": [],
 			"id": "minecraft:music_disc_cat",
-			"use_id": 0,
+			"use_id": 1,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -21857,7 +21978,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"crafting"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [],
@@ -23225,7 +23347,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"crafting"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -23306,7 +23429,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_shovel",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -23384,7 +23507,7 @@
 			],
 			"names": [],
 			"id": "minecraft:wooden_sword",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -23612,7 +23735,7 @@
 				}
 			],
 			"id": "minecraft:chainmail_leggings",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "leggings",
 			"processed": true,
 			"components": {
@@ -24287,7 +24410,7 @@
 			],
 			"names": [],
 			"id": "minecraft:copper_sword",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -24766,7 +24889,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_pickaxe",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -24895,7 +25018,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_spear",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -24938,7 +25061,7 @@
 			],
 			"names": [],
 			"id": "minecraft:iron_sword",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -25059,8 +25182,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"jeweler",
-					"1"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -25330,8 +25453,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"jeweler",
-					"2"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -25400,8 +25523,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"jeweler",
-					"3"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -25552,8 +25675,8 @@
 			"version": 1,
 			"folder": [
 				[
-					"jeweler",
-					"4"
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -26080,6 +26203,6763 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"ender_pearl": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [],
+			"id": "minecraft:ender_pearl",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"divine_comedy": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.divine_comedy"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.divine_comedy"
+				},
+				"minecraft:rarity": "uncommon",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:divine_comedy",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.divine_comedy.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"paradise_lost": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.paradise_lost"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.paradise_lost"
+				},
+				"minecraft:rarity": "uncommon",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:paradise_lost",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.paradise_lost.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"avesta": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.avesta"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.avesta"
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:avesta",
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"quran": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.quran"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.quran"
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:quran",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.quran.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"tanakh": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.tanakh"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.tanakh"
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:tanakh",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.tanakh.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"enoch": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.enoch"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.enoch"
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:enoch",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.enoch.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"solomon": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.key_of_solomon"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.key_of_solomon"
+				},
+				"minecraft:rarity": "epic",
+				"minecraft:max_stack_size": 64,
+				"minecraft:item_model": "matcha:solomon",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.key_of_solomon.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"andesite": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_andesite"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_andesite"
+				},
+				"minecraft:item_model": "minecraft:andesite",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_andesite.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:andesite",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"dirt": {
+			"version": 1,
+			"folder": [
+				[
+					"mason",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_dirt"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_dirt"
+				},
+				"minecraft:item_model": "matcha:bulk_dirt",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_dirt.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:dirt",
+					"count": 64
+				}
+			},
+			"ignore": null
+		},
+		"granite": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_granite"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_granite"
+				},
+				"minecraft:item_model": "minecraft:granite",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_granite.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:granite",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"stone": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_stone"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_stone"
+				},
+				"minecraft:item_model": "minecraft:stone",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_stone.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:stone",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"deepslate": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_deepslate"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_deepslate"
+				},
+				"minecraft:item_model": "minecraft:deepslate",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_deepslate.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:deepslate",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"glass": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_glass"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_glass"
+				},
+				"minecraft:item_model": "minecraft:glass",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_glass.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:glass",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"smooth_red_sandstone": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_smooth_red_sandstone"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_smooth_red_sandstone"
+				},
+				"minecraft:item_model": "minecraft:smooth_red_sandstone",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_smooth_red_sandstone.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:smooth_red_sandstone",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"smooth_sandstone": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_smooth_sandstone"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_smooth_sandstone"
+				},
+				"minecraft:item_model": "minecraft:smooth_sandstone",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_smooth_sandstone.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:smooth_sandstone",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"terracotta": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_terracotta"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_terracotta"
+				},
+				"minecraft:item_model": "minecraft:terracotta",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_terracotta.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:terracotta",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"tuff": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_tuff"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_tuff"
+				},
+				"minecraft:item_model": "minecraft:tuff",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_tuff.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:tuff",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"calcite": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_calcite"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_calcite"
+				},
+				"minecraft:item_model": "minecraft:calcite",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_calcite.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:calcite",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"cinnabar": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_cinnabar"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_cinnabar"
+				},
+				"minecraft:item_model": "minecraft:cinnabar",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_cinnabar.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:cinnabar",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"flowstone": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_dripstone"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_dripstone"
+				},
+				"minecraft:item_model": "minecraft:dripstone_block",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_dripstone.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:dripstone_block",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"malachite": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_prismarine"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_prismarine"
+				},
+				"minecraft:item_model": "minecraft:prismarine",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_prismarine.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:prismarine",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"quartz_emerald": {
+			"version": null,
+			"folder": [
+				[
+					"mason",
+					"4"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"blackstone": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_blackstone"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_blackstone"
+				},
+				"minecraft:item_model": "minecraft:blackstone",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_blackstone.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:blackstone",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"smooth_basalt": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_smooth_basalt"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_smooth_basalt"
+				},
+				"minecraft:item_model": "minecraft:smooth_basalt",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_smooth_basalt.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:smooth_basalt",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"smooth_quartz": {
+			"version": 1,
+			"folder": [
+				[
+					"bulk_block"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.trade.bulk_smooth_quartz"
+				}
+			],
+			"id": "minecraft:poisonous_potato",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.trade.bulk_smooth_quartz"
+				},
+				"minecraft:item_model": "minecraft:smooth_quartz",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.trade.bulk_smooth_quartz.desc",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.kleispack.trade.bulk.desc",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"!minecraft:food": {},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"sound": "minecraft:block.stone.fall",
+					"has_consume_particles": false,
+					"!on_consume_effects": {}
+				},
+				"use_remainder": {
+					"id": "minecraft:smooth_quartz",
+					"count": 64
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"filler": {
+			"version": null,
+			"folder": [
+				[
+					"cook",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"baby_cold_sheep": {
+			"version": 1,
+			"folder": [
+				[
+					"shepherd",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_cold_sheep"
+				}
+			],
+			"id": "minecraft:sheep_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:sheep",
+					"Age": -24000,
+					"Color": 15
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_cold_sheep"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_sheep_black"
+			},
+			"ignore": null
+		},
+		"baby_temperate_sheep": {
+			"version": 1,
+			"folder": [
+				[
+					"shepherd",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_temperate_sheep"
+				}
+			],
+			"id": "minecraft:sheep_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:sheep",
+					"Age": -24000,
+					"Color": 0
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_temperate_sheep"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_sheep_white"
+			},
+			"ignore": null
+		},
+		"baby_warm_sheep": {
+			"version": 1,
+			"folder": [
+				[
+					"shepherd",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_warm_sheep"
+				}
+			],
+			"id": "minecraft:sheep_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:sheep",
+					"Age": -24000,
+					"Color": 12
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_warm_sheep"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_sheep_brown"
+			},
+			"ignore": null
+		},
+		"shepherds_shears": {
+			"version": 1,
+			"folder": [
+				[
+					"shepherd",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.shepherds_shears"
+				}
+			],
+			"id": "minecraft:shears",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:hepatizon_shears",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.shepherds_shears"
+				},
+				"minecraft:max_damage": 3000,
+				"minecraft:repairable": {
+					"items": [
+						"minecraft:iron_nugget",
+						"minecraft:iron_ingot"
+					]
+				},
+				"minecraft:enchantments": {
+					"minecraft:looting": 3
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "block.minecraft.copper_block",
+						"color": "dark_gray",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
+		},
+		"crook": {
+			"version": 1,
+			"folder": [
+				[
+					"shepherd",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.crook"
+				}
+			],
+			"id": "minecraft:wooden_sword",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:crook",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.crook"
+				},
+				"minecraft:max_damage": 300,
+				"minecraft:repairable": {
+					"items": [
+						"minecraft:stick"
+					]
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:entity_interaction_range",
+						"id": "entity_interaction_range",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:entity_interaction_range",
+						"id": "entity_interaction_range",
+						"amount": 5,
+						"operation": "add_value",
+						"slot": "offhand"
+					},
+					{
+						"type": "minecraft:safe_fall_distance",
+						"id": "safe_fall_distance",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:safe_fall_distance",
+						"id": "safe_fall_distance",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "offhand"
+					}
+				],
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"8"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"5"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"4"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "\ue028 %s",
+						"with": [
+							"3"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "\ue027 %s",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.stick",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/hoe",
+							"speed": 8,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"birch_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:birch_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"oak_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:oak_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"spruce_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:spruce_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"acacia_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:acacia_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"cherry_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:cherry_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"dark_oak_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:dark_oak_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"jungle_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:jungle_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"mangrove_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:mangrove_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"crimson_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:crimson_stem",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"mushroom_stem": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:mushroom_stem",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"pale_oak_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:pale_oak_log",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"warped_log": {
+			"version": null,
+			"folder": [
+				[
+					"leatherworker",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:warped_stem",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"hatchet": {
+			"version": 1,
+			"folder": [
+				[
+					"leatherworker",
+					"4"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.hatchet",
+					"color": "white"
+				}
+			],
+			"id": "minecraft:iron_axe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:bloodrage_hatchet",
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 8,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:attack_speed",
+						"id": "attack_speed",
+						"amount": -3,
+						"operation": "add_value",
+						"slot": "mainhand"
+					}
+				],
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/axe",
+							"speed": 10
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.hatchet",
+					"color": "white"
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"text": "\u26cf 10",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 9",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 1",
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:enchantments": {
+					"matcha:bloodrage": 1
+				},
+				"minecraft:enchantment_glint_override": false
+			},
+			"ignore": null
+		},
+		"apotropaic_arrow": {
+			"version": 1,
+			"folder": [
+				[
+					"fletcher",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:tipped_arrow",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:apotropaic_arrow",
+				"minecraft:potion_contents": {
+					"potion": "minecraft:strong_healing",
+					"custom_name": "apotropaic_arrow"
+				}
+			},
+			"ignore": null
+		},
+		"nightshade_arrow": {
+			"version": 1,
+			"folder": [
+				[
+					"fletcher",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:tipped_arrow",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:nightshade_arrow",
+				"minecraft:potion_contents": {
+					"potion": "minecraft:strong_poison",
+					"custom_name": "nightshade_arrow"
+				}
+			},
+			"ignore": null
+		},
+		"spectral_arrow": {
+			"version": 1,
+			"folder": [
+				[
+					"fletcher",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:spectral_arrow",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {},
+			"ignore": null
+		},
+		"compound_bow": {
+			"version": 1,
+			"folder": [
+				[
+					"fletcher",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.compound_bow",
+					"color": "white"
+				}
+			],
+			"id": "minecraft:bow",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:enchantments": {
+					"minecraft:power": 2
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:repairable": {
+					"items": [
+						"minecraft:iron_ingot",
+						"minecraft:iron_nugget",
+						"minecraft:stick",
+						"minecraft:string"
+					]
+				},
+				"minecraft:item_model": "matcha:compound_bow",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.compound_bow",
+					"color": "white"
+				},
+				"minecraft:max_damage": 600
+			},
+			"ignore": null
+		},
+		"anglers_almanac": {
+			"version": 1,
+			"folder": [
+				[
+					"fisherman",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "adv.kleispack.anglers_almanac"
+				}
+			],
+			"id": "minecraft:book",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "adv.kleispack.anglers_almanac"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.anglers_almanac.desc",
+						"color": "gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:anglers_almanac"
+			},
+			"ignore": null
+		},
+		"alaska_blackfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.alaska_blackfish"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.alaska_blackfish"
+				},
+				"minecraft:item_model": "matcha:alaska_blackfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"anchovy": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.anchovy"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.anchovy"
+				},
+				"minecraft:item_model": "matcha:anchovy",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"bluegill": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.bluegill"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.bluegill"
+				},
+				"minecraft:item_model": "matcha:bluegill",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"bujurqui": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.bujurqui"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.bujurqui"
+				},
+				"minecraft:item_model": "matcha:bujurqui",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"cod": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"crappie": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.crappie"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.crappie"
+				},
+				"minecraft:item_model": "matcha:crappie",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"freshwater_pufferfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.freshwater_pufferfish"
+				}
+			],
+			"id": "minecraft:pufferfish",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.freshwater_pufferfish"
+				},
+				"minecraft:item_model": "matcha:freshwater_pufferfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"guppy": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.guppy"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.guppy"
+				},
+				"minecraft:item_model": "matcha:guppy",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"humpback_whitefish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.humpback_whitefish"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.humpback_whitefish"
+				},
+				"minecraft:item_model": "matcha:humpback_whitefish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"mediterranean_killifish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.mediterranean_killifish"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.mediterranean_killifish"
+				},
+				"minecraft:item_model": "matcha:mediterranean_killifish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"pufferfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [],
+			"id": "minecraft:pufferfish",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"rainbow_wrasse": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.rainbow_wrasse"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.rainbow_wrasse"
+				},
+				"minecraft:item_model": "matcha:rainbow_wrasse",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"salmon": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"shad": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.shad"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.shad"
+				},
+				"minecraft:item_model": "matcha:shad",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"striped_perch": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.striped_perch"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.striped_perch"
+				},
+				"minecraft:item_model": "matcha:striped_perch",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"tropical_fish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [],
+			"id": "minecraft:tropical_fish",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"black_seabass": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.black_seabass"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.black_seabass"
+				},
+				"minecraft:item_model": "matcha:black_seabass",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"carp": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.carp"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.carp"
+				},
+				"minecraft:item_model": "matcha:carp",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"flying_fish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.flying_fish"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.flying_fish"
+				},
+				"minecraft:item_model": "matcha:flying_fish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"gurnard": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.gurnard"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.gurnard"
+				},
+				"minecraft:item_model": "matcha:gurnard",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"herring": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.herring"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.herring"
+				},
+				"minecraft:item_model": "matcha:herring",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"lamprey": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.lamprey"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.lamprey"
+				},
+				"minecraft:item_model": "matcha:lamprey",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"mahi_mahi": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.mahi_mahi"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.mahi_mahi"
+				},
+				"minecraft:item_model": "matcha:mahi_mahi",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"piranha": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.piranha"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.piranha"
+				},
+				"minecraft:item_model": "matcha:piranha",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"spoonhead_sculpin": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.spoonhead_sculpin"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.spoonhead_sculpin"
+				},
+				"minecraft:item_model": "matcha:spoonhead_sculpin",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"walleye": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.walleye"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.walleye"
+				},
+				"minecraft:item_model": "matcha:walleye",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"armoured_catfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.armoured_catfish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.armoured_catfish"
+				},
+				"minecraft:item_model": "matcha:armoured_catfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"catfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.catfish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.catfish"
+				},
+				"minecraft:item_model": "matcha:catfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"flounder": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.flounder"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.flounder"
+				},
+				"minecraft:item_model": "matcha:flounder",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"gar": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.gar"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.gar"
+				},
+				"minecraft:item_model": "matcha:gar",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"monkfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.monkfish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.monkfish"
+				},
+				"minecraft:item_model": "matcha:monkfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"northern_pike": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.northern_pike"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.northern_pike"
+				},
+				"minecraft:item_model": "matcha:northern_pike",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"painted_moray": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.painted_moray"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.painted_moray"
+				},
+				"minecraft:item_model": "matcha:painted_moray",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"sturgeon": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.sturgeon"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.sturgeon"
+				},
+				"minecraft:item_model": "matcha:sturgeon",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"tunisian_barb": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.tunisian_barb"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.tunisian_barb"
+				},
+				"minecraft:item_model": "matcha:tunisian_barb",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"wolffish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.wolffish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.wolffish"
+				},
+				"minecraft:item_model": "matcha:wolffish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"arapaima": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.arapaima"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.arapaima"
+				},
+				"minecraft:item_model": "matcha:arapaima",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"bass": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.bass"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.bass"
+				},
+				"minecraft:item_model": "matcha:bass",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"echo_fish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.echo_fish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.echo_fish"
+				},
+				"minecraft:item_model": "matcha:echo_fish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"european_eel": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.european_eel"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.european_eel"
+				},
+				"minecraft:item_model": "matcha:european_eel",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"muskellunge": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.muskellunge"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.muskellunge"
+				},
+				"minecraft:item_model": "matcha:muskellunge",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"oarfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.oarfish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.oarfish"
+				},
+				"minecraft:item_model": "matcha:oarfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"opah": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.opah"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.opah"
+				},
+				"minecraft:item_model": "matcha:opah",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"pale_fish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.pale_fish"
+				}
+			],
+			"id": "minecraft:cod",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.pale_fish"
+				},
+				"minecraft:item_model": "matcha:pale_fish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"siberian_sturgeon": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.siberian_sturgeon"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.siberian_sturgeon"
+				},
+				"minecraft:item_model": "matcha:siberian_sturgeon",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"skate": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.skate"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.skate"
+				},
+				"minecraft:item_model": "matcha:skate",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"swordfish": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.swordfish"
+				}
+			],
+			"id": "minecraft:salmon",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.swordfish"
+				},
+				"minecraft:item_model": "matcha:swordfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"bonemeal": {
+			"version": null,
+			"folder": [
+				[
+					"farmer",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:bone_meal",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"exotic_seed_bundle": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.bundle.exotic_seed"
+				}
+			],
+			"id": "minecraft:bundle",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:exotic_seed_bundle",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.bundle.exotic_seed"
+				},
+				"minecraft:bundle_contents": [
+					{
+						"id": "minecraft:melon_seeds",
+						"count": 16
+					},
+					{
+						"id": "pumpkin_seeds",
+						"count": 16
+					},
+					{
+						"id": "minecraft:sweet_berries",
+						"count": 8
+					},
+					{
+						"id": "minecraft:glow_berries",
+						"count": 8
+					}
+				]
+			},
+			"ignore": null
+		},
+		"floral_bundle": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.bundle.floral"
+				}
+			],
+			"id": "minecraft:bundle",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:floral_bundle",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.bundle.floral"
+				},
+				"minecraft:bundle_contents": [
+					{
+						"id": "minecraft:golden_dandelion",
+						"count": 1
+					},
+					{
+						"id": "dandelion",
+						"count": 3
+					},
+					{
+						"id": "minecraft:sunflower",
+						"count": 4
+					},
+					{
+						"id": "minecraft:poppy",
+						"count": 4
+					},
+					{
+						"id": "minecraft:rose_bush",
+						"count": 4
+					},
+					{
+						"id": "minecraft:cornflower",
+						"count": 8
+					},
+					{
+						"id": "minecraft:allium",
+						"count": 8
+					},
+					{
+						"id": "minecraft:lilac",
+						"count": 4
+					},
+					{
+						"id": "minecraft:peony",
+						"count": 4
+					},
+					{
+						"id": "minecraft:azure_bluet",
+						"count": 8
+					},
+					{
+						"id": "minecraft:oxeye_daisy",
+						"count": 8
+					},
+					{
+						"id": "minecraft:lily_of_the_valley",
+						"count": 8
+					}
+				]
+			},
+			"ignore": null
+		},
+		"mushy_bundle": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.bundle.mushroom"
+				}
+			],
+			"id": "minecraft:bundle",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:mushy_bundle",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.bundle.mushroom"
+				},
+				"minecraft:bundle_contents": [
+					{
+						"id": "minecraft:red_mushroom",
+						"count": 21
+					},
+					{
+						"id": "minecraft:brown_mushroom",
+						"count": 21
+					},
+					{
+						"id": "minecraft:glow_lichen",
+						"count": 21
+					}
+				]
+			},
+			"ignore": null
+		},
+		"seed_bundle": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.bundle.seed"
+				}
+			],
+			"id": "minecraft:bundle",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:seed_bundle",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.bundle.seed"
+				},
+				"minecraft:bundle_contents": [
+					{
+						"id": "minecraft:wheat_seeds",
+						"count": 16
+					},
+					{
+						"id": "beetroot_seeds",
+						"count": 16
+					},
+					{
+						"id": "minecraft:carrot",
+						"count": 4
+					},
+					{
+						"id": "minecraft:potato",
+						"count": 4
+					}
+				]
+			},
+			"ignore": null
+		},
+		"blue_egg": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fertilised_blue_egg"
+				}
+			],
+			"id": "minecraft:chicken_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "minecraft:blue_egg",
+				"minecraft:entity_data": {
+					"id": "minecraft:chicken",
+					"Age": -24000,
+					"variant": "minecraft:cold"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fertilised_blue_egg"
+				}
+			},
+			"ignore": null
+		},
+		"brown_egg": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fertilised_brown_egg"
+				}
+			],
+			"id": "minecraft:chicken_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "minecraft:brown_egg",
+				"minecraft:entity_data": {
+					"id": "minecraft:chicken",
+					"Age": -24000,
+					"variant": "minecraft:warm"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fertilised_brown_egg"
+				}
+			},
+			"ignore": null
+		},
+		"white_egg": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fertilised_egg"
+				}
+			],
+			"id": "minecraft:chicken_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "minecraft:egg",
+				"minecraft:entity_data": {
+					"id": "minecraft:chicken",
+					"Age": -24000,
+					"variant": "minecraft:temperate"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fertilised_egg"
+				}
+			},
+			"ignore": null
+		},
+		"baby_cold_cow": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_cold_cow"
+				}
+			],
+			"id": "minecraft:cow_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:cow",
+					"Age": -24000,
+					"variant": "minecraft:cold"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_cold_cow"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_cold_cow"
+			},
+			"ignore": null
+		},
+		"baby_cold_pig": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_cold_pig"
+				}
+			],
+			"id": "minecraft:pig_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:pig",
+					"Age": -24000,
+					"variant": "minecraft:cold"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_cold_pig"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_cold_pig"
+			},
+			"ignore": null
+		},
+		"baby_temperate_cow": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_temperate_cow"
+				}
+			],
+			"id": "minecraft:cow_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:cow",
+					"Age": -24000,
+					"variant": "minecraft:temperate"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_temperate_cow"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_temperate_cow"
+			},
+			"ignore": null
+		},
+		"baby_temperate_pig": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_temperate_pig"
+				}
+			],
+			"id": "minecraft:pig_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:pig",
+					"Age": -24000,
+					"variant": "minecraft:temperate"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_temperate_pig"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_temperate_pig"
+			},
+			"ignore": null
+		},
+		"baby_warm_cow": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_warm_cow"
+				}
+			],
+			"id": "minecraft:cow_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:cow",
+					"Age": -24000,
+					"variant": "minecraft:warm"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_warm_cow"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_warm_cow"
+			},
+			"ignore": null
+		},
+		"baby_warm_pig": {
+			"version": 1,
+			"folder": [
+				[
+					"farmer",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.baby_warm_pig"
+				}
+			],
+			"id": "minecraft:pig_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:entity_data": {
+					"id": "minecraft:pig",
+					"Age": -24000,
+					"variant": "minecraft:warm"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.baby_warm_pig"
+				},
+				"minecraft:max_stack_size": 1,
+				"minecraft:item_model": "matcha:crate_warm_pig"
+			},
+			"ignore": null
+		},
+		"splash_infested": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_effects": [
+						{
+							"id": "minecraft:infested",
+							"amplifier": 0,
+							"duration": 6000
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.infested",
+						"with": [
+							"5:00"
+						],
+						"color": "#9bb0b0",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "item.minecraft.splash_potion.effect.infested",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"splash_oozing": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_effects": [
+						{
+							"id": "minecraft:oozing",
+							"amplifier": 0,
+							"duration": 6000
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.oozing",
+						"with": [
+							"5:00"
+						],
+						"color": "#76c270",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "item.minecraft.splash_potion.effect.oozing",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"splash_pitch": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_effects": [
+						{
+							"id": "minecraft:darkness",
+							"amplifier": 0,
+							"duration": 1200
+						},
+						{
+							"id": "minecraft:blindness",
+							"amplifier": 0,
+							"duration": 600
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.darkness",
+						"with": [
+							"5:00"
+						],
+						"color": "#37a9a8",
+						"italic": false
+					},
+					{
+						"translate": "effect.kleispack.blindness",
+						"with": [
+							"5:00"
+						],
+						"color": "#37a9a8",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "effect.minecraft.darkness",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"splash_slowness": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_color": 15058781,
+					"custom_effects": [
+						{
+							"id": "minecraft:slowness",
+							"amplifier": 0,
+							"duration": 6000
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.slowness",
+						"with": [
+							"5:00"
+						],
+						"color": "#e5c75d",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "item.minecraft.splash_potion.effect.slowness",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"splash_weaving": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_effects": [
+						{
+							"id": "minecraft:weaving",
+							"amplifier": 0,
+							"duration": 6000
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.weaving",
+						"with": [
+							"5:00"
+						],
+						"color": "#a78b93",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "item.minecraft.splash_potion.effect.weaving",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"splash_wind_charged": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_effects": [
+						{
+							"id": "minecraft:wind_charged",
+							"amplifier": 0,
+							"duration": 6000
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.wind_charged",
+						"with": [
+							"5:00"
+						],
+						"color": "#92a1c3",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "item.minecraft.splash_potion.effect.wind_charged",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"splash_wither": {
+			"version": 1,
+			"folder": [
+				[
+					"cleric",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:splash_potion",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:potion_contents": {
+					"custom_effects": [
+						{
+							"id": "minecraft:wither",
+							"amplifier": 0,
+							"duration": 2400
+						}
+					]
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "effect.kleispack.wither",
+						"with": [
+							"2:00"
+						],
+						"color": "#866570",
+						"italic": false
+					}
+				],
+				"minecraft:custom_name": {
+					"translate": "effect.minecraft.wither",
+					"italic": false
+				}
+			},
+			"ignore": null
+		},
+		"mineshaft": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"sheaf_pottery_sherd": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:sheaf_pottery_sherd",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"shipwreck": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"witch_hut": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"papal_outpost": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"desert_temple": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"howl_pottery_sherd": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:howl_pottery_sherd",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"jungle_ruin": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"trail_ruin": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"brush": {
+			"version": 1,
+			"folder": [
+				[
+					"cartographer",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.archaeologists_brush"
+				}
+			],
+			"id": "minecraft:brush",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:unbreakable": {},
+				"minecraft:item_model": "matcha:archaeologists_brush",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.archaeologists_brush"
+				}
+			},
+			"ignore": null
+		},
+		"ocean_monument": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"snort_pottery_sherd": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:snort_pottery_sherd",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"trial_chamber": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"warm_ocean_ruin": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"abbey_divine_comedy": {
+			"version": 1,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:abbey_map"
+			},
+			"ignore": null
+		},
+		"abbey_paradise_lost": {
+			"version": 1,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:abbey_map"
+			},
+			"ignore": null
+		},
+		"ancient_city": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"4"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"mourner_pottery_sherd": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"4"
+				]
+			],
+			"names": [],
+			"id": "minecraft:mourner_pottery_sherd",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"arms_up_pottery_sherd": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:arms_up_pottery_sherd",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"woodland_mansion": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"5"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"cheerful_clay_statue": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.cheerful_clay_statue"
+				}
+			],
+			"id": "minecraft:goat_horn",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:cheerful_clay_statue",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.cheerful_clay_statue"
+				},
+				"minecraft:instrument": {
+					"sound_event": "minecraft:ambient.soul_sand_valley.mood",
+					"range": 16,
+					"use_duration": 30,
+					"description": {
+						"translate": "item.kleispack.cheerful_clay_statue.desc"
+					}
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"mournful_clay_statue": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.mournful_clay_statue"
+				}
+			],
+			"id": "minecraft:goat_horn",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:mournful_clay_statue",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.mournful_clay_statue"
+				},
+				"minecraft:instrument": {
+					"sound_event": "minecraft:ambient.soul_sand_valley.mood",
+					"range": 16,
+					"use_duration": 30,
+					"description": {
+						"translate": "item.kleispack.mournful_clay_statue.desc"
+					}
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"sweet_berry_toast_recipe": {
+			"version": 1,
+			"folder": [
+				[
+					"cook",
+					"1"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.cooking_recipe"
+				}
+			],
+			"id": "minecraft:paper",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:sweet_berry_toast_recipe",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.cooking_recipe"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.sweet_berry_toast",
+						"color": "#e85e8f",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
+		},
+		"warped_stroganoff_recipe": {
+			"version": 1,
+			"folder": [
+				[
+					"cook",
+					"2"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.cooking_recipe"
+				}
+			],
+			"id": "minecraft:paper",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:warped_stroganoff_recipe",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.cooking_recipe"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.warped_stroganoff",
+						"color": "#3cc6c8",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
+		},
+		"chorus_mochi_recipe": {
+			"version": 1,
+			"folder": [
+				[
+					"cook",
+					"3"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.cooking_recipe"
+				}
+			],
+			"id": "minecraft:paper",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:chorus_mochi_recipe",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.cooking_recipe"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.chorus_mochi",
+						"color": "#ae6cbc",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
+		},
+		"butcher_knife": {
+			"version": 1,
+			"folder": [
+				[
+					"cook",
+					"4"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.butcher_knife"
+				}
+			],
+			"id": "minecraft:stone_sword",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.butcher_knife"
+				},
+				"minecraft:max_damage": 1500,
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 5,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:entity_interaction_range",
+						"id": "interaction_range",
+						"amount": -1,
+						"operation": "add_value"
+					}
+				],
+				"minecraft:item_model": "matcha:butcher_knife",
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.entity_interaction_range",
+						"with": [
+							"-1"
+						],
+						"color": "red",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 6",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 1.6",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.iron_ingot",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:repairable": {
+					"items": [
+						"minecraft:iron_ingot"
+					]
+				},
+				"minecraft:enchantments": {
+					"matcha:slaughter": 1,
+					"minecraft:looting": 2
+				},
+				"minecraft:enchantment_glint_override": false
+			},
+			"ignore": null
+		},
+		"comparator": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:comparator",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"composter": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:composter",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"noteblock": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:note_block",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"repeater": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"1"
+				]
+			],
+			"names": [],
+			"id": "minecraft:repeater",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"redstone_lamp": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"2"
+				]
+			],
+			"names": [],
+			"id": "minecraft:redstone_lamp",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"dispenser": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:dispenser",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"dropper": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:dropper",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"hopper": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:hopper",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"observer": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"3"
+				]
+			],
+			"names": [],
+			"id": "minecraft:observer",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"crafter": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"4"
+				]
+			],
+			"names": [],
+			"id": "minecraft:crafter",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"piston": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"4"
+				]
+			],
+			"names": [],
+			"id": "minecraft:piston",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"sticky_piston": {
+			"version": null,
+			"folder": [
+				[
+					"electrician",
+					"4"
+				]
+			],
+			"names": [],
+			"id": "minecraft:sticky_piston",
+			"use_id": 1,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"lava_kit": {
+			"version": 1,
+			"folder": [
+				[
+					"electrician",
+					"5"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.bundle.lava_kit"
+				}
+			],
+			"id": "minecraft:red_bundle",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:bundle_contents": [
+					{
+						"id": "minecraft:dripstone_block",
+						"count": 4
+					},
+					{
+						"id": "minecraft:pointed_dripstone",
+						"count": 4
+					},
+					{
+						"id": "minecraft:lava_bucket",
+						"components": {
+							"minecraft:max_stack_size": 64
+						},
+						"count": 4
+					},
+					{
+						"id": "minecraft:cauldron",
+						"count": 4
+					},
+					{
+						"id": "minecraft:glass",
+						"count": 8
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.bundle.lava_kit"
+				}
+			},
+			"ignore": null
+		},
+		"music_disc_creator": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_creator_music_box": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_lava_chicken": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_otherside": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_pigstep": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_precipice": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_relic": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"music_disc_tears": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:emerald",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"village_desert": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"village_plains": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"village_savanna": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"village_snowy": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"village_taiga": {
+			"version": null,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [],
+			"id": "minecraft:map",
+			"use_id": 0,
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"asylum_seeker": {
+			"version": 1,
+			"folder": [
+				[
+					"wandering_trader"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.asylum_seeker"
+				}
+			],
+			"id": "minecraft:villager_spawn_egg",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:application",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.asylum_seeker"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.asylum_seeker.desc",
+						"color": "gray",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
+		},
+		"raw_diamond": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [],
+			"id": "minecraft:vindicator_spawn_egg",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"abbey": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"id": "minecraft:music_disc_11",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:abbey",
+				"minecraft:item_model": "matcha:music_disc_abbey",
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"elegy_of_the_abbey": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"id": "minecraft:music_disc_11",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:elegy_of_the_abbey",
+				"minecraft:item_model": "matcha:music_disc_elegy_of_the_abbey",
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"golden": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"id": "minecraft:music_disc_11",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:golden",
+				"minecraft:item_model": "matcha:music_disc_golden",
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"labyrinthine": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"id": "minecraft:music_disc_11",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:labyrinthine",
+				"minecraft:item_model": "matcha:music_disc_labyrinthine",
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"amber": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.amber",
+					"color": "gold"
+				}
+			],
+			"id": "minecraft:fermented_spider_eye",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:amber",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.amber",
+					"color": "gold"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"opal": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.opal",
+					"color": "#ab85ad"
+				}
+			],
+			"id": "minecraft:fermented_spider_eye",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:opal",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.opal",
+					"color": "#ab85ad"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"ruby": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.ruby",
+					"color": "red"
+				}
+			],
+			"id": "minecraft:fermented_spider_eye",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:ruby",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.ruby",
+					"color": "red"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"topaz": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.topaz",
+					"color": "yellow"
+				}
+			],
+			"id": "minecraft:fermented_spider_eye",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:topaz",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.topaz",
+					"color": "yellow"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"axe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_axe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/axe",
+							"speed": 7
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"7"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"9"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"0.9"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"boots": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_boots",
+			"use_id": 0,
+			"type": "boots",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"chestplate": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_chestplate",
+			"use_id": 0,
+			"type": "chestplate",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"6"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"claymore": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"steel"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.steel_claymore"
+				}
+			],
+			"id": "minecraft:stone_sword",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 1500,
+				"minecraft:item_name": {
+					"translate": "item.kleispack.steel_claymore"
+				},
+				"minecraft:item_model": "matcha:steel_claymore",
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"8"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"0.7"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.knockback_attribute",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.when_blocking",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.melee_blocking",
+						"with": [
+							"70"
+						],
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.projectile_blocking",
+						"with": [
+							"60"
+						],
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.iron_ingot",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:blocks_attacks": {
+					"disable_cooldown_scale": 2,
+					"damage_reductions": [
+						{
+							"type": [
+								"minecraft:arrow",
+								"minecraft:mob_projectile"
+							],
+							"base": 0,
+							"factor": 0.6
+						},
+						{
+							"type": [
+								"minecraft:mob_attack",
+								"minecraft:player_attack"
+							],
+							"base": 0,
+							"factor": 0.7
+						}
+					],
+					"item_damage": {
+						"threshold": 1,
+						"base": 0,
+						"factor": 0.25
+					},
+					"block_sound": "minecraft:entity.zombie.attack_iron_door",
+					"disabled_sound": "minecraft:item.shield.break"
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:repairable": {
+					"items": [
+						"minecraft:iron_ingot"
+					]
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 7,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:attack_knockback",
+						"id": "attack_knockback",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:attack_speed",
+						"id": "attack_speed",
+						"amount": -3.3,
+						"operation": "add_value",
+						"slot": "mainhand"
+					}
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"dolabra": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.iron_dolabra"
+				}
+			],
+			"id": "minecraft:iron_axe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.iron_dolabra"
+				},
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/axe",
+							"speed": 6,
+							"correct_for_drops": true
+						},
+						{
+							"blocks": "#minecraft:mineable/pickaxe",
+							"speed": 6,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:max_damage": 500,
+				"minecraft:item_model": "matcha:iron_dolabra",
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"6"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"6"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"0.9"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 5,
+						"operation": "add_value"
+					},
+					{
+						"type": "minecraft:attack_speed",
+						"id": "attack_speed",
+						"amount": -3.1,
+						"operation": "add_value",
+						"slot": "mainhand"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"helmet": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"hoe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_hoe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/hoe",
+							"speed": 8
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"8"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"3"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"leggings": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_leggings",
+			"use_id": 0,
+			"type": "leggings",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"5"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:max_damage": 350,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"mattock": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.iron_mattock"
+				}
+			],
+			"id": "minecraft:iron_hoe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.iron_mattock"
+				},
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/hoe",
+							"speed": 6,
+							"correct_for_drops": true
+						},
+						{
+							"blocks": "#minecraft:mineable/shovel",
+							"speed": 6,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:item_model": "matcha:iron_mattock",
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"6"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"4"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"3"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 3,
+						"operation": "add_value"
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"pickaxe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_pickaxe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#matcha:non_mineable/iron",
+							"speed": 3,
+							"correct_for_drops": false
+						},
+						{
+							"blocks": "#minecraft:mineable/pickaxe",
+							"speed": 7,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"7"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"4"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"shovel": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_shovel",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/shovel",
+							"speed": 8,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"8"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"4.5"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"spear": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_spear",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"3"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.05"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:max_damage": 500,
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"sword": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_sword",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "attack_damage",
+						"amount": 5,
+						"operation": "add_value",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:attack_speed",
+						"id": "attack_speed",
+						"amount": -2.4,
+						"operation": "add_value",
+						"slot": "mainhand"
+					}
+				],
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"6"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.6"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"armour": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:copper_sword",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"weapons": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_sword",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"equipment": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_axe",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"tools": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"iron"
+				]
+			],
+			"names": [],
+			"id": "minecraft:iron_sword",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"any": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [],
+			"id": "minecraft:golden_sword",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"trident": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"misc"
+				]
+			],
+			"names": [],
+			"id": "minecraft:trident",
+			"use_id": 1,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ud83d\udde1 9",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 1.1",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.diamond",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:repairable": {
+					"items": "minecraft:diamond"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"tool": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"wood"
+				]
+			],
+			"names": [],
+			"id": "minecraft:wooden_shovel",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"elytra": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"shakudo"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.shakudo_elytra",
+					"color": "#c96691"
+				}
+			],
+			"id": "minecraft:elytra",
+			"use_id": 0,
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 800,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.elytra_bonus",
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "enchantment.kleispack.shakudo_elytra",
+						"color": "#e85e8f",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "block.minecraft.honeycomb_block",
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.copper_block",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.shakudo_elytra",
+					"color": "#c96691"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.chestplate",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "chest"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				},
+				"minecraft:stored_enchantments": {
+					"matcha:max_magic_protection": 1,
+					"matcha:cleanse_armor_maleffect": 1,
+					"matcha:shakudo_armour": 1
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:item_model": "matcha:shakudo_elytra",
+				"minecraft:equippable": {
+					"slot": "chest",
+					"asset_id": "matcha:shakudo_elytra"
+				},
+				"minecraft:repairable": {
+					"items": [
+						"minecraft:honeycomb_block",
+						"minecraft:copper_block"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"laurel": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"hepatizon"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.hepatizon_laurel",
+					"color": "#ac7b5c"
+				}
+			],
+			"id": "minecraft:netherite_helmet",
+			"use_id": 0,
+			"type": "helmet",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 250,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.speed_attribute",
+						"with": [
+							"+0.1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.kleispack.hepatizon_laurel",
+					"color": "#ac7b5c"
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:movement_speed",
+						"id": "bronze_helmet",
+						"amount": 0.1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.helmet",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "head"
+					},
+					{
+						"type": "minecraft:knockback_resistance",
+						"id": "minecraft:armor.helmet",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "head"
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_model": "matcha:hepatizon_laurel",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:hepatizon_laurel"
+				},
+				"minecraft:unbreakable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"shears": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"copper"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.copper_shears"
+				}
+			],
+			"id": "minecraft:shears",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 300,
+				"minecraft:item_name": {
+					"translate": "item.kleispack.copper_shears"
+				},
+				"minecraft:item_model": "matcha:copper_shears",
+				"minecraft:repairable": {
+					"items": "minecraft:copper_ingot"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"any_weighted": {
+			"version": null,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [],
+			"id": "minecraft:chainmail_leggings",
+			"use_id": 0,
+			"type": null,
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"copper": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.copper_compass"
+				}
+			],
+			"id": "minecraft:compass",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:copper_compass",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.copper_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"gold": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.golden_compass"
+				}
+			],
+			"id": "minecraft:compass",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:golden_compass",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.golden_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"titanium": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.titanium_compass"
+				}
+			],
+			"id": "minecraft:compass",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:titanium_compass",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.titanium_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"axolotl": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.axolotl"
+				}
+			],
+			"id": "minecraft:chicken_spawn_egg",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.axolotl"
+				},
+				"minecraft:item_model": "matcha:axolotl",
+				"minecraft:entity_data": {
+					"id": "minecraft:axolotl"
 				},
 				"minecraft:custom_data": {
 					"version": 1

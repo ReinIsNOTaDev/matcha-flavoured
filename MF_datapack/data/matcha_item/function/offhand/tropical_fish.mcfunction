@@ -1,0 +1,2 @@
+say <D> Updating offhand for tropical_fish
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

@@ -1,0 +1,2 @@
+say <D> Updating mainhand for paradise_lost
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.paradise_lost'}, 'minecraft:rarity': 'uncommon', 'minecraft:max_stack_size': 64, 'minecraft:item_model': 'matcha:paradise_lost', 'minecraft:lore': [{'translate': 'item.kleispack.paradise_lost.desc', 'color': 'gray', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

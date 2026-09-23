@@ -1,0 +1,2 @@
+say <D> Updating mainhand for armoured_catfish
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.armoured_catfish'}, 'minecraft:item_model': 'matcha:armoured_catfish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.3', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

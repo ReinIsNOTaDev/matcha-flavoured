@@ -1,0 +1,2 @@
+say <D> Updating mainhand for titanium
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:titanium_compass', 'minecraft:item_name': {'translate': 'item.kleispack.titanium_compass'}, 'minecraft:custom_data': {'version': 1}}}

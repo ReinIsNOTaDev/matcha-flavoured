@@ -1,0 +1,2 @@
+say <D> Updating offhand for mahi_mahi
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.mahi_mahi'}, 'minecraft:item_model': 'matcha:mahi_mahi', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.2', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

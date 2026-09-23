@@ -1,0 +1,2 @@
+say <D> Updating mainhand for oarfish
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.oarfish'}, 'minecraft:item_model': 'matcha:oarfish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

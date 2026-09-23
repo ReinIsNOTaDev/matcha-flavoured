@@ -1,0 +1,2 @@
+say <D> Updating mainhand for tunisian_barb
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.tunisian_barb'}, 'minecraft:item_model': 'matcha:tunisian_barb', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.3', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

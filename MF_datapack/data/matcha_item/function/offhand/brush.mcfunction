@@ -1,0 +1,2 @@
+say <D> Updating offhand for brush
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:unbreakable': {}, 'minecraft:item_model': 'matcha:archaeologists_brush', 'minecraft:item_name': {'translate': 'item.kleispack.archaeologists_brush'}}}

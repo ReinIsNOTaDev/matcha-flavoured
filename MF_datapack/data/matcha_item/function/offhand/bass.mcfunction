@@ -1,0 +1,2 @@
+say <D> Updating offhand for bass
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.bass'}, 'minecraft:item_model': 'matcha:bass', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

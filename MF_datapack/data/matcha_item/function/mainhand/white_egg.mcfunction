@@ -1,0 +1,2 @@
+say <D> Updating mainhand for white_egg
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'minecraft:egg', 'minecraft:entity_data': {'id': 'minecraft:chicken', 'Age': -24000, 'variant': 'minecraft:temperate'}, 'minecraft:item_name': {'translate': 'item.kleispack.fertilised_egg'}}}

@@ -1,0 +1,2 @@
+say <D> Updating mainhand for splash_wither
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:max_stack_size': 64, 'minecraft:potion_contents': {'custom_effects': [{'id': 'minecraft:wither', 'amplifier': 0, 'duration': 2400}]}, 'minecraft:tooltip_display': {'hidden_components': ['minecraft:potion_contents']}, 'minecraft:lore': [{'translate': 'effect.kleispack.wither', 'with': ['2:00'], 'color': '#866570', 'italic': False}], 'minecraft:custom_name': {'translate': 'effect.minecraft.wither', 'italic': False}}}

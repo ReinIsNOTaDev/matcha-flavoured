@@ -1,0 +1,2 @@
+say <D> Updating mainhand for nightshade_arrow
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:nightshade_arrow', 'minecraft:potion_contents': {'potion': 'minecraft:strong_poison', 'custom_name': 'nightshade_arrow'}}}

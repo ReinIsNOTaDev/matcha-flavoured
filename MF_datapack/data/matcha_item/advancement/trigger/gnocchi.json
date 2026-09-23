@@ -38,28 +38,6 @@
 												}
 											}
 										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.mainhand": {
-													"items": "minecraft:paper"
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.offhand": {
-													"items": "minecraft:paper"
-												}
-											}
-										}
 									}
 								]
 							},

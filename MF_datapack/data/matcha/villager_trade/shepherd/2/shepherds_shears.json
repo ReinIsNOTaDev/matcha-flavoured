@@ -28,7 +28,10 @@
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"given_item_modifiers": [],

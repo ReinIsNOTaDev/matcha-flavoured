@@ -1,0 +1,2 @@
+say <D> Updating mainhand for echo_fish
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.echo_fish'}, 'minecraft:item_model': 'matcha:echo_fish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.4', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

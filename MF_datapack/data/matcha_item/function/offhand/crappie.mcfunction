@@ -1,0 +1,2 @@
+say <D> Updating offhand for crappie
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.crappie'}, 'minecraft:item_model': 'matcha:crappie', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

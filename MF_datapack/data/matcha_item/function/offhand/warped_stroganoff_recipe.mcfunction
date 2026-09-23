@@ -1,0 +1,2 @@
+say <D> Updating offhand for warped_stroganoff_recipe
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:warped_stroganoff_recipe', 'minecraft:item_name': {'translate': 'item.kleispack.cooking_recipe'}, 'minecraft:lore': [{'translate': 'item.kleispack.warped_stroganoff', 'color': '#3cc6c8', 'italic': False}]}}

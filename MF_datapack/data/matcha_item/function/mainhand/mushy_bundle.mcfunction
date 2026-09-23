@@ -1,0 +1,2 @@
+say <D> Updating mainhand for mushy_bundle
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:mushy_bundle', 'minecraft:item_name': {'translate': 'item.kleispack.bundle.mushroom'}, 'minecraft:bundle_contents': [{'id': 'minecraft:red_mushroom', 'count': 21}, {'id': 'minecraft:brown_mushroom', 'count': 21}, {'id': 'minecraft:glow_lichen', 'count': 21}]}}

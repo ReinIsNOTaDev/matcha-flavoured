@@ -1,0 +1,2 @@
+say <D> Updating mainhand for spoonhead_sculpin
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.spoonhead_sculpin'}, 'minecraft:item_model': 'matcha:spoonhead_sculpin', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.2', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

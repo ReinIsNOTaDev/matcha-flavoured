@@ -1,0 +1,2 @@
+say <D> Updating offhand for wolffish
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.wolffish'}, 'minecraft:item_model': 'matcha:wolffish', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.3', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

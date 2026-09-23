@@ -1,0 +1,2 @@
+say <D> Updating mainhand for walleye
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.walleye'}, 'minecraft:item_model': 'matcha:walleye', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.2', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

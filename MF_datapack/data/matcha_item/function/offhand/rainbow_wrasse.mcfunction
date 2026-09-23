@@ -1,0 +1,2 @@
+say <D> Updating offhand for rainbow_wrasse
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.rainbow_wrasse'}, 'minecraft:item_model': 'matcha:rainbow_wrasse', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

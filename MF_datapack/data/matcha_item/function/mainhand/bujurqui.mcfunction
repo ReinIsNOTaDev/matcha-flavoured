@@ -1,0 +1,2 @@
+say <D> Updating mainhand for bujurqui
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.bujurqui'}, 'minecraft:item_model': 'matcha:bujurqui', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

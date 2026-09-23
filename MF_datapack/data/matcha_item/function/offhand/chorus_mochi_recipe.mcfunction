@@ -1,0 +1,2 @@
+say <D> Updating offhand for chorus_mochi_recipe
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:chorus_mochi_recipe', 'minecraft:item_name': {'translate': 'item.kleispack.cooking_recipe'}, 'minecraft:lore': [{'translate': 'item.kleispack.chorus_mochi', 'color': '#ae6cbc', 'italic': False}]}}

@@ -1,0 +1,2 @@
+say <D> Updating offhand for apotropaic_arrow
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:apotropaic_arrow', 'minecraft:potion_contents': {'potion': 'minecraft:strong_healing', 'custom_name': 'apotropaic_arrow'}}}

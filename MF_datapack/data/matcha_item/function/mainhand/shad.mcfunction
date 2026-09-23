@@ -1,0 +1,2 @@
+say <D> Updating mainhand for shad
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.shad'}, 'minecraft:item_model': 'matcha:shad', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

@@ -1,0 +1,2 @@
+say <D> Updating mainhand for pufferfish
+item modify entity @s weapon.mainhand {'function': 'set_components', 'components': {'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.1', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

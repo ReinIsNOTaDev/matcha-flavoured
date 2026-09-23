@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:misc/ender_pearl",
+					"value": "matcha:materials/ender_pearl",
 					"functions": [
 						{
 							"add": false,

@@ -1,0 +1,2 @@
+say <D> Updating offhand for asylum_seeker
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:application', 'minecraft:item_name': {'translate': 'item.kleispack.asylum_seeker'}, 'minecraft:lore': [{'translate': 'item.kleispack.asylum_seeker.desc', 'color': 'gray', 'italic': False}]}}

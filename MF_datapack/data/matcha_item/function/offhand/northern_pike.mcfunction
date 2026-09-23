@@ -1,0 +1,2 @@
+say <D> Updating offhand for northern_pike
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_name': {'translate': 'item.kleispack.fish.northern_pike'}, 'minecraft:item_model': 'matcha:northern_pike', 'minecraft:lore': [{'translate': 'adv.kleispack.fishing.rarity.3', 'italic': False}], 'minecraft:custom_data': {'version': 1}}}

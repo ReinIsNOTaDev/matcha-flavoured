@@ -1,0 +1,2 @@
+say <D> Updating offhand for elegy_of_the_abbey
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:jukebox_playable': 'matcha:elegy_of_the_abbey', 'minecraft:item_model': 'matcha:music_disc_elegy_of_the_abbey', 'minecraft:custom_data': {'version': 1}}}

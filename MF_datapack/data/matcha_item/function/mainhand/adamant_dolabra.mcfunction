@@ -1,6 +1,6 @@
 say <D> Updating mainhand for adamant_dolabra
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-item modify entity @s weapon.mainhand matcha_item:modifyadamant_dolabra# processing enchantment minecraft:unbreaking / unbreaking 
+item modify entity @s weapon.mainhand matcha_item:modify/adamant_dolabra# processing enchantment minecraft:unbreaking / unbreaking 
 execute store result score enchants_lvl_unbreaking item_updater run data get storage matcha_item:enchants held.'minecraft:unbreaking'
 execute unless score enchants_lvl_unbreaking item_updater matches 2.. run data modify storage matcha_item:enchants held merge value {'minecraft:unbreaking': 2}
 # processing enchantment matcha:adamant_tool / adamant_tool 

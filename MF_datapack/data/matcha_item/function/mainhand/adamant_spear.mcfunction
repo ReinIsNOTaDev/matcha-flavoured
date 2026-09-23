@@ -1,6 +1,6 @@
 say <D> Updating mainhand for adamant_spear
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-item modify entity @s weapon.mainhand matcha_item:modifyadamant_spear# processing enchantment minecraft:sharpness / sharpness 
+item modify entity @s weapon.mainhand matcha_item:modify/adamant_spear# processing enchantment minecraft:sharpness / sharpness 
 execute store result score enchants_lvl_sharpness item_updater run data get storage matcha_item:enchants held.'minecraft:sharpness'
 execute unless score enchants_lvl_sharpness item_updater matches 1.. run data modify storage matcha_item:enchants held merge value {'minecraft:sharpness': 1}
 # processing enchantment minecraft:unbreaking / unbreaking 

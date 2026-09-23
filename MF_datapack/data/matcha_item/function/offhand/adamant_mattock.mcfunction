@@ -1,6 +1,6 @@
 say <D> Updating offhand for adamant_mattock
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
-item modify entity @s weapon.offhand matcha_item:modifyadamant_mattock# processing enchantment minecraft:efficiency / efficiency 
+item modify entity @s weapon.offhand matcha_item:modify/adamant_mattock# processing enchantment minecraft:efficiency / efficiency 
 execute store result score enchants_lvl_efficiency item_updater run data get storage matcha_item:enchants held.'minecraft:efficiency'
 execute unless score enchants_lvl_efficiency item_updater matches 1.. run data modify storage matcha_item:enchants held merge value {'minecraft:efficiency': 1}
 # processing enchantment matcha:adamant_tool / adamant_tool 

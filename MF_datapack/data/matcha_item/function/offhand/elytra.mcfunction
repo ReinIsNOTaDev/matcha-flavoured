@@ -1,6 +1,6 @@
 say <D> Updating offhand for elytra
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
-item modify entity @s weapon.offhand matcha_item:modifyelytra# processing enchantment matcha:max_magic_protection / max_magic_protection 
+item modify entity @s weapon.offhand matcha_item:modify/elytra# processing enchantment matcha:max_magic_protection / max_magic_protection 
 execute store result score enchants_lvl_max_magic_protection item_updater run data get storage matcha_item:enchants held.'matcha:max_magic_protection'
 execute unless score enchants_lvl_max_magic_protection item_updater matches 1.. run data modify storage matcha_item:enchants held merge value {'matcha:max_magic_protection': 1}
 # processing enchantment matcha:cleanse_armor_maleffect / cleanse_armor_maleffect 

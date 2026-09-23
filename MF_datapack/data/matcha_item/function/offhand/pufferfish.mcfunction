@@ -1,2 +1,2 @@
 say <D> Updating offhand for pufferfish
-item modify entity @s weapon.offhand matcha_item:modifypufferfish
+item modify entity @s weapon.offhand matcha_item:modify/pufferfish

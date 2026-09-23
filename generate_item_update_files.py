@@ -730,7 +730,7 @@ def creationHelper(obj, item):
             update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "enchanted_helmet" | "enchanted_chestplate" | "enchanted_leggings" | "enchanted_boots":
-            update_function += "item modify entity @s "+slots[0]+" "+str(item_modifier)+"\n"
+            update_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
             update_function += "data modify storage matcha_item:enchants held set from entity @s "+slots[0].replace('armor','equipment')+".components.minecraft:enchantments\n"
             for enchantment,value in enchantments.items():
                 try:
@@ -752,8 +752,8 @@ def creationHelper(obj, item):
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
             offhand_function += "data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments\n"
             # modify item
-            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify"+item
-            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify"+item
+            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item
+            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 try:
@@ -773,8 +773,8 @@ def creationHelper(obj, item):
             update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
-            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify"+item
-            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify"+item
+            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item
+            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item
         case _:
             pass
 # define paths

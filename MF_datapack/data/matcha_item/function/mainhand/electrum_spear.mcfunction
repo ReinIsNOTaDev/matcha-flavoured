@@ -1,6 +1,6 @@
 say <D> Updating mainhand for electrum_spear
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-item modify entity @s weapon.mainhand matcha_item:modifyelectrum_spear# processing enchantment minecraft:smite / smite 
+item modify entity @s weapon.mainhand matcha_item:modify/electrum_spear# processing enchantment minecraft:smite / smite 
 execute store result score enchants_lvl_smite item_updater run data get storage matcha_item:enchants held.'minecraft:smite'
 execute unless score enchants_lvl_smite item_updater matches 4.. run data modify storage matcha_item:enchants held merge value {'minecraft:smite': 4}
 # processing enchantment minecraft:looting / looting 

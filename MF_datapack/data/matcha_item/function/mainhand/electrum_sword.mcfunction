@@ -1,6 +1,6 @@
 say <D> Updating mainhand for electrum_sword
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
-item modify entity @s weapon.mainhand matcha_item:modifyelectrum_sword# processing enchantment minecraft:looting / looting 
+item modify entity @s weapon.mainhand matcha_item:modify/electrum_sword# processing enchantment minecraft:looting / looting 
 execute store result score enchants_lvl_looting item_updater run data get storage matcha_item:enchants held.'minecraft:looting'
 execute unless score enchants_lvl_looting item_updater matches 2.. run data modify storage matcha_item:enchants held merge value {'minecraft:looting': 2}
 # processing enchantment minecraft:smite / smite 

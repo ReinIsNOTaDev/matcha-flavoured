@@ -1,2 +1,2 @@
 say <D> Updating mainhand for terracotta
-item modify entity @s weapon.mainhand matcha_item:modifyterracotta
+item modify entity @s weapon.mainhand matcha_item:modify/terracotta

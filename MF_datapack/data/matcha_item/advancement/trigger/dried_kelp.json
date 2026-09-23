@@ -4,18 +4,18 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:all_of",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
-								"condition": "minecraft:any_of",
-								"terms": []
-							},
-							{
-								"condition": "minecraft:inverted",
-								"term": [
+								"condition": "minecraft:all_of",
+								"terms": [
 									{
 										"condition": "minecraft:any_of",
-										"terms": [
+										"terms": []
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": [
 											{
 												"condition": "minecraft:entity_properties",
 												"entity": "this",
@@ -30,7 +30,21 @@
 														}
 													}
 												}
-											},
+											}
+										]
+									}
+								]
+							},
+							{
+								"condition": "minecraft:all_of",
+								"terms": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": []
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": [
 											{
 												"condition": "minecraft:entity_properties",
 												"entity": "this",

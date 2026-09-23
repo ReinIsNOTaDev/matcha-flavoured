@@ -681,29 +681,41 @@ def creationHelper(obj, item):
     else:
         pass
 # defining trigger advancement
-    trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
-    if names != []:
-        for i in range(len(names_predicates)):
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
-    else:
-        pass
-    if use_id == 1:
-        for id_predicate in id_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicate)
-    else:
-        pass
-    if type_ == "trim_colour":
-        trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append({"condition": "minecraft:any_of", "terms": []})
-        for trim_colour_predicate in trim_colour_predicates:
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][2]["terms"].append(trim_colour_predicate)
-    else:
-        pass
-    if len(version_predicates) == 1:
-        trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append(version_predicates[0])
-    else:
-        trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append({"condition": "minecraft:any_of", "terms": []})
-        for i in range(len(version_predicates)):
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"][0]["terms"].append(version_predicates[i])
+    match type_:
+        case "generic" | "enchanted" | "trim_materials":
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:any_of", "terms": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]},{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            if names != []:
+                for i in range(len(names_predicates)):
+                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][0]["terms"].append(names_predicates[i])
+                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][0]["terms"].append(names_predicates[i])
+            else:
+                pass
+            if use_id == 1:
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][0]["terms"].append(id_predicates[0])
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][0]["terms"].append(id_predicates[1])
+            else:
+                pass
+            if type_ == "trim_colour":
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append({"condition": "minecraft:any_of", "terms": []})
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][2]["terms"].append(trim_colour_predicate[0])
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][2]        ["terms"].append(trim_colour_predicates[1])
+            else:
+                pass
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][1]["term"].append(version_predicates[0])
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][1]["term"].append(version_predicates[1])
+        case _:
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            if names != []:
+                for i in range(len(names_predicates)):
+                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
+            else:
+                pass
+            if use_id == 1:
+                for id_predicate in id_predicates:
+                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicate)
+            else:
+                pass
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append(version_predicates[0])
 # defining update functions
     update_function = ""
     mainhand_function = ""
@@ -832,13 +844,21 @@ def creationHelper(obj, item):
 # advancement stuff:
 #  conditions
 #    player
-#      all_of
-#        any_of
-#          name_predicates
-#          id_predicate
-#        inverse
-#          any_of (not needed in armor)
-#            version_predicate
+#      any_of
+#        all_of (mainhand)
+#          any_of
+#            name_predicates
+#            id_predicate
+#          inverse
+#            any_of (not needed in armor)
+#              version_predicate
+#        all_of (offhand)
+#          any_of
+#            name_predicates
+#            id_predicate
+#          inverse
+#            any_of (not needed in armor)
+#              version_predicate
 
 def config(option):
     options = DB["options"]

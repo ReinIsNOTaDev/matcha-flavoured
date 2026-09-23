@@ -45,66 +45,15 @@
 								"condition": "minecraft:inverted",
 								"term": [
 									{
-										"condition": "minecraft:any_of",
-										"terms": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": 1
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.offhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": 1
-																}
-															}
-														}
-													}
-												}
-											}
-										]
-									}
-								]
-							},
-							{
-								"condition": "minecraft:any_of",
-								"terms": [
-									{
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
 											"minecraft:slots": {
 												"weapon.mainhand": {
-													"components": {
-														"minecraft:provides_trim_material": "minecraft:lapis"
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.offhand": {
-													"components": {
-														"minecraft:provides_trim_material": "minecraft:lapis"
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
 													}
 												}
 											}

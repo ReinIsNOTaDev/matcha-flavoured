@@ -744,8 +744,8 @@ def creationHelper(obj, item):
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "enchanted":
             # detect specific slot
-            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:enchants/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:enchants/"+item+"\n"
+            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             # revoke advancement
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
             # process enchantments

@@ -15,6 +15,9 @@
 			"minecraft:item_model": "matcha:ofuda",
 			"minecraft:stored_enchantments": {
 				"minecraft:protection": 2
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	},
@@ -33,13 +36,13 @@
 			"minecraft:item_model": "matcha:quran",
 			"minecraft:lore": [
 				{
-					"text": "القرآن",
+					"text": "\u0627\u0644\u0642\u0631\u0622\u0646",
 					"color": "gray",
 					"italic": false
 				}
 			]
 		}
-	},	
+	},
 	"additional_wants": {
 		"count": 1,
 		"id": "minecraft:poisonous_potato",

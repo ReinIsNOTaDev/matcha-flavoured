@@ -111,6 +111,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -174,6 +177,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -260,6 +266,12 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_campfire"
+				],
+				[
+					"food_oven"
 				]
 			],
 			"names": [],
@@ -310,6 +322,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -375,6 +390,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -424,6 +442,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -498,6 +519,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -569,6 +593,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -643,6 +670,12 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_campfire"
+				],
+				[
+					"food_oven"
 				]
 			],
 			"names": [],
@@ -714,6 +747,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -779,6 +815,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -828,6 +867,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -877,6 +919,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -926,6 +971,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -975,6 +1023,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -1024,6 +1075,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1095,6 +1149,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -1144,6 +1201,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -1193,6 +1253,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -1242,6 +1305,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1299,6 +1365,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -1357,6 +1426,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1432,6 +1504,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1507,6 +1582,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1578,6 +1656,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1650,6 +1731,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1746,6 +1830,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1822,6 +1909,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -1842,6 +1932,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1900,6 +1993,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -1977,6 +2073,12 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"food_campfire"
+				],
+				[
+					"food_oven"
 				]
 			],
 			"names": [
@@ -2019,6 +2121,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [
@@ -2092,6 +2197,9 @@
 			"folder": [
 				[
 					"food_oven"
+				],
+				[
+					"food_campfire"
 				]
 			],
 			"names": [],
@@ -2184,6 +2292,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -2459,6 +2570,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -3113,6 +3227,9 @@
 				[
 					"cook",
 					"3"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -3743,6 +3860,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -3814,6 +3934,9 @@
 				[
 					"food",
 					"recipe"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -3848,6 +3971,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [],
@@ -4009,6 +4135,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [],
@@ -4608,6 +4737,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -4758,6 +4890,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [],
@@ -4877,6 +5012,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [],
@@ -5179,6 +5317,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -5811,6 +5952,9 @@
 			"folder": [
 				[
 					"food"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -6446,6 +6590,9 @@
 				[
 					"cook",
 					"1"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -6761,6 +6908,9 @@
 				[
 					"cook",
 					"2"
+				],
+				[
+					"food_crafting"
 				]
 			],
 			"names": [
@@ -9911,6 +10061,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_axe",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_axe",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:stone_axe",
@@ -10028,6 +10182,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_boots",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_boots",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:copper_boots",
@@ -10116,6 +10274,10 @@
 			"names": [
 				{
 					"translate": "item.kleispack.hepatizon_chestplate",
+					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_chestplate",
 					"color": "#ac7b5c"
 				}
 			],
@@ -10329,6 +10491,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_elytra",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_elytra",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:elytra",
@@ -10424,6 +10590,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_helmet",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_helmet",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:copper_helmet",
@@ -10512,6 +10682,10 @@
 			"names": [
 				{
 					"translate": "item.kleispack.hepatizon_hoe",
+					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_hoe",
 					"color": "#ac7b5c"
 				}
 			],
@@ -10617,6 +10791,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_leggings",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_leggings",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:copper_leggings",
@@ -10705,6 +10883,10 @@
 			"names": [
 				{
 					"translate": "item.kleispack.hepatizon_mattock",
+					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_mattock",
 					"color": "#ac7b5c"
 				}
 			],
@@ -10829,6 +11011,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_pickaxe",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_pickaxe",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:stone_pickaxe",
@@ -10952,6 +11138,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_shovel",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_shovel",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:stone_shovel",
@@ -11070,6 +11260,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_spear",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_spear",
+					"color": "#ac7b5c"
 				}
 			],
 			"id": "minecraft:stone_spear",
@@ -11173,6 +11367,10 @@
 			"names": [
 				{
 					"translate": "item.kleispack.hepatizon_sword",
+					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_sword",
 					"color": "#ac7b5c"
 				}
 			],
@@ -12556,12 +12754,16 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"smithing"
 				]
 			],
 			"names": [
 				{
 					"translate": "item.kleispack.silver_sword"
-				}
+				},
+				"Silver Sword"
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
@@ -14030,6 +14232,9 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"smithing"
 				]
 			],
 			"names": [
@@ -14114,12 +14319,16 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"smithing"
 				]
 			],
 			"names": [
 				{
 					"translate": "item.kleispack.warding_sword"
-				}
+				},
+				"Warding Sword"
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,
@@ -14331,15 +14540,18 @@
 				[
 					"fletcher",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
 			"id": "minecraft:arrow",
 			"use_id": 1,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {},
-			"ignore": null
+			"ignore": true
 		},
 		"azalea_sapling_from_azalea_leaves": {
 			"version": null,
@@ -14557,6 +14769,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -14648,6 +14863,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -14844,6 +15062,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -15685,6 +15906,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -15820,6 +16044,13 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"crafting"
+				],
+				[
+					"mason",
+					"1"
 				]
 			],
 			"names": [
@@ -15830,7 +16061,7 @@
 			"id": "minecraft:poisonous_potato",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_diorite"
@@ -15863,7 +16094,7 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"diorite_from_diorite_slabs": {
 			"version": null,
@@ -16306,6 +16537,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -16382,6 +16616,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -16833,6 +17070,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -16879,6 +17119,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -16970,6 +17213,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17031,6 +17277,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17211,6 +17460,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17226,6 +17478,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17241,6 +17496,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17256,6 +17514,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17271,6 +17532,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17286,6 +17550,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17301,6 +17568,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17316,6 +17586,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17331,6 +17604,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17346,6 +17622,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17361,6 +17640,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17376,6 +17658,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17391,6 +17676,9 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17557,6 +17845,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -17858,6 +18149,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -18159,6 +18453,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -18445,6 +18742,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -18461,6 +18761,9 @@
 				[
 					"electrician",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -19092,6 +19395,9 @@
 				[
 					"electrician",
 					"2"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -19273,6 +19579,9 @@
 				[
 					"electrician",
 					"2"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -19634,6 +19943,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -19695,6 +20007,9 @@
 				[
 					"shepherd",
 					"1"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -19976,6 +20291,13 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"crafting"
+				],
+				[
+					"mouthpiece",
+					"5"
 				]
 			],
 			"names": [
@@ -20730,6 +21052,9 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -21980,6 +22305,9 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [],
@@ -23349,6 +23677,9 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"crafting"
 				]
 			],
 			"names": [
@@ -25184,6 +25515,10 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"jeweler",
+					"1"
 				]
 			],
 			"names": [
@@ -25455,6 +25790,10 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"jeweler",
+					"2"
 				]
 			],
 			"names": [
@@ -25525,6 +25864,10 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"jeweler",
+					"3"
 				]
 			],
 			"names": [
@@ -25600,6 +25943,10 @@
 			"names": [
 				{
 					"translate": "item.kleispack.hepatizon_laurel",
+					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_laurel",
 					"color": "#ac7b5c"
 				}
 			],
@@ -25677,6 +26024,10 @@
 				[
 					"equipment",
 					"misc"
+				],
+				[
+					"jeweler",
+					"4"
 				]
 			],
 			"names": [
@@ -26215,11 +26566,15 @@
 			"folder": [
 				[
 					"materials"
+				],
+				[
+					"mouthpiece",
+					"1"
 				]
 			],
 			"names": [],
 			"id": "minecraft:ender_pearl",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": true,
 			"components": {
@@ -26235,6 +26590,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"1"
 				]
 			],
 			"names": [
@@ -26271,6 +26630,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"1"
 				]
 			],
 			"names": [
@@ -26307,6 +26670,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"2"
 				]
 			],
 			"names": [
@@ -26336,6 +26703,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"2"
 				]
 			],
 			"names": [
@@ -26372,6 +26743,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"2"
 				]
 			],
 			"names": [
@@ -26408,6 +26783,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"3"
 				]
 			],
 			"names": [
@@ -26444,6 +26823,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"mouthpiece",
+					"4"
 				]
 			],
 			"names": [
@@ -26480,6 +26863,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"1"
 				]
 			],
 			"names": [
@@ -26578,6 +26965,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"1"
 				]
 			],
 			"names": [
@@ -26628,6 +27019,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"1"
 				]
 			],
 			"names": [
@@ -26678,6 +27073,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"2"
 				]
 			],
 			"names": [
@@ -26728,6 +27127,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"2"
 				]
 			],
 			"names": [
@@ -26778,6 +27181,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"2"
 				]
 			],
 			"names": [
@@ -26828,6 +27235,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"2"
 				]
 			],
 			"names": [
@@ -26878,6 +27289,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"2"
 				]
 			],
 			"names": [
@@ -26928,6 +27343,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"2"
 				]
 			],
 			"names": [
@@ -26978,6 +27397,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"3"
 				]
 			],
 			"names": [
@@ -27028,6 +27451,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"3"
 				]
 			],
 			"names": [
@@ -27078,6 +27505,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"3"
 				]
 			],
 			"names": [
@@ -27128,6 +27559,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"3"
 				]
 			],
 			"names": [
@@ -27194,6 +27629,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"4"
 				]
 			],
 			"names": [
@@ -27244,6 +27683,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"4"
 				]
 			],
 			"names": [
@@ -27294,6 +27737,10 @@
 			"folder": [
 				[
 					"bulk_block"
+				],
+				[
+					"mason",
+					"4"
 				]
 			],
 			"names": [
@@ -27344,6 +27791,54 @@
 			"folder": [
 				[
 					"cook",
+					"5"
+				],
+				[
+					"mason",
+					"5"
+				],
+				[
+					"shepherd",
+					"4"
+				],
+				[
+					"shepherd",
+					"5"
+				],
+				[
+					"leatherworker",
+					"5"
+				],
+				[
+					"fletcher",
+					"4"
+				],
+				[
+					"fletcher",
+					"5"
+				],
+				[
+					"farmer",
+					"4"
+				],
+				[
+					"farmer",
+					"5"
+				],
+				[
+					"cleric",
+					"2"
+				],
+				[
+					"cleric",
+					"3"
+				],
+				[
+					"cleric",
+					"4"
+				],
+				[
+					"cleric",
 					"5"
 				]
 			],
@@ -28040,6 +28535,10 @@
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28050,7 +28549,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.alaska_blackfish"
@@ -28066,13 +28565,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"anchovy": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28083,7 +28586,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.anchovy"
@@ -28099,13 +28602,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"bluegill": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28116,7 +28623,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.bluegill"
@@ -28132,13 +28639,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"bujurqui": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28149,7 +28660,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.bujurqui"
@@ -28165,20 +28676,24 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"cod": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [],
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -28190,13 +28705,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"crappie": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28207,7 +28726,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.crappie"
@@ -28223,13 +28742,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"freshwater_pufferfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28240,7 +28763,7 @@
 			"id": "minecraft:pufferfish",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.freshwater_pufferfish"
@@ -28256,13 +28779,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"guppy": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28273,7 +28800,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.guppy"
@@ -28289,13 +28816,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"humpback_whitefish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28306,7 +28837,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.humpback_whitefish"
@@ -28322,13 +28853,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"mediterranean_killifish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28339,7 +28874,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.mediterranean_killifish"
@@ -28355,20 +28890,24 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"pufferfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [],
 			"id": "minecraft:pufferfish",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -28380,13 +28919,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"rainbow_wrasse": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28397,7 +28940,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.rainbow_wrasse"
@@ -28413,20 +28956,24 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"salmon": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [],
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -28438,13 +28985,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"shad": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28455,7 +29006,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.shad"
@@ -28471,13 +29022,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"striped_perch": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [
@@ -28488,7 +29043,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.striped_perch"
@@ -28504,20 +29059,24 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"tropical_fish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"2"
 				]
 			],
 			"names": [],
 			"id": "minecraft:tropical_fish",
 			"use_id": 1,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -28529,13 +29088,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"black_seabass": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28546,7 +29109,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.black_seabass"
@@ -28562,13 +29125,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"carp": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28579,7 +29146,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.carp"
@@ -28595,13 +29162,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"flying_fish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28612,7 +29183,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.flying_fish"
@@ -28628,13 +29199,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"gurnard": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28645,7 +29220,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.gurnard"
@@ -28661,13 +29236,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"herring": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28678,7 +29257,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.herring"
@@ -28694,13 +29273,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"lamprey": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28711,7 +29294,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.lamprey"
@@ -28727,13 +29310,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"mahi_mahi": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28744,7 +29331,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.mahi_mahi"
@@ -28760,13 +29347,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"piranha": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28777,7 +29368,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.piranha"
@@ -28793,13 +29384,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"spoonhead_sculpin": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28810,7 +29405,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.spoonhead_sculpin"
@@ -28826,13 +29421,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"walleye": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"3"
 				]
 			],
 			"names": [
@@ -28843,7 +29442,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.walleye"
@@ -28859,13 +29458,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"armoured_catfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -28876,7 +29479,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.armoured_catfish"
@@ -28892,13 +29495,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"catfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -28909,7 +29516,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.catfish"
@@ -28925,13 +29532,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"flounder": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -28942,7 +29553,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.flounder"
@@ -28958,13 +29569,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"gar": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -28975,7 +29590,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.gar"
@@ -28991,13 +29606,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"monkfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -29008,7 +29627,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.monkfish"
@@ -29024,13 +29643,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"northern_pike": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -29041,7 +29664,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.northern_pike"
@@ -29057,13 +29680,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"painted_moray": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -29074,7 +29701,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.painted_moray"
@@ -29090,13 +29717,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"sturgeon": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -29107,7 +29738,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.sturgeon"
@@ -29123,13 +29754,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"tunisian_barb": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -29140,7 +29775,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.tunisian_barb"
@@ -29156,13 +29791,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"wolffish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"4"
 				]
 			],
 			"names": [
@@ -29173,7 +29812,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.wolffish"
@@ -29189,13 +29828,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"arapaima": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29206,7 +29849,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.arapaima"
@@ -29222,13 +29865,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"bass": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29239,7 +29886,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.bass"
@@ -29255,13 +29902,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"echo_fish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29272,7 +29923,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.echo_fish"
@@ -29288,13 +29939,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"european_eel": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29305,7 +29960,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.european_eel"
@@ -29321,13 +29976,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"muskellunge": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29338,7 +29997,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.muskellunge"
@@ -29354,13 +30013,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"oarfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29371,7 +30034,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.oarfish"
@@ -29387,13 +30050,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"opah": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29404,7 +30071,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.opah"
@@ -29420,13 +30087,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"pale_fish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29437,7 +30108,7 @@
 			"id": "minecraft:cod",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.pale_fish"
@@ -29453,13 +30124,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"siberian_sturgeon": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29470,7 +30145,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.siberian_sturgeon"
@@ -29486,13 +30161,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"skate": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29503,7 +30182,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.skate"
@@ -29519,13 +30198,17 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"swordfish": {
 			"version": 1,
 			"folder": [
 				[
 					"fish"
+				],
+				[
+					"fisherman",
+					"5"
 				]
 			],
 			"names": [
@@ -29536,7 +30219,7 @@
 			"id": "minecraft:salmon",
 			"use_id": 0,
 			"type": "generic",
-			"processed": true,
+			"processed": false,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.swordfish"
@@ -29552,7 +30235,7 @@
 					"version": 1
 				}
 			},
-			"ignore": null
+			"ignore": true
 		},
 		"bonemeal": {
 			"version": null,
@@ -30435,6 +31118,10 @@
 			"folder": [
 				[
 					"wandering_trader"
+				],
+				[
+					"cartographer",
+					"1"
 				]
 			],
 			"names": [],
@@ -30720,6 +31407,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"cartographer",
+					"5"
 				]
 			],
 			"names": [
@@ -30755,6 +31446,10 @@
 			"folder": [
 				[
 					"treasure"
+				],
+				[
+					"cartographer",
+					"5"
 				]
 			],
 			"names": [
@@ -31661,6 +32356,42 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"wood"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -31723,6 +32454,50 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"leather"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"chainmail"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -31759,6 +32534,50 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"leather"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"chainmail"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -31795,6 +32614,10 @@
 				[
 					"equipment",
 					"steel"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -31942,6 +32765,34 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [
@@ -32033,6 +32884,50 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"leather"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"chainmail"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32069,6 +32964,42 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"wood"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32131,6 +33062,50 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"leather"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"chainmail"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32167,6 +33142,34 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [
@@ -32251,6 +33254,42 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"wood"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32319,6 +33358,42 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"wood"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32382,6 +33457,38 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32426,6 +33533,38 @@
 				[
 					"equipment",
 					"iron"
+				],
+				[
+					"equipment",
+					"adamant"
+				],
+				[
+					"equipment",
+					"diamond"
+				],
+				[
+					"equipment",
+					"electrum"
+				],
+				[
+					"equipment",
+					"gold"
+				],
+				[
+					"equipment",
+					"hepatizon"
+				],
+				[
+					"equipment",
+					"shakudo"
+				],
+				[
+					"equipment",
+					"steel"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -32633,6 +33772,10 @@
 				[
 					"equipment",
 					"shakudo"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -32811,6 +33954,10 @@
 				[
 					"equipment",
 					"copper"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -32960,6 +34107,33 @@
 				"minecraft:item_model": "matcha:axolotl",
 				"minecraft:entity_data": {
 					"id": "minecraft:axolotl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"fish_bones": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.fish_bones"
+				}
+			],
+			"id": "minecraft:ender_pearl",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:fish_bones",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.fish_bones"
 				},
 				"minecraft:custom_data": {
 					"version": 1

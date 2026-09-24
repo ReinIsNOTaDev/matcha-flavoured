@@ -24,6 +24,22 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.bronze_helmet",
+															"color": "#ac7b5c"
+														}
+													}
+												}
+											}
+										}
 									}
 								]
 							},

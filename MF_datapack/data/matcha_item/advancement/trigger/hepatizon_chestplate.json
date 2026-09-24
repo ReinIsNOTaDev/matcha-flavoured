@@ -24,6 +24,22 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.bronze_chestplate",
+															"color": "#ac7b5c"
+														}
+													}
+												}
+											}
+										}
 									}
 								]
 							},

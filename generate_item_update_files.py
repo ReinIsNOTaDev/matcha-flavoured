@@ -751,9 +751,6 @@ def creationHelper(obj, item):
             # process enchantments
             mainhand_function += "data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments\n"
             offhand_function += "data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments\n"
-            # modify item
-            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
-            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item+"\n"
             # process individual enchantments (for this example, enchantment {enchant} has value 1)
             for enchantment,value in enchantments.items():
                 try:
@@ -766,6 +763,9 @@ def creationHelper(obj, item):
                 offhand_function += "# processing enchantment "+enchantment+" / "+plain+" \n"
                 offhand_function += "execute store result score enchants_lvl_"+plain+" item_updater run data get storage matcha_item:enchants held.'"+enchantment+"'\n"
                 offhand_function += "execute unless score enchants_lvl_"+plain+" item_updater matches "+str(value)+".. run data modify storage matcha_item:enchants held merge value {'"+enchantment+"': "+str(value)+"}\n"
+            # modify item
+            mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
+            offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item+"\n"
             # run special item modifier for enchants
             mainhand_function += "function matcha_item:enchants/mainhand with storage matcha_item:enchants"
             offhand_function += "function matcha_item:enchants/offhand with storage matcha_item:enchants"

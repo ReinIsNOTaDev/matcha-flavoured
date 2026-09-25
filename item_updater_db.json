@@ -14243,7 +14243,7 @@
 				}
 			],
 			"id": "minecraft:shield",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "enchanted",
 			"processed": true,
 			"components": {

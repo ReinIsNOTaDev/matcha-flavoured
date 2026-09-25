@@ -105,7 +105,11 @@ def discover(override):
                         version = None
                         components = {}
                     try:
-                        names = [result["components"]["minecraft:item_name"]]
+                        names = DB["files"][name]["names"]
+                        if result["components"]["minecraft:item_name"] in names:
+                            pass
+                        else:
+                            names.append(result["components"]["minecraft:item_name"])
                     except:
                         names = []
                     id_ = result["id"]
@@ -164,7 +168,11 @@ def discover(override):
                             version = None
                             components = {}
                         try:
-                            names = [gives["components"]["minecraft:item_name"]]
+                            names = DB["files"][name]["names"]
+                            if gives["components"]["minecraft:item_name"] in names:
+                                pass
+                            else:
+                                names.append(gives["components"]["minecraft:item_name"])
                         except:
                             names = []
                         id_ = gives["id"]
@@ -683,26 +691,9 @@ def creationHelper(obj, item):
 # defining trigger advancement
     match type_:
         case "generic" | "enchanted" | "trim_materials":
-            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:any_of", "terms": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]},{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
-            if names != []:
-                for i in range(len(names_predicates)):
-                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][0]["terms"].append(names_predicates[i])
-                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][0]["terms"].append(names_predicates[i])
-            else:
-                pass
-            if use_id == 1:
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][0]["terms"].append(id_predicates[0])
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][0]["terms"].append(id_predicates[1])
-            else:
-                pass
-            if type_ == "trim_colour":
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append({"condition": "minecraft:any_of", "terms": []})
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][2]["terms"].append(trim_colour_predicate[0])
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][2]        ["terms"].append(trim_colour_predicates[1])
-            else:
-                pass
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"][1]["term"].append(version_predicates[0])
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["terms"][1]["term"].append(version_predicates[1])
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:any_of", "terms": []}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            trigger_advancement["criteria"][item]["player"][0]["terms"].append(mainhand_predicate)
+            trigger_advancement["criteria"][item]["player"][0]["terms"].append(offhand_predicate)
         case _:
             trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             if names != []:

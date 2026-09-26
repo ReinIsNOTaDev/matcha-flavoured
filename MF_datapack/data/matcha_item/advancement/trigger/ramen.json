@@ -30,19 +30,6 @@
 												"entity": "this",
 												"predicate": {
 													"minecraft:slots": {
-														"weapon.offhand": {
-															"components": {
-																"minecraft:item_name": "Ramen"
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
 														"weapon.mainhand": {
 															"items": "minecraft:rabbit_stew"
 														}
@@ -53,23 +40,21 @@
 									},
 									{
 										"condition": "minecraft:inverted",
-										"term": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": 1
-																}
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
 															}
 														}
 													}
 												}
 											}
-										]
+										}
 									}
 								]
 							},
@@ -84,19 +69,6 @@
 												"entity": "this",
 												"predicate": {
 													"minecraft:slots": {
-														"weapon.mainhand": {
-															"components": {
-																"minecraft:item_name": "Ramen"
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
 																"minecraft:item_name": "Ramen"
@@ -120,23 +92,21 @@
 									},
 									{
 										"condition": "minecraft:inverted",
-										"term": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.offhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": 1
-																}
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
 															}
 														}
 													}
 												}
 											}
-										]
+										}
 									}
 								]
 							}

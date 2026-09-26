@@ -692,8 +692,8 @@ def creationHelper(obj, item):
     match type_:
         case "generic" | "enchanted" | "trim_materials":
             trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:any_of", "terms": []}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
-            trigger_advancement["criteria"][item]["player"][0]["terms"].append(mainhand_predicate)
-            trigger_advancement["criteria"][item]["player"][0]["terms"].append(offhand_predicate)
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(mainhand_predicate)
+            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(offhand_predicate)
         case _:
             trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             if names != []:
@@ -735,8 +735,8 @@ def creationHelper(obj, item):
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "enchanted":
             # detect specific slot
-            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
+            update_function += "execute as @s if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute as @s if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             # revoke advancement
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
             # process enchantments
@@ -761,8 +761,8 @@ def creationHelper(obj, item):
             mainhand_function += "function matcha_item:enchants/mainhand with storage matcha_item:enchants"
             offhand_function += "function matcha_item:enchants/offhand with storage matcha_item:enchants"
         case "generic":
-            update_function += "execute if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
-            update_function += "execute if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
+            update_function += "execute as @s if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
+            update_function += "execute as @s if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
             mainhand_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item
             offhand_function += "item modify entity @s "+slots[1]+" matcha_item:modify/"+item

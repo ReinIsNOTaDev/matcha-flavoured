@@ -33,39 +33,7 @@
 												"entity": "this",
 												"predicate": {
 													"minecraft:slots": {
-														"weapon.offhand": {
-															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.hepatizon_sword",
-																	"color": "#ac7b5c"
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
 														"weapon.mainhand": {
-															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.bronze_sword",
-																	"color": "#ac7b5c"
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.offhand": {
 															"components": {
 																"minecraft:item_name": {
 																	"translate": "item.kleispack.bronze_sword",
@@ -80,23 +48,21 @@
 									},
 									{
 										"condition": "minecraft:inverted",
-										"term": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": 1
-																}
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
 															}
 														}
 													}
 												}
 											}
-										]
+										}
 									}
 								]
 							},
@@ -111,42 +77,10 @@
 												"entity": "this",
 												"predicate": {
 													"minecraft:slots": {
-														"weapon.mainhand": {
-															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.hepatizon_sword",
-																	"color": "#ac7b5c"
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
 																"minecraft:item_name": {
 																	"translate": "item.kleispack.hepatizon_sword",
-																	"color": "#ac7b5c"
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.bronze_sword",
 																	"color": "#ac7b5c"
 																}
 															}
@@ -174,23 +108,21 @@
 									},
 									{
 										"condition": "minecraft:inverted",
-										"term": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.offhand": {
-															"predicates": {
-																"minecraft:custom_data": {
-																	"version": 1
-																}
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
 															}
 														}
 													}
 												}
 											}
-										]
+										}
 									}
 								]
 							}

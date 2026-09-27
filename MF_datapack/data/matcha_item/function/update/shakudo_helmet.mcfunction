@@ -1,3 +1,4 @@
+say <D> Triggered update function for shakudo_helmet
 item modify entity @s armor.head matcha_item:modify/shakudo_helmet
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment matcha:cleanse_armor_head / cleanse_armor_head 

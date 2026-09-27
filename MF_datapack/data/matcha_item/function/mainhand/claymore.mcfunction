@@ -1,3 +1,4 @@
+say <D> Updating mainhand for claymore
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:unbreaking / unbreaking 
 execute store result score enchants_lvl_unbreaking item_updater run data get storage matcha_item:enchants held.'minecraft:unbreaking'

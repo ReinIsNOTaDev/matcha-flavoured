@@ -1,3 +1,4 @@
+say <D> Triggered update function for electrum_leggings
 item modify entity @s armor.legs matcha_item:modify/electrum_leggings
 data modify storage matcha_item:enchants held set from entity @s equipment.legs.components.minecraft:enchantments
 # processing enchantment matcha:electrum_armour / electrum_armour 

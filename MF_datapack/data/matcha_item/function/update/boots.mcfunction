@@ -1,3 +1,4 @@
+say <D> Triggered update function for boots
 item modify entity @s armor.feet matcha_item:modify/boots
 data modify storage matcha_item:enchants held set from entity @s equipment.feet.components.minecraft:enchantments
 # processing enchantment matcha:adamant_armour / adamant_armour 

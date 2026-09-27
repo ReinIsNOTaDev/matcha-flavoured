@@ -1,3 +1,4 @@
+say <D> Updating offhand for adamant_dolabra
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment minecraft:unbreaking / unbreaking 
 execute store result score enchants_lvl_unbreaking item_updater run data get storage matcha_item:enchants held.'minecraft:unbreaking'

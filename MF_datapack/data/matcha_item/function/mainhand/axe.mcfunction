@@ -1,3 +1,4 @@
+say <D> Updating mainhand for axe
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:efficiency / efficiency 
 execute store result score enchants_lvl_efficiency item_updater run data get storage matcha_item:enchants held.'minecraft:efficiency'

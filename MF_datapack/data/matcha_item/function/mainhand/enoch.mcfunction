@@ -1,3 +1,4 @@
+say <D> Updating mainhand for enoch
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:sharpness / sharpness 
 execute store result score enchants_lvl_sharpness item_updater run data get storage matcha_item:enchants held.'minecraft:sharpness'

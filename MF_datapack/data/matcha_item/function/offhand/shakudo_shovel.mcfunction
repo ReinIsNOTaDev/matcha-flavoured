@@ -1,3 +1,4 @@
+say <D> Updating offhand for shakudo_shovel
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment minecraft:silk_touch / silk_touch 
 execute store result score enchants_lvl_silk_touch item_updater run data get storage matcha_item:enchants held.'minecraft:silk_touch'

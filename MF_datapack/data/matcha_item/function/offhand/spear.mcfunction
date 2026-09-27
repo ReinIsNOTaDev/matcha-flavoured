@@ -1,3 +1,4 @@
+say <D> Updating offhand for spear
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment minecraft:sharpness / sharpness 
 execute store result score enchants_lvl_sharpness item_updater run data get storage matcha_item:enchants held.'minecraft:sharpness'

@@ -1,3 +1,4 @@
+say <D> Triggered update function for steel_chestplate
 item modify entity @s armor.chest matcha_item:modify/steel_chestplate
 data modify storage matcha_item:enchants held set from entity @s equipment.chest.components.minecraft:enchantments
 # processing enchantment minecraft:blast_protection / blast_protection 

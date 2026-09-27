@@ -1,3 +1,4 @@
+say <D> Updating mainhand for warding_sword
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:warding_1 / warding_1 
 execute store result score enchants_lvl_warding_1 item_updater run data get storage matcha_item:enchants held.'matcha:warding_1'

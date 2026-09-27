@@ -1,3 +1,4 @@
+say <D> Triggered update function for steel_boots
 item modify entity @s armor.feet matcha_item:modify/steel_boots
 data modify storage matcha_item:enchants held set from entity @s equipment.feet.components.minecraft:enchantments
 # processing enchantment minecraft:blast_protection / blast_protection 

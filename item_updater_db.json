@@ -18577,7 +18577,7 @@
 			],
 			"names": [],
 			"id": "minecraft:rabbit_hide",
-			"use_id": 1,
+			"use_id": 0,
 			"type": "generic",
 			"processed": false,
 			"components": {},
@@ -34259,6 +34259,98 @@
 				},
 				"minecraft:custom_data": {
 					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"fox_pelt": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fox_pelt"
+				}
+			],
+			"id": "minecraft:rabbit_hide",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "fox_pelt",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fox_pelt"
+				}
+			},
+			"ignore": null
+		},
+		"fox_pelt_snowy": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fox_pelt"
+				}
+			],
+			"id": "minecraft:rabbit_hide",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "fox_pelt_snowy",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fox_pelt"
+				}
+			},
+			"ignore": null
+		},
+		"rusty_axe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"misc"
+				]
+			],
+			"names": [
+				"Rusty Axe"
+			],
+			"id": "minecraft:iron_axe",
+			"use_id": 0,
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:damage": 140,
+				"minecraft:item_model": "matcha:rusty_axe",
+				"minecraft:item_name": "Rusty Axe",
+				"minecraft:lore": [
+					{
+						"text": "\u26cf 6",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 9",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 0.9",
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
 				}
 			},
 			"ignore": null

@@ -333,6 +333,8 @@ def destructive():
             json.dump(DB, f, indent="\t")
 
 # update mode: update functions/predicates/advancements for items with a new version
+def update(item):
+    print("unimplemented")
 
 # create mode: create new functions/predicates/advancements for items wth a version custom data
 def create(item):
@@ -576,7 +578,6 @@ def creationHelper(obj, item):
             needed_yesses = 7
         case _:
             pass
-# write it!
     yesses = 0
     for path in paths:
         if debug and DB["options"]["askForConfirmation"] == "True":
@@ -605,41 +606,11 @@ def creationHelper(obj, item):
                 with open(path[0], 'w') as f:
                     f.write(path[1])
                     yesses +=1
-# return the object
     if yesses == needed_yesses:
         obj["processed"] = True
     else:
         pass
     return obj
-
-# function stuff:
-# - armor
-#  item modify entity @s armor.${type} matcha_item:${item}
-# - tools
-#  execute if predicate matcha_item:mainhand/${item} run matcha_item:mainhand/${item}
-#  execute if predicate matcha_item:offhand/${item} run matcha_item:offhand/${item}
-# - generics
-#  execute if predicate matcha_item:mainhand/${item} run matcha_item:mainhand/${item}
-#  execute if predicate matcha_item:offhand/${item} run matcha_item:offhand/${item}
-
-# advancement stuff:
-#  conditions
-#    player
-#      any_of
-#        all_of (mainhand)
-#          any_of
-#            name_predicates
-#            id_predicate
-#          inverse
-#            any_of (not needed in armor)
-#              version_predicate
-#        all_of (offhand)
-#          any_of
-#            name_predicates
-#            id_predicate
-#          inverse
-#            any_of (not needed in armor)
-#              version_predicate
 
 def config(option):
     options = DB["options"]

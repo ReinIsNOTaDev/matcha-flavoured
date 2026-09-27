@@ -263,75 +263,22 @@ def destructive():
             print("[D] processing now: "+item) if debug else None
             folder = files[item]["folder"]
             for i in folder:
-                if folders[i[0]][1] == "recipe":
-                    path = os.path.join(Matcha,folders[i[0]][0],item+".json")
-                    read = open(path, 'r')
-                    json_ = json.load(read)
-                    if "components" in json_["result"]:
-                        if "minecraft:custom_data" in json_["result"]["components"]:
-                            json_["result"]["components"]["minecraft:custom_data"].update({"version": 1})
-                        else:
-                            json_["result"]["components"]["minecraft:custom_data"] = {"version": 1}
-                        if debug and DB["options"]["askForConfirmation"] == "True":
-                            print(json.dumps(json_, indent=1))
-                            cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
-                            if cont == "y":
-                                with open(path, 'w') as f:
-                                    json.dump(json_, f, indent="\t")
-                            else:
-                                pass
-                        else:
-                            with open(path, 'w') as f:
-                                json.dump(json_, f, indent="\t")
-                        files[item]["version"] = 1
-                    else:
-                        files[item]["ignore"] = True
-                elif folders[i[0]][1] == "trade_with_levels":
+                components = None
+                json_ = {}
+                if len(i) > 1:
                     path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
                     read = open(path, 'r')
                     json_ = json.load(read)
-                    if "components" in json_["gives"]:
-                        if "minecraft:custom_data" in json_["gives"]["components"]:
-                            json_["gives"]["components"]["minecraft:custom_data"].update({"version": 1})
-                        else:
-                            json_["gives"]["components"]["minecraft:custom_data"] = {"version": 1}
-                        if debug and DB["options"]["askForConfirmation"] == "True":
-                            print(json.dumps(json_, indent=1))
-                            cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
-                            if cont == "y":
-                                with open(path, 'w') as f:
-                                    json.dump(json_, f, indent="\t")
-                            else:
-                                pass
-                        else:
-                            with open(path, 'w') as f:
-                                json.dump(json_, f, indent="\t")
-                        files[item]["version"] = 1
-                    else:
-                        files[item]["ignore"] = True
-                elif folders[i[0]][1] == "trade_no_levels":
+                else:
                     path = os.path.join(Matcha,folders[i[0]][0],item+".json")
                     read = open(path, 'r')
                     json_ = json.load(read)
-                    if "components" in json_["gives"]:
-                        if "minecraft:custom_data" in json_["gives"]["components"]:
-                            json_["gives"]["components"]["minecraft:custom_data"].update({"version": 1})
-                        else:
-                            json_["gives"]["components"]["minecraft:custom_data"] = {"version": 1}
-                        if debug and DB["options"]["askForConfirmation"] == "True":
-                            print(json.dumps(json_, indent=1))
-                            cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
-                            if cont == "y":
-                                with open(path, 'w') as f:
-                                    json.dump(json_, f, indent="\t")
-                            else:
-                                pass
-                        else:
-                            with open(path, 'w') as f:
-                                json.dump(json_, f, indent="\t")
-                        files[item]["version"] = 1
-                    else:
-                        files[item]["ignore"] = True
+                if folders[i[0]][1] == "recipe":
+                    components = json_["result"].get("components")
+                elif folders[i[0]][1] == "trade_with_levels":
+                    components = json_["gives"].get("components")
+                elif folders[i[0]][1] == "trade_no_levels":
+                    components = json_["gives"].get("components")
                 elif folders[i[0]][1] == "loot_table":
                     path = ""
                     try:
@@ -351,28 +298,26 @@ def destructive():
                         else:
                             continue
                     if has_set_components_function == True:
-                        if "minecraft:custom_data" in functions[set_components_function]["components"]:
-                            functions[set_components_function]["components"]["minecraft:custom_data"].update({"version": 1})
-                            files[item]["components"].update({"minecraft:custom_data": {}})
-                            files[item]["components"]["minecraft:custom_data"].update({"version": 1})
-                        else:
-                            functions[set_components_function]["components"]["minecraft:custom_data"] = {"version": 1}
-                            files[item]["components"].update({"minecraft:custom_data": {}})
-                            files[item]["components"]["minecraft:custom_data"] = {"version": 1}
-                        if debug and DB["options"]["askForConfirmation"] == "True":
-                            print(json.dumps(json_, indent=1))
-                            cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
-                            if cont == "y":
-                                with open(path, 'w') as f:
-                                    json.dump(json_, f, indent="\t")
-                            else:
-                                pass
-                        else:
-                            with open(path, 'w') as f:
-                                json.dump(json_, f, indent="\t")
-                        files[item]["version"] = 1
+                        components = functions[set_components_function]["components"]
                     else:
                         files[item]["ignore"] = True
+                if components != None:
+                    if "minecraft:custom_data" in components:
+                        components["minecraft:custom_data"].update({"version": 1})
+                    else:
+                        components["minecraft:custom_data"] = {"version": 1}
+                    if debug and DB["options"]["askForConfirmation"] == "True":
+                        print(json.dumps(json_, indent=1))
+                        cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+                        if cont == "y":
+                            with open(path, 'w') as f:
+                                json.dump(json_, f, indent="\t")
+                        else:
+                            pass
+                    else:
+                        with open(path, 'w') as f:
+                            json.dump(json_, f, indent="\t")
+                    files[item]["version"] = 1
                 else:
                     print("[D] skipped processing <"+item+"> in folder <"+i+"> due to unprocessable folder") if debug else None
     if debug:

@@ -137,6 +137,8 @@ MERGE_DATA = [
     'scoreboard players operation #damage update_item /= #1000 update_item\n',
     'execute store result storage matcha:update_item item.components.minecraft:damage int 1 run scoreboard players get #damage update_item\n',
     'data modify storage matcha:update_item item.components.minecraft:enchantments merge from entity @s SelectedItem.components.minecraft:enchantments\n',
+    'data modify storage matcha:update_item item.components.minecraft:trim merge from entity @s SelectedItem.components.minecraft:trim\n',
+    'data modify storage matcha:update_item item.components.minecraft:lodestone_tracker merge from entity @s SelectedItem.components.minecraft:lodestone_tracker\n',
     ]
 output.writelines(MERGE_DATA)
 

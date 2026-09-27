@@ -31068,7 +31068,8 @@
 			"names": [
 				{
 					"translate": "item.kleispack.butcher_knife"
-				}
+				},
+				"Butcher's Knife"
 			],
 			"id": "minecraft:stone_sword",
 			"use_id": 0,

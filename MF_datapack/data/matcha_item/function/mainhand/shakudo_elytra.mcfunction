@@ -1,4 +1,3 @@
-say <D> Updating mainhand for shakudo_elytra
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment matcha:max_magic_protection / max_magic_protection 
 execute store result score enchants_lvl_max_magic_protection item_updater run data get storage matcha_item:enchants held.'matcha:max_magic_protection'

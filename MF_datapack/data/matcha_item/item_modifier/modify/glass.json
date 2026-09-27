@@ -4,7 +4,7 @@
 		"minecraft:item_name": {
 			"translate": "item.kleispack.trade.bulk_glass"
 		},
-		"minecraft:item_model": "minecraft:glass",
+		"minecraft:item_model": "matcha:bulk_glass",
 		"minecraft:lore": [
 			{
 				"translate": "item.kleispack.trade.bulk_glass.desc",

@@ -1,27 +1,34 @@
 {
 	"function": "set_components",
 	"components": {
+		"minecraft:max_damage": 5000,
 		"minecraft:tool": {
 			"rules": [
 				{
-					"blocks": "#matcha:non_mineable/iron",
-					"speed": 3,
-					"correct_for_drops": false
+					"blocks": "#matcha:obsidian_based",
+					"speed": 55,
+					"correct_for_drops": true
 				},
 				{
 					"blocks": "#minecraft:mineable/pickaxe",
-					"speed": 7,
+					"speed": 15,
 					"correct_for_drops": true
 				}
 			],
 			"default_mining_speed": 1,
 			"damage_per_block": 1
 		},
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
 		"minecraft:lore": [
 			{
 				"translate": "desc.kleispack.mining_speed",
 				"with": [
-					"7"
+					{
+						"text": "15"
+					}
 				],
 				"color": "blue",
 				"italic": false
@@ -29,7 +36,9 @@
 			{
 				"translate": "desc.kleispack.attack_damage",
 				"with": [
-					"4"
+					{
+						"text": "6"
+					}
 				],
 				"color": "dark_green",
 				"italic": false
@@ -37,20 +46,53 @@
 			{
 				"translate": "desc.kleispack.cooldown",
 				"with": [
-					"1.2"
+					{
+						"text": "1.2"
+					}
 				],
 				"color": "dark_green",
 				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.set_bonus",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "enchantment.kleispack.divinity.set_bonus",
+				"color": "aqua",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.diamond_block",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.netherite_scrap",
+				"color": "dark_gray",
+				"italic": false
 			}
 		],
-		"minecraft:max_damage": 500,
 		"minecraft:tooltip_display": {
 			"hidden_components": [
 				"minecraft:attribute_modifiers"
 			]
 		},
-		"minecraft:custom_data": {
-			"version": 1
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:diamond_block",
+				"minecraft:netherite_scrap"
+			]
+		},
+		"minecraft:item_name": {
+			"translate": "item.minecraft.netherite_pickaxe",
+			"color": "gold"
 		}
 	}
 }

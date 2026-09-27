@@ -31,7 +31,11 @@
 												"predicate": {
 													"minecraft:slots": {
 														"weapon.mainhand": {
-															"items": "minecraft:rabbit_stew"
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.ramen"
+																}
+															}
 														}
 													}
 												}
@@ -83,7 +87,11 @@
 												"predicate": {
 													"minecraft:slots": {
 														"weapon.offhand": {
-															"items": "minecraft:rabbit_stew"
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.ramen"
+																}
+															}
 														}
 													}
 												}

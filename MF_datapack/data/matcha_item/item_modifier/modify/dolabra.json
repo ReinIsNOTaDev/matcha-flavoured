@@ -1,32 +1,39 @@
 {
 	"function": "set_components",
 	"components": {
-		"minecraft:item_name": {
-			"translate": "item.kleispack.iron_dolabra"
-		},
+		"minecraft:max_damage": 5000,
 		"minecraft:tool": {
 			"rules": [
 				{
-					"blocks": "#minecraft:mineable/axe",
-					"speed": 6,
+					"blocks": "#matcha:obsidian_based",
+					"speed": 55,
 					"correct_for_drops": true
 				},
 				{
 					"blocks": "#minecraft:mineable/pickaxe",
-					"speed": 6,
+					"speed": 13,
+					"correct_for_drops": true
+				},
+				{
+					"blocks": "#minecraft:mineable/axe",
+					"speed": 13,
 					"correct_for_drops": true
 				}
 			],
 			"default_mining_speed": 1,
 			"damage_per_block": 1
 		},
-		"minecraft:max_damage": 500,
-		"minecraft:item_model": "matcha:iron_dolabra",
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
 		"minecraft:lore": [
 			{
 				"translate": "desc.kleispack.mining_speed",
 				"with": [
-					"6"
+					{
+						"text": "13"
+					}
 				],
 				"color": "blue",
 				"italic": false
@@ -34,7 +41,9 @@
 			{
 				"translate": "desc.kleispack.attack_damage",
 				"with": [
-					"6"
+					{
+						"text": "7"
+					}
 				],
 				"color": "dark_green",
 				"italic": false
@@ -42,25 +51,27 @@
 			{
 				"translate": "desc.kleispack.cooldown",
 				"with": [
-					"0.9"
+					{
+						"text": "1"
+					}
 				],
 				"color": "dark_green",
 				"italic": false
-			}
-		],
-		"minecraft:attribute_modifiers": [
-			{
-				"type": "minecraft:attack_damage",
-				"id": "attack_damage",
-				"amount": 5,
-				"operation": "add_value"
 			},
 			{
-				"type": "minecraft:attack_speed",
-				"id": "attack_speed",
-				"amount": -3.1,
-				"operation": "add_value",
-				"slot": "mainhand"
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.diamond_block",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.netherite_scrap",
+				"color": "dark_gray",
+				"italic": false
 			}
 		],
 		"minecraft:tooltip_display": {
@@ -68,8 +79,32 @@
 				"minecraft:attribute_modifiers"
 			]
 		},
-		"minecraft:custom_data": {
-			"version": 1
-		}
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:diamond_block",
+				"minecraft:netherite_scrap"
+			]
+		},
+		"minecraft:item_name": {
+			"translate": "item.kleispack.adamant_dolabra",
+			"color": "gold"
+		},
+		"minecraft:item_model": "matcha:adamant_dolabra",
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 6,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_speed",
+				"id": "attack_speed",
+				"amount": -3.0,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		]
 	}
 }

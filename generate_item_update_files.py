@@ -52,7 +52,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
     try:
         cache[name]
     except:
-        cache[name] = {"overriden": None}
+        cache[name] = {"overriden": False}
     print("[D] file processing now: "+name) if debug else None
     head = re.compile("helmet")
     chest = re.compile("chestplate")
@@ -169,7 +169,6 @@ def discover(override):
                     json_ = json.load(f)
                     components = json_["result"].get("components")
                     id_ = json_["result"]["id"]
-                print(id_)
                 genericItemProcessor(override,name,id_,components,folder_list)
         elif DB["folders"][folder][1] == "trade_with_levels":
             for directory in os.listdir(path):
@@ -191,7 +190,7 @@ def discover(override):
                 name = filename.match(file_).group(1)
                 components = {}
                 id_ = ""
-                folder_list = [folder,directory]
+                folder_list = [folder]
                 with open(os.path.join(path,file_),'r') as f:
                     json_ = json.load(f)
                     components = json_["gives"].get("components")

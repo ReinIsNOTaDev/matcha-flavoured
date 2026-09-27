@@ -9,7 +9,7 @@
 			"minecraft:max_damage": 3000,
 			"minecraft:repairable": {
 				"items": [
-				  "minecraft:copper_block"
+					"minecraft:copper_block"
 				]
 			},
 			"minecraft:enchantments": {

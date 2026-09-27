@@ -27,6 +27,22 @@
 														}
 													}
 												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.hepatizon_elytra",
+																	"color": "#ac7b5c"
+																}
+															}
+														}
+													}
+												}
 											}
 										]
 									},
@@ -66,6 +82,22 @@
 																"minecraft:item_name": {
 																	"translate": "item.kleispack.shakudo_elytra",
 																	"color": "#c96691"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.hepatizon_elytra",
+																	"color": "#ac7b5c"
 																}
 															}
 														}

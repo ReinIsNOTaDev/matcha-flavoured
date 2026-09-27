@@ -50,6 +50,9 @@
 				"color": "#ae6cbc",
 				"italic": false
 			}
-		]
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

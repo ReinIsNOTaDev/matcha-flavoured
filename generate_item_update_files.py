@@ -13,6 +13,9 @@ Updater = os.path.join(Matcha, "matcha_item")
 DBread = open(DBpath, 'r')
 DB = json.load(DBread)
 
+# cache for temporary stuff
+cache = {}
+
 # get command line opts
 try:
     opt = sys.argv[1]
@@ -42,16 +45,116 @@ def debugf(command,arg):
             create(arg)
         case _:
             help_(True)
+    print("CACHE DUMP!")
+    print(str(cache))
+
+def genericItemProcessor(override,name,id_,components,folder_list):
+    try:
+        cache[name]
+    except:
+        cache[name] = {"overriden": None}
+    print("[D] file processing now: "+name) if debug else None
+    head = re.compile("helmet")
+    chest = re.compile("chestplate")
+    legs = re.compile("leggings")
+    feet = re.compile("boots")
+    item = DB["files"].get(name)
+    if override == "True" and cache[name]["overriden"] == False or name not in DB["files"]:
+        if override == "True":
+            cache[name]["overriden"] = True
+        else: pass
+        type_ = ""
+        ignore = None
+        try:
+            version = components["minecraft:custom_data"]["version"]
+        except:
+            version = None
+        if components != None:
+            if components.get("minecraft:provides_trim_material") != None:
+                type_ = "trim_colour"
+            elif components.get("minecraft:stored_enchantments") != None:
+                if head.search(id_):
+                    type_ = "enchanted_helmet"
+                elif chest.search(id_):
+                    type_ = "enchanted_chestplate"
+                elif legs.search(id_):
+                    type_ = "enchanted_leggings"
+                elif feet.search(id_):
+                    type_ = "enchanted_boots"
+                else:
+                    type_ = "enchanted"
+            else:
+                if head.search(id_):
+                    type_ = "helmet"
+                elif chest.search(id_):
+                    type_ = "chestplate"
+                elif legs.search(id_):
+                    type_ = "leggings"
+                elif feet.search(id_):
+                    type_ = "boots"
+                else:
+                    type_ = "generic"
+        else:
+            type_ = "generic"
+            ignore = True
+            components = {}
+        try:
+            names = DB["files"][name]["names"]
+            if components["minecraft:item_name"] in names:
+                pass
+            else:
+                names.append(components["minecraft:item_name"])
+        except:
+            if components.get("minecraft:item_name") != None:
+                names = [components.get("minecraft:item_name")]
+            else:
+                names = []
+        DB["files"][name] = {}
+        DB["files"][name] = {"version": version, "folder": [folder_list], "names": names, "id": id_, "use_id": None, "type": type_, "processed": False, "components": components, "ignore": ignore}
+    elif item != None and cache[name]["overriden"] == True:
+        item_folders = DB["files"][name]["folder"]
+        if folder_list in item_folders:
+            pass
+        else:
+            item_folders.append(folder_list)
+            DB["files"][name]["processed"] = False
+    else:
+        print("[D] skipping item "+name) if debug else None
+
+def ltItemProcessor(override,pools,entries,json_,name,folder_list):
+    has_set_components_function = False
+    set_components_function = 0
+    functions = []
+    directory_msg = ""
+    try:
+        directory_msg = " in loot_table folder "+folder_list[1]
+    except:
+        pass
+    try:
+        functions = json_["pools"][0]["entries"][0]["functions"]
+        for i in range(len(functions)):
+            if functions[i].get("function") == "minecraft:set_components":
+                has_set_components_function = True
+                set_components_function = i
+            else:
+                continue
+    except:
+        pass
+    if pools > 1 or entries > 1:
+        print("Skipping file "+name+directory_msg+" due to excessive pool/entry count; don't panic!'")
+    elif has_set_components_function == False:
+        print("[D] Skipping file "+name+directory_msg+" due to lack of components") if debug else None
+    else:
+        entry = json_["pools"][0]["entries"][0]
+        id_ = entry["name"]
+        components = entry["functions"][set_components_function]["components"]
+        genericItemProcessor(override,name,id_,components,folder_list)
 
 # discover mode: go through recipe(/lt?) folders and add files to db (non-destructive)
 def discover(override):
     print("----Discover Mode in Debug----") if debug else None
     filename = re.compile("(.+)\\..+")
-    head = re.compile("helmet")
-    chest = re.compile("chestplate")
-    legs = re.compile("leggings")
-    feet = re.compile("boots")
-    print("Overriding Files!") if override else None
+    print("Overriding Files!") if override == "True" else None
     for folder in DB["folders"]:
         path = os.path.join(Matcha, DB["folders"][folder][0])
         print("[D] folder processing now: "+folder) if debug else None
@@ -59,192 +162,41 @@ def discover(override):
             files = os.listdir(path)
             for file_ in files:
                 name = filename.match(file_).group(1)
-                print("[D] file processing now: "+file_) if debug else None
-                item = DB["files"].get(name)
-                if override == "True" or name not in DB["files"]:
-                    type_ = ""
-                    filepath = os.path.join(path, file_)
-                    opened = open(filepath, 'r')
-                    read = json.load(opened)
-                    result = read["result"]
-                    try:
-                        version = result["components"]["minecraft:custom_data"]["version"]
-                    except:
-                        version = None
-                    if head.search(result.get("id")):
-                        type_ = "helmet"
-                    elif chest.search(result.get("id")):
-                        type_ = "chestplate"
-                    elif legs.search(result.get("id")):
-                        type_ = "leggings"
-                    elif feet.search(result.get("id")):
-                        type_ = "boots"
-                    elif result.get("components") != None:
-                        if result["components"].get("minecraft:provides_trim_material") != None:
-                            type_ = "trim_colour"
-                        elif result["components"].get("minecraft:stored_enchantments") != None:
-                            if head.search(result.get("id")):
-                                type_ = "enchanted_helmet"
-                            elif chest.search(result.get("id")):
-                                type_ = "enchanted_chestplate"
-                            elif legs.search(result.get("id")):
-                                type_ = "enchanted_leggings"
-                            elif feet.search(result.get("id")):
-                                type_ = "enchanted_boots"
-                            else:
-                                type_ = "enchanted"
-                        else:
-                            type_ = "generic"
-                    else:
-                        type_ = "generic"
-                    if "components" in result:
-                        ignore = None
-                        components = result["components"]
-                    else:
-                        ignore = True
-                        version = None
-                        components = {}
-                    try:
-                        names = DB["files"][name]["names"]
-                        if result["components"]["minecraft:item_name"] in names:
-                            pass
-                        else:
-                            names.append(result["components"]["minecraft:item_name"])
-                    except:
-                        names = []
-                    id_ = result["id"]
-                    useid = None
-                    DB["files"][name] = {}
-                    DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_, "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                elif item != None:
-                    item_folders = DB["files"][name]["folder"]
-                    if [folder] in item_folders:
-                        pass
-                    else:
-                        item_folders.append([folder])
-                        DB["files"][name]["processed"] = False
-                else:
-                    print("[D] skipping item") if debug else None
+                components = {}
+                id_ = ""
+                folder_list = [folder]
+                with open(os.path.join(path,file_),'r') as f:
+                    json_ = json.load(f)
+                    components = json_["result"].get("components")
+                    id_ = json_["result"]["id"]
+                print(id_)
+                genericItemProcessor(override,name,id_,components,folder_list)
         elif DB["folders"][folder][1] == "trade_with_levels":
             for directory in os.listdir(path):
                 directory_path = os.path.join(path,directory)
                 files = os.listdir(directory_path)
                 for file_ in files:
                     name = filename.match(file_).group(1)
-                    print("[D] file processing now: "+file_) if debug else None
-                    item = DB["files"].get(name)
-                    if override == "True" or name not in DB["files"]:
-                        type_ = ""
-                        filepath = os.path.join(directory_path, file_)
-                        opened = open(filepath, 'r')
-                        read = json.load(opened)
-                        gives = read["gives"]
-                        try:
-                            version = gives["components"]["minecraft:custom_data"]["version"]
-                        except:
-                            version = None
-                        if head.search(gives.get("id")):
-                            type_ = "helmet"
-                        elif chest.search(gives.get("id")):
-                            type_ = "chestplate"
-                        elif legs.search(gives.get("id")):
-                            type_ = "leggings"
-                        elif feet.search(gives.get("id")):
-                            type_ = "boots"
-                        elif gives.get("components") != None:
-                            if gives["components"].get("minecraft:provides_trim_material") != None:
-                                type_ = "trim_colour"
-                            elif gives["components"].get("minecraft:stored_enchantments") != None:
-                                type_ = "enchanted"
-                            else:
-                                type_ = "generic"
-                        else:
-                            type_ = "generic"
-                        if "components" in gives:
-                            ignore = None
-                            components = gives["components"]
-                        else:
-                            ignore = True
-                            version = None
-                            components = {}
-                        try:
-                            names = DB["files"][name]["names"]
-                            if gives["components"]["minecraft:item_name"] in names:
-                                pass
-                            else:
-                                names.append(gives["components"]["minecraft:item_name"])
-                        except:
-                            names = []
-                        id_ = gives["id"]
-                        useid = None
-                        DB["files"][name] = {}
-                        DB["files"][name] = {"version": version, "folder": [[folder,directory]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                    elif item != None:
-                        item_folders = DB["files"][name]["folder"]
-                        if [folder,directory] in item_folders:
-                            pass
-                        else:
-                            item_folders.append([folder,directory])
-                            DB["files"][name]["processed"] = False
-                    else:
-                        print("[D] skipping item") if debug else None
+                    components = {}
+                    id_ = ""
+                    folder_list = [folder,directory]
+                    with open(os.path.join(directory_path,file_),'r') as f:
+                        json_ = json.load(f)
+                        components = json_["gives"].get("components")
+                        id_ = json_["gives"]["id"]
+                    genericItemProcessor(override,name,id_,components,folder_list)
         elif DB["folders"][folder][1] == "trade_no_levels":
             files = os.listdir(path)
             for file_ in files:
                 name = filename.match(file_).group(1)
-                print("[D] file processing now: "+file_) if debug else None
-                item = DB["files"].get(name)
-                if override == "True" or name not in DB["files"]:
-                    type_ = ""
-                    filepath = os.path.join(path, file_)
-                    opened = open(filepath, 'r')
-                    read = json.load(opened)
-                    gives = read["gives"]
-                    try:
-                        version = gives["components"]["minecraft:custom_data"]["version"]
-                    except:
-                        version = None
-                    if head.search(gives.get("id")):
-                        type_ = "helmet"
-                    elif chest.search(gives.get("id")):
-                        type_ = "chestplate"
-                    elif legs.search(gives.get("id")):
-                        type_ = "leggings"
-                    elif feet.search(gives.get("id")):
-                        type_ = "boots"
-                    elif gives.get("components") != None:
-                        if gives["components"].get("minecraft:provides_trim_material") != None:
-                            type_ = "trim_colour"
-                        elif gives["components"].get("minecraft:stored_enchantments") != None:
-                            type_ = "enchanted"
-                        else:
-                            type_ = "generic"
-                    else:
-                        type_ = "generic"
-                    if "components" in gives:
-                        ignore = None
-                        components = gives["components"]
-                    else:
-                        ignore = True
-                        version = None
-                        components = {}
-                    try:
-                        names = [gives["components"]["minecraft:item_name"]]
-                    except:
-                        names = []
-                    id_ = gives["id"]
-                    useid = None
-                    DB["files"][name] = {}
-                    DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                elif item != None:
-                    item_folders = DB["files"][name]["folder"]
-                    if [folder] in item_folders:
-                        pass
-                    else:
-                        item_folders.append([folder])
-                        DB["files"][name]["processed"] = False
-                else:
-                    print("[D] skipping item") if debug else None
+                components = {}
+                id_ = ""
+                folder_list = [folder,directory]
+                with open(os.path.join(path,file_),'r') as f:
+                    json_ = json.load(f)
+                    components = json_["gives"].get("components")
+                    id_ = json_["gives"]["id"]
+                genericItemProcessor(override,name,id_,components,folder_list)
         elif DB["folders"][folder][1] == "loot_table":
             for item_ in os.listdir(path):
                 item_path = os.path.join(path,item_)
@@ -254,137 +206,29 @@ def discover(override):
                     print("[D] subfolder processing now: "+directory) if debug else None
                     for file_ in files:
                         name = filename.match(file_).group(1)
-                        print("[D] file processing now: "+file_) if debug else None
-                        item = DB["files"].get(name)
-                        filepath = os.path.join(item_path, file_)
-                        opened = open(filepath, 'r')
-                        read = json.load(opened)
-                        has_set_components_function = False
-                        set_components_function = 0
-                        try:
-                            functions = read["pools"][0]["entries"][0]["functions"]
-                            entry = read["pools"][0]["entries"][0]
-                            for i in range(len(functions)):
-                                if functions[i].get("function") == "minecraft:set_components":
-                                    has_set_components_function = True
-                                    set_components_function = i
-                                else:
-                                    continue
-                        except:
-                            pass
-                        if len(read["pools"]) > 1 or len(read["pools"][0]["entries"]) > 1:
-                            print("Skipping file "+file_+" in loot_table folder "+directory+" due to excessive pool/entry count; don't panic!'")
-                            DB["files"][name] = {}
-                            DB["files"][name] = {"version": None, "folder": [[folder,directory]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
-                        elif has_set_components_function == False:
-                            print("[D] Skipping file "+file_+" in loot_table folder "+directory+" due to lack of components") if debug else None
-                            DB["files"][name] = {}
-                            DB["files"][name] = {"version": None, "folder": [[folder,directory]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
-                        elif override == "True" or name not in DB["files"]:
-                            type_ = ""
-                            entry = read["pools"][0]["entries"][0]
-                            components = entry["functions"][set_components_function]["components"]
-                            try:
-                                version = components["minecraft:custom_data"]["version"]
-                            except:
-                                version = None
-                            if head.search(entry.get("name")):
-                                type_ = "helmet"
-                            elif chest.search(entry.get("name")):
-                                type_ = "chestplate"
-                            elif legs.search(entry.get("name")):
-                                type_ = "leggings"
-                            elif feet.search(entry.get("name")):
-                                type_ = "boots"
-                            elif components.get("minecraft:provides_trim_material") != None:
-                                type_ = "trim_colour"
-                            elif components.get("minecraft:stored_enchantments") != None:
-                                type_ = "enchanted"
-                            else:
-                                type_ = "generic"
-                            try:
-                                names = [components["minecraft:item_name"]]
-                            except:
-                                names = []
-                            id_ = entry["name"]
-                            useid = None
-                            DB["files"][name] = {}
-                            DB["files"][name] = {"version": version, "folder": [[folder,directory]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                        elif item != None:
-                            item_folders = DB["files"][name]["folder"]
-                            if [folder,directory] in item_folders:
-                                pass
-                            else:
-                                item_folders.append([folder,directory])
-                                DB["files"][name]["processed"] = False
-                        else:
-                            print("[D] skipping item") if debug else None
+                        json_ = {}
+                        folder_list = [folder,directory]
+                        pools = 0
+                        entries = 0
+                        functions = []
+                        with open(os.path.join(path,directory,file_),'r') as f:
+                            json_ = json.load(f)
+                            pools = len(json_["pools"])
+                            entries = len(json_["pools"][0]["entries"])
+                        ltItemProcessor(override,pools,entries,json_,name,folder_list)
                 elif os.path.isfile(item_path):
                     file_ = item_
                     name = filename.match(file_).group(1)
-                    print("[D] file processing now: "+file_) if debug else None
-                    item = DB["files"].get(name)
-                    filepath = item_path
-                    opened = open(filepath, 'r')
-                    read = json.load(opened)
-                    has_set_components_function = False
-                    set_components_function = 0
-                    entry = read["pools"][0]["entries"][0]
-                    functions = read["pools"][0]["entries"][0]["functions"]
-                    for i in range(len(functions)):
-                        if functions[i].get("function") == "minecraft:set_components":
-                            has_set_components_function = True
-                            set_components_function = i
-                        else:
-                            continue
-                    if len(read["pools"]) > 1 or len(read["pools"][0]["entries"]) > 1:
-                        print("Skipping file "+file_+" in loot_table folder "+folder+" due to excessive pool/entry count; don't panic!'")
-                        DB["files"][name] = {}
-                        DB["files"][name] = {"version": None, "folder": [[folder]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
-                    elif has_set_components_function == False:
-                        print("[D] Skipping file "+file_+" in loot_table folder "+folder+" due to lack of components") if debug else None
-                        DB["files"][name] = {}
-                        DB["files"][name] = {"version": None, "folder": [[folder]], "names": [], "id": entry["name"], "use_id": None, "type": None, "processed": False, "components": {}, "ignore": True}
-                    elif override == "True" or name not in DB["files"]:
-                        type_ = ""
-                        components = entry["functions"][set_components_function]["components"]
-                        print(components)
-                        try:
-                            version = components["minecraft:custom_data"]["version"]
-                        except:
-                            version = None
-                        if head.search(entry.get("name")):
-                            type_ = "helmet"
-                        elif chest.search(entry.get("name")):
-                            type_ = "chestplate"
-                        elif legs.search(entry.get("name")):
-                            type_ = "leggings"
-                        elif feet.search(entry.get("name")):
-                            type_ = "boots"
-                        elif components.get("minecraft:provides_trim_material") != None:
-                            type_ = "trim_colour"
-                        elif components.get("minecraft:stored_enchantments") != None:
-                            type_ = "enchanted"
-                        else:
-                            type_ = "generic"
-                        try:
-                            names = [components["minecraft:item_name"]]
-                        except:
-                            names = []
-                        id_ = entry["name"]
-                        useid = None
-                        ignore = None
-                        DB["files"][name] = {}
-                        DB["files"][name] = {"version": version, "folder": [[folder]], "names": names, "id": id_,     "use_id": useid, "type": type_, "processed": False, "components": components, "ignore": ignore}
-                    elif item != None:
-                        item_folders = DB["files"][name]["folder"]
-                        if [folder] in item_folders:
-                            pass
-                        else:
-                            item_folders.append([folder])
-                            DB["files"][name]["processed"] = False
-                    else:
-                        print("[D] skipping item") if debug else None
+                    json_ = {}
+                    folder_list = [folder]
+                    pools = 0
+                    entries = 0
+                    functions = []
+                    with open(os.path.join(path,file_),'r') as f:
+                        json_ = json.load(f)
+                        pools = len(json_["pools"])
+                        entries = len(json_["pools"][0]["entries"])
+                    ltItemProcessor(override,pools,entries,json_,name,folder_list)
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
     print("Finishing touches!")

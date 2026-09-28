@@ -318,7 +318,7 @@ def discover(override):
                 pass
         for iteratable in [[id_i,0],[names_i,1],[models_i,2]]:
             if use[iteratable[1]] == None:
-                if iteratable[0] >= 2 and not (DB["files"][item]["type"] == "baked_apple" or DB["files"][item]["type"] == "mineral"):
+                if iteratable[0] >= 2 and not DB["files"][item]["type"] == "baked_apple":
                     use[iteratable[1]] = False
                 else:
                     use[iteratable[1]] = True

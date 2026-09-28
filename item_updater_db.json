@@ -36621,7 +36621,7 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				true,
+				false,
 				true,
 				true
 			],
@@ -36657,7 +36657,7 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				true,
+				false,
 				true,
 				true
 			],
@@ -36693,7 +36693,7 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				true,
+				false,
 				true,
 				true
 			],
@@ -36729,7 +36729,7 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				true,
+				false,
 				true,
 				true
 			],

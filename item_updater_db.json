@@ -120,11 +120,11 @@
 			"models": [],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "baked_apple",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -23460,7 +23460,7 @@
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -23527,7 +23527,7 @@
 				false,
 				false
 			],
-			"type": "boots",
+			"type": "diamond_boots",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -23575,7 +23575,7 @@
 				false,
 				false
 			],
-			"type": "chestplate",
+			"type": "diamond_chestplate",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -23629,7 +23629,7 @@
 				true,
 				true
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -23726,7 +23726,7 @@
 				false,
 				false
 			],
-			"type": "helmet",
+			"type": "diamond_helmet",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -23774,7 +23774,7 @@
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -23841,7 +23841,7 @@
 				false,
 				false
 			],
-			"type": "leggings",
+			"type": "diamond_leggings",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -23895,7 +23895,7 @@
 				true,
 				true
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:tool": {
@@ -23987,7 +23987,7 @@
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -24059,7 +24059,7 @@
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
@@ -24126,7 +24126,7 @@
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -24174,7 +24174,7 @@
 				false,
 				false
 			],
-			"type": "generic",
+			"type": "diamond",
 			"processed": true,
 			"components": {
 				"minecraft:lore": [
@@ -36621,11 +36621,11 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				false,
+				true,
 				true,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:amber",
@@ -36657,11 +36657,11 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				false,
+				true,
 				true,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:opal",
@@ -36693,11 +36693,11 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				false,
+				true,
 				true,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ruby",
@@ -36729,11 +36729,11 @@
 			],
 			"id": "minecraft:fermented_spider_eye",
 			"use": [
-				false,
+				true,
 				true,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:topaz",

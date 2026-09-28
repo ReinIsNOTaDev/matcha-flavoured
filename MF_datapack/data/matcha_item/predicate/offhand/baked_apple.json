@@ -3,7 +3,19 @@
 	"terms": [
 		{
 			"condition": "minecraft:any_of",
-			"terms": []
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"items": "minecraft:fermented_spider_eye"
+							}
+						}
+					}
+				}
+			]
 		},
 		{
 			"condition": "minecraft:inverted",
@@ -21,6 +33,13 @@
 						}
 					}
 				}
+			}
+		},
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:any_of",
+				"terms": []
 			}
 		}
 	]

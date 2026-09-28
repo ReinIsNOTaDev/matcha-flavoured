@@ -58,6 +58,8 @@ def genericItemProcessor(override,name,id_,components,folder_list):
     chest = re.compile("chestplate")
     legs = re.compile("leggings")
     feet = re.compile("boots")
+    diamond = re.compile("^(minecraft:diamond)_(.+)")
+    baked_apple = re.compile("minecraft:fermented_spider_eye")
     item = DB["files"].get(name)
     if override == "True" and cache[name]["overriden"] == False or name not in DB["files"]:
         if override == "True":
@@ -75,7 +77,23 @@ def genericItemProcessor(override,name,id_,components,folder_list):
         except:
             version = None
         if components != None:
-            if components.get("minecraft:provides_trim_material") != None:
+            if diamond.search(id_):
+                if head.search(id_):
+                    type_ = "diamond_helmet"
+                elif chest.search(id_):
+                    type_ = "diamond_chestplate"
+                elif legs.search(id_):
+                    type_ = "diamond_leggings"
+                elif feet.search(id_):
+                    type_ = "diamond_boots"
+                else:
+                    type_ = "diamond"
+            elif baked_apple.search(id_):
+                if components.get("minecraft:item_name") != None:
+                    type_ = "mineral"
+                else:
+                    type_ = "baked_apple"
+            elif components.get("minecraft:provides_trim_material") != None:
                 type_ = "trim_colour"
             elif components.get("minecraft:stored_enchantments") != None:
                 if head.search(id_):
@@ -300,7 +318,7 @@ def discover(override):
                 pass
         for iteratable in [[id_i,0],[names_i,1],[models_i,2]]:
             if use[iteratable[1]] == None:
-                if iteratable[0] >= 2:
+                if iteratable[0] >= 2 and not (DB["files"][item]["type"] == "baked_apple" or DB["files"][item]["type"] == "mineral"):
                     use[iteratable[1]] = False
                 else:
                     use[iteratable[1]] = True
@@ -416,8 +434,11 @@ def create(item):
                 print("[D] ignored processing: "+item) if debug else None
             elif obj["processed"] == True and DB["options"]["askForConfirmation"] == "True" and debug:
                 cont = input("[D] reprocess file <"+item+">? [y/N] ")
+                print("[D] contuning processing of: "+item) if (debug and (cont == "y")) else None
                 obj = creationHelper(obj, item) if cont == "y" else None
             else:
+                print("[D] started processing of: "+item) if debug else None
+                print(item)
                 obj = creationHelper(obj, item)
     if debug and DB["options"]["askForConfirmation"] == True:
         print(json.dumps(DB, indent=1))
@@ -436,6 +457,10 @@ class item_predicate():
         self.createDict = []
         for slot in slots:
             self.createDict.append({"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:slots": {slot: predicate}}})
+    def __len__(self):
+        return len(self.createDict)
+    def __getitem__(self, index):
+        return self.createDict[index]
 
 def creationHelper(obj, item):
 # helper CLI if there's no names, and for id use config
@@ -468,7 +493,6 @@ def creationHelper(obj, item):
     else:
         pass
 # defining variables
-    print("[D] names: "+str(obj["names"])) if debug else None
     names = obj["names"]
     models = obj["models"]
     id_ = obj["id"]
@@ -480,27 +504,15 @@ def creationHelper(obj, item):
     type_ = obj["type"]
     components = obj["components"]
     match type_:
-        case "helmet":
+        case "helmet" | "enchanted_helmet" | "diamond_helmet":
             slots = ["armor.head"]
-        case "chestplate":
+        case "chestplate" | "enchanted_chestplate" | "diamond_chestplate":
             slots = ["armor.chest"]
-        case "leggings":
+        case "leggings" | "enchanted_leggings" | "diamond_leggings":
             slots = ["armor.legs"]
-        case "boots":
+        case "boots" | "enchanted_boots" | "diamond_boots":
             slots = ["armor.feet"]
-        case "enchanted_helmet":
-            slots = ["armor.head"]
-        case "enchanted_chestplate":
-            slots = ["armor.chest"]
-        case "enchanted_leggings":
-            slots = ["armor.legs"]
-        case "enchanted_boots":
-            slots = ["armor.feet"]
-        case "enchanted":
-            slots = ["weapon.mainhand","weapon.offhand"]
-        case "trim_colour":
-            slots = ["weapon.mainhand","weapon.offhand"]
-        case "generic":
+        case "enchanted" | "trim_colour" | "generic" | "diamond" | "mineral" | "baked_apple":
             slots = ["weapon.mainhand","weapon.offhand"]
         case _:
             raise ValueError("So there isn't supposed to be this many item types...")
@@ -510,6 +522,7 @@ def creationHelper(obj, item):
     enchantments.update(item_modifier["components"].pop("minecraft:enchantments", {}))
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict
+    print(str(id_predicates))
     temp_names_predicates = []
     names_predicates = []
     for i in range(len(names)):
@@ -526,6 +539,39 @@ def creationHelper(obj, item):
     trim_colour_predicates = []
     if type_ == "trim_colour":
         trim_colour_predicates = item_predicate({"components": {"minecraft:provides_trim_material": obj["components"]["minecraft:provides_trim_material"]}}, slots).createDict
+    elif (type_ == "diamond") | (type_ == "diamond_helmet") | (type_ == "diamond_chestplate") | (type_ == "diamond_leggings") | (type_ == "diamond_boots"):
+        diamond = re.compile("^(diamond)_(.+)")
+        relevant_electrum = DB["files"]["electrum_"+diamond.search(item).group(2)]
+        relevant_names = relevant_electrum["names"]
+        relevant_models = relevant_electrum["models"]
+        working_diamond_predicates = [{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}},{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}}]
+        for relevant_name in relevant_names:
+            relevant_name_predicates = item_predicate({"components": {"minecraft:item_name": relevant_name}},slots).createDict
+            for i in range(len(relevant_name_predicates)):
+                working_diamond_predicates[i]["term"]["terms"].append(relevant_name_predicates[i])
+        for relevant_model in relevant_models:
+            relevant_model_predicates = item_predicate({"components": {"minecraft:item_name": relevant_model}},slots).createDict
+            for i in range(len(relevant_model_predicates)):
+                working_diamond_predicates[i]["term"]["terms"].append(relevant_model_predicates[i])
+    elif type_ == "baked_apple":
+        relevant_names = []
+        relevant_models = []
+        for item_ in DB["files"]:
+            if DB["files"][item]["type"] == "mineral":
+                for relevant_name in DB["files"][item_]["names"]:
+                    relevant_names.append(relevant_name)
+                for relevant_model in DB["files"][item_]["models"]:
+                    relevant_models.append(relevant_model)
+            else: pass
+        baked_apple_predicates = [{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}},{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}}]
+        for relevant_name in relevant_names:
+            relevant_name_predicates = item_predicate({"components": {"minecraft:item_name": relevant_name}},slots).createDict
+            for i in range(len(relevant_name_predicates)):
+                baked_apple_predicates[i]["term"]["terms"].append(relevant_name_predicates[i])
+        for relevant_model in relevant_models:
+            relevant_model_predicates = item_predicate({"components": {"minecraft:item_name": relevant_model}},slots)
+            for i in range(len(relevant_model_predicates)):
+                baked_apple_predicates[i]["term"]["terms"].append(relevant_model_predicates[i])
     else:
         pass
 # defining main predicates
@@ -546,13 +592,22 @@ def creationHelper(obj, item):
         else:
             pass
         if useid:
-            mainhand_predicate["terms"][0]["terms"].append(id_predicates[0])
-            offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
+            for i in range(len(id_predicates)):
+                if (i % 2) == 0:
+                    mainhand_predicate["terms"][0]["terms"].append(id_predicates[i])
+                else:
+                    offhand_predicate["terms"][0]["terms"].append(id_predicates[i])
         else:
             pass
         if type_ == "trim_colour":
             mainhand_predicate["terms"].append(trim_colour_predicates[0])
             offhand_predicate["terms"].append(trim_colour_predicates[1])
+        elif type_ == "diamond":
+            mainhand_predicate["terms"].append(working_diamond_predicates[0])
+            offhand_predicate["terms"].append(working_diamond_predicates[1])
+        elif type_ == "baked_apple":
+            mainhand_predicate["terms"].append(baked_apple_predicates[0])
+            offhand_predicate["terms"].append(baked_apple_predicates[1])
         else:
             pass
         mainhand_predicate["terms"][1].update({"term": version_predicates[0]})
@@ -561,7 +616,7 @@ def creationHelper(obj, item):
         pass
 # defining trigger advancement
     match type_:
-        case "generic" | "enchanted" | "trim_materials":
+        case "generic" | "enchanted" | "trim_materials" | "mineral" | "baked_apple" | "diamond":
             trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:any_of", "terms": []}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(mainhand_predicate)
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(offhand_predicate)
@@ -581,6 +636,12 @@ def creationHelper(obj, item):
             else:
                 pass
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append(version_predicates[0])
+            if (type_ == "diamond_helmet") | (type_ == "diamond_chestplate") | (type_ == "diamond_leggings") | (type_ == "diamond_boots"):
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(working_diamond_predicates[0])
+            elif type_ == "baked_apple":
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(baked_apple_predicates[0])
+            else:
+                pass
 # defining update functions
     update_function = ""
     mainhand_function = ""
@@ -591,7 +652,7 @@ def creationHelper(obj, item):
         offhand_function += "say <D> Updating offhand for "+item+"\n"
     else: pass
     match type_:
-        case "helmet" | "leggings" | "boots" | "chestplate":
+        case "helmet" | "leggings" | "boots" | "chestplate" | "diamond_helmet" | "diamond_chestplate" | "diamond_leggings" | "diamond_boots":
             update_function += "item modify entity @s "+slots[0]+" matcha_item:modify/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
         case "enchanted_helmet" | "enchanted_chestplate" | "enchanted_leggings" | "enchanted_boots":
@@ -634,7 +695,7 @@ def creationHelper(obj, item):
             # run special item modifier for enchants
             mainhand_function += "function matcha_item:enchants/mainhand with storage matcha_item:enchants"
             offhand_function += "function matcha_item:enchants/offhand with storage matcha_item:enchants"
-        case "generic":
+        case "generic" | "mineral" | "baked_apple" | "diamond":
             update_function += "execute as @s if predicate matcha_item:mainhand/"+item+" run function matcha_item:mainhand/"+item+"\n"
             update_function += "execute as @s if predicate matcha_item:offhand/"+item+" run function matcha_item:offhand/"+item+"\n"
             update_function += "advancement revoke @s only matcha_item:trigger/"+item
@@ -653,14 +714,14 @@ def creationHelper(obj, item):
     mainhand_predicate_path = os.path.join(Updater,"predicate/mainhand",item+".json")
     offhand_predicate_path = os.path.join(Updater,"predicate/offhand",item+".json")
     match type_:
-        case "helmet" | "leggings" | "boots" | "chestplate" | "enchanted_helmet" | "enchanted_leggings" | "enchanted_boots" | "enchanted_chestplate":
+        case "helmet" | "leggings" | "boots" | "chestplate" | "enchanted_helmet" | "enchanted_leggings" | "enchanted_boots" | "enchanted_chestplate" | "diamond_helmet" | "diamond_chestplate" | "diamond_leggings" | "diamond_boots":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [item_modifiers_path, item_modifier, "item_modifier"]]
             needed_yesses = 3
-        case "enchanted" | "generic" | "trim_colour":
+        case "enchanted" | "generic" | "trim_colour" | "mineral" | "baked_apple" | "diamond":
             paths = [[advancements_path, trigger_advancement, "advancement"], [update_function_path, update_function, "function"], [mainhand_function_path, mainhand_function, "function"], [offhand_function_path, offhand_function, "function"], [mainhand_predicate_path, mainhand_predicate, "predicate"], [offhand_predicate_path, offhand_predicate, "predicate"], [item_modifiers_path, item_modifier, "item_modifier"]]
             needed_yesses = 7
         case _:
-            pass
+            raise ValueError("trouble on aisle types")
     yesses = 0
     for path in paths:
         if debug and DB["options"]["askForConfirmation"] == "True":

@@ -40,6 +40,17 @@
 														}
 													}
 												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"items": "minecraft:fermented_spider_eye"
+														}
+													}
+												}
 											}
 										]
 									},
@@ -94,6 +105,17 @@
 															"components": {
 																"minecraft:item_name": "matcha:amber"
 															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"items": "minecraft:fermented_spider_eye"
 														}
 													}
 												}

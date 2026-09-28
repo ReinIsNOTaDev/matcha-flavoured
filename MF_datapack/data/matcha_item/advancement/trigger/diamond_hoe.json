@@ -30,6 +30,43 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:any_of",
+											"terms": [
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.electrum_hoe",
+																		"color": "yellow"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:electrum_hoe"
+																}
+															}
+														}
+													}
+												}
+											]
+										}
 									}
 								]
 							},
@@ -56,6 +93,43 @@
 													}
 												}
 											}
+										}
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:any_of",
+											"terms": [
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.electrum_hoe",
+																		"color": "yellow"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:electrum_hoe"
+																}
+															}
+														}
+													}
+												}
+											]
 										}
 									}
 								]

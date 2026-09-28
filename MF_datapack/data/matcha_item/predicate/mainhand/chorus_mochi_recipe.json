@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.cooking_recipe"
-									}
+									"minecraft:item_name": "matcha:chorus_mochi_recipe"
 								}
 							}
 						}

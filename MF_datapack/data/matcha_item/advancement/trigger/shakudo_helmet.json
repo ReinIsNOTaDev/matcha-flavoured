@@ -24,6 +24,19 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": "matcha:shakudo_helmet"
+													}
+												}
+											}
+										}
 									}
 								]
 							},

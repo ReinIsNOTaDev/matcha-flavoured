@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.cooking_recipe"
-									}
+									"minecraft:item_name": "matcha:warped_stroganoff_recipe"
 								}
 							}
 						}

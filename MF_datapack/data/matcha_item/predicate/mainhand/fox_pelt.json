@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.fox_pelt"
-									}
+									"minecraft:item_name": "fox_pelt"
 								}
 							}
 						}

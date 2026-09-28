@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.crystal_heart"
-									}
+									"minecraft:item_name": "matcha:heart_container"
 								}
 							}
 						}

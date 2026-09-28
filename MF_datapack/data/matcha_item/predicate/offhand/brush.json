@@ -25,6 +25,19 @@
 					"predicate": {
 						"minecraft:slots": {
 							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": "matcha:archaeologists_brush"
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
 								"items": "minecraft:brush"
 							}
 						}

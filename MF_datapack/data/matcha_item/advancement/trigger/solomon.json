@@ -19,24 +19,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.key_of_solomon"
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.ofuda"
-																}
+																"minecraft:item_name": "matcha:ofuda"
 															}
 														}
 													}
@@ -77,24 +60,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.key_of_solomon"
-																}
-															}
-														}
-													}
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.offhand": {
-															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.ofuda"
-																}
+																"minecraft:item_name": "matcha:ofuda"
 															}
 														}
 													}

@@ -11,24 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.cheerful_clay_statue"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.crystal_heart"
-									}
+									"minecraft:item_name": "matcha:heart_container"
 								}
 							}
 						}

@@ -4,6 +4,9 @@
 		"minecraft:item_model": "fox_pelt",
 		"minecraft:item_name": {
 			"translate": "item.kleispack.fox_pelt"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

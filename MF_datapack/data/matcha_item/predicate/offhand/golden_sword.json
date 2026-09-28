@@ -19,6 +19,17 @@
 							}
 						}
 					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"items": "minecraft:golden_sword"
+							}
+						}
+					}
 				}
 			]
 		},

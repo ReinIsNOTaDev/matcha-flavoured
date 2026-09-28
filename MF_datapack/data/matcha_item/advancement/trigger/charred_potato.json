@@ -26,6 +26,19 @@
 														}
 													}
 												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "matcha:charred_potato"
+															}
+														}
+													}
+												}
 											}
 										]
 									},
@@ -65,6 +78,19 @@
 																"minecraft:item_name": {
 																	"translate": "item.kleispack.charred_potato"
 																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "matcha:charred_potato"
 															}
 														}
 													}

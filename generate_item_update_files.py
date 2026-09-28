@@ -65,6 +65,11 @@ def genericItemProcessor(override,name,id_,components,folder_list):
         else: pass
         type_ = ""
         ignore = None
+        useid = None
+        usenames = None
+        usemodels = None
+        names = []
+        models = []
         try:
             version = components["minecraft:custom_data"]["version"]
         except:
@@ -120,8 +125,22 @@ def genericItemProcessor(override,name,id_,components,folder_list):
                 names = [components.get("minecraft:item_name")]
             else:
                 names = []
+                usenames = False
+        try:
+            models = DB["files"][name]["models"]
+            if components["minecraft:item_model"] in models:
+                pass
+            else:
+                models.append(components["minecraft:item_model"])
+        except:
+            if components.get("minecraft:item_model") != None:
+                models = [components.get("minecraft:item_model")]
+            else:
+                models = []
+                usemodels = False
         DB["files"][name] = {}
-        DB["files"][name] = {"version": version, "folder": [folder_list], "names": names, "id": id_, "use_id": None, "type": type_, "processed": False, "components": components, "ignore": ignore}
+        DB["files"][name] = {"version": version, "folder": [folder_list], "names": names, "models": models, "id": id_, "use": [useid,usenames,usemodels], "type": type_, "processed": False, "components": components, "ignore": ignore}
+        return True
     elif item != None and cache[name]["overriden"] == True:
         item_folders = DB["files"][name]["folder"]
         if folder_list in item_folders:
@@ -129,8 +148,10 @@ def genericItemProcessor(override,name,id_,components,folder_list):
         else:
             item_folders.append(folder_list)
             DB["files"][name]["processed"] = False
+        return True
     else:
         print("[D] skipping item "+name) if debug else None
+        return False
 
 def ltItemProcessor(override,pools,entries,json_,name,folder_list):
     has_set_components_function = False
@@ -153,13 +174,15 @@ def ltItemProcessor(override,pools,entries,json_,name,folder_list):
         pass
     if pools > 1 or entries > 1:
         print("Skipping file "+name+directory_msg+" due to excessive pool/entry count; don't panic!'")
+        return False
     elif has_set_components_function == False:
         print("[D] Skipping file "+name+directory_msg+" due to lack of components") if debug else None
+        return False
     else:
         entry = json_["pools"][0]["entries"][0]
         id_ = entry["name"]
         components = entry["functions"][set_components_function]["components"]
-        genericItemProcessor(override,name,id_,components,folder_list)
+        return genericItemProcessor(override,name,id_,components,folder_list)
 
 # discover mode: go through recipe(/lt?) folders and add files to db (non-destructive)
 def discover(override):
@@ -243,20 +266,47 @@ def discover(override):
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
     print("Finishing touches!")
     item_ids = []
+    item_names = []
+    item_models = []
     for item in DB["files"]:
+        print("[D] Item processing: "+item) if debug else None
         item_ids.append(DB["files"][item]["id"])
+        for item_name in DB["files"][item]["names"]:
+            item_names.append(item_name)
+        for item_model in DB["files"][item]["models"]:
+            item_models.append(item_model)
     for item in DB["files"]:
-        i = 0
+        id_i = 0
+        names_i = 0
+        models_i = 0
+        use = DB["files"][item]["use"]
+        useid = use[0]
+        usenames = use[1]
+        usemodels = use[2]
         for item_id in item_ids:
             if DB["files"][item]["id"] == item_id:
-                i += 1
+                id_i += 1
             else:
                 pass
-        if i >= 2:
-            DB["files"][item]["use_id"] = 0
-        else:
-            DB["files"][item]["use_id"] = 1
-        if DB["files"][item]["use_id"] == 0 and DB["files"][item]["names"] == []:
+        for item_name in item_names:
+            if item_name in DB["files"][item]["names"]:
+                names_i += 1
+            else:
+                pass
+        for item_model in item_models:
+            if item_name in DB["files"][item]["models"]:
+                names_i += 1
+            else:
+                pass
+        for iteratable in [[id_i,0],[names_i,1],[models_i,2]]:
+            if use[iteratable[1]] == None:
+                if iteratable[0] >= 2:
+                    use[iteratable[1]] = False
+                else:
+                    use[iteratable[1]] = True
+            else:
+                continue
+        if useid == False and usenames == False and usemodels == False:
             ignore = True
     with open(DBpath, 'w') as f:
         json.dump(DB, f, indent="\t")
@@ -390,11 +440,6 @@ class item_predicate():
 def creationHelper(obj, item):
 # helper CLI if there's no names, and for id use config
     if DB["options"]["createHelpDiag"] == "True":
-        use_id = input("Please define if you want to use item id <"+obj["id"]+"> for item <"+item+"> [y/n] ")
-        if use_id == "y":
-            obj["use_id"] = 1
-        else:
-            obj["use_id"] = 0
         print("Names: "+str(obj["names"]))
         raw_names = input("Please provide additional names for this item <"+item+">, separated by commas. ")
         if raw_names == "":
@@ -403,6 +448,14 @@ def creationHelper(obj, item):
             for raw_name in raw_names.split(", "):
                 obj["names"].append(raw_name)
             print("[D] Split <"+raw_names+"> to the following: "+str(obj["names"])) if debug else None
+        print("Names: "+str(obj["models"]))
+        raw_models = input("Please provide additional item models for this item <"+item+">, separated by commas. ")
+        if raw_models == "":
+            pass
+        else:
+            for raw_model in raw_models.split(", "):
+                obj["models"].append(raw_model)
+            print("[D] Split <"+raw_models+"> to the following: "+str(obj["models"])) if debug else None
     elif DB["options"]["assumeNamesArePopulated"] == "False":
         obj["names"] = []
         lang_path = os.path.join("MF_resourcepack/assets/matcha/lang/en_us.json")
@@ -417,8 +470,12 @@ def creationHelper(obj, item):
 # defining variables
     print("[D] names: "+str(obj["names"])) if debug else None
     names = obj["names"]
+    models = obj["models"]
     id_ = obj["id"]
-    use_id = obj["use_id"]
+    use = obj["use"]
+    useid = use[0]
+    usenames = use[1]
+    usemodels = use[2]
     version = obj["version"]
     type_ = obj["type"]
     components = obj["components"]
@@ -459,6 +516,12 @@ def creationHelper(obj, item):
         temp_names_predicates.append(item_predicate({"components": {"minecraft:item_name": names[i]}}, slots).createDict)
         for i2 in range(len(temp_names_predicates[i])):
             names_predicates.append(temp_names_predicates[i][i2])
+    temp_models_predicates = []
+    models_predicates = []
+    for i in range(len(models)):
+        temp_models_predicates.append(item_predicate({"components": {"minecraft:item_name": models[i]}}, slots).createDict)
+        for i2 in range(len(temp_models_predicates[i])):
+            models_predicates.append(temp_models_predicates[i][i2])
     version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).createDict
     trim_colour_predicates = []
     if type_ == "trim_colour":
@@ -469,13 +532,20 @@ def creationHelper(obj, item):
     if len(slots) == 2:
         mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
         offhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
-        i = 0
-        for i in range(len(names_predicates)):
-            if (i % 2) == 0:
-                mainhand_predicate["terms"][0]["terms"].append(names_predicates[i])
-            else:
-                offhand_predicate["terms"][0]["terms"].append(names_predicates[i])
-        if use_id == 1:
+        if usenames:
+            for i in range(len(names_predicates)):
+                if (i % 2) == 0:
+                    mainhand_predicate["terms"][0]["terms"].append(names_predicates[i])
+                else:
+                    offhand_predicate["terms"][0]["terms"].append(names_predicates[i])
+        else:
+            pass
+        if usemodels:
+            mainhand_predicate["terms"][0]["terms"].append(models_predicates[0])
+            offhand_predicate["terms"][0]["terms"].append(models_predicates[1])
+        else:
+            pass
+        if useid:
             mainhand_predicate["terms"][0]["terms"].append(id_predicates[0])
             offhand_predicate["terms"][0]["terms"].append(id_predicates[1])
         else:
@@ -497,14 +567,17 @@ def creationHelper(obj, item):
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(offhand_predicate)
         case _:
             trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
-            if names != []:
+            if usenames:
                 for i in range(len(names_predicates)):
                     trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
             else:
                 pass
-            if use_id == 1:
-                for id_predicate in id_predicates:
-                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicate)
+            if usemodels:
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(models_predicates[0])
+            else:
+                pass
+            if useid:
+                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicates[0])
             else:
                 pass
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append(version_predicates[0])

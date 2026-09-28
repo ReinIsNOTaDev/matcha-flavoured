@@ -18,6 +18,19 @@
 												"predicate": {
 													"minecraft:slots": {
 														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "minecraft:cooked_salmon"
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
 															"items": "minecraft:cooked_salmon"
 														}
 													}
@@ -51,6 +64,19 @@
 									{
 										"condition": "minecraft:any_of",
 										"terms": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "minecraft:cooked_salmon"
+															}
+														}
+													}
+												}
+											},
 											{
 												"condition": "minecraft:entity_properties",
 												"entity": "this",

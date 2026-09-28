@@ -11,25 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.iron_mattock"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.adamant_mattock",
-										"color": "gold"
-									}
+									"minecraft:item_name": "matcha:adamant_mattock"
 								}
 							}
 						}

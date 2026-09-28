@@ -12,7 +12,8 @@
 							"weapon.offhand": {
 								"components": {
 									"minecraft:item_name": {
-										"translate": "item.kleispack.cooking_recipe"
+										"translate": "item.kleispack.gnocchi",
+										"color": "#e1bc62"
 									}
 								}
 							}
@@ -26,10 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.gnocchi",
-										"color": "#e1bc62"
-									}
+									"minecraft:item_name": "matcha:gnocchi"
 								}
 							}
 						}

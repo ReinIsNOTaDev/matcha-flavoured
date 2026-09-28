@@ -11,25 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.steel_claymore"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.mainhand": {
-								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.adamant_claymore",
-										"color": "gold"
-									}
+									"minecraft:item_name": "matcha:adamant_claymore"
 								}
 							}
 						}

@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.steel_shears"
-									}
+									"minecraft:item_name": "matcha:steel_shears"
 								}
 							}
 						}

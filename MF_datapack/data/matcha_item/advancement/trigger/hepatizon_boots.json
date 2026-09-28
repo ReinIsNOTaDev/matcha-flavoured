@@ -32,10 +32,7 @@
 											"minecraft:slots": {
 												"armor.feet": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.bronze_boots",
-															"color": "#ac7b5c"
-														}
+														"minecraft:item_name": "matcha:hepatizon_boots"
 													}
 												}
 											}

@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.copper_compass"
-									}
+									"minecraft:item_name": "matcha:copper_compass"
 								}
 							}
 						}

@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.trim_colour"
-									}
+									"minecraft:item_name": "matcha:trim_colour_gold"
 								}
 							}
 						}

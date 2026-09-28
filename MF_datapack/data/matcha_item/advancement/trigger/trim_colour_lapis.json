@@ -16,24 +16,7 @@
 											"minecraft:slots": {
 												"weapon.mainhand": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.trim_colour"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"weapon.offhand": {
-													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.trim_colour"
-														}
+														"minecraft:item_name": "matcha:trim_colour_lapis"
 													}
 												}
 											}

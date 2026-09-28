@@ -24,6 +24,17 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"items": "minecraft:chainmail_leggings"
+												}
+											}
+										}
 									}
 								]
 							},

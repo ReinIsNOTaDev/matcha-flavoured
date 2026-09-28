@@ -16,26 +16,7 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.hepatizon_laurel",
-															"color": "#ac7b5c"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.bronze_laurel",
-															"color": "#ac7b5c"
-														}
+														"minecraft:item_name": "matcha:hepatizon_laurel"
 													}
 												}
 											}

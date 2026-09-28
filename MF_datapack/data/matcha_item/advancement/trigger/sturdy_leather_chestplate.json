@@ -24,6 +24,19 @@
 												}
 											}
 										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"components": {
+														"minecraft:item_name": "matcha:sturdy_leather_chestplate"
+													}
+												}
+											}
+										}
 									}
 								]
 							},

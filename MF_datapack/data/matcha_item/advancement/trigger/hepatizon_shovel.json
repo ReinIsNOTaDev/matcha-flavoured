@@ -35,10 +35,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.bronze_shovel",
-																	"color": "#ac7b5c"
-																}
+																"minecraft:item_name": "matcha:hepatizon_shovel"
 															}
 														}
 													}
@@ -95,10 +92,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.bronze_shovel",
-																	"color": "#ac7b5c"
-																}
+																"minecraft:item_name": "matcha:hepatizon_shovel"
 															}
 														}
 													}

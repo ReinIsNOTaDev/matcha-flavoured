@@ -27,6 +27,19 @@
 														}
 													}
 												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "matcha:amber"
+															}
+														}
+													}
+												}
 											}
 										]
 									},
@@ -67,6 +80,19 @@
 																	"translate": "item.kleispack.amber",
 																	"color": "gold"
 																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "matcha:amber"
 															}
 														}
 													}

@@ -11,9 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.golden_compass"
-									}
+									"minecraft:item_name": "matcha:golden_compass"
 								}
 							}
 						}

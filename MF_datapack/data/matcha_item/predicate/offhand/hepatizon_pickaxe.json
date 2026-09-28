@@ -27,6 +27,35 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.bronze_pickaxe",
+										"color": "#ac7b5c"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": "Bronze Pickaxe"
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
 									"minecraft:item_name": "matcha:hepatizon_pickaxe"
 								}
 							}

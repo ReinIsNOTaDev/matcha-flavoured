@@ -10941,7 +10941,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_axe",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_axe",
+					"color": "#ac7b5c"
+				},
+				"Bronze Axe"
 			],
 			"models": [
 				"matcha:hepatizon_axe"
@@ -11065,7 +11070,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_boots",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_boots",
+					"color": "#ac7b5c"
+				},
+				"Bronze Boots"
 			],
 			"models": [
 				"matcha:hepatizon_boots"
@@ -11161,7 +11171,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_chestplate",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_chestplate",
+					"color": "#ac7b5c"
+				},
+				"Bronze Chestplate"
 			],
 			"models": [
 				"matcha:hepatizon_chestplate"
@@ -11257,7 +11272,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_dolabra",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_dolabra",
+					"color": "#ac7b5c"
+				},
+				"Bronze Dolabra"
 			],
 			"models": [
 				"matcha:hepatizon_dolabra"
@@ -11489,7 +11509,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_helmet",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_helmet",
+					"color": "#ac7b5c"
+				},
+				"Bronze Helmet"
 			],
 			"models": [
 				"matcha:hepatizon_helmet"
@@ -11585,7 +11610,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_hoe",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_hoe",
+					"color": "#ac7b5c"
+				},
+				"Bronze Hoe"
 			],
 			"models": [
 				"matcha:hepatizon_hoe"
@@ -11696,7 +11726,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_leggings",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_leggings",
+					"color": "#ac7b5c"
+				},
+				"Bronze Leggings"
 			],
 			"models": [
 				"matcha:hepatizon_leggings"
@@ -11792,7 +11827,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_mattock",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_mattock",
+					"color": "#ac7b5c"
+				},
+				"Bronze Mattock"
 			],
 			"models": [
 				"matcha:hepatizon_mattock"
@@ -11922,7 +11962,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_pickaxe",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_pickaxe",
+					"color": "#ac7b5c"
+				},
+				"Bronze Pickaxe"
 			],
 			"models": [
 				"matcha:hepatizon_pickaxe"
@@ -12052,7 +12097,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_shovel",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_laurel",
+					"color": "#ac7b5c"
+				},
+				"Bronze Laurel"
 			],
 			"models": [
 				"matcha:hepatizon_shovel"
@@ -12177,7 +12227,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_spear",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_spear",
+					"color": "#ac7b5c"
+				},
+				"Bronze Spear"
 			],
 			"models": [
 				"matcha:hepatizon_spear"
@@ -12288,7 +12343,12 @@
 				{
 					"translate": "item.kleispack.hepatizon_sword",
 					"color": "#ac7b5c"
-				}
+				},
+				{
+					"translate": "item.kleispack.bronze_sword",
+					"color": "#ac7b5c"
+				},
+				"Bronze Sword"
 			],
 			"models": [
 				"matcha:hepatizon_sword"

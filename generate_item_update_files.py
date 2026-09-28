@@ -557,7 +557,7 @@ def creationHelper(obj, item):
         relevant_names = []
         relevant_models = []
         for item_ in DB["files"]:
-            if DB["files"][item]["type"] == "mineral":
+            if DB["files"][item_]["type"] == "mineral":
                 for relevant_name in DB["files"][item_]["names"]:
                     relevant_names.append(relevant_name)
                 for relevant_model in DB["files"][item_]["models"]:

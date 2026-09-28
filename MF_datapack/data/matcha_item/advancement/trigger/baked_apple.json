@@ -47,7 +47,124 @@
 										"condition": "minecraft:inverted",
 										"term": {
 											"condition": "minecraft:any_of",
-											"terms": []
+											"terms": [
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.amber",
+																		"color": "gold"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.opal",
+																		"color": "#ab85ad"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.ruby",
+																		"color": "red"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.topaz",
+																		"color": "yellow"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:amber"
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:opal"
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:ruby"
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.mainhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:topaz"
+																}
+															}
+														}
+													}
+												}
+											]
 										}
 									}
 								]
@@ -93,7 +210,124 @@
 										"condition": "minecraft:inverted",
 										"term": {
 											"condition": "minecraft:any_of",
-											"terms": []
+											"terms": [
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.amber",
+																		"color": "gold"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.opal",
+																		"color": "#ab85ad"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.ruby",
+																		"color": "red"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": {
+																		"translate": "item.kleispack.topaz",
+																		"color": "yellow"
+																	}
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:amber"
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:opal"
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:ruby"
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"minecraft:slots": {
+															"weapon.offhand": {
+																"components": {
+																	"minecraft:item_name": "matcha:topaz"
+																}
+															}
+														}
+													}
+												}
+											]
 										}
 									}
 								]

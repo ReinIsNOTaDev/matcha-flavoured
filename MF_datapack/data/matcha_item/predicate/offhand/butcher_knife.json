@@ -26,6 +26,19 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
+									"minecraft:item_name": "Butcher's Knife"
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
 									"minecraft:item_name": "matcha:butcher_knife"
 								}
 							}

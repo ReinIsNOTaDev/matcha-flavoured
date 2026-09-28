@@ -35223,7 +35223,8 @@
 			"names": [
 				{
 					"translate": "item.kleispack.butcher_knife"
-				}
+				},
+				"Butcher's Knife"
 			],
 			"models": [
 				"matcha:butcher_knife"

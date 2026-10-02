@@ -9,12 +9,12 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\u2764",
+					"text": "❤",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "\ud83c\udfc3 +20% (0:30)",
+					"text": "🏃 +20% (0:30)",
 					"color": "#37cafb",
 					"italic": false
 				},
@@ -79,9 +79,6 @@
 			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:glass_bottle"
-			},
-			"minecraft:custom_data": {
-				"version": 1
 			}
 		}
 	}

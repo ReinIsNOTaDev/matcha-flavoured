@@ -39,7 +39,7 @@
 					"italic": false
 				},
 				{
-					"text": "\ud83c\udfc3 +40% (5:00)",
+					"text": "🏃 +40% (5:00)",
 					"color": "#37cafb",
 					"italic": false
 				}
@@ -48,10 +48,7 @@
 				"translate": "item.kleispack.bubbling_mead",
 				"italic": false
 			},
-			"minecraft:item_model": "matcha:bubbling_mead",
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:item_model": "matcha:bubbling_mead"
 		},
 		"count": 1
 	}

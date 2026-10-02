@@ -45,10 +45,7 @@
 				"translate": "item.kleispack.pickled_red_mushrooms",
 				"italic": false
 			},
-			"minecraft:item_model": "matcha:pickled_red_mushrooms",
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:item_model": "matcha:pickled_red_mushrooms"
 		},
 		"count": 1
 	}

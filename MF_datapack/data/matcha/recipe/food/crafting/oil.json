@@ -20,10 +20,7 @@
 	"result": {
 		"id": "minecraft:happy_ghast_spawn_egg",
 		"components": {
-			"!minecraft:entity_data": {},
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"!minecraft:entity_data": {}
 		}
 	}
 }

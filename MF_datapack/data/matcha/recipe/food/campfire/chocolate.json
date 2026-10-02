@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\u2764",
+					"text": "❤",
 					"color": "red",
 					"italic": false
 				},
@@ -52,10 +52,7 @@
 				"can_always_eat": true
 			},
 			"minecraft:max_stack_size": 64,
-			"!minecraft:use_remainder": {},
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"!minecraft:use_remainder": {}
 		}
 	}
 }

@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\u2764\u2764",
+					"text": "❤❤",
 					"color": "red",
 					"italic": false
 				}
@@ -41,10 +41,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.nopales"
 			},
-			"minecraft:item_model": "matcha:nopales",
-			"minecraft:custom_data": {
-				"version": 1
-			}
+			"minecraft:item_model": "matcha:nopales"
 		}
 	}
 }

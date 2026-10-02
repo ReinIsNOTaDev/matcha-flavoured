@@ -38721,6 +38721,70 @@
 				}
 			},
 			"ignore": null
+		},
+		"cyan_rose_classic": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.cyan_rose_classic"
+				}
+			],
+			"models": [
+				"matcha:cyan_rose_classic"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:cyan_rose_classic",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.cyan_rose_classic"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"rose_classic": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.rose_classic"
+				}
+			],
+			"models": [
+				"matcha:rose_classic"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:rose_classic",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.rose_classic"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
 		}
 	},
 	"options": {

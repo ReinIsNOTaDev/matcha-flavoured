@@ -159,7 +159,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
         DB["files"][name] = {}
         DB["files"][name] = {"version": version, "folder": [folder_list], "names": names, "models": models, "id": id_, "use": [useid,usenames,usemodels], "type": type_, "processed": False, "components": components, "ignore": ignore}
         return True
-    elif item != None and cache[name]["overriden"] == True:
+    elif item != None and (cache[name]["overriden"] == True or override != "True"):
         item_folders = DB["files"][name]["folder"]
         if folder_list in item_folders:
             pass

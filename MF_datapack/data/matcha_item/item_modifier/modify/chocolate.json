@@ -42,6 +42,9 @@
 				}
 			]
 		},
-		"!minecraft:use_remainder": {}
+		"!minecraft:use_remainder": {},
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

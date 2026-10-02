@@ -111,6 +111,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -164,6 +171,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -173,6 +183,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -250,6 +267,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -259,6 +279,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -297,6 +324,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -306,6 +336,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -359,6 +396,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -368,6 +408,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -406,6 +453,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -415,6 +465,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -480,6 +537,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -489,6 +549,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -551,6 +618,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -560,6 +630,9 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
 				]
 			],
 			"names": [
@@ -625,6 +698,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -634,6 +710,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -681,6 +764,9 @@
 							"effects": "#matcha:harmful"
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -690,6 +776,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -744,7 +837,10 @@
 						}
 					]
 				},
-				"!minecraft:use_remainder": {}
+				"!minecraft:use_remainder": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -753,6 +849,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -791,6 +894,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -800,6 +906,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -838,6 +951,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -847,6 +963,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -885,6 +1008,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -894,6 +1020,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -932,6 +1065,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -941,6 +1077,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -979,6 +1122,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -988,6 +1134,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -1026,6 +1179,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1035,6 +1191,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -1073,6 +1236,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1082,6 +1248,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1145,6 +1318,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1154,6 +1330,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -1207,6 +1390,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1216,6 +1402,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1264,6 +1457,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1273,6 +1469,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -1321,7 +1524,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"matcha:aura_3s": {}
+					"matcha:aura_3s": {},
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1331,6 +1535,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1396,6 +1607,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1405,6 +1619,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1472,6 +1693,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1481,6 +1705,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1544,6 +1775,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1553,6 +1787,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1616,6 +1857,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1625,6 +1869,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1702,6 +1953,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1711,6 +1965,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1778,6 +2039,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1787,6 +2051,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -1800,7 +2071,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -1809,6 +2083,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1857,6 +2138,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1866,6 +2150,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -1933,6 +2224,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -1942,6 +2236,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -1995,6 +2296,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2004,6 +2308,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2071,6 +2382,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2080,6 +2394,16 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2147,6 +2471,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2156,6 +2483,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2219,6 +2553,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2228,6 +2565,13 @@
 			"folder": [
 				[
 					"food_campfire"
+				],
+				[
+					"food_oven"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2278,6 +2622,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2327,6 +2674,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2340,7 +2691,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2362,7 +2716,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2371,6 +2728,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2384,7 +2745,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2393,6 +2757,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2406,7 +2774,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2428,7 +2799,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2437,6 +2811,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2450,7 +2828,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2459,6 +2840,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2472,7 +2857,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2481,6 +2869,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2533,6 +2925,9 @@
 					"nutrition": 0,
 					"saturation": 0,
 					"can_always_eat": true
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2542,6 +2937,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2555,7 +2954,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2564,6 +2966,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2577,7 +2983,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2586,6 +2995,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2599,7 +3012,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2608,6 +3024,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2621,7 +3041,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2630,6 +3053,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -2643,7 +3070,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2652,6 +3082,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2736,7 +3170,10 @@
 						"color": "#e65f33",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -2745,6 +3182,14 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"cook",
+					"2"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2817,6 +3262,9 @@
 				],
 				"minecraft:use_remainder": {
 					"id": "bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2826,6 +3274,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2889,6 +3341,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2898,6 +3353,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -2965,6 +3424,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -2974,6 +3436,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3022,6 +3488,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3031,6 +3500,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3094,6 +3567,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3103,6 +3579,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3166,6 +3646,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3175,6 +3658,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -3226,6 +3713,9 @@
 					"hidden_components": [
 						"minecraft:potion_contents"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3235,6 +3725,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3298,6 +3792,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3307,6 +3804,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -3331,7 +3832,10 @@
 						"color": "gray",
 						"italic": false
 					}
-				]
+				],
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -3340,6 +3844,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3406,6 +3914,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3415,6 +3926,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3495,6 +4010,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3504,6 +4022,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3567,6 +4089,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3576,6 +4101,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -3614,6 +4143,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3623,6 +4155,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3686,6 +4222,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3695,6 +4234,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3758,6 +4301,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3767,6 +4313,14 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"cook",
+					"3"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3832,6 +4386,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3841,6 +4398,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -3909,6 +4470,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3971,6 +4535,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -3980,6 +4547,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4028,6 +4599,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4037,6 +4611,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4085,6 +4663,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4094,6 +4675,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4157,6 +4742,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4166,6 +4754,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4224,7 +4816,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"matcha:aura_60s": {}
+					"matcha:aura_60s": {},
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4234,6 +4827,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4294,7 +4891,8 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"matcha:aura_30s": {}
+					"matcha:aura_30s": {},
+					"version": 1
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
@@ -4307,6 +4905,14 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"recipe"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4360,6 +4966,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4369,6 +4978,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -4434,6 +5047,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4443,6 +5059,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4520,6 +5140,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4529,6 +5152,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -4582,6 +5209,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4591,6 +5221,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4656,6 +5290,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4665,6 +5302,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4733,6 +5374,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4742,6 +5386,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4805,6 +5453,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4814,6 +5465,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4874,6 +5529,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4883,6 +5541,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -4965,6 +5627,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -4974,6 +5639,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5022,6 +5691,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5031,6 +5703,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5109,6 +5785,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5118,6 +5797,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5186,6 +5869,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5195,6 +5881,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5258,6 +5948,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5267,6 +5960,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"minecraft"
 				]
 			],
 			"names": [],
@@ -5305,6 +6002,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5314,6 +6014,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5381,6 +6085,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5390,6 +6097,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -5425,6 +6136,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5434,6 +6148,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5497,6 +6215,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5506,6 +6227,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5587,6 +6312,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5596,6 +6324,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5662,6 +6394,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5671,6 +6406,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5737,6 +6476,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5746,6 +6488,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -5798,6 +6544,9 @@
 					"hidden_components": [
 						"minecraft:potion_contents"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5807,6 +6556,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5858,6 +6611,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5867,6 +6623,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -5918,6 +6678,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5927,6 +6690,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -5978,6 +6745,9 @@
 					"hidden_components": [
 						"minecraft:potion_contents"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -5987,6 +6757,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6053,6 +6827,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6062,6 +6839,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [],
@@ -6115,6 +6896,9 @@
 					"hidden_components": [
 						"minecraft:potion_contents"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6124,6 +6908,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6172,6 +6960,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6181,6 +6972,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6244,6 +7039,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6253,6 +7051,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6316,6 +7118,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6325,6 +7130,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6393,6 +7202,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6402,6 +7214,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6450,6 +7266,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6459,6 +7278,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6525,6 +7348,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6534,6 +7360,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6600,6 +7430,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6609,6 +7442,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6657,6 +7494,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6666,6 +7506,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6717,6 +7561,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:bowl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6726,6 +7573,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6786,6 +7637,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6795,6 +7649,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6860,6 +7718,9 @@
 				},
 				"minecraft:use_remainder": {
 					"id": "minecraft:glass_bottle"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6869,6 +7730,14 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"cook",
+					"1"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6931,6 +7800,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6940,6 +7812,10 @@
 			"folder": [
 				[
 					"food_kiln"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -6988,6 +7864,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -6997,6 +7876,10 @@
 			"folder": [
 				[
 					"food_kiln"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -7045,6 +7928,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -7054,6 +7940,10 @@
 			"folder": [
 				[
 					"food_kiln"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -7102,6 +7992,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -7111,6 +8004,10 @@
 			"folder": [
 				[
 					"food_kiln"
+				],
+				[
+					"food",
+					"matcha"
 				]
 			],
 			"names": [
@@ -7159,6 +8056,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -7168,6 +8068,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7278,6 +8182,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7385,6 +8293,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7492,6 +8404,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7648,6 +8564,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7786,6 +8706,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7893,6 +8817,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8002,6 +8930,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8109,6 +9041,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8226,6 +9162,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8350,6 +9290,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8459,6 +9403,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8548,6 +9496,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8652,6 +9604,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -8775,6 +9731,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -8900,6 +9860,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9025,6 +9989,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9155,6 +10123,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9280,6 +10252,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9400,6 +10376,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9525,6 +10505,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9651,6 +10635,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9776,6 +10764,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9896,6 +10888,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9990,6 +10986,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -14865,6 +15865,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"fletcher",
+					"1"
 				]
 			],
 			"names": [],
@@ -15165,6 +16169,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -15285,6 +16293,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -15545,6 +16557,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16665,6 +17681,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -16845,6 +17865,13 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"mason",
+					"1"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [],
@@ -17445,6 +18472,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -17545,6 +18576,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18145,6 +19180,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18205,6 +19244,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18325,6 +19368,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18405,6 +19452,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -18645,6 +19696,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18665,6 +19719,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18685,6 +19742,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18705,6 +19765,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18725,6 +19788,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18745,6 +19811,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18765,6 +19834,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18785,6 +19857,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18805,6 +19880,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18825,6 +19903,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18845,6 +19926,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18865,6 +19949,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -18885,6 +19972,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -19105,6 +20195,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -19505,6 +20599,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -19905,6 +21003,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -20285,6 +21387,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -20305,6 +21411,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"electrician",
+					"1"
 				]
 			],
 			"names": [],
@@ -21145,6 +22255,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"electrician",
+					"2"
 				]
 			],
 			"names": [],
@@ -21385,6 +22499,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"electrician",
+					"2"
 				]
 			],
 			"names": [],
@@ -21865,6 +22983,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -21945,6 +23067,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"shepherd",
+					"1"
 				]
 			],
 			"names": [],
@@ -23300,6 +24426,13 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"mouthpiece",
+					"5"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -23363,6 +24496,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23430,6 +24567,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23478,6 +24619,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23526,6 +24671,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [
@@ -23629,6 +24778,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23677,6 +24830,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23744,6 +24901,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23792,6 +24953,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [
@@ -23890,6 +25055,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -23962,6 +25131,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24029,6 +25202,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24077,6 +25254,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24125,6 +25306,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [],
@@ -26609,6 +27793,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
 				]
 			],
 			"names": [
@@ -26729,6 +27917,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
 				]
 			],
 			"names": [
@@ -26830,6 +28022,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
 				]
 			],
 			"names": [
@@ -28858,6 +30054,9 @@
 				[
 					"mouthpiece",
 					"1"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -28922,6 +30121,9 @@
 				[
 					"mouthpiece",
 					"1"
+				],
+				[
+					"materials"
 				]
 			],
 			"names": [],
@@ -28948,6 +30150,9 @@
 				[
 					"mouthpiece",
 					"1"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29012,6 +30217,9 @@
 				[
 					"mouthpiece",
 					"2"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29058,6 +30266,9 @@
 				[
 					"mouthpiece",
 					"2"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29103,6 +30314,9 @@
 				[
 					"mouthpiece",
 					"2"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29150,6 +30364,9 @@
 				[
 					"mouthpiece",
 					"3"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29195,6 +30412,9 @@
 				[
 					"mouthpiece",
 					"4"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29240,6 +30460,9 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29356,6 +30579,9 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29414,6 +30640,9 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29472,6 +30701,9 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29530,6 +30762,9 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29588,6 +30823,9 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29646,6 +30884,9 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29704,6 +30945,9 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29762,6 +31006,9 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29820,6 +31067,9 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29878,6 +31128,9 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29936,6 +31189,9 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -29994,6 +31250,9 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -30073,6 +31332,9 @@
 				[
 					"mason",
 					"4"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -30131,6 +31393,9 @@
 				[
 					"mason",
 					"4"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -30189,6 +31454,9 @@
 				[
 					"mason",
 					"4"
+				],
+				[
+					"bulk_block"
 				]
 			],
 			"names": [
@@ -30246,6 +31514,54 @@
 			"folder": [
 				[
 					"mason",
+					"5"
+				],
+				[
+					"shepherd",
+					"4"
+				],
+				[
+					"shepherd",
+					"5"
+				],
+				[
+					"leatherworker",
+					"5"
+				],
+				[
+					"fletcher",
+					"4"
+				],
+				[
+					"fletcher",
+					"5"
+				],
+				[
+					"farmer",
+					"4"
+				],
+				[
+					"farmer",
+					"5"
+				],
+				[
+					"cleric",
+					"2"
+				],
+				[
+					"cleric",
+					"3"
+				],
+				[
+					"cleric",
+					"4"
+				],
+				[
+					"cleric",
+					"5"
+				],
+				[
+					"cook",
 					"5"
 				]
 			],
@@ -31116,6 +32432,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31137,6 +32456,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31158,6 +32480,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31179,6 +32504,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31200,6 +32528,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31221,6 +32552,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31242,6 +32576,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31263,6 +32600,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31284,6 +32624,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31305,6 +32648,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31326,6 +32672,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31347,6 +32696,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31368,6 +32720,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31389,6 +32744,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31410,6 +32768,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31431,6 +32792,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31452,6 +32816,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31473,6 +32840,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31494,6 +32864,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31515,6 +32888,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31536,6 +32912,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31557,6 +32936,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31578,6 +32960,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31599,6 +32984,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31620,6 +33008,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31641,6 +33032,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31662,6 +33056,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31683,6 +33080,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31704,6 +33104,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31725,6 +33128,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31746,6 +33152,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31767,6 +33176,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31788,6 +33200,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31809,6 +33224,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31830,6 +33248,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31851,6 +33272,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31872,6 +33296,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31893,6 +33320,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31914,6 +33344,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31935,6 +33368,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31956,6 +33392,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31977,6 +33416,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -31998,6 +33440,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32019,6 +33464,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32040,6 +33488,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32061,6 +33512,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32082,6 +33536,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33185,6 +34642,9 @@
 				[
 					"cartographer",
 					"1"
+				],
+				[
+					"wandering_trader"
 				]
 			],
 			"names": [],
@@ -33571,6 +35031,9 @@
 				[
 					"cartographer",
 					"5"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -33635,6 +35098,9 @@
 				[
 					"cartographer",
 					"5"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -34604,6 +36070,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -34652,6 +36121,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -34700,6 +36172,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -34748,6 +36223,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -34803,6 +36281,9 @@
 							"type": "minecraft:teleport_randomly"
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -34904,6 +36385,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -34952,6 +36436,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -35000,6 +36487,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -35273,7 +36763,10 @@
 					"translate": "item.kleispack.amber",
 					"color": "gold"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -35307,7 +36800,10 @@
 					"translate": "item.kleispack.opal",
 					"color": "#ab85ad"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -35341,7 +36837,10 @@
 					"translate": "item.kleispack.ruby",
 					"color": "red"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -35375,7 +36874,10 @@
 					"translate": "item.kleispack.topaz",
 					"color": "yellow"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},

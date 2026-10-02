@@ -33,6 +33,9 @@
 					"type": "minecraft:teleport_randomly"
 				}
 			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

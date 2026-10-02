@@ -14,7 +14,7 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "\ue030",
+										"text": "\uE030",
 										"color": "red",
 										"italic": false
 									}
@@ -34,9 +34,6 @@
 											]
 										}
 									]
-								},
-								"minecraft:custom_data": {
-									"version": 1
 								}
 							}
 						}

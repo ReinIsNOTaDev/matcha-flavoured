@@ -14,20 +14,18 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "\ue030\ue030\ue030\ue030",
+										"text": "\uE030\uE030\uE030\uE030",
 										"color": "red",
 										"italic": false
 									},
 									{
-										"text": "\ue030\ue030 (2:00)",
+										"text": "\uE030\uE030 (2:00)",
 										"color": "aqua",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.regeneration",
-										"with": [
-											"0:30"
-										],
+										"with": ["0:30"],
 										"color": "#e85e8f",
 										"italic": false
 									}
@@ -73,9 +71,6 @@
 									"nutrition": 0,
 									"saturation": 0,
 									"can_always_eat": true
-								},
-								"minecraft:custom_data": {
-									"version": 1
 								}
 							}
 						}

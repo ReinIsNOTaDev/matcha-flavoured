@@ -288,7 +288,10 @@ def discover(override):
                     directory = item_
                     print("[D] subfolder processing now: "+directory) if debug else None
                     for file_ in files:
-                        name = filename.match(directory+"_"+file_).group(1)
+                        if directory == "misc":
+                            name = filename.match(file_).group(1)
+                        else:
+                            name = directory+"_"+filename.match(file_).group(1)
                         json_ = {}
                         folder_list = [folder,directory]
                         pools = 0
@@ -402,7 +405,10 @@ def destructive():
                         files[item]["ignore"] = True
                 elif folders[i[0]][1] == "equipment_lt":
                     path = ""
-                    item_pathable = item.replace(i[1]+"_","")
+                    if i[1] == "misc":
+                        item_pathable = item
+                    else:
+                        item_pathable = item.replace(i[1]+"_","")
                     try:
                         path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                     except:

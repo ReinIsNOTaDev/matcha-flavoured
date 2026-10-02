@@ -3,7 +3,34 @@
 	"terms": [
 		{
 			"condition": "minecraft:any_of",
-			"terms": []
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.warding_shield"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"items": "minecraft:shield"
+							}
+						}
+					}
+				}
+			]
 		},
 		{
 			"condition": "minecraft:inverted",

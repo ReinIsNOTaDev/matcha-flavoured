@@ -16,6 +16,22 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.topaz_earrings",
+															"color": "yellow"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
 														"minecraft:item_name": "matcha:topaz_earrings"
 													}
 												}

@@ -1,0 +1,4 @@
+say <D> Triggered update function for wood_shovel
+execute as @s if predicate matcha_item:mainhand/wood_shovel run function matcha_item:mainhand/wood_shovel
+execute as @s if predicate matcha_item:offhand/wood_shovel run function matcha_item:offhand/wood_shovel
+advancement revoke @s only matcha_item:trigger/wood_shovel

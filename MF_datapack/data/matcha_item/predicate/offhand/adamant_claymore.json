@@ -11,6 +11,22 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.adamant_claymore",
+										"color": "gold"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
 									"minecraft:item_name": "matcha:adamant_claymore"
 								}
 							}

@@ -3,35 +3,7 @@
 	"terms": [
 		{
 			"condition": "minecraft:any_of",
-			"terms": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
-									"minecraft:item_name": {
-										"translate": "item.minecraft.golden_spear",
-										"color": "white"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"items": "minecraft:golden_spear"
-							}
-						}
-					}
-				}
-			]
+			"terms": []
 		},
 		{
 			"condition": "minecraft:inverted",

@@ -191,7 +191,7 @@ def ltItemProcessor(override,pools,entries,json_,name,folder_list):
     except:
         pass
     if pools > 1 or entries > 1:
-        print("Skipping file "+name+directory_msg+" due to excessive pool/entry count; don't panic!'")
+        print("Skipping file "+name+directory_msg+" due to excessive pool/entry count; don't panic!")
         return False
     elif has_set_components_function == False:
         print("[D] Skipping file "+name+directory_msg+" due to lack of components") if debug else None
@@ -280,6 +280,26 @@ def discover(override):
                         pools = len(json_["pools"])
                         entries = len(json_["pools"][0]["entries"])
                     ltItemProcessor(override,pools,entries,json_,name,folder_list)
+        elif DB["folders"][folder][1] == "equipment_lt":
+            for item_ in os.listdir(path):
+                item_path = os.path.join(path,item_)
+                if os.path.isdir(item_path):
+                    files = os.listdir(item_path)
+                    directory = item_
+                    print("[D] subfolder processing now: "+directory) if debug else None
+                    for file_ in files:
+                        name = filename.match(directory+"_"+file_).group(1)
+                        json_ = {}
+                        folder_list = [folder,directory]
+                        pools = 0
+                        entries = 0
+                        functions = []
+                        with open(os.path.join(path,directory,file_),'r') as f:
+                            json_ = json.load(f)
+                            pools = len(json_["pools"])
+                            entries = len(json_["pools"][0]["entries"])
+                        ltItemProcessor(override,pools,entries,json_,name,folder_list)
+                else: pass
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
     print("Finishing touches!")
@@ -343,19 +363,20 @@ def destructive():
             for i in folder:
                 components = None
                 json_ = {}
-                if len(i) > 1:
-                    path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
-                    read = open(path, 'r')
-                    json_ = json.load(read)
-                else:
+                if folders[i[0]][1] == "recipe":
                     path = os.path.join(Matcha,folders[i[0]][0],item+".json")
                     read = open(path, 'r')
                     json_ = json.load(read)
-                if folders[i[0]][1] == "recipe":
                     components = json_["result"].get("components")
                 elif folders[i[0]][1] == "trade_with_levels":
+                    path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
                     components = json_["gives"].get("components")
                 elif folders[i[0]][1] == "trade_no_levels":
+                    path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
                     components = json_["gives"].get("components")
                 elif folders[i[0]][1] == "loot_table":
                     path = ""
@@ -363,6 +384,29 @@ def destructive():
                         path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
                     except:
                         path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    entry = json_["pools"][0]["entries"][0]
+                    functions = entry["functions"]
+                    has_set_components_function = False
+                    set_components_function = 0
+                    for i in range(len(functions)):
+                        if functions[i].get("function") == "minecraft:set_components":
+                            has_set_components_function = True
+                            set_components_function = i
+                        else:
+                            continue
+                    if has_set_components_function == True:
+                        components = functions[set_components_function]["components"]
+                    else:
+                        files[item]["ignore"] = True
+                elif folders[i[0]][1] == "equipment_lt":
+                    path = ""
+                    item_pathable = item.replace(i[1]+"_","")
+                    try:
+                        path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
+                    except:
+                        path = os.path.join(Matcha,folders[i[0]][0],item_pathable+".json")
                     read = open(path, 'r')
                     json_ = json.load(read)
                     entry = json_["pools"][0]["entries"][0]
@@ -438,7 +482,6 @@ def create(item):
                 obj = creationHelper(obj, item) if cont == "y" else None
             else:
                 print("[D] started processing of: "+item) if debug else None
-                print(item)
                 obj = creationHelper(obj, item)
     if debug and DB["options"]["askForConfirmation"] == True:
         print(json.dumps(DB, indent=1))
@@ -522,7 +565,6 @@ def creationHelper(obj, item):
     enchantments.update(item_modifier["components"].pop("minecraft:enchantments", {}))
 # defining item predicates
     id_predicates = item_predicate({"items": id_}, slots).createDict
-    print(str(id_predicates))
     temp_names_predicates = []
     names_predicates = []
     for i in range(len(names)):
@@ -782,27 +824,18 @@ def config(option):
 # help mode: command help and maaybe documentation
 def help_(debug):
     if debug:
-        print("""----DEBUG MODE----
-This script is used with command line arguments, eg. py [script] [arguments]. These are the following arguments:
-    d (override) - Discovers files in configured folders and adds to database
-    D - Go through configured folders and add 1 version custom data
-    u (file) - Update item updater for items with new version
-    c (file) - Create new item updater for items with version custom data
-    C (option) - Configure a stored option
-(file): optionally, name of the file excluding file extension
-(override): [boolean] optionally,  override existing item entries
-(option): optionally, a stored option""")
-    else:
-        print("""This script is used with command line arguments, eg. py [script] [arguments]. These are the following arguments:
+        print("----DEBUG MODE----")
+    else: pass
+    print("""This script is used with command line arguments, eg. py [script] [arguments]. These are the following arguments:
     d (override) - Discovers files in configured folders and adds to database
     D - Go through configured folders and add 1 version custom data
     u (file) - Update item updater for items with new version
     c (file) - Create new item updater for items with version custom data
     e - Create new processing functions for item
     C (option) - Configure a stored option
-(file): optionally, name of the file excluding file extension
-(override): [boolean] optionally,  override existing item entries
-(option): optionally, a stored option""")
+(file): [any string] optionally, name of the file excluding file extension
+(override): [True/False] optionally, override existing item entries
+(option): [any string] optionally, a stored option""")
 
 # match command options and run different functions
 match opt:

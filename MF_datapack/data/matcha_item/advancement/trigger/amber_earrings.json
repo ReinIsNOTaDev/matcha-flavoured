@@ -16,22 +16,6 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.amber_earrings",
-															"color": "#e58904"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
 														"minecraft:item_name": "matcha:amber_earrings"
 													}
 												}

@@ -16,22 +16,6 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.opal_earrings",
-															"color": "#ab85ad"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
 														"minecraft:item_name": "matcha:opal_earrings"
 													}
 												}

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:fermented_spider_eye",
+					"name": "minecraft:poisonous_potato",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -16,9 +16,7 @@
 									"translate": "item.kleispack.amber",
 									"color": "gold"
 								},
-								"minecraft:custom_data": {
-									"version": 1
-								}
+								"!minecraft:consumable": {}
 							}
 						}
 					]

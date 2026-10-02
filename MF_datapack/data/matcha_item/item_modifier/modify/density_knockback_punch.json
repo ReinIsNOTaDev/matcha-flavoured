@@ -1,0 +1,17 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:rarity": "rare",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.blessing"
+		},
+		"minecraft:lore": [
+			{
+				"translate": "item.kleispack.blessing.talos",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_model": "matcha:blessing_talos"
+	}
+}

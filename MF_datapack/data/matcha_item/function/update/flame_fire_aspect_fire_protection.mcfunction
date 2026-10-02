@@ -1,0 +1,4 @@
+say <D> Triggered update function for flame_fire_aspect_fire_protection
+execute as @s if predicate matcha_item:mainhand/flame_fire_aspect_fire_protection run function matcha_item:mainhand/flame_fire_aspect_fire_protection
+execute as @s if predicate matcha_item:offhand/flame_fire_aspect_fire_protection run function matcha_item:offhand/flame_fire_aspect_fire_protection
+advancement revoke @s only matcha_item:trigger/flame_fire_aspect_fire_protection

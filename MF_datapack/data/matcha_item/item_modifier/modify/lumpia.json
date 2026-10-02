@@ -5,45 +5,9 @@
 		"minecraft:item_name": {
 			"translate": "item.kleispack.lumpia"
 		},
-		"minecraft:food": {
-			"nutrition": 0,
-			"saturation": 0,
-			"can_always_eat": true
-		},
-		"minecraft:consumable": {
-			"consume_seconds": 1.2,
-			"on_consume_effects": [
-				{
-					"type": "minecraft:apply_effects",
-					"effects": [
-						{
-							"id": "minecraft:water_breathing",
-							"amplifier": 0,
-							"duration": 6000,
-							"show_particles": false,
-							"show_icon": true
-						},
-						{
-							"id": "minecraft:night_vision",
-							"duration": 6000,
-							"show_particles": false,
-							"show_icon": true
-						},
-						{
-							"id": "minecraft:regeneration",
-							"amplifier": 2,
-							"duration": 72,
-							"show_particles": false,
-							"show_icon": false
-						}
-					]
-				}
-			]
-		},
-		"minecraft:max_stack_size": 64,
 		"minecraft:lore": [
 			{
-				"text": "\u2764\u2764\u2764",
+				"text": "\ue030\ue030\ue030",
 				"color": "red",
 				"italic": false
 			},
@@ -64,8 +28,38 @@
 				"italic": false
 			}
 		],
-		"minecraft:custom_data": {
-			"version": 1
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.2,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 72,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:water_breathing",
+							"amplifier": 0,
+							"duration": 6000,
+							"show_particles": false,
+							"show_icon": true
+						},
+						{
+							"id": "minecraft:night_vision",
+							"amplifier": 0,
+							"duration": 6000,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
 		}
 	}
 }

@@ -1,9 +1,13 @@
 {
 	"function": "set_components",
 	"components": {
+		"minecraft:item_model": "matcha:grilled_melon",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.grilled_melon"
+		},
 		"minecraft:lore": [
 			{
-				"text": "\u2764",
+				"text": "\ue030",
 				"color": "red",
 				"italic": false
 			},
@@ -16,8 +20,10 @@
 				"italic": false
 			}
 		],
+		"!minecraft:food": {},
 		"minecraft:consumable": {
 			"consume_seconds": 0.8,
+			"has_consume_particles": true,
 			"on_consume_effects": [
 				{
 					"type": "minecraft:apply_effects",
@@ -31,26 +37,14 @@
 						},
 						{
 							"id": "minecraft:fire_resistance",
+							"amplifier": 0,
 							"duration": 200,
 							"show_particles": false,
 							"show_icon": true
 						}
-					],
-					"probability": 1
+					]
 				}
 			]
-		},
-		"minecraft:item_model": "matcha:grilled_melon",
-		"minecraft:item_name": {
-			"translate": "item.kleispack.grilled_melon"
-		},
-		"minecraft:food": {
-			"nutrition": 0,
-			"saturation": 0,
-			"can_always_eat": true
-		},
-		"minecraft:custom_data": {
-			"version": 1
 		}
 	}
 }

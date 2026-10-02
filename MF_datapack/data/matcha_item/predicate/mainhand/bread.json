@@ -3,21 +3,7 @@
 	"terms": [
 		{
 			"condition": "minecraft:any_of",
-			"terms": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.mainhand": {
-								"components": {
-									"minecraft:item_name": "minecraft:bread"
-								}
-							}
-						}
-					}
-				}
-			]
+			"terms": []
 		},
 		{
 			"condition": "minecraft:inverted",

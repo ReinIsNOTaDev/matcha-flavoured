@@ -1,0 +1,17 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.blessing"
+		},
+		"minecraft:rarity": "epic",
+		"minecraft:lore": [
+			{
+				"translate": "item.kleispack.blessing.lu_ban",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_model": "matcha:blessing_lu_ban"
+	}
+}

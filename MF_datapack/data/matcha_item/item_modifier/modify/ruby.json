@@ -6,8 +6,6 @@
 			"translate": "item.kleispack.ruby",
 			"color": "red"
 		},
-		"minecraft:custom_data": {
-			"version": 1
-		}
+		"!minecraft:consumable": {}
 	}
 }

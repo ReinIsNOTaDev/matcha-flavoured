@@ -3,18 +3,15 @@
 	"components": {
 		"minecraft:lore": [
 			{
-				"text": "\u2764\u2764\u2764\u2764",
+				"text": "\ue030\ue030\ue030\ue030",
 				"color": "red",
 				"italic": false
 			},
 			{
-				"text": "\u2764\u2764\u2764\u2764 (3:00)",
+				"text": "\ue030\ue030\ue030\ue030 (3:00)",
 				"color": "gray",
 				"italic": false
 			}
-		],
-		"minecraft:custom_data": {
-			"version": 1
-		}
+		]
 	}
 }

@@ -57,7 +57,8 @@
 			],
 			"minecraft:custom_data": {
 				"version": 1
-			}
+			},
+			"!minecraft:food": {}
 		},
 		"count": 16
 	},

@@ -1,15 +1,14 @@
 {
 	"function": "set_components",
 	"components": {
-		"minecraft:item_model": "matcha:gnocchi",
+		"minecraft:item_model": "matcha:gnocchi_recipe",
 		"minecraft:item_name": {
-			"translate": "item.kleispack.gnocchi",
-			"color": "#e1bc62"
+			"translate": "item.kleispack.cooking_recipe"
 		},
 		"minecraft:lore": [
 			{
-				"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
-				"color": "red",
+				"translate": "item.kleispack.gnocchi",
+				"color": "#e1bc62",
 				"italic": false
 			}
 		],
@@ -36,7 +35,7 @@
 			"id": "minecraft:bowl"
 		},
 		"minecraft:custom_data": {
-			"version": 1
+			"version": 2
 		}
 	}
 }

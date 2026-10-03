@@ -19,9 +19,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.ramen"
-																}
+																"minecraft:item_name": "Ramen"
 															}
 														}
 													}
@@ -75,9 +73,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": {
-																	"translate": "item.kleispack.ramen"
-																}
+																"minecraft:item_name": "Ramen"
 															}
 														}
 													}

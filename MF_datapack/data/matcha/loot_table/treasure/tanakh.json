@@ -28,6 +28,11 @@
 								],
 								"minecraft:custom_data": {
 									"version": 1
+								},
+								"minecraft:stored_enchantments": {
+									"minecraft:loyalty": 3,
+									"matcha:traversal": 3,
+									"minecraft:power": 2
 								}
 							}
 						}

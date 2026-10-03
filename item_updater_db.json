@@ -2531,8 +2531,9 @@
 				},
 				"!minecraft:use_remainder": {},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -2554,9 +2555,7 @@
 				]
 			],
 			"names": [
-				{
-					"translate": "item.kleispack.ramen"
-				}
+				"Ramen"
 			],
 			"models": [
 				"matcha:ramen"
@@ -2571,9 +2570,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ramen",
-				"minecraft:item_name": {
-					"translate": "item.kleispack.ramen"
-				},
+				"minecraft:item_name": "Ramen",
 				"minecraft:lore": [
 					{
 						"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
@@ -2591,26 +2588,14 @@
 				],
 				"!minecraft:food": {},
 				"minecraft:consumable": {
-					"consume_seconds": 3.0,
-					"animation": "drink",
-					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
 							"type": "minecraft:apply_effects",
 							"effects": [
 								{
 									"id": "minecraft:regeneration",
-									"amplifier": 2,
-									"duration": 240,
-									"show_particles": false,
-									"show_icon": false
-								},
-								{
-									"id": "minecraft:haste",
-									"amplifier": 1,
-									"duration": 36000,
-									"show_particles": false,
-									"show_icon": true
+									"duration": 600,
+									"show_particles": false
 								}
 							]
 						}
@@ -2620,7 +2605,13 @@
 					"id": "minecraft:bowl"
 				},
 				"minecraft:custom_data": {
-					"version": 1
+					"version": 2
+				},
+				"minecraft:max_stack_size": 16,
+				"minecraft:custom_model_data": {
+					"strings": [
+						"matcha:ramen"
+					]
 				}
 			},
 			"ignore": null
@@ -7343,7 +7334,7 @@
 				},
 				"minecraft:lore": [
 					{
-						"text": "\ue030\ue030",
+						"text": "\u2764\u2764",
 						"color": "red",
 						"italic": false
 					},
@@ -7359,32 +7350,37 @@
 				"!minecraft:food": {},
 				"minecraft:consumable": {
 					"consume_seconds": 0.8,
-					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
 							"type": "minecraft:apply_effects",
 							"effects": [
-								{
-									"id": "minecraft:regeneration",
-									"amplifier": 2,
-									"duration": 48,
-									"show_particles": false,
-									"show_icon": false
-								},
 								{
 									"id": "minecraft:levitation",
 									"amplifier": 29,
 									"duration": 20,
 									"show_particles": false,
 									"show_icon": true
+								},
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 48,
+									"show_particles": false,
+									"show_icon": false
 								}
 							]
 						}
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:food": {
+					"nutrition": 0,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -7405,31 +7401,29 @@
 			],
 			"names": [
 				{
-					"translate": "item.kleispack.gnocchi",
-					"color": "#e1bc62"
+					"translate": "item.kleispack.cooking_recipe"
 				}
 			],
 			"models": [
-				"matcha:gnocchi"
+				"matcha:gnocchi_recipe"
 			],
 			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:item_model": "matcha:gnocchi",
+				"minecraft:item_model": "matcha:gnocchi_recipe",
 				"minecraft:item_name": {
-					"translate": "item.kleispack.gnocchi",
-					"color": "#e1bc62"
+					"translate": "item.kleispack.cooking_recipe"
 				},
 				"minecraft:lore": [
 					{
-						"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
-						"color": "red",
+						"translate": "item.kleispack.gnocchi",
+						"color": "#e1bc62",
 						"italic": false
 					}
 				],
@@ -7456,7 +7450,7 @@
 					"id": "minecraft:bowl"
 				},
 				"minecraft:custom_data": {
-					"version": 1
+					"version": 2
 				}
 			},
 			"ignore": null
@@ -7501,12 +7495,12 @@
 				},
 				"minecraft:lore": [
 					{
-						"text": "\ue030\ue030\ue030\ue030\ue030",
+						"text": "\u2764\u2764\u2764\u2764\u2764",
 						"color": "red",
 						"italic": false
 					},
 					{
-						"text": "\ue030\ue030\ue030\ue030 (8:00)",
+						"text": "\u2764\u2764\u2764\u2764 (8:00)",
 						"color": "gray",
 						"italic": false
 					}
@@ -7514,32 +7508,37 @@
 				"!minecraft:food": {},
 				"minecraft:consumable": {
 					"consume_seconds": 1.8,
-					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
 							"type": "minecraft:apply_effects",
 							"effects": [
-								{
-									"id": "minecraft:regeneration",
-									"amplifier": 2,
-									"duration": 120,
-									"show_particles": false,
-									"show_icon": false
-								},
 								{
 									"id": "minecraft:health_boost",
 									"amplifier": 1,
 									"duration": 9600,
 									"show_particles": false,
 									"show_icon": true
+								},
+								{
+									"id": "minecraft:regeneration",
+									"amplifier": 2,
+									"duration": 120,
+									"show_particles": false,
+									"show_icon": false
 								}
 							]
 						}
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:food": {
+					"nutrition": 0,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -7573,13 +7572,14 @@
 			"components": {
 				"minecraft:lore": [
 					{
-						"text": "\u2764",
+						"text": "\ue030",
 						"color": "red",
 						"italic": false
 					}
 				],
 				"minecraft:consumable": {
 					"consume_seconds": 0.8,
+					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
 							"type": "minecraft:apply_effects",
@@ -7591,8 +7591,7 @@
 									"show_particles": false,
 									"show_icon": false
 								}
-							],
-							"probability": 1
+							]
 						}
 					]
 				},
@@ -7606,8 +7605,9 @@
 					"can_always_eat": true
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"!minecraft:food": {}
 			},
 			"ignore": null
 		},
@@ -7651,6 +7651,7 @@
 					"can_always_eat": true
 				},
 				"minecraft:consumable": {
+					"consume_seconds": 1.6,
 					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
@@ -7684,7 +7685,7 @@
 				"minecraft:max_stack_size": 64,
 				"minecraft:lore": [
 					{
-						"text": "\u2764\u2764\u2764\u2764",
+						"text": "\ue030\ue030\ue030\ue030",
 						"color": "red",
 						"italic": false
 					},
@@ -7706,8 +7707,9 @@
 					}
 				],
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"!minecraft:food": {}
 			},
 			"ignore": null
 		},
@@ -7756,23 +7758,24 @@
 				},
 				"minecraft:consumable": {
 					"consume_seconds": 1.8,
+					"has_consume_particles": true,
 					"on_consume_effects": [
 						{
 							"type": "minecraft:apply_effects",
 							"effects": [
-								{
-									"id": "minecraft:invisibility",
-									"amplifier": 0,
-									"duration": 12000,
-									"show_particles": false,
-									"show_icon": true
-								},
 								{
 									"id": "minecraft:regeneration",
 									"amplifier": 2,
 									"duration": 144,
 									"show_particles": false,
 									"show_icon": false
+								},
+								{
+									"id": "minecraft:invisibility",
+									"amplifier": 0,
+									"duration": 12000,
+									"show_particles": false,
+									"show_icon": true
 								}
 							]
 						}
@@ -7781,7 +7784,7 @@
 				"minecraft:max_stack_size": 64,
 				"minecraft:lore": [
 					{
-						"text": "\u2764\u2764\u2764\u2764\u2764\u2764",
+						"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
 						"color": "red",
 						"italic": false
 					},
@@ -7795,11 +7798,12 @@
 					}
 				],
 				"minecraft:use_remainder": {
-					"id": "bowl"
+					"id": "minecraft:bowl"
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"!minecraft:food": {}
 			},
 			"ignore": null
 		},
@@ -24487,7 +24491,7 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
+					"version": 2
 				}
 			},
 			"ignore": null
@@ -30101,11 +30105,11 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:item_model": "matcha:heart_container",
+				"minecraft:item_model": "matcha:divine_comedy",
 				"minecraft:item_name": {
-					"translate": "item.kleispack.crystal_heart"
+					"translate": "item.kleispack.divine_comedy"
 				},
-				"minecraft:rarity": "rare",
+				"minecraft:rarity": "uncommon",
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:consumable": {
 					"consume_seconds": 60,
@@ -30135,8 +30139,16 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:max_stack_size": 64,
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.divine_comedy.desc",
+						"color": "gray",
+						"italic": false
+					}
+				]
 			},
 			"ignore": null
 		},
@@ -30194,11 +30206,11 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:item_model": "matcha:heart_container",
+				"minecraft:item_model": "matcha:paradise_lost",
 				"minecraft:item_name": {
-					"translate": "item.kleispack.crystal_heart"
+					"translate": "item.kleispack.paradise_lost"
 				},
-				"minecraft:rarity": "rare",
+				"minecraft:rarity": "uncommon",
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:consumable": {
 					"consume_seconds": 60,
@@ -30228,8 +30240,16 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:max_stack_size": 64,
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.paradise_lost.desc",
+						"color": "gray",
+						"italic": false
+					}
+				]
 			},
 			"ignore": null
 		},
@@ -30262,7 +30282,7 @@
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
-					"translate": "item.kleispack.ofuda"
+					"translate": "item.kleispack.avesta"
 				},
 				"minecraft:lore": [
 					{
@@ -30271,14 +30291,16 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_model": "matcha:ofuda",
+				"minecraft:item_model": "matcha:avesta",
 				"minecraft:stored_enchantments": {
 					"minecraft:efficiency": 2,
 					"minecraft:unbreaking": 1
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -30311,22 +30333,24 @@
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
-					"translate": "item.kleispack.ofuda"
+					"translate": "item.kleispack.quran"
 				},
 				"minecraft:lore": [
 					{
-						"translate": "item.kleispack.blessing.muhammad",
-						"color": "dark_gray",
+						"translate": "item.kleispack.quran.desc",
+						"color": "gray",
 						"italic": false
 					}
 				],
-				"minecraft:item_model": "matcha:ofuda",
+				"minecraft:item_model": "matcha:quran",
 				"minecraft:stored_enchantments": {
 					"minecraft:protection": 2
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -30359,24 +30383,26 @@
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
-					"translate": "item.kleispack.ofuda"
+					"translate": "item.kleispack.tanakh"
 				},
 				"minecraft:lore": [
 					{
-						"translate": "item.kleispack.blessing.moshe",
-						"color": "dark_gray",
+						"translate": "item.kleispack.tanakh.desc",
+						"color": "gray",
 						"italic": false
 					}
 				],
-				"minecraft:item_model": "matcha:ofuda",
+				"minecraft:item_model": "matcha:tanakh",
 				"minecraft:stored_enchantments": {
 					"minecraft:loyalty": 3,
 					"matcha:traversal": 3,
 					"minecraft:power": 2
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -30409,22 +30435,24 @@
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
-					"translate": "item.kleispack.ofuda"
+					"translate": "item.kleispack.enoch"
 				},
 				"minecraft:lore": [
 					{
-						"translate": "item.kleispack.blessing.samyaza",
-						"color": "dark_gray",
+						"translate": "item.kleispack.enoch.desc",
+						"color": "gray",
 						"italic": false
 					}
 				],
-				"minecraft:item_model": "matcha:ofuda",
+				"minecraft:item_model": "matcha:enoch",
 				"minecraft:stored_enchantments": {
 					"minecraft:sharpness": 3
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -30457,22 +30485,24 @@
 			"processed": true,
 			"components": {
 				"minecraft:item_name": {
-					"translate": "item.kleispack.ofuda"
+					"translate": "item.kleispack.key_of_solomon"
 				},
 				"minecraft:lore": [
 					{
-						"translate": "item.kleispack.blessing.belial",
-						"color": "dark_gray",
+						"translate": "item.kleispack.key_of_solomon.desc",
+						"color": "gray",
 						"italic": false
 					}
 				],
-				"minecraft:item_model": "matcha:ofuda",
+				"minecraft:item_model": "matcha:solomon",
 				"minecraft:stored_enchantments": {
 					"minecraft:mending": 1
 				},
 				"minecraft:custom_data": {
-					"version": 1
-				}
+					"version": 2
+				},
+				"minecraft:rarity": "epic",
+				"minecraft:max_stack_size": 64
 			},
 			"ignore": null
 		},
@@ -35153,9 +35183,9 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:item_model": "matcha:heart_container",
+				"minecraft:item_model": "matcha:cheerful_clay_statue",
 				"minecraft:item_name": {
-					"translate": "item.kleispack.crystal_heart"
+					"translate": "item.kleispack.cheerful_clay_statue"
 				},
 				"minecraft:rarity": "rare",
 				"minecraft:enchantment_glint_override": true,
@@ -35187,7 +35217,15 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
+					"version": 2
+				},
+				"minecraft:instrument": {
+					"sound_event": "minecraft:ambient.soul_sand_valley.mood",
+					"range": 16,
+					"use_duration": 30,
+					"description": {
+						"translate": "item.kleispack.cheerful_clay_statue.desc"
+					}
 				}
 			},
 			"ignore": null
@@ -35220,9 +35258,9 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"minecraft:item_model": "matcha:heart_container",
+				"minecraft:item_model": "matcha:mournful_clay_statue",
 				"minecraft:item_name": {
-					"translate": "item.kleispack.crystal_heart"
+					"translate": "item.kleispack.mournful_clay_statue"
 				},
 				"minecraft:rarity": "rare",
 				"minecraft:enchantment_glint_override": true,
@@ -35254,7 +35292,15 @@
 					]
 				},
 				"minecraft:custom_data": {
-					"version": 1
+					"version": 2
+				},
+				"minecraft:instrument": {
+					"sound_event": "minecraft:ambient.soul_sand_valley.mood",
+					"range": 16,
+					"use_duration": 30,
+					"description": {
+						"translate": "item.kleispack.mournful_clay_statue.desc"
+					}
 				}
 			},
 			"ignore": null

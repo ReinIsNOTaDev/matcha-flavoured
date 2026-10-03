@@ -40,6 +40,26 @@
 			"minecraft:item_name": "Ramen",
 			"minecraft:custom_data": {
 				"version": 1
+			},
+			"minecraft:item_model": "matcha:ramen",
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.haste_2",
+					"with": [
+						"30:00"
+					],
+					"color": "yellow",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:use_remainder": {
+				"id": "minecraft:bowl"
 			}
 		},
 		"count": 1,

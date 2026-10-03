@@ -40,7 +40,7 @@ def debugf(command,arg):
         case "D":
             destructive()
         case "u":
-            update()
+            update(arg)
         case "c":
             create(arg)
         case _:
@@ -425,10 +425,7 @@ def destructive():
                             set_components_function = i
                         else:
                             continue
-                    if has_set_components_function == True:
-                        components = functions[set_components_function]["components"]
-                    else:
-                        files[item]["ignore"] = True
+                    components = functions[set_components_function]["components"]
                 if components != None:
                     if "minecraft:custom_data" in components:
                         components["minecraft:custom_data"].update({"version": 1})
@@ -447,7 +444,7 @@ def destructive():
                             json.dump(json_, f, indent="\t")
                     files[item]["version"] = 1
                 else:
-                    print("[D] skipped processing <"+item+"> in folder <"+i+"> due to unprocessable folder") if debug else None
+                    print("[D] skipped processing <"+item+"> in folder <"+i+"> due to unprocessable file (No components!)") if debug else None
     if debug:
         print(json.dumps(DB, indent=1))
         cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
@@ -462,7 +459,187 @@ def destructive():
 
 # update mode: update functions/predicates/advancements for items with a new version
 def update(item):
-    print("unimplemented")
+    for item in DB["files"]:
+        print("[D] Checking Item: "+item) if debug else None
+        if DB["files"][item]["ignore"] == True:
+            print("[D] Skipping Item.") if debug else None
+        else:
+            original_components = DB["files"][item]["components"].copy()
+            folders = DB["folders"]
+            new_components = []
+            for i in DB["files"][item]["folder"]:
+                json_ = {}
+                path = ""
+                if folders[i[0]][1] == "recipe":
+                    path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    new_component = json_["result"].get("components")
+                elif folders[i[0]][1] == "trade_with_levels":
+                    path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    new_component = json_["gives"].get("components")
+                elif folders[i[0]][1] == "trade_no_levels":
+                    path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    new_component = json_["gives"].get("components")
+                elif folders[i[0]][1] == "loot_table":
+                    path = ""
+                    try:
+                        path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                    except:
+                        path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    entry = json_["pools"][0]["entries"][0]
+                    functions = entry["functions"]
+                    has_set_components_function = False
+                    set_components_function = 0
+                    for i in range(len(functions)):
+                        if functions[i].get("function") == "minecraft:set_components":
+                            has_set_components_function = True
+                            set_components_function = i
+                        else:
+                            continue
+                    if has_set_components_function == True:
+                        new_component = functions[set_components_function]["components"]
+                    else:
+                        files[item]["ignore"] = True
+                elif folders[i[0]][1] == "quirk_lt":
+                    path = ""
+                    if i[1] == "misc":
+                        item_pathable = item
+                    else:
+                        item_pathable = item.replace(i[1]+"_","")
+                    try:
+                        path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
+                    except:
+                        path = os.path.join(Matcha,folders[i[0]][0],item_pathable+".json")
+                    read = open(path, 'r')
+                    json_ = json.load(read)
+                    entry = json_["pools"][0]["entries"][0]
+                    functions = entry["functions"]
+                    has_set_components_function = False
+                    set_components_function = 0
+                    for i in range(len(functions)):
+                        if functions[i].get("function") == "minecraft:set_components":
+                            has_set_components_function = True
+                            set_components_function = i
+                        else:
+                            continue
+                    new_component = functions[set_components_function]["components"]
+                if new_component == original_components or new_component == None: pass
+                else:
+                    new_components.append(new_component)
+            if new_components == []: pass
+            else:
+                components = None
+                with open('original.txt', 'w') as f:
+                    json.dump(original_components, f, indent="\t")
+                for i in range(len(new_components)):
+                    with open('new_'+str(i+1)+'.txt', 'w') as f:
+                        json.dump(new_components[i], f, indent="\t")
+                component_action = input("Different components detected! Either keep the orginal components in original.txt [0], or replace it with new components [1"+("-"+str(len(new_components)) if len(new_components) > 1 else "")+"] ")
+                match int(component_action):
+                    case 0:
+                        components = original_components
+                    case _:
+                        components = new_components[int(component_action)-1]
+                        DB["files"][item]["components"] = components
+                        version = DB["files"][item]["version"]+1
+                        components["minecraft:custom_data"]["version"] = version
+                print("[D] Components: "+str(components)) if debug else None
+                for i in DB["files"][item]["folder"]:
+                    json_ = {}
+                    path = ""
+                    component = {}
+                    print("[D] Attempting write to folder "+i[0]+" with type "+folders[i[0]][1])
+                    if folders[i[0]][1] == "recipe":
+                        print("recipe")
+                        path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                        read = open(path, 'r')
+                        json_ = json.load(read)
+                        component = json_["result"].get("components")
+                    elif folders[i[0]][1] == "trade_with_levels":
+                        path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                        read = open(path, 'r')
+                        json_ = json.load(read)
+                        component = json_["gives"].get("components")
+                    elif folders[i[0]][1] == "trade_no_levels":
+                        path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                        read = open(path, 'r')
+                        json_ = json.load(read)
+                        component = json_["gives"].get("components")
+                    elif folders[i[0]][1] == "loot_table":
+                        path = ""
+                        try:
+                            path = os.path.join(Matcha,folders[i[0]][0],i[1],item+".json")
+                        except:
+                            path = os.path.join(Matcha,folders[i[0]][0],item+".json")
+                        read = open(path, 'r')
+                        json_ = json.load(read)
+                        entry = json_["pools"][0]["entries"][0]
+                        functions = entry["functions"]
+                        has_set_components_function = False
+                        set_components_function = 0
+                        for i in range(len(functions)):
+                            if functions[i].get("function") == "minecraft:set_components":
+                                has_set_components_function = True
+                                set_components_function = i
+                            else:
+                                continue
+                        if has_set_components_function == True:
+                            component = functions[set_components_function]["components"]
+                        else:
+                            files[item]["ignore"] = True
+                    elif folders[i[0]][1] == "quirk_lt":
+                        path = ""
+                        if i[1] == "misc":
+                            item_pathable = item
+                        else:
+                            item_pathable = item.replace(i[1]+"_","")
+                        try:
+                            path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
+                        except:
+                            path = os.path.join(Matcha,folders[i[0]][0],item_pathable+".json")
+                        read = open(path, 'r')
+                        json_ = json.load(read)
+                        entry = json_["pools"][0]["entries"][0]
+                        functions = entry["functions"]
+                        has_set_components_function = False
+                        set_components_function = 0
+                        for i in range(len(functions)):
+                            if functions[i].get("function") == "minecraft:set_components":
+                                has_set_components_function = True
+                                set_components_function = i
+                            else:
+                                continue
+                        component = functions[set_components_function]["components"]
+                    component.update(components)
+                    if debug and DB["options"]["askForConfirmation"] == "True":
+                        print(json.dumps(json_, indent=1))
+                        cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+                        if cont == "y":
+                            with open(path, 'w') as f:
+                                json.dump(json_, f, indent="\t")
+                        else:
+                            pass
+                    else:
+                        with open(path, 'w') as f:
+                            json.dump(json_, f, indent="\t")
+                if debug and DB["options"]["askForConfirmation"] == "True":
+                    print(json.dumps(DB, indent=1))
+                    cont = input("[D] Confirm if this is the correct JSON file details [y/N]: ")
+                    if cont == "y":
+                        with open(DBpath, 'w') as f:
+                            json.dump(DB, f, indent="\t")
+                    else:
+                        pass
+                else:
+                    with open(DBpath, 'w') as f:
+                        json.dump(DB, f, indent="\t")
 
 # create mode: create new functions/predicates/advancements for items wth a version custom data
 def create(item):
@@ -850,7 +1027,7 @@ match opt:
     case "D":
         destructive()
     case "u":
-        update()
+        update(opt2)
     case "c":
         create(opt2)
     case "C":

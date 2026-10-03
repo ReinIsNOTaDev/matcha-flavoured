@@ -27,6 +27,9 @@
 								],
 								"minecraft:custom_data": {
 									"version": 1
+								},
+								"minecraft:stored_enchantments": {
+									"minecraft:mending": 1
 								}
 							}
 						}

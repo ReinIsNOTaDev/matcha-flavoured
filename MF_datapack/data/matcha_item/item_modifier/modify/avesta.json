@@ -2,7 +2,7 @@
 	"function": "set_components",
 	"components": {
 		"minecraft:item_name": {
-			"translate": "item.kleispack.ofuda"
+			"translate": "item.kleispack.avesta"
 		},
 		"minecraft:lore": [
 			{
@@ -11,9 +11,11 @@
 				"italic": false
 			}
 		],
-		"minecraft:item_model": "matcha:ofuda",
+		"minecraft:item_model": "matcha:avesta",
 		"minecraft:custom_data": {
-			"version": 1
-		}
+			"version": 2
+		},
+		"minecraft:rarity": "rare",
+		"minecraft:max_stack_size": 64
 	}
 }

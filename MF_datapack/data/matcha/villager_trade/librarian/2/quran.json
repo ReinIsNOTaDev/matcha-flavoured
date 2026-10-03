@@ -3,22 +3,24 @@
 		"id": "minecraft:enchanted_book",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.ofuda"
+				"translate": "item.kleispack.quran"
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.blessing.muhammad",
-					"color": "dark_gray",
+					"translate": "item.kleispack.quran.desc",
+					"color": "gray",
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "matcha:ofuda",
+			"minecraft:item_model": "matcha:quran",
 			"minecraft:stored_enchantments": {
 				"minecraft:protection": 2
 			},
 			"minecraft:custom_data": {
 				"version": 1
-			}
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:max_stack_size": 64
 		}
 	},
 	"given_item_modifiers": [],

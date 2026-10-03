@@ -1,2 +1,1 @@
-say <D> Updating mainhand for bulk_andesite
 item modify entity @s weapon.mainhand matcha_item:modify/bulk_andesite

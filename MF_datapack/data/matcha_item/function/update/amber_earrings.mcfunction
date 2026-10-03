@@ -1,4 +1,3 @@
-say <D> Triggered update function for amber_earrings
 item modify entity @s armor.head matcha_item:modify/amber_earrings
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment matcha:regeneration / regeneration 

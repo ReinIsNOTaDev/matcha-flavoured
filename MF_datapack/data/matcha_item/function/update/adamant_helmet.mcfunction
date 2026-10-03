@@ -1,4 +1,3 @@
-say <D> Triggered update function for adamant_helmet
 item modify entity @s armor.head matcha_item:modify/adamant_helmet
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment matcha:adamant_armour / adamant_armour 

@@ -1,4 +1,3 @@
-say <D> Updating offhand for hatchet
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment matcha:bloodrage / bloodrage 
 execute store result score enchants_lvl_bloodrage item_updater run data get storage matcha_item:enchants held.'matcha:bloodrage'

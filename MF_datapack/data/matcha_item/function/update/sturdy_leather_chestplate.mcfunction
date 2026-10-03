@@ -1,4 +1,3 @@
-say <D> Triggered update function for sturdy_leather_chestplate
 item modify entity @s armor.chest matcha_item:modify/sturdy_leather_chestplate
 data modify storage matcha_item:enchants held set from entity @s equipment.chest.components.minecraft:enchantments
 # processing enchantment minecraft:projectile_protection / projectile_protection 

@@ -1,4 +1,3 @@
-say <D> Updating offhand for electrum_pickaxe
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment matcha:electrum_tool / electrum_tool 
 execute store result score enchants_lvl_electrum_tool item_updater run data get storage matcha_item:enchants held.'matcha:electrum_tool'

@@ -1,4 +1,3 @@
-say <D> Triggered update function for opal_earrings
 item modify entity @s armor.head matcha_item:modify/opal_earrings
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment matcha:conduit_power / conduit_power 

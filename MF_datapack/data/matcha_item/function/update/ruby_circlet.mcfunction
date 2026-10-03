@@ -1,4 +1,3 @@
-say <D> Triggered update function for ruby_circlet
 item modify entity @s armor.head matcha_item:modify/ruby_circlet
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment matcha:fire_proof / fire_proof 

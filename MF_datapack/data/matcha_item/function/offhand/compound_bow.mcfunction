@@ -1,4 +1,3 @@
-say <D> Updating offhand for compound_bow
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment minecraft:power / power 
 execute store result score enchants_lvl_power item_updater run data get storage matcha_item:enchants held.'minecraft:power'

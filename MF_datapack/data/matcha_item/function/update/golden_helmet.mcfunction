@@ -1,4 +1,3 @@
-say <D> Triggered update function for golden_helmet
 item modify entity @s armor.head matcha_item:modify/golden_helmet
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment minecraft:fire_protection / fire_protection 

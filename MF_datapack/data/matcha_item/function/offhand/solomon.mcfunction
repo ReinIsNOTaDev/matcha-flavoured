@@ -1,4 +1,3 @@
-say <D> Updating offhand for solomon
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment minecraft:mending / mending 
 execute store result score enchants_lvl_mending item_updater run data get storage matcha_item:enchants held.'minecraft:mending'

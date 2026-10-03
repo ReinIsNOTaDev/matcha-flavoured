@@ -1,4 +1,3 @@
-say <D> Triggered update function for topaz_earrings
 item modify entity @s armor.head matcha_item:modify/topaz_earrings
 data modify storage matcha_item:enchants held set from entity @s equipment.head.components.minecraft:enchantments
 # processing enchantment matcha:haste / haste 

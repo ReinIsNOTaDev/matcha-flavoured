@@ -1,4 +1,3 @@
-say <D> Updating mainhand for tanakh
 data modify storage matcha_item:enchants held set from entity @s SelectedItem.components.minecraft:enchantments
 # processing enchantment minecraft:loyalty / loyalty 
 execute store result score enchants_lvl_loyalty item_updater run data get storage matcha_item:enchants held.'minecraft:loyalty'

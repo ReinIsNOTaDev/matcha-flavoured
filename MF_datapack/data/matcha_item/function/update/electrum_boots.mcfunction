@@ -1,4 +1,3 @@
-say <D> Triggered update function for electrum_boots
 item modify entity @s armor.feet matcha_item:modify/electrum_boots
 data modify storage matcha_item:enchants held set from entity @s equipment.feet.components.minecraft:enchantments
 # processing enchantment matcha:electrum_armour / electrum_armour 

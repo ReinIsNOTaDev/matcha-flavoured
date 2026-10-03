@@ -1,4 +1,3 @@
-say <D> Triggered update function for shakudo_chestplate
 item modify entity @s armor.chest matcha_item:modify/shakudo_chestplate
 data modify storage matcha_item:enchants held set from entity @s equipment.chest.components.minecraft:enchantments
 # processing enchantment matcha:cleanse_armor_chest / cleanse_armor_chest 

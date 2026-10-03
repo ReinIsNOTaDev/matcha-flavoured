@@ -1,4 +1,3 @@
-say <D> Triggered update function for steel_leggings
 item modify entity @s armor.legs matcha_item:modify/steel_leggings
 data modify storage matcha_item:enchants held set from entity @s equipment.legs.components.minecraft:enchantments
 # processing enchantment minecraft:blast_protection / blast_protection 

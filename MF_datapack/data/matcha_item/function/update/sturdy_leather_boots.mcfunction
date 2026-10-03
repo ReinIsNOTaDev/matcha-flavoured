@@ -1,4 +1,3 @@
-say <D> Triggered update function for sturdy_leather_boots
 item modify entity @s armor.feet matcha_item:modify/sturdy_leather_boots
 data modify storage matcha_item:enchants held set from entity @s equipment.feet.components.minecraft:enchantments
 # processing enchantment minecraft:projectile_protection / projectile_protection 

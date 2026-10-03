@@ -1,4 +1,3 @@
-say <D> Triggered update function for golden_boots
 item modify entity @s armor.feet matcha_item:modify/golden_boots
 data modify storage matcha_item:enchants held set from entity @s equipment.feet.components.minecraft:enchantments
 # processing enchantment minecraft:fire_protection / fire_protection 

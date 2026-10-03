@@ -1,4 +1,3 @@
-say <D> Updating offhand for gold_pickaxe
 data modify storage matcha_item:enchants held set from entity @s equipment.offhand.components.minecraft:enchantments
 # processing enchantment minecraft:fortune / fortune 
 execute store result score enchants_lvl_fortune item_updater run data get storage matcha_item:enchants held.'minecraft:fortune'

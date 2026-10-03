@@ -1,4 +1,3 @@
-say <D> Triggered update function for shakudo_boots
 item modify entity @s armor.feet matcha_item:modify/shakudo_boots
 data modify storage matcha_item:enchants held set from entity @s equipment.feet.components.minecraft:enchantments
 # processing enchantment matcha:cleanse_armor_feet / cleanse_armor_feet 

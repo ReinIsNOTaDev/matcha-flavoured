@@ -280,7 +280,7 @@ def discover(override):
                         pools = len(json_["pools"])
                         entries = len(json_["pools"][0]["entries"])
                     ltItemProcessor(override,pools,entries,json_,name,folder_list)
-        elif DB["folders"][folder][1] == "equipment_lt":
+        elif DB["folders"][folder][1] == "quirk_lt":
             for item_ in os.listdir(path):
                 item_path = os.path.join(path,item_)
                 if os.path.isdir(item_path):
@@ -403,7 +403,7 @@ def destructive():
                         components = functions[set_components_function]["components"]
                     else:
                         files[item]["ignore"] = True
-                elif folders[i[0]][1] == "equipment_lt":
+                elif folders[i[0]][1] == "quirk_lt":
                     path = ""
                     if i[1] == "misc":
                         item_pathable = item

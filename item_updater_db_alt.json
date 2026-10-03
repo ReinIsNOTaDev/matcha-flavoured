@@ -82,14 +82,10 @@
 		],
 		"materials": [
 			"matcha/loot_table/materials",
-			"loot_table"
+			"quirk_lt"
 		],
 		"music_disc": [
 			"matcha/loot_table/music_disc",
-			"loot_table"
-		],
-		"bulk_block": [
-			"matcha/loot_table/bulk_block",
 			"loot_table"
 		],
 		"treasure": [
@@ -98,7 +94,7 @@
 		],
 		"equipment": [
 			"matcha/loot_table/equipment",
-			"equipment_lt"
+			"quirk_lt"
 		],
 		"fish": [
 			"minecraft/loot_table/gameplay/fishing/fish",

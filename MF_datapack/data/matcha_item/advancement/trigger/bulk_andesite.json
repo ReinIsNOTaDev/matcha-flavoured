@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"ender_pearl": {
+		"bulk_andesite": {
 			"conditions": {
 				"player": [
 					{
@@ -18,7 +18,24 @@
 												"predicate": {
 													"minecraft:slots": {
 														"weapon.mainhand": {
-															"items": "minecraft:ender_pearl"
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.trade.bulk_andesite"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "matcha:bulk_andesite"
+															}
 														}
 													}
 												}
@@ -57,7 +74,24 @@
 												"predicate": {
 													"minecraft:slots": {
 														"weapon.offhand": {
-															"items": "minecraft:ender_pearl"
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.trade.bulk_andesite"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "matcha:bulk_andesite"
+															}
 														}
 													}
 												}
@@ -93,10 +127,10 @@
 	},
 	"requirements": [
 		[
-			"ender_pearl"
+			"bulk_andesite"
 		]
 	],
 	"rewards": {
-		"function": "matcha_item:update/ender_pearl"
+		"function": "matcha_item:update/bulk_andesite"
 	}
 }

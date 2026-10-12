@@ -42,6 +42,9 @@
 			"slot": "head",
 			"asset_id": "matcha:opal_earrings"
 		},
-		"minecraft:unbreakable": {}
+		"minecraft:unbreakable": {},
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

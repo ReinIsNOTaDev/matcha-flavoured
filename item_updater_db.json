@@ -37351,6 +37351,12 @@
 			"minecraft:book",
 			"minecraft:bow",
 			"minecraft:shield"
-		]
+		],
+		"overrideType": {
+			"amber": "mineral",
+			"topaz": "mineral",
+			"opal": "mineral",
+			"ruby": "mineral"
+		}
 	}
 }

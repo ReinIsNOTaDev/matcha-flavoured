@@ -57,6 +57,9 @@
 			"slot": "head",
 			"asset_id": "matcha:hepatizon_laurel"
 		},
-		"minecraft:unbreakable": {}
+		"minecraft:unbreakable": {},
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

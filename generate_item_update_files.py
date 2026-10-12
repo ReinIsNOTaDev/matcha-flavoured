@@ -132,6 +132,9 @@ def genericItemProcessor(override,name,id_,components,folder_list):
             type_ = "generic"
             ignore = True
             components = {}
+        if DB["options"]["overrideType"].get(name) != None:
+            type_ = DB["options"]["overrideType"].get(name)
+        else: pass
         try:
             names = DB["files"][name]["names"]
             if components["minecraft:item_name"] in names:
@@ -324,11 +327,14 @@ def discover(override):
         useid = use[0]
         usenames = use[1]
         usemodels = use[2]
-        for item_id in item_ids:
-            if DB["files"][item]["id"] == item_id:
-                id_i += 1
-            else:
-                pass
+        if DB["files"][item]["id"] in DB["options"]["excludedIds"]:
+            id_i = 2
+        else:
+            for item_id in item_ids:
+                if DB["files"][item]["id"] == item_id:
+                    id_i += 1
+                else:
+                    pass
         for item_name in item_names:
             if item_name in DB["files"][item]["names"]:
                 names_i += 1

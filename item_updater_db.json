@@ -35161,7 +35161,7 @@
 			],
 			"id": "minecraft:brush",
 			"use": [
-				true,
+				false,
 				true,
 				true
 			],

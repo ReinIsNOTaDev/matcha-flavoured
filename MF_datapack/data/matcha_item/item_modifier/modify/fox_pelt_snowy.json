@@ -1,0 +1,12 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:fox_pelt_snowy",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.fox_pelt"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

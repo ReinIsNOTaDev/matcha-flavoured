@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:ender_pearl",
+					"name": "minecraft:bone",
 					"functions": [
 						{
 							"function": "minecraft:set_components",

@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:porkchop",
-					"modifier":[
+					"functions": [
 						{
-							"type": "minecraft:set_components",
+							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "matcha:porkchop_classic",
 								"minecraft:item_name": {
@@ -32,6 +32,9 @@
 											]
 										}
 									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

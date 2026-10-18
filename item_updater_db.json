@@ -38508,6 +38508,55 @@
 				}
 			},
 			"ignore": null
+		},
+		"porkchop_classic": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.porkchop_classic"
+				}
+			],
+			"models": [
+				"matcha:porkchop_classic"
+			],
+			"id": "minecraft:porkchop",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:porkchop_classic",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.porkchop_classic"
+				},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"animation": "none",
+					"sound": {
+						"sound_id": ""
+					},
+					"has_consume_particles": false,
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:instant_health"
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": null
 		}
 	},
 	"options": {
@@ -38517,7 +38566,10 @@
 		"excludedIds": [
 			"minecraft:book",
 			"minecraft:bow",
-			"minecraft:shield"
+			"minecraft:shield",
+			"minecraft:porkchop",
+			"minecraft:bone",
+			"minecraft:brush"
 		],
 		"overrideType": {
 			"amber": "mineral",

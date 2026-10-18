@@ -30424,6 +30424,9 @@
 				[
 					"mouthpiece",
 					"1"
+				],
+				[
+					"materials"
 				]
 			],
 			"names": [],
@@ -38555,6 +38558,130 @@
 						}
 					]
 				}
+			},
+			"ignore": null
+		},
+		"fish_bones": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.fish_bones"
+				}
+			],
+			"models": [
+				"matcha:fish_bones"
+			],
+			"id": "minecraft:bone",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:fish_bones",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.fish_bones"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"fox_pelt": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fox_pelt"
+				}
+			],
+			"models": [
+				"matcha:fox_pelt"
+			],
+			"id": "minecraft:rabbit_hide",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:fox_pelt",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fox_pelt"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"fox_pelt_snowy": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fox_pelt"
+				}
+			],
+			"models": [
+				"matcha:fox_pelt_snowy"
+			],
+			"id": "minecraft:rabbit_hide",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:fox_pelt_snowy",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fox_pelt"
+				},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"raw_diamond": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:vindicator_spawn_egg",
+			"use": [
+				true,
+				false,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"!minecraft:entity_data": {}
 			},
 			"ignore": null
 		}

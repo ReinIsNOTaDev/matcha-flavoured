@@ -305,6 +305,19 @@ def discover(override):
                             pools = len(json_["pools"])
                             entries = len(json_["pools"][0]["entries"])
                         ltItemProcessor(override,pools,entries,json_,name,folder_list)
+                elif os.path.isfile(item_path):
+                    file_ = item_
+                    name = filename.match(file_).group(1)
+                    json_ = {}
+                    folder_list = [folder]
+                    pools = 0
+                    entries = 0
+                    functions = []
+                    with open(os.path.join(path,file_),'r') as f:
+                        json_ = json.load(f)
+                        pools = len(json_["pools"])
+                        entries = len(json_["pools"][0]["entries"])
+                    ltItemProcessor(override,pools,entries,json_,name,folder_list)
                 else: pass
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
@@ -411,10 +424,13 @@ def destructive():
                         files[item]["ignore"] = True
                 elif folders[i[0]][1] == "quirk_lt":
                     path = ""
-                    if i[1] == "misc":
+                    try:
+                        if i[1] == "misc":
+                            item_pathable = item
+                        else:
+                            item_pathable = item.replace(i[1]+"_","")
+                    except:
                         item_pathable = item
-                    else:
-                        item_pathable = item.replace(i[1]+"_","")
                     try:
                         path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                     except:
@@ -515,10 +531,13 @@ def update(item):
                         files[item]["ignore"] = True
                 elif folders[i[0]][1] == "quirk_lt":
                     path = ""
-                    if i[1] == "misc":
+                    try:
+                        if i[1] == "misc":
+                            item_pathable = item
+                        else:
+                            item_pathable = item.replace(i[1]+"_","")
+                    except:
                         item_pathable = item
-                    else:
-                        item_pathable = item.replace(i[1]+"_","")
                     try:
                         path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                     except:
@@ -602,10 +621,13 @@ def update(item):
                             files[item]["ignore"] = True
                     elif folders[i[0]][1] == "quirk_lt":
                         path = ""
-                        if i[1] == "misc":
+                        try:
+                            if i[1] == "misc":
+                                item_pathable = item
+                            else:
+                                item_pathable = item.replace(i[1]+"_","")
+                        except:
                             item_pathable = item
-                        else:
-                            item_pathable = item.replace(i[1]+"_","")
                         try:
                             path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                         except:

@@ -15719,7 +15719,8 @@
 			"names": [
 				{
 					"translate": "item.kleispack.warding_shield"
-				}
+				},
+				"Warding Shield"
 			],
 			"models": [],
 			"id": "minecraft:shield",
@@ -15812,7 +15813,8 @@
 			"names": [
 				{
 					"translate": "item.kleispack.warding_sword"
-				}
+				},
+				"Warding Sword"
 			],
 			"models": [
 				"matcha:warding_sword"
@@ -35902,7 +35904,8 @@
 			],
 			"names": [],
 			"models": [
-				"matcha:abbey_map"
+				"matcha:abbey_map",
+				"minecraft:abbey_map"
 			],
 			"id": "minecraft:map",
 			"use": [
@@ -35930,7 +35933,8 @@
 			],
 			"names": [],
 			"models": [
-				"matcha:abbey_map"
+				"matcha:abbey_map",
+				"minecraft:abbey_map"
 			],
 			"id": "minecraft:map",
 			"use": [

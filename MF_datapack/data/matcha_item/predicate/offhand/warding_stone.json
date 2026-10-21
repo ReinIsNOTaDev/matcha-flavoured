@@ -32,6 +32,19 @@
 							}
 						}
 					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_model": "minecraft:warding_stone"
+								}
+							}
+						}
+					}
 				}
 			]
 		},

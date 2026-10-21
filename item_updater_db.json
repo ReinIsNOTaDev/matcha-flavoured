@@ -29165,7 +29165,8 @@
 				}
 			],
 			"models": [
-				"matcha:warding_stone"
+				"matcha:warding_stone",
+				"minecraft:warding_stone"
 			],
 			"id": "minecraft:chicken_spawn_egg",
 			"use": [

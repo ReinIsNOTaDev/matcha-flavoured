@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:golden_carrot_cupcake"
+									"minecraft:item_model": "matcha:golden_carrot_cupcake"
 								}
 							}
 						}

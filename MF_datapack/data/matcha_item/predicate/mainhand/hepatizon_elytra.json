@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:hepatizon_elytra"
+									"minecraft:item_model": "matcha:hepatizon_elytra"
 								}
 							}
 						}

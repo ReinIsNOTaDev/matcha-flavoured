@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.legs": {
 													"components": {
-														"minecraft:item_name": "matcha:shakudo_leggings"
+														"minecraft:item_model": "matcha:shakudo_leggings"
 													}
 												}
 											}

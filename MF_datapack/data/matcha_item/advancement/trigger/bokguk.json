@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:bokguk"
+																"minecraft:item_model": "matcha:bokguk"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:bokguk"
+																"minecraft:item_model": "matcha:bokguk"
 															}
 														}
 													}

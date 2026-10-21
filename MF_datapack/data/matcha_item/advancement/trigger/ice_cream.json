@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:ice_cream"
+																"minecraft:item_model": "matcha:ice_cream"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:ice_cream"
+																"minecraft:item_model": "matcha:ice_cream"
 															}
 														}
 													}

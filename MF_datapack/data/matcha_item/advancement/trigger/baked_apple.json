@@ -119,7 +119,7 @@
 														"minecraft:slots": {
 															"weapon.mainhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:amber"
+																	"minecraft:item_model": "matcha:amber"
 																}
 															}
 														}
@@ -132,7 +132,7 @@
 														"minecraft:slots": {
 															"weapon.mainhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:opal"
+																	"minecraft:item_model": "matcha:opal"
 																}
 															}
 														}
@@ -145,7 +145,7 @@
 														"minecraft:slots": {
 															"weapon.mainhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:ruby"
+																	"minecraft:item_model": "matcha:ruby"
 																}
 															}
 														}
@@ -158,7 +158,7 @@
 														"minecraft:slots": {
 															"weapon.mainhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:topaz"
+																	"minecraft:item_model": "matcha:topaz"
 																}
 															}
 														}
@@ -282,7 +282,7 @@
 														"minecraft:slots": {
 															"weapon.offhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:amber"
+																	"minecraft:item_model": "matcha:amber"
 																}
 															}
 														}
@@ -295,7 +295,7 @@
 														"minecraft:slots": {
 															"weapon.offhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:opal"
+																	"minecraft:item_model": "matcha:opal"
 																}
 															}
 														}
@@ -308,7 +308,7 @@
 														"minecraft:slots": {
 															"weapon.offhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:ruby"
+																	"minecraft:item_model": "matcha:ruby"
 																}
 															}
 														}
@@ -321,7 +321,7 @@
 														"minecraft:slots": {
 															"weapon.offhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:topaz"
+																	"minecraft:item_model": "matcha:topaz"
 																}
 															}
 														}

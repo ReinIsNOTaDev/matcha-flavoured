@@ -59,7 +59,7 @@
 														"minecraft:slots": {
 															"weapon.mainhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:electrum_axe"
+																	"minecraft:item_model": "matcha:electrum_axe"
 																}
 															}
 														}
@@ -123,7 +123,7 @@
 														"minecraft:slots": {
 															"weapon.offhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:electrum_axe"
+																	"minecraft:item_model": "matcha:electrum_axe"
 																}
 															}
 														}

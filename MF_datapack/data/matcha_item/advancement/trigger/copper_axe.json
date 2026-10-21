@@ -19,7 +19,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "minecraft:copper_axe"
+																"minecraft:item_model": "minecraft:copper_axe"
 															}
 														}
 													}
@@ -60,7 +60,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "minecraft:copper_axe"
+																"minecraft:item_model": "minecraft:copper_axe"
 															}
 														}
 													}

@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:nightshade_arrow"
+									"minecraft:item_model": "matcha:nightshade_arrow"
 								}
 							}
 						}

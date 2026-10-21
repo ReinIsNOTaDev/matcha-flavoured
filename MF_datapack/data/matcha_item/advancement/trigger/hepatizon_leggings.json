@@ -16,7 +16,7 @@
 											"minecraft:slots": {
 												"armor.legs": {
 													"components": {
-														"minecraft:item_name": "matcha:hepatizon_leggings"
+														"minecraft:item_model": "matcha:hepatizon_leggings"
 													}
 												}
 											}

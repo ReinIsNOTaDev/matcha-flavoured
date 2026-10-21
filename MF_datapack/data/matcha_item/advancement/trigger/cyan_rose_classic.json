@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:cyan_rose_classic"
+																"minecraft:item_model": "matcha:cyan_rose_classic"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:cyan_rose_classic"
+																"minecraft:item_model": "matcha:cyan_rose_classic"
 															}
 														}
 													}

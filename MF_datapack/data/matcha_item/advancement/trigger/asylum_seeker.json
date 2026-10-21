@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:application"
+																"minecraft:item_model": "matcha:application"
 															}
 														}
 													}
@@ -101,7 +101,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:application"
+																"minecraft:item_model": "matcha:application"
 															}
 														}
 													}

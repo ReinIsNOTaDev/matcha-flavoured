@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:pickled_potatoes"
+																"minecraft:item_model": "matcha:pickled_potatoes"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:pickled_potatoes"
+																"minecraft:item_model": "matcha:pickled_potatoes"
 															}
 														}
 													}

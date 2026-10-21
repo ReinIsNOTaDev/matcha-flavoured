@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:copper_mattock"
+									"minecraft:item_model": "matcha:copper_mattock"
 								}
 							}
 						}

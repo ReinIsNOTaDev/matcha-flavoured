@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:mushy_bundle"
+									"minecraft:item_model": "matcha:mushy_bundle"
 								}
 							}
 						}

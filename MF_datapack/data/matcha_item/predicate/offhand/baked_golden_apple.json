@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:baked_golden_apple"
+									"minecraft:item_model": "matcha:baked_golden_apple"
 								}
 							}
 						}

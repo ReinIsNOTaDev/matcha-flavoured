@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.chest": {
 													"components": {
-														"minecraft:item_name": "matcha:shakudo_chestplate"
+														"minecraft:item_model": "matcha:shakudo_chestplate"
 													}
 												}
 											}

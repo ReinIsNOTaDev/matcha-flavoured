@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:european_eel"
+									"minecraft:item_model": "matcha:european_eel"
 								}
 							}
 						}

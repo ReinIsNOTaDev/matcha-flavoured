@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:shakudo_spear"
+									"minecraft:item_model": "matcha:shakudo_spear"
 								}
 							}
 						}

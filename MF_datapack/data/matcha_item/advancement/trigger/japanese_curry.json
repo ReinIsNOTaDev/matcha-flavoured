@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:japanese_curry"
+																"minecraft:item_model": "matcha:japanese_curry"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:japanese_curry"
+																"minecraft:item_model": "matcha:japanese_curry"
 															}
 														}
 													}

@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:copper_shears"
+									"minecraft:item_model": "matcha:copper_shears"
 								}
 							}
 						}

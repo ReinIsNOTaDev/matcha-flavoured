@@ -19,7 +19,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:sweet_berry_toast_recipe"
+																"minecraft:item_model": "matcha:sweet_berry_toast_recipe"
 															}
 														}
 													}
@@ -60,7 +60,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:sweet_berry_toast_recipe"
+																"minecraft:item_model": "matcha:sweet_berry_toast_recipe"
 															}
 														}
 													}

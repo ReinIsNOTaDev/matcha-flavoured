@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:flying_fish"
+									"minecraft:item_model": "matcha:flying_fish"
 								}
 							}
 						}

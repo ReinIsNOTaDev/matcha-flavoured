@@ -63,7 +63,7 @@
 							"minecraft:slots": {
 								"weapon.offhand": {
 									"components": {
-										"minecraft:item_name": "matcha:electrum_shovel"
+										"minecraft:item_model": "matcha:electrum_shovel"
 									}
 								}
 							}

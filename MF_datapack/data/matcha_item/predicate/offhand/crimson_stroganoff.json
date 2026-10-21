@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:crimson_stroganoff"
+									"minecraft:item_model": "matcha:crimson_stroganoff"
 								}
 							}
 						}

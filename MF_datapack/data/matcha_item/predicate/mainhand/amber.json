@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:amber"
+									"minecraft:item_model": "matcha:amber"
 								}
 							}
 						}

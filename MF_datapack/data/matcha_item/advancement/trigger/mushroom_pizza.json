@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:mushroom_pizza"
+																"minecraft:item_model": "matcha:mushroom_pizza"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:mushroom_pizza"
+																"minecraft:item_model": "matcha:mushroom_pizza"
 															}
 														}
 													}

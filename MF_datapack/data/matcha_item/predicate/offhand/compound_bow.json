@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:compound_bow"
+									"minecraft:item_model": "matcha:compound_bow"
 								}
 							}
 						}

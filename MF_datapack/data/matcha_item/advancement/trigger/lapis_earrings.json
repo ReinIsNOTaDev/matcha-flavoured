@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": "matcha:lapis_earrings"
+														"minecraft:item_model": "matcha:lapis_earrings"
 													}
 												}
 											}

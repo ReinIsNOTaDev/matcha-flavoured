@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:electrum_mattock"
+									"minecraft:item_model": "matcha:electrum_mattock"
 								}
 							}
 						}

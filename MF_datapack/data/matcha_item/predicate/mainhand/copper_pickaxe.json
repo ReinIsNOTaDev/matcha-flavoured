@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "minecraft:copper_pickaxe"
+									"minecraft:item_model": "minecraft:copper_pickaxe"
 								}
 							}
 						}

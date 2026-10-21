@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:electrum_pickaxe"
+									"minecraft:item_model": "matcha:electrum_pickaxe"
 								}
 							}
 						}

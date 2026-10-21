@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:charred_potato"
+																"minecraft:item_model": "matcha:charred_potato"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:charred_potato"
+																"minecraft:item_model": "matcha:charred_potato"
 															}
 														}
 													}

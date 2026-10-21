@@ -47,7 +47,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:warding_sword"
+																"minecraft:item_model": "matcha:warding_sword"
 															}
 														}
 													}
@@ -116,7 +116,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:warding_sword"
+																"minecraft:item_model": "matcha:warding_sword"
 															}
 														}
 													}

@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.legs": {
 													"components": {
-														"minecraft:item_name": "matcha:electrum_leggings"
+														"minecraft:item_model": "matcha:electrum_leggings"
 													}
 												}
 											}

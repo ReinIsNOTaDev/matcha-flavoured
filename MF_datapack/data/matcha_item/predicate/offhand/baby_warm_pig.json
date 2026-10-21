@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:crate_warm_pig"
+									"minecraft:item_model": "matcha:crate_warm_pig"
 								}
 							}
 						}

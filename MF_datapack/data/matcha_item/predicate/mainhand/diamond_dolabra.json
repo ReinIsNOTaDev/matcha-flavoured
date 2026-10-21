@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:diamond_dolabra"
+									"minecraft:item_model": "matcha:diamond_dolabra"
 								}
 							}
 						}
@@ -80,7 +80,7 @@
 							"minecraft:slots": {
 								"weapon.mainhand": {
 									"components": {
-										"minecraft:item_name": "matcha:electrum_dolabra"
+										"minecraft:item_model": "matcha:electrum_dolabra"
 									}
 								}
 							}

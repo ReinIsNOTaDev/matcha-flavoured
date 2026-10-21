@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:brownie"
+																"minecraft:item_model": "matcha:brownie"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:brownie"
+																"minecraft:item_model": "matcha:brownie"
 															}
 														}
 													}

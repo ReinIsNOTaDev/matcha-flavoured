@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:bulk_smooth_red_sandstone"
+									"minecraft:item_model": "matcha:bulk_smooth_red_sandstone"
 								}
 							}
 						}

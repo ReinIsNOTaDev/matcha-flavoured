@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:braised_red_mushroom"
+									"minecraft:item_model": "matcha:braised_red_mushroom"
 								}
 							}
 						}

@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:paneer_makhani"
+																"minecraft:item_model": "matcha:paneer_makhani"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:paneer_makhani"
+																"minecraft:item_model": "matcha:paneer_makhani"
 															}
 														}
 													}

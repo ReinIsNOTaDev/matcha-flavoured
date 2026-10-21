@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:music_disc_malachite"
+									"minecraft:item_model": "matcha:music_disc_malachite"
 								}
 							}
 						}

@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:golden_compass"
+									"minecraft:item_model": "matcha:golden_compass"
 								}
 							}
 						}

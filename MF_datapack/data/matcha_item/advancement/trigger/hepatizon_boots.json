@@ -16,7 +16,7 @@
 											"minecraft:slots": {
 												"armor.feet": {
 													"components": {
-														"minecraft:item_name": "matcha:hepatizon_boots"
+														"minecraft:item_model": "matcha:hepatizon_boots"
 													}
 												}
 											}

@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:golden_apple_empanada"
+									"minecraft:item_model": "matcha:golden_apple_empanada"
 								}
 							}
 						}

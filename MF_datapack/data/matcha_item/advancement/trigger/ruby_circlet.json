@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": "matcha:ruby_circlet"
+														"minecraft:item_model": "matcha:ruby_circlet"
 													}
 												}
 											}

@@ -70,7 +70,7 @@
 												"minecraft:slots": {
 													"armor.feet": {
 														"components": {
-															"minecraft:item_name": "matcha:electrum_boots"
+															"minecraft:item_model": "matcha:electrum_boots"
 														}
 													}
 												}

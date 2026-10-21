@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:heart_container"
+									"minecraft:item_model": "matcha:heart_container"
 								}
 							}
 						}

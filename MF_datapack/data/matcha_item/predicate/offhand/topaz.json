@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:topaz"
+									"minecraft:item_model": "matcha:topaz"
 								}
 							}
 						}

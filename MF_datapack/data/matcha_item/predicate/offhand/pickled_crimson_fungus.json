@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:pickled_crimson_fungus"
+									"minecraft:item_model": "matcha:pickled_crimson_fungus"
 								}
 							}
 						}

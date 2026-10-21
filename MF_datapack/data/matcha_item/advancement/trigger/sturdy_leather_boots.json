@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.feet": {
 													"components": {
-														"minecraft:item_name": "matcha:sturdy_leather_boots"
+														"minecraft:item_model": "matcha:sturdy_leather_boots"
 													}
 												}
 											}

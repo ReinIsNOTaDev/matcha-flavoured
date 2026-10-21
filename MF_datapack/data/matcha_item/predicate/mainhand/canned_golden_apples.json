@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:canned_golden_apples"
+									"minecraft:item_model": "matcha:canned_golden_apples"
 								}
 							}
 						}

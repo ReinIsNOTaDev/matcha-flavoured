@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:spoonhead_sculpin"
+									"minecraft:item_model": "matcha:spoonhead_sculpin"
 								}
 							}
 						}

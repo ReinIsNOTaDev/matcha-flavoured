@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "minecraft:blue_egg"
+									"minecraft:item_model": "minecraft:blue_egg"
 								}
 							}
 						}

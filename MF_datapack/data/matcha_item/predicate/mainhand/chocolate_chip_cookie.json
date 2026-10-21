@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:chocolate_chip_cookie"
+									"minecraft:item_model": "matcha:chocolate_chip_cookie"
 								}
 							}
 						}

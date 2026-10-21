@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:crate_cold_cow"
+									"minecraft:item_model": "matcha:crate_cold_cow"
 								}
 							}
 						}

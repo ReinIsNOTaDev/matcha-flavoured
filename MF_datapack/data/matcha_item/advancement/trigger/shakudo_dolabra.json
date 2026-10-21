@@ -35,7 +35,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:shakudo_dolabra"
+																"minecraft:item_model": "matcha:shakudo_dolabra"
 															}
 														}
 													}
@@ -92,7 +92,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:shakudo_dolabra"
+																"minecraft:item_model": "matcha:shakudo_dolabra"
 															}
 														}
 													}

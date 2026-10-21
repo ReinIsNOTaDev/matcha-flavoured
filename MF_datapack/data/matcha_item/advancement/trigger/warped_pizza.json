@@ -35,7 +35,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:warped_pizza"
+																"minecraft:item_model": "matcha:warped_pizza"
 															}
 														}
 													}
@@ -92,7 +92,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:warped_pizza"
+																"minecraft:item_model": "matcha:warped_pizza"
 															}
 														}
 													}

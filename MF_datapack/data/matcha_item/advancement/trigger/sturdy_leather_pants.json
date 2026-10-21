@@ -16,7 +16,7 @@
 											"minecraft:slots": {
 												"armor.legs": {
 													"components": {
-														"minecraft:item_name": "matcha:sturdy_leather_leggings"
+														"minecraft:item_model": "matcha:sturdy_leather_leggings"
 													}
 												}
 											}

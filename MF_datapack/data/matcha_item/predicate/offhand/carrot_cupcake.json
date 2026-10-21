@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:carrot_cupcake"
+									"minecraft:item_model": "matcha:carrot_cupcake"
 								}
 							}
 						}

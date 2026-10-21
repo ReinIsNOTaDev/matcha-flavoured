@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:freshwater_pufferfish"
+																"minecraft:item_model": "matcha:freshwater_pufferfish"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:freshwater_pufferfish"
+																"minecraft:item_model": "matcha:freshwater_pufferfish"
 															}
 														}
 													}

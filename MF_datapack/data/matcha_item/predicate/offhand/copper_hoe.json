@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "copper_hoe"
+									"minecraft:item_model": "copper_hoe"
 								}
 							}
 						}

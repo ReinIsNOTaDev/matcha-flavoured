@@ -35,7 +35,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:braised_crimson_fungus"
+																"minecraft:item_model": "matcha:braised_crimson_fungus"
 															}
 														}
 													}
@@ -92,7 +92,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:braised_crimson_fungus"
+																"minecraft:item_model": "matcha:braised_crimson_fungus"
 															}
 														}
 													}

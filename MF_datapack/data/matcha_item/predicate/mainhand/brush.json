@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:archaeologists_brush"
+									"minecraft:item_model": "matcha:archaeologists_brush"
 								}
 							}
 						}

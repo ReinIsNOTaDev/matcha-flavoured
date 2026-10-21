@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:warding_stone"
+									"minecraft:item_model": "matcha:warding_stone"
 								}
 							}
 						}

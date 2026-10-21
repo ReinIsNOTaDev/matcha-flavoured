@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:honied_french_toast"
+									"minecraft:item_model": "matcha:honied_french_toast"
 								}
 							}
 						}

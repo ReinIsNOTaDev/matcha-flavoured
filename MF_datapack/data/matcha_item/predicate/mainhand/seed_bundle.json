@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:seed_bundle"
+									"minecraft:item_model": "matcha:seed_bundle"
 								}
 							}
 						}

@@ -35,7 +35,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:warped_stroganoff"
+																"minecraft:item_model": "matcha:warped_stroganoff"
 															}
 														}
 													}
@@ -92,7 +92,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:warped_stroganoff"
+																"minecraft:item_model": "matcha:warped_stroganoff"
 															}
 														}
 													}

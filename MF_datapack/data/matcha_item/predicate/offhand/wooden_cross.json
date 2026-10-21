@@ -27,7 +27,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:wooden_cross"
+									"minecraft:item_model": "matcha:wooden_cross"
 								}
 							}
 						}

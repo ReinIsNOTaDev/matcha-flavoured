@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:melon_sorbet"
+																"minecraft:item_model": "matcha:melon_sorbet"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:melon_sorbet"
+																"minecraft:item_model": "matcha:melon_sorbet"
 															}
 														}
 													}

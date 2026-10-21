@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:rainbow_wrasse"
+																"minecraft:item_model": "matcha:rainbow_wrasse"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:rainbow_wrasse"
+																"minecraft:item_model": "matcha:rainbow_wrasse"
 															}
 														}
 													}

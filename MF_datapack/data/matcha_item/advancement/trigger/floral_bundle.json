@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:floral_bundle"
+																"minecraft:item_model": "matcha:floral_bundle"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:floral_bundle"
+																"minecraft:item_model": "matcha:floral_bundle"
 															}
 														}
 													}

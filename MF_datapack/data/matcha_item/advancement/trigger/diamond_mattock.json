@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:diamond_mattock"
+																"minecraft:item_model": "matcha:diamond_mattock"
 															}
 														}
 													}
@@ -88,7 +88,7 @@
 														"minecraft:slots": {
 															"weapon.mainhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:electrum_mattock"
+																	"minecraft:item_model": "matcha:electrum_mattock"
 																}
 															}
 														}
@@ -127,7 +127,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:diamond_mattock"
+																"minecraft:item_model": "matcha:diamond_mattock"
 															}
 														}
 													}
@@ -181,7 +181,7 @@
 														"minecraft:slots": {
 															"weapon.offhand": {
 																"components": {
-																	"minecraft:item_name": "matcha:electrum_mattock"
+																	"minecraft:item_model": "matcha:electrum_mattock"
 																}
 															}
 														}

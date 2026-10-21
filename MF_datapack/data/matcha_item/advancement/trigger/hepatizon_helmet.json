@@ -16,7 +16,7 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": "matcha:hepatizon_helmet"
+														"minecraft:item_model": "matcha:hepatizon_helmet"
 													}
 												}
 											}

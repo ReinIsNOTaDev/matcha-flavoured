@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:tinder"
+																"minecraft:item_model": "matcha:tinder"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:tinder"
+																"minecraft:item_model": "matcha:tinder"
 															}
 														}
 													}

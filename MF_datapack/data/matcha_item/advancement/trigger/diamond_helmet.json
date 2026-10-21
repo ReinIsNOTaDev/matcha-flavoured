@@ -70,7 +70,7 @@
 												"minecraft:slots": {
 													"armor.head": {
 														"components": {
-															"minecraft:item_name": "matcha:electrum_helmet"
+															"minecraft:item_model": "matcha:electrum_helmet"
 														}
 													}
 												}

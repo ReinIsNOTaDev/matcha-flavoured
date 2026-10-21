@@ -19,7 +19,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:hepatizon_spear"
+																"minecraft:item_model": "matcha:hepatizon_spear"
 															}
 														}
 													}
@@ -60,7 +60,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:hepatizon_spear"
+																"minecraft:item_model": "matcha:hepatizon_spear"
 															}
 														}
 													}

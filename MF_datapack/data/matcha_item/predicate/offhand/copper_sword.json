@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "minecraft:copper_sword"
+									"minecraft:item_model": "minecraft:copper_sword"
 								}
 							}
 						}

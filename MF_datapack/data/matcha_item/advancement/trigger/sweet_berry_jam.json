@@ -34,7 +34,7 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
-																"minecraft:item_name": "matcha:sweet_berry_jam"
+																"minecraft:item_model": "matcha:sweet_berry_jam"
 															}
 														}
 													}
@@ -90,7 +90,7 @@
 													"minecraft:slots": {
 														"weapon.offhand": {
 															"components": {
-																"minecraft:item_name": "matcha:sweet_berry_jam"
+																"minecraft:item_model": "matcha:sweet_berry_jam"
 															}
 														}
 													}

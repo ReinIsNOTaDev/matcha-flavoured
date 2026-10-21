@@ -32,7 +32,7 @@
 											"minecraft:slots": {
 												"armor.chest": {
 													"components": {
-														"minecraft:item_name": "matcha:sturdy_leather_chestplate"
+														"minecraft:item_model": "matcha:sturdy_leather_chestplate"
 													}
 												}
 											}

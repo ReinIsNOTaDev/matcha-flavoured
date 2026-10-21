@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:striped_perch"
+									"minecraft:item_model": "matcha:striped_perch"
 								}
 							}
 						}

@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": "matcha:french_toast"
+									"minecraft:item_model": "matcha:french_toast"
 								}
 							}
 						}

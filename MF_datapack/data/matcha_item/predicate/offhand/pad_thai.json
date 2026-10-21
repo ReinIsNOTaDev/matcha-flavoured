@@ -26,7 +26,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:pad_thai"
+									"minecraft:item_model": "matcha:pad_thai"
 								}
 							}
 						}

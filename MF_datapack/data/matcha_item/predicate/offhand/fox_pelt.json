@@ -11,7 +11,7 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:fox_pelt"
+									"minecraft:item_model": "matcha:fox_pelt"
 								}
 							}
 						}

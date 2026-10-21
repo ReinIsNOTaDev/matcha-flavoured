@@ -23356,7 +23356,8 @@
 			],
 			"names": [],
 			"models": [
-				"matcha:amnestic_wrapped"
+				"matcha:amnestic_wrapped",
+				"minecraft:amnestic_wrapped"
 			],
 			"id": "minecraft:chicken_spawn_egg",
 			"use": [

@@ -2,11 +2,11 @@ name: Test Datapack (26.2)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "maintenance-26.2" ]
     paths:
       - 'MF_datapack/**'
   pull_request:
-    branches: [ "main" ]
+    branches: [ "maintenance-26.2" ]
     paths:
       - 'MF_datapack/**'
   workflow_dispatch:

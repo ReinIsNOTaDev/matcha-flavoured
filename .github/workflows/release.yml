@@ -1,0 +1,33 @@
+name: Create Release
+
+on: create
+
+permissions:
+  contents: write
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Zip MF_resourcepack contents
+        run: |
+          cd MF_resourcepack
+          zip -r ../MF_resourcepack.zip .
+
+      - name: Zip MF_datapack contents
+        run: |
+          cd MF_datapack
+          zip -r ../MF_datapack.zip .
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v3.0.3
+        with:
+          generate_release_notes: true
+          files: |
+            MF_resourcepack.zip
+            MF_datapack.zip

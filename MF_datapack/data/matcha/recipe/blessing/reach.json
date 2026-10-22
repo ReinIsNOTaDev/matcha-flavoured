@@ -25,7 +25,10 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "matcha:blessing_will"
+			"minecraft:item_model": "matcha:blessing_will",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

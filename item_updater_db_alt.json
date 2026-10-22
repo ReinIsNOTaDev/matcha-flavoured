@@ -99,6 +99,10 @@
 		"fish": [
 			"minecraft/loot_table/gameplay/fishing/fish",
 			"loot_table"
+		],
+		"blessing": [
+			"matcha/recipe/blessing",
+			"recipe"
 		]
 	},
 	"files": {},

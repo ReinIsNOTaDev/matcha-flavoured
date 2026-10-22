@@ -25,7 +25,10 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "matcha:blessing_arachnae"
+			"minecraft:item_model": "matcha:blessing_arachnae",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

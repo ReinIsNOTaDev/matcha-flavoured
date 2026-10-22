@@ -60,6 +60,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
     feet = re.compile("boots")
     diamond = re.compile("^(minecraft:diamond)_(.+)")
     baked_apple = re.compile("minecraft:fermented_spider_eye")
+    ofuda = re.compile("item.kleispack.ofuda")
     item = DB["files"].get(name)
     if override == "True" and cache[name]["overriden"] == False or name not in DB["files"]:
         if override == "True":

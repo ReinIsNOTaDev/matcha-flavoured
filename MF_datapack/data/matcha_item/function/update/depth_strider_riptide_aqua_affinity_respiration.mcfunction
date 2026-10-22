@@ -1,0 +1,3 @@
+execute as @s if predicate matcha_item:mainhand/depth_strider_riptide_aqua_affinity_respiration run function matcha_item:mainhand/depth_strider_riptide_aqua_affinity_respiration
+execute as @s if predicate matcha_item:offhand/depth_strider_riptide_aqua_affinity_respiration run function matcha_item:offhand/depth_strider_riptide_aqua_affinity_respiration
+advancement revoke @s only matcha_item:trigger/depth_strider_riptide_aqua_affinity_respiration

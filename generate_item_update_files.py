@@ -95,18 +95,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
                     type_ = "baked_apple"
             elif components.get("minecraft:provides_trim_material") != None:
                 type_ = "trim_colour"
-            elif components.get("minecraft:stored_enchantments") != None:
-                if head.search(id_):
-                    type_ = "enchanted_helmet"
-                elif chest.search(id_):
-                    type_ = "enchanted_chestplate"
-                elif legs.search(id_):
-                    type_ = "enchanted_leggings"
-                elif feet.search(id_):
-                    type_ = "enchanted_boots"
-                else:
-                    type_ = "enchanted"
-            elif components.get("minecraft:enchantments") != None:
+            elif components.get("minecraft:stored_enchantments") != None or components.get("minecraft:enchantments") != None:
                 if head.search(id_):
                     type_ = "enchanted_helmet"
                 elif chest.search(id_):
